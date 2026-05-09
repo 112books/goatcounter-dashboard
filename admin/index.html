@@ -290,7 +290,7 @@
       <div class="kpi"><dt>7 dies</dt><dd><div class="kpi-value" id="kpi-7d">—</div><div class="kpi-sub">últims 7 dies</div></dd></div>
       <div class="kpi"><dt>30 dies</dt><dd><div class="kpi-value" id="kpi-30d">—</div><div class="kpi-sub">últims 30 dies</div></dd></div>
       <div class="kpi"><dt>total any</dt><dd><div class="kpi-value" id="kpi-total">—</div><div class="kpi-sub" id="sub-total"></div></dd></div>
-      <div class="kpi"><dt>pàg./visita</dt><dd><div class="kpi-value" id="kpi-pps">—</div><div class="kpi-sub">visites / únics</div></dd></div>
+      <div class="kpi"><dt>mitjana/dia</dt><dd><div class="kpi-value" id="kpi-pps">—</div><div class="kpi-sub">visites diàries (mitjana)</div></dd></div>
     </dl>
 
     <!-- Tabs -->
@@ -473,7 +473,6 @@ function renderAll(data) {
   const set7  = sumDays(hbd, daysAgo(7), today);
   const mes30 = sumDays(hbd, daysAgo(30), today);
   const total = data.total || 0;
-  const uniq  = data.total_unique || 0;
   const p     = data.period || {};
 
   setText('kpi-avui',  fmt(avui));
@@ -482,7 +481,8 @@ function renderAll(data) {
   setText('kpi-30d',   fmt(mes30));
   setText('kpi-total', fmt(total));
   setText('sub-total', fmtPeriod(p.start, p.end));
-  setText('kpi-pps',   uniq > 0 ? (total / uniq).toFixed(1) : '—');
+  const daysWithData = hbd.filter(d => d.count > 0).length;
+  setText('kpi-pps',   daysWithData > 0 ? (total / daysWithData).toFixed(1) : '—');
 
   const gen = data.generated
     ? new Date(data.generated).toLocaleString('ca-ES', {day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'})
