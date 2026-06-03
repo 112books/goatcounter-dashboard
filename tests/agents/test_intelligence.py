@@ -2,7 +2,7 @@ import json
 import pytest
 from pathlib import Path
 from unittest.mock import patch, MagicMock
-from agents.intelligence import Finding, load_analytics, load_snapshot, save_snapshot, detect_dead_urls
+from agents.intelligence import Finding, load_analytics, load_snapshot, save_snapshot, detect_dead_urls, detect_keyword_opportunities
 
 SAMPLE_ANALYTICS = {
     "generated": "2026-06-03T16:00:00Z",
@@ -66,4 +66,31 @@ def test_detect_dead_urls_ignores_200():
 def test_detect_dead_urls_skips_on_connection_error():
     with patch("agents.intelligence.requests.head", side_effect=Exception("timeout")):
         findings = detect_dead_urls(SAMPLE_ANALYTICS, "https://pocallum.cat")
+    assert findings == []
+
+_GSC_ROWS = [
+    {"keys": ["fotografia jazz barcelona"],     "impressions": 210, "ctr": 0.031, "position": 14.2},
+    {"keys": ["fotògrafs barcelona"],           "impressions": 50,  "ctr": 0.08,  "position": 5.0},
+    {"keys": ["fotografia concerts"],           "impressions": 180, "ctr": 0.12,  "position": 12.0},
+    {"keys": ["fotografia festival primavera"], "impressions": 120, "ctr": 0.02,  "position": 18.5},
+]
+
+def test_detect_keyword_opportunities_filters_correctly():
+    with patch("agents.intelligence._gsc_search_analytics", return_value=_GSC_ROWS):
+        findings = detect_keyword_opportunities(
+            gsc_property="https://pocallum.cat/",
+            creds_json='{"type":"service_account"}',
+            start="2026-05-01",
+            end="2026-06-01",
+        )
+    assert len(findings) == 2
+    titles = [f.title for f in findings]
+    assert any("fotografia jazz barcelona" in t for t in titles)
+    assert any("fotografia festival primavera" in t for t in titles)
+    assert findings[0].effort == "S"
+    assert "seo" in findings[0].labels
+
+def test_detect_keyword_opportunities_returns_empty_on_no_rows():
+    with patch("agents.intelligence._gsc_search_analytics", return_value=[]):
+        findings = detect_keyword_opportunities("https://pocallum.cat/", "{}", "2026-05-01", "2026-06-01")
     assert findings == []

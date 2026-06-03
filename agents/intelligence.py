@@ -2,6 +2,9 @@ import json
 import requests
 from dataclasses import dataclass
 from pathlib import Path
+import json as _json
+from google.oauth2 import service_account
+import googleapiclient.discovery
 
 
 @dataclass
@@ -59,4 +62,42 @@ def detect_dead_urls(analytics: dict, site_base_url: str) -> list[Finding]:
                 ))
         except Exception:
             continue
+    return findings
+
+
+def _gsc_search_analytics(gsc_property: str, creds_json: str, start: str, end: str) -> list[dict]:
+    creds = service_account.Credentials.from_service_account_info(
+        _json.loads(creds_json),
+        scopes=["https://www.googleapis.com/auth/webmasters.readonly"],
+    )
+    service = googleapiclient.discovery.build("searchconsole", "v1", credentials=creds, cache_discovery=False)
+    resp = service.searchanalytics().query(
+        siteUrl=gsc_property,
+        body={"startDate": start, "endDate": end, "dimensions": ["query"], "rowLimit": 500},
+    ).execute()
+    return resp.get("rows", [])
+
+
+def detect_keyword_opportunities(gsc_property: str, creds_json: str, start: str, end: str) -> list[Finding]:
+    rows = _gsc_search_analytics(gsc_property, creds_json, start, end)
+    findings = []
+    for row in rows:
+        query = row["keys"][0]
+        impressions = row["impressions"]
+        ctr = row["ctr"]
+        position = row["position"]
+        if impressions > 100 and ctr < 0.05 and 8 <= position <= 20:
+            findings.append(Finding(
+                detector="keyword_opportunity",
+                title=f"Keyword oportunitat: «{query}»",
+                body=(
+                    f"**Evidència:** {impressions:.0f} impressions · CTR {ctr * 100:.1f}% · posició {position:.1f}\n\n"
+                    f"**Acció:** Millorar meta description i títol H1 de la pàgina que apareix per «{query}». "
+                    f"Objectiu: pujar CTR per sobre del 5%.\n\n"
+                    f"**Esforç:** S | **Impacte:** alt"
+                ),
+                labels=["marketing-agent", "seo"],
+                effort="S",
+                impact="alt",
+            ))
     return findings
