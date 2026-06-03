@@ -101,3 +101,32 @@ def detect_keyword_opportunities(gsc_property: str, creds_json: str, start: str,
                 impact="alt",
             ))
     return findings
+
+
+def detect_section_drops(analytics: dict, previous: dict | None) -> list[Finding]:
+    if previous is None:
+        return []
+    current_sections = analytics.get("by_section", {})
+    prev_sections = previous.get("by_section", {})
+    findings = []
+    for section, current_count in current_sections.items():
+        prev_count = prev_sections.get(section)
+        if not prev_count:
+            continue
+        drop_pct = (prev_count - current_count) / prev_count
+        if drop_pct >= 0.30:
+            findings.append(Finding(
+                detector="section_drop",
+                title=f"Caiguda de tràfic a /{section}/ ({drop_pct * 100:.0f}% vs setmana anterior)",
+                body=(
+                    f"**Evidència:** /{section}/ ha passat de {prev_count} a {current_count} visites "
+                    f"({drop_pct * 100:.0f}% menys)\n\n"
+                    f"**Acció:** Revisar si hi ha canvis recents al contingut, problemes tècnics "
+                    f"o pèrdua de posicions a GSC.\n\n"
+                    f"**Esforç:** M | **Impacte:** alt"
+                ),
+                labels=["marketing-agent", "seo", "content"],
+                effort="M",
+                impact="alt",
+            ))
+    return findings

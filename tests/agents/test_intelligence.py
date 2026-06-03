@@ -2,7 +2,7 @@ import json
 import pytest
 from pathlib import Path
 from unittest.mock import patch, MagicMock
-from agents.intelligence import Finding, load_analytics, load_snapshot, save_snapshot, detect_dead_urls, detect_keyword_opportunities
+from agents.intelligence import Finding, load_analytics, load_snapshot, save_snapshot, detect_dead_urls, detect_keyword_opportunities, detect_section_drops
 
 SAMPLE_ANALYTICS = {
     "generated": "2026-06-03T16:00:00Z",
@@ -94,3 +94,19 @@ def test_detect_keyword_opportunities_returns_empty_on_no_rows():
     with patch("agents.intelligence._gsc_search_analytics", return_value=[]):
         findings = detect_keyword_opportunities("https://pocallum.cat/", "{}", "2026-05-01", "2026-06-01")
     assert findings == []
+
+def test_detect_section_drops_flags_30pct_drop():
+    current  = {**SAMPLE_ANALYTICS, "by_section": {"galeria": 55, "serveis": 300}}
+    previous = {**SAMPLE_ANALYTICS, "by_section": {"galeria": 90, "serveis": 300}}
+    findings = detect_section_drops(current, previous)
+    assert len(findings) == 1
+    assert "galeria" in findings[0].title
+    assert findings[0].impact == "alt"
+
+def test_detect_section_drops_no_previous_returns_empty():
+    assert detect_section_drops(SAMPLE_ANALYTICS, None) == []
+
+def test_detect_section_drops_ignores_small_drops():
+    current  = {**SAMPLE_ANALYTICS, "by_section": {"festivals": 560}}
+    previous = {**SAMPLE_ANALYTICS, "by_section": {"festivals": 600}}
+    assert detect_section_drops(current, previous) == []
