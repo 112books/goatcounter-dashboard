@@ -2,7 +2,8 @@ import json
 import pytest
 from pathlib import Path
 from unittest.mock import patch, MagicMock
-from agents.intelligence import Finding, load_analytics, load_snapshot, save_snapshot, detect_dead_urls, detect_keyword_opportunities, detect_section_drops, detect_low_conversion
+from agents.intelligence import Finding, load_analytics, load_snapshot, save_snapshot, detect_dead_urls, detect_keyword_opportunities, detect_section_drops, detect_low_conversion, generate_insights_report
+from agents.intelligence import run as run_agent
 
 SAMPLE_ANALYTICS = {
     "generated": "2026-06-03T16:00:00Z",
@@ -131,3 +132,47 @@ def test_detect_low_conversion_skips_when_no_total():
     with patch("agents.intelligence._fetch_event_count", return_value=0):
         findings = detect_low_conversion(analytics, "pocallum", "gc_token_xxx", "2026-05-01", "2026-06-01")
     assert findings == []
+
+SAMPLE_FINDINGS = [
+    Finding("dead_url",    "URL morta: /old/",          "cos1", ["marketing-agent", "seo"],            "XS", "alt"),
+    Finding("keyword_opp", "Keyword: «jazz barcelona»", "cos2", ["marketing-agent", "seo"],            "S",  "alt"),
+    Finding("section_drop","Caiguda /galeria/ (-35%)",  "cos3", ["marketing-agent", "seo", "content"], "M",  "alt"),
+]
+
+def test_generate_insights_report_contains_findings():
+    report = generate_insights_report(SAMPLE_FINDINGS, "2026-23")
+    assert "# Informe setmanal" in report
+    assert "2026-23" in report
+    assert "URL morta: /old/" in report
+    assert "jazz barcelona" in report
+    assert "3" in report
+
+def test_generate_insights_report_empty():
+    report = generate_insights_report([], "2026-23")
+    assert "Cap finding" in report
+
+def test_run_agent_calls_all_detectors(tmp_path):
+    config = {
+        "site": "pocallum.cat",
+        "goatcounter_site": "pocallum",
+        "gsc_property": "https://pocallum.cat/",
+        "github_repo": "joan-linux/pocallum.cat",
+    }
+    secrets = {
+        "goatcounter_token": "gc_token",
+        "google_service_account_json": "{}",
+        "gh_token": "gh_token",
+    }
+    analytics_path = tmp_path / "analytics.json"
+    analytics_path.write_text(json.dumps(SAMPLE_ANALYTICS))
+    with patch("agents.intelligence.detect_dead_urls",            return_value=[]) as m1, \
+         patch("agents.intelligence.detect_keyword_opportunities", return_value=[]) as m2, \
+         patch("agents.intelligence.detect_section_drops",         return_value=[]) as m3, \
+         patch("agents.intelligence.detect_low_conversion",        return_value=[]) as m4:
+        findings = run_agent(config, secrets, str(analytics_path), str(tmp_path / "snapshots"), "2026-23")
+    m1.assert_called_once()
+    m2.assert_called_once()
+    m3.assert_called_once()
+    m4.assert_called_once()
+    assert findings == []
+    assert (tmp_path / "snapshots" / "2026-23.json").exists()

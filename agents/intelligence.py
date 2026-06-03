@@ -5,6 +5,7 @@ from pathlib import Path
 import json as _json
 from google.oauth2 import service_account
 import googleapiclient.discovery
+from datetime import datetime, timezone
 
 
 @dataclass
@@ -168,3 +169,39 @@ def detect_low_conversion(analytics: dict, gc_site: str, gc_token: str, start: s
         effort="M",
         impact="alt",
     )]
+
+
+def generate_insights_report(findings: list[Finding], iso_week: str) -> str:
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    lines = [
+        f"# Informe setmanal — setmana {iso_week}",
+        f"_Generat: {now}_",
+        "",
+        f"**{len(findings)} findings detectats**",
+        "",
+    ]
+    if not findings:
+        lines.append("Cap finding accionable aquesta setmana.")
+        return "\n".join(lines)
+    for i, f in enumerate(findings, 1):
+        lines += [f"## {i}. {f.title}", "", f.body, "", "---", ""]
+    return "\n".join(lines)
+
+
+def run(config: dict, secrets: dict, analytics_path: str, snapshots_dir: str, iso_week: str) -> list[Finding]:
+    analytics = load_analytics(analytics_path)
+    previous = load_snapshot(snapshots_dir, iso_week)
+    period = analytics.get("period", {})
+    start, end = period.get("start", ""), period.get("end", "")
+
+    findings: list[Finding] = []
+    findings += detect_dead_urls(analytics, f"https://{config['site']}")
+    findings += detect_keyword_opportunities(
+        config["gsc_property"], secrets["google_service_account_json"], start, end,
+    )
+    findings += detect_section_drops(analytics, previous)
+    findings += detect_low_conversion(
+        analytics, config["goatcounter_site"], secrets["goatcounter_token"], start, end,
+    )
+    save_snapshot(snapshots_dir, iso_week, analytics)
+    return findings
