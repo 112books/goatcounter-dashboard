@@ -5,7 +5,7 @@ from pathlib import Path
 import json as _json
 from google.oauth2 import service_account
 import googleapiclient.discovery
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 
 @dataclass
@@ -190,15 +190,19 @@ def generate_insights_report(findings: list[Finding], iso_week: str) -> str:
 
 def run(config: dict, secrets: dict, analytics_path: str, snapshots_dir: str, iso_week: str) -> list[Finding]:
     analytics = load_analytics(analytics_path)
-    previous = load_snapshot(snapshots_dir, iso_week)
+    prev_week = (datetime.now(timezone.utc) - timedelta(weeks=1)).strftime("%Y-%W")
+    previous = load_snapshot(snapshots_dir, prev_week)
     period = analytics.get("period", {})
     start, end = period.get("start", ""), period.get("end", "")
 
     findings: list[Finding] = []
     findings += detect_dead_urls(analytics, f"https://{config['site']}")
-    findings += detect_keyword_opportunities(
-        config["gsc_property"], secrets["google_service_account_json"], start, end,
-    )
+    try:
+        findings += detect_keyword_opportunities(
+            config["gsc_property"], secrets["google_service_account_json"], start, end,
+        )
+    except Exception as exc:
+        print(f"GSC detector failed, skipping: {exc}")
     findings += detect_section_drops(analytics, previous)
     findings += detect_low_conversion(
         analytics, config["goatcounter_site"], secrets["goatcounter_token"], start, end,

@@ -73,11 +73,15 @@ def _send_telegram(config: dict, findings: list, issue_urls: list, iso_week: str
             )
             lines.append(f"{i}\\. [{safe_title}]({url})")
 
-    http.post(
-        f"https://api.telegram.org/bot{token}/sendMessage",
-        json={"chat_id": chat_id, "text": "\n".join(lines), "parse_mode": "MarkdownV2"},
-        timeout=10,
-    )
+    try:
+        resp = http.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat_id, "text": "\n".join(lines), "parse_mode": "MarkdownV2"},
+            timeout=10,
+        )
+        resp.raise_for_status()
+    except Exception as exc:
+        print(f"Telegram notification failed (non-fatal): {exc}")
 
 
 if __name__ == "__main__":
