@@ -1,0 +1,40 @@
+name: Weekly Marketing Agent
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'   # dilluns 08:00 CET (UTC+1 hivern) = 07:00 UTC
+  workflow_dispatch:
+
+jobs:
+  intelligence:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements-agent.txt
+
+      - name: Run intelligence agent
+        env:
+          GOATCOUNTER_TOKEN:           ${{ secrets.GOATCOUNTER_TOKEN }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GH_TOKEN:                    ${{ secrets.GH_AGENT_TOKEN }}
+          TELEGRAM_BOT_TOKEN:          ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:            ${{ secrets.TELEGRAM_CHAT_ID }}
+          AGENT_CONFIG:                config/pocallum.cat.yaml
+        run: python scripts/run-weekly-agent.py
+
+      - name: Commit insights + snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add admin/snapshots/ admin/insights/ || true
+          git diff --staged --quiet || git commit -m "chore: weekly insights [skip ci]"
+          git pull --rebase
+          git push
