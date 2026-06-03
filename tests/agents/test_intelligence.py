@@ -1,7 +1,8 @@
 import json
 import pytest
 from pathlib import Path
-from agents.intelligence import Finding, load_analytics, load_snapshot, save_snapshot
+from unittest.mock import patch, MagicMock
+from agents.intelligence import Finding, load_analytics, load_snapshot, save_snapshot, detect_dead_urls
 
 SAMPLE_ANALYTICS = {
     "generated": "2026-06-03T16:00:00Z",
@@ -45,3 +46,24 @@ def test_finding_dataclass():
     )
     assert f.detector == "dead_url"
     assert "marketing-agent" in f.labels
+
+def test_detect_dead_urls_returns_finding_for_404():
+    mock_404 = MagicMock(); mock_404.status_code = 404
+    mock_200 = MagicMock(); mock_200.status_code = 200
+    with patch("agents.intelligence.requests.head", side_effect=[mock_404, mock_200, mock_200]):
+        findings = detect_dead_urls(SAMPLE_ANALYTICS, "https://pocallum.cat")
+    assert len(findings) == 1
+    assert "/festivals/calella-harmonica/" in findings[0].title
+    assert findings[0].effort == "XS"
+    assert "seo" in findings[0].labels
+
+def test_detect_dead_urls_ignores_200():
+    mock_200 = MagicMock(); mock_200.status_code = 200
+    with patch("agents.intelligence.requests.head", return_value=mock_200):
+        findings = detect_dead_urls(SAMPLE_ANALYTICS, "https://pocallum.cat")
+    assert findings == []
+
+def test_detect_dead_urls_skips_on_connection_error():
+    with patch("agents.intelligence.requests.head", side_effect=Exception("timeout")):
+        findings = detect_dead_urls(SAMPLE_ANALYTICS, "https://pocallum.cat")
+    assert findings == []
