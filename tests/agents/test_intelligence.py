@@ -2,7 +2,7 @@ import json
 import pytest
 from pathlib import Path
 from unittest.mock import patch, MagicMock
-from agents.intelligence import Finding, load_analytics, load_snapshot, save_snapshot, detect_dead_urls, detect_keyword_opportunities, detect_section_drops
+from agents.intelligence import Finding, load_analytics, load_snapshot, save_snapshot, detect_dead_urls, detect_keyword_opportunities, detect_section_drops, detect_low_conversion
 
 SAMPLE_ANALYTICS = {
     "generated": "2026-06-03T16:00:00Z",
@@ -110,3 +110,24 @@ def test_detect_section_drops_ignores_small_drops():
     current  = {**SAMPLE_ANALYTICS, "by_section": {"festivals": 560}}
     previous = {**SAMPLE_ANALYTICS, "by_section": {"festivals": 600}}
     assert detect_section_drops(current, previous) == []
+
+def test_detect_low_conversion_flags_below_threshold():
+    analytics = {**SAMPLE_ANALYTICS, "total": 2000}
+    with patch("agents.intelligence._fetch_event_count", return_value=5):
+        findings = detect_low_conversion(analytics, "pocallum", "gc_token_xxx", "2026-05-01", "2026-06-01")
+    assert len(findings) == 1
+    assert "0.2%" in findings[0].body  # 5/2000 = 0.25% → rounds to 0.2%
+    assert findings[0].effort == "M"
+    assert "conversion" in findings[0].labels
+
+def test_detect_low_conversion_ok_when_above_threshold():
+    analytics = {**SAMPLE_ANALYTICS, "total": 1000}
+    with patch("agents.intelligence._fetch_event_count", return_value=10):  # 1.0%
+        findings = detect_low_conversion(analytics, "pocallum", "gc_token_xxx", "2026-05-01", "2026-06-01")
+    assert findings == []
+
+def test_detect_low_conversion_skips_when_no_total():
+    analytics = {**SAMPLE_ANALYTICS, "total": 0}
+    with patch("agents.intelligence._fetch_event_count", return_value=0):
+        findings = detect_low_conversion(analytics, "pocallum", "gc_token_xxx", "2026-05-01", "2026-06-01")
+    assert findings == []

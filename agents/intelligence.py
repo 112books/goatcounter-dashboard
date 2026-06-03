@@ -130,3 +130,41 @@ def detect_section_drops(analytics: dict, previous: dict | None) -> list[Finding
                 impact="alt",
             ))
     return findings
+
+
+def _fetch_event_count(gc_site: str, gc_token: str, event_path: str, start: str, end: str) -> int:
+    url = f"https://{gc_site}.goatcounter.com/api/v0/stats/hits"
+    resp = requests.get(
+        url,
+        headers={"Authorization": f"Bearer {gc_token}"},
+        params={"start": start, "end": end, "limit": 1, "event": "true", "path": event_path},
+        timeout=10,
+    )
+    if resp.status_code != 200:
+        return 0
+    return sum(h.get("count", 0) for h in resp.json().get("hits", []))
+
+
+def detect_low_conversion(analytics: dict, gc_site: str, gc_token: str, start: str, end: str) -> list[Finding]:
+    total = analytics.get("total", 0)
+    if total == 0:
+        return []
+    wizard_count = _fetch_event_count(gc_site, gc_token, "wizard-sent", start, end)
+    if wizard_count == 0:
+        return []
+    rate = wizard_count / total
+    if rate >= 0.005:
+        return []
+    return [Finding(
+        detector="low_conversion",
+        title=f"Conversió del formulari baixa: {rate * 100:.1f}%",
+        body=(
+            f"**Evidència:** {wizard_count} enviaments sobre {total} visites = {rate * 100:.1f}%\n\n"
+            f"**Benchmark:** Objectiu ≥ 0.5%\n\n"
+            f"**Acció:** Revisar el wizard de contacte: CTA visible, camps mínims, missatge de confirmació clar.\n\n"
+            f"**Esforç:** M | **Impacte:** alt"
+        ),
+        labels=["marketing-agent", "conversion"],
+        effort="M",
+        impact="alt",
+    )]
