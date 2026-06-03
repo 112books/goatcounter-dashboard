@@ -1,0 +1,37 @@
+{
+  "/Users/joan/Documents/Obsidian/goatcounter-dashboard/admin/analytics.json": {
+    "mtime": 1778334690.8921342,
+    "ast_hash": "78080af98a0ddd49b932193f4222cbd6",
+    "semantic_hash": "78080af98a0ddd49b932193f4222cbd6"
+  },
+  "/Users/joan/Documents/Obsidian/goatcounter-dashboard/scripts/setup.sh": {
+    "mtime": 1778259869.6775,
+    "ast_hash": "ff1a4e82f74061009eef427358816a54",
+    "semantic_hash": "ff1a4e82f74061009eef427358816a54"
+  },
+  "/Users/joan/Documents/Obsidian/goatcounter-dashboard/scripts/build-analytics-json.py": {
+    "mtime": 1778259618.2030132,
+    "ast_hash": "ee7eff5916f097058c7e22c2ce6f2f82",
+    "semantic_hash": "ee7eff5916f097058c7e22c2ce6f2f82"
+  },
+  "/Users/joan/Documents/Obsidian/goatcounter-dashboard/scripts/process-analytics.py": {
+    "mtime": 1778259640.1929069,
+    "ast_hash": "1c82813af28decb0c169da66748cd350",
+    "semantic_hash": "1c82813af28decb0c169da66748cd350"
+  },
+  "/Users/joan/Documents/Obsidian/goatcounter-dashboard/README.md": {
+    "mtime": 1778259898.438847,
+    "ast_hash": "3e2a58542e560f5c69194cbd7e2bb389",
+    "semantic_hash": "3e2a58542e560f5c69194cbd7e2bb389"
+  },
+  "/Users/joan/Documents/Obsidian/goatcounter-dashboard/admin/index.html": {
+    "mtime": 1778334690.90787,
+    "ast_hash": "d1e2ff46140edfc9d41ef30de961a0bc",
+    "semantic_hash": "d1e2ff46140edfc9d41ef30de961a0bc"
+  },
+  "/Users/joan/Documents/Obsidian/goatcounter-dashboard/.github/workflows/fetch-analytics.yml": {
+    "mtime": 1778259668.9023075,
+    "ast_hash": "7641cb2014b5740336c89076bf797724",
+    "semantic_hash": "7641cb2014b5740336c89076bf797724"
+  }
+}

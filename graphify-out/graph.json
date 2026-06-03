@@ -1,0 +1,1112 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "analytics_pipeline",
+        "label": "Analytics Data Pipeline: Fetch \u2192 Build \u2192 Process \u2192 Serve",
+        "nodes": [
+          "github_workflows_fetch_analytics",
+          "scripts_build_analytics_json",
+          "scripts_process_analytics",
+          "admin_analytics_json",
+          "admin_index"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.95,
+        "source_file": ".github/workflows/fetch-analytics.yml"
+      },
+      {
+        "id": "goatcounter_api_consumers",
+        "label": "GoatCounter API v0 Consumers",
+        "nodes": [
+          "github_workflows_fetch_analytics",
+          "scripts_build_analytics_json",
+          "scripts_process_analytics",
+          "concept_goatcounter_api_v0"
+        ],
+        "relation": "implement",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": ".github/workflows/fetch-analytics.yml"
+      },
+      {
+        "id": "static_dashboard_pattern",
+        "label": "Serverless Static Dashboard Pattern (no DB, SHA-256 auth, JSON data)",
+        "nodes": [
+          "concept_serverless_auth",
+          "concept_static_hosting",
+          "admin_index",
+          "admin_analytics_json"
+        ],
+        "relation": "implement",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "README.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "analytics.json",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L1",
+      "id": "admin_analytics_json",
+      "community": 0,
+      "norm_label": "analytics.json"
+    },
+    {
+      "label": "generated",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L2",
+      "id": "admin_analytics_generated",
+      "community": 0,
+      "norm_label": "generated"
+    },
+    {
+      "label": "period",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L3",
+      "id": "admin_analytics_period",
+      "community": 5,
+      "norm_label": "period"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L4",
+      "id": "admin_analytics_period_start",
+      "community": 5,
+      "norm_label": "start"
+    },
+    {
+      "label": "end",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L5",
+      "id": "admin_analytics_period_end",
+      "community": 5,
+      "norm_label": "end"
+    },
+    {
+      "label": "total",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L7",
+      "id": "admin_analytics_total",
+      "community": 0,
+      "norm_label": "total"
+    },
+    {
+      "label": "total_unique",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L8",
+      "id": "admin_analytics_total_unique",
+      "community": 0,
+      "norm_label": "total_unique"
+    },
+    {
+      "label": "hits_by_day",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L9",
+      "id": "admin_analytics_hits_by_day",
+      "community": 0,
+      "norm_label": "hits_by_day"
+    },
+    {
+      "label": "hits",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L10",
+      "id": "admin_analytics_hits",
+      "community": 0,
+      "norm_label": "hits"
+    },
+    {
+      "label": "by_lang",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L11",
+      "id": "admin_analytics_by_lang",
+      "community": 0,
+      "norm_label": "by_lang"
+    },
+    {
+      "label": "by_section",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L12",
+      "id": "admin_analytics_by_section",
+      "community": 0,
+      "norm_label": "by_section"
+    },
+    {
+      "label": "browsers",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L13",
+      "id": "admin_analytics_browsers",
+      "community": 0,
+      "norm_label": "browsers"
+    },
+    {
+      "label": "systems",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L14",
+      "id": "admin_analytics_systems",
+      "community": 0,
+      "norm_label": "systems"
+    },
+    {
+      "label": "sizes",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L15",
+      "id": "admin_analytics_sizes",
+      "community": 0,
+      "norm_label": "sizes"
+    },
+    {
+      "label": "locations",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L16",
+      "id": "admin_analytics_locations",
+      "community": 0,
+      "norm_label": "locations"
+    },
+    {
+      "label": "refs",
+      "file_type": "code",
+      "source_file": "admin/analytics.json",
+      "source_location": "L17",
+      "id": "admin_analytics_refs",
+      "community": 0,
+      "norm_label": "refs"
+    },
+    {
+      "label": "setup.sh",
+      "file_type": "code",
+      "source_file": "scripts/setup.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "id": "scripts_setup_sh",
+      "community": 6,
+      "norm_label": "setup.sh"
+    },
+    {
+      "label": "setup.sh script",
+      "file_type": "code",
+      "source_file": "scripts/setup.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "users_joan_documents_obsidian_goatcounter_dashboard_scripts_setup_sh__entry",
+      "community": 6,
+      "norm_label": "setup.sh script"
+    },
+    {
+      "label": "build-analytics-json.py",
+      "file_type": "code",
+      "source_file": "scripts/build-analytics-json.py",
+      "source_location": "L1",
+      "id": "scripts_build_analytics_json_py",
+      "community": 2,
+      "norm_label": "build-analytics-json.py"
+    },
+    {
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "scripts/build-analytics-json.py",
+      "source_location": "L5",
+      "id": "scripts_build_analytics_json_load",
+      "community": 2,
+      "norm_label": "load()"
+    },
+    {
+      "label": "process-analytics.py",
+      "file_type": "code",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L1",
+      "id": "scripts_process_analytics_py",
+      "community": 1,
+      "norm_label": "process-analytics.py"
+    },
+    {
+      "label": "safe_get()",
+      "file_type": "code",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L4",
+      "id": "scripts_process_analytics_safe_get",
+      "community": 1,
+      "norm_label": "safe_get()"
+    },
+    {
+      "label": "extract_lang()",
+      "file_type": "code",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L9",
+      "id": "scripts_process_analytics_extract_lang",
+      "community": 1,
+      "norm_label": "extract_lang()"
+    },
+    {
+      "label": "extract_section()",
+      "file_type": "code",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L19",
+      "id": "scripts_process_analytics_extract_section",
+      "community": 1,
+      "norm_label": "extract_section()"
+    },
+    {
+      "label": "norm_items()",
+      "file_type": "code",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L32",
+      "id": "scripts_process_analytics_norm_items",
+      "community": 1,
+      "norm_label": "norm_items()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L49",
+      "id": "scripts_process_analytics_main",
+      "community": 1,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Detecta idioma del primer o segon segment si \u00e9s ca/es/en/fr/de/it/pt.",
+      "file_type": "rationale",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L10",
+      "id": "scripts_process_analytics_rationale_10",
+      "community": 1,
+      "norm_label": "detecta idioma del primer o segon segment si es ca/es/en/fr/de/it/pt."
+    },
+    {
+      "label": "Retorna el primer segment significatiu de la ruta (secci\u00f3 principal).",
+      "file_type": "rationale",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L20",
+      "id": "scripts_process_analytics_rationale_20",
+      "community": 1,
+      "norm_label": "retorna el primer segment significatiu de la ruta (seccio principal)."
+    },
+    {
+      "label": "Normalitza [{name,id,count}] des de resposta GoatCounter API v0 stats/{page}.",
+      "file_type": "rationale",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L33",
+      "id": "scripts_process_analytics_rationale_33",
+      "community": 1,
+      "norm_label": "normalitza [{name,id,count}] des de resposta goatcounter api v0 stats/{page}."
+    },
+    {
+      "label": "build-analytics-json.py",
+      "file_type": "code",
+      "source_file": "scripts/build-analytics-json.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "scripts_build_analytics_json",
+      "community": 2,
+      "norm_label": "build-analytics-json.py"
+    },
+    {
+      "label": "process-analytics.py",
+      "file_type": "code",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "scripts_process_analytics",
+      "community": 2,
+      "norm_label": "process-analytics.py"
+    },
+    {
+      "label": "setup.sh \u2014 interactive wizard to configure dashboard",
+      "file_type": "code",
+      "source_file": "scripts/setup.sh",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "scripts_setup",
+      "community": 3,
+      "norm_label": "setup.sh \u2014 interactive wizard to configure dashboard"
+    },
+    {
+      "label": "fetch-analytics.yml \u2014 GitHub Actions hourly workflow",
+      "file_type": "code",
+      "source_file": ".github/workflows/fetch-analytics.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "github_workflows_fetch_analytics",
+      "community": 2,
+      "norm_label": "fetch-analytics.yml \u2014 github actions hourly workflow"
+    },
+    {
+      "label": "admin/index.html \u2014 Dashboard UI",
+      "file_type": "code",
+      "source_file": "admin/index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "admin_index",
+      "community": 3,
+      "norm_label": "admin/index.html \u2014 dashboard ui"
+    },
+    {
+      "label": "loadData() \u2014 fetch analytics.json and trigger render",
+      "file_type": "code",
+      "source_file": "admin/index.html",
+      "source_location": "451",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "admin_index_load_data",
+      "community": 4,
+      "norm_label": "loaddata() \u2014 fetch analytics.json and trigger render"
+    },
+    {
+      "label": "renderAll() \u2014 render all dashboard sections",
+      "file_type": "code",
+      "source_file": "admin/index.html",
+      "source_location": "468",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "admin_index_render_all",
+      "community": 4,
+      "norm_label": "renderall() \u2014 render all dashboard sections"
+    },
+    {
+      "label": "renderChart() \u2014 Chart.js time-series line chart",
+      "file_type": "code",
+      "source_file": "admin/index.html",
+      "source_location": "512",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "admin_index_render_chart",
+      "community": 4,
+      "norm_label": "renderchart() \u2014 chart.js time-series line chart"
+    },
+    {
+      "label": "groupHits() \u2014 group hits by day/week/month",
+      "file_type": "code",
+      "source_file": "admin/index.html",
+      "source_location": "580",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "admin_index_group_hits",
+      "community": 4,
+      "norm_label": "grouphits() \u2014 group hits by day/week/month"
+    },
+    {
+      "label": "sha256() \u2014 client-side SHA-256 password check",
+      "file_type": "code",
+      "source_file": "admin/index.html",
+      "source_location": "383",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "admin_index_sha256",
+      "community": 3,
+      "norm_label": "sha256() \u2014 client-side sha-256 password check"
+    },
+    {
+      "label": "showDashboard() \u2014 reveal dashboard after auth",
+      "file_type": "code",
+      "source_file": "admin/index.html",
+      "source_location": "413",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "admin_index_show_dashboard",
+      "community": 4,
+      "norm_label": "showdashboard() \u2014 reveal dashboard after auth"
+    },
+    {
+      "label": "README \u2014 GoatCounter Dashboard documentation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "pocallum / LinuxBCN",
+      "contributor": null,
+      "id": "readme",
+      "community": 3,
+      "norm_label": "readme \u2014 goatcounter dashboard documentation"
+    },
+    {
+      "label": "GoatCounter API v0 \u2014 external stats REST API",
+      "file_type": "concept",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "106",
+      "source_url": "https://www.goatcounter.com",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "concept_goatcounter_api_v0",
+      "community": 2,
+      "norm_label": "goatcounter api v0 \u2014 external stats rest api"
+    },
+    {
+      "label": "Serverless password auth via SHA-256 (no backend)",
+      "file_type": "rationale",
+      "source_file": "admin/index.html",
+      "source_location": "383",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "concept_serverless_auth",
+      "community": 3,
+      "norm_label": "serverless password auth via sha-256 (no backend)"
+    },
+    {
+      "label": "Static hosting compatibility \u2014 no DB, no PHP, no cookies",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": "5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "concept_static_hosting",
+      "community": 3,
+      "norm_label": "static hosting compatibility \u2014 no db, no php, no cookies"
+    },
+    {
+      "label": "/tmp/raw_all.json \u2014 intermediate aggregated raw data file",
+      "file_type": "concept",
+      "source_file": "scripts/build-analytics-json.py",
+      "source_location": "37",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "concept_raw_all_json",
+      "community": 2,
+      "norm_label": "/tmp/raw_all.json \u2014 intermediate aggregated raw data file"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_generated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_period",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_total",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_total_unique",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_hits_by_day",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_hits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_by_lang",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_by_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_browsers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_systems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_sizes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_locations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "admin_analytics_json",
+      "target": "admin_analytics_refs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/fetch-analytics.yml",
+      "source_location": "59",
+      "weight": 1.0,
+      "source": "github_workflows_fetch_analytics",
+      "target": "admin_analytics_json"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "130",
+      "weight": 1.0,
+      "source": "scripts_process_analytics_main",
+      "target": "admin_analytics_json"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "admin/index.html",
+      "source_location": "454",
+      "weight": 1.0,
+      "source": "admin_index_load_data",
+      "target": "admin_analytics_json"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "admin_analytics_period",
+      "target": "admin_analytics_period_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin/analytics.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "admin_analytics_period",
+      "target": "admin_analytics_period_end",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/setup.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_setup_sh",
+      "target": "users_joan_documents_obsidian_goatcounter_dashboard_scripts_setup_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-analytics-json.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "scripts_build_analytics_json_py",
+      "target": "scripts_build_analytics_json_load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/build-analytics-json.py",
+      "source_location": "28",
+      "weight": 1.0,
+      "source": "scripts_build_analytics_json",
+      "target": "scripts_build_analytics_json_load"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "scripts_process_analytics_py",
+      "target": "scripts_process_analytics_safe_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "scripts_process_analytics_py",
+      "target": "scripts_process_analytics_extract_lang",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "scripts_process_analytics_py",
+      "target": "scripts_process_analytics_extract_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "scripts_process_analytics_py",
+      "target": "scripts_process_analytics_norm_items",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "scripts_process_analytics_py",
+      "target": "scripts_process_analytics_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_process_analytics_main",
+      "target": "scripts_process_analytics_safe_get"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_process_analytics_main",
+      "target": "scripts_process_analytics_extract_lang"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "scripts_process_analytics_rationale_10",
+      "target": "scripts_process_analytics_extract_lang",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_process_analytics_main",
+      "target": "scripts_process_analytics_extract_section"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "scripts_process_analytics_rationale_20",
+      "target": "scripts_process_analytics_extract_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "122",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_process_analytics_main",
+      "target": "scripts_process_analytics_norm_items"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "scripts_process_analytics_rationale_33",
+      "target": "scripts_process_analytics_norm_items",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "33",
+      "weight": 1.0,
+      "source": "scripts_process_analytics_norm_items",
+      "target": "concept_goatcounter_api_v0"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "61",
+      "weight": 1.0,
+      "source": "scripts_process_analytics_main",
+      "target": "concept_raw_all_json"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/fetch-analytics.yml",
+      "source_location": "45",
+      "weight": 1.0,
+      "source": "github_workflows_fetch_analytics",
+      "target": "scripts_build_analytics_json"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/build-analytics-json.py",
+      "source_location": "28",
+      "weight": 1.0,
+      "source": "scripts_build_analytics_json",
+      "target": "concept_goatcounter_api_v0"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/build-analytics-json.py",
+      "source_location": "37",
+      "weight": 1.0,
+      "source": "scripts_build_analytics_json",
+      "target": "concept_raw_all_json"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "scripts/build-analytics-json.py",
+      "source_location": null,
+      "weight": 0.75,
+      "source": "scripts_build_analytics_json",
+      "target": "scripts_process_analytics"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/fetch-analytics.yml",
+      "source_location": "49",
+      "weight": 1.0,
+      "source": "github_workflows_fetch_analytics",
+      "target": "scripts_process_analytics"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/process-analytics.py",
+      "source_location": "106",
+      "weight": 1.0,
+      "source": "scripts_process_analytics",
+      "target": "concept_goatcounter_api_v0"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "53",
+      "weight": 1.0,
+      "source": "scripts_setup",
+      "target": "admin_index"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/fetch-analytics.yml",
+      "source_location": "23",
+      "weight": 1.0,
+      "source": "github_workflows_fetch_analytics",
+      "target": "concept_goatcounter_api_v0"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "admin/index.html",
+      "source_location": "383",
+      "weight": 1.0,
+      "source": "admin_index",
+      "target": "concept_serverless_auth"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": "5",
+      "weight": 1.0,
+      "source": "admin_index",
+      "target": "concept_static_hosting"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "admin/index.html",
+      "source_location": "460",
+      "weight": 1.0,
+      "source": "admin_index_load_data",
+      "target": "admin_index_render_all"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "admin/index.html",
+      "source_location": "416",
+      "weight": 1.0,
+      "source": "admin_index_show_dashboard",
+      "target": "admin_index_load_data"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "admin/index.html",
+      "source_location": "492",
+      "weight": 1.0,
+      "source": "admin_index_render_all",
+      "target": "admin_index_render_chart"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "admin/index.html",
+      "source_location": "516",
+      "weight": 1.0,
+      "source": "admin_index_render_chart",
+      "target": "admin_index_group_hits"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "admin/index.html",
+      "source_location": "383",
+      "weight": 1.0,
+      "source": "admin_index_sha256",
+      "target": "concept_serverless_auth"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "28",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "concept_goatcounter_api_v0"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "5",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "concept_static_hosting"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "README.md",
+      "source_location": "5",
+      "weight": 1.0,
+      "source": "concept_serverless_auth",
+      "target": "concept_static_hosting"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "analytics_pipeline",
+      "label": "Analytics Data Pipeline: Fetch \u2192 Build \u2192 Process \u2192 Serve",
+      "nodes": [
+        "github_workflows_fetch_analytics",
+        "scripts_build_analytics_json",
+        "scripts_process_analytics",
+        "admin_analytics_json",
+        "admin_index"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": ".github/workflows/fetch-analytics.yml"
+    },
+    {
+      "id": "goatcounter_api_consumers",
+      "label": "GoatCounter API v0 Consumers",
+      "nodes": [
+        "github_workflows_fetch_analytics",
+        "scripts_build_analytics_json",
+        "scripts_process_analytics",
+        "concept_goatcounter_api_v0"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/fetch-analytics.yml"
+    },
+    {
+      "id": "static_dashboard_pattern",
+      "label": "Serverless Static Dashboard Pattern (no DB, SHA-256 auth, JSON data)",
+      "nodes": [
+        "concept_serverless_auth",
+        "concept_static_hosting",
+        "admin_index",
+        "admin_analytics_json"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md"
+    }
+  ],
+  "built_at_commit": "3c865169faf49975fd6e5144eafffd8c4b8d7038"
+}
