@@ -6,7 +6,7 @@ _GH_HEADERS = {
     "X-GitHub-Api-Version": "2022-11-28",
 }
 
-def _headers(token: str) -> dict:
+def _headers(token: str) -> dict[str, str]:
     return {**_GH_HEADERS, "Authorization": f"Bearer {token}"}
 
 def create_issue(repo: str, title: str, body: str, labels: list[str], token: str) -> str:
@@ -19,7 +19,9 @@ def create_issue(repo: str, title: str, body: str, labels: list[str], token: str
 def ensure_labels_exist(repo: str, labels: list[str], token: str) -> None:
     """Creates any labels that don't exist in the repo."""
     url = f"{GH_API}/repos/{repo}/labels"
-    existing = {l["name"] for l in requests.get(url, headers=_headers(token)).json()}
+    get_resp = requests.get(url, headers=_headers(token))
+    get_resp.raise_for_status()
+    existing = {l["name"] for l in get_resp.json()}
     label_colors = {
         "marketing-agent": "0075ca",
         "seo":             "e4e669",
