@@ -39,7 +39,7 @@ def save_snapshot(snapshots_dir: str, iso_week: str, analytics: dict) -> None:
 
 def detect_dead_urls(analytics: dict, site_base_url: str) -> list[Finding]:
     findings = []
-    for page in analytics.get("hits", []):
+    for page in analytics.get("hits", [])[:30]:
         path = page["path"]
         count = page["count"]
         if count == 0:

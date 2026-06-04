@@ -19,7 +19,7 @@ def create_issue(repo: str, title: str, body: str, labels: list[str], token: str
 def ensure_labels_exist(repo: str, labels: list[str], token: str) -> None:
     """Creates any labels that don't exist in the repo."""
     url = f"{GH_API}/repos/{repo}/labels"
-    get_resp = requests.get(url, headers=_headers(token))
+    get_resp = requests.get(url, headers=_headers(token), params={"per_page": 100})
     get_resp.raise_for_status()
     existing = {l["name"] for l in get_resp.json()}
     label_colors = {
