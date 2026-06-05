@@ -188,6 +188,194 @@ def generate_insights_report(findings: list[Finding], iso_week: str) -> str:
     return "\n".join(lines)
 
 
+def _md_to_html(text: str) -> str:
+    """Convert basic Markdown bold (**text**) to HTML <strong>."""
+    import re
+    return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+
+
+def _detector_label(detector: str) -> str:
+    return {
+        "dead_url": "URL morta",
+        "keyword_opportunity": "Keyword oportunitat",
+        "section_drop": "Caiguda de secció",
+        "low_conversion": "Conversió baixa",
+    }.get(detector, detector)
+
+
+def _impact_color(impact: str) -> str:
+    return {"alt": "#cc2200", "mig": "#e07b00", "baix": "#4a7c59"}.get(impact, "#888888")
+
+
+def _build_svg_chart(hits: list[dict]) -> str:
+    """Build an inline SVG bar chart for top 10 pages by traffic."""
+    top = hits[:10]
+    if not top:
+        return (
+            '<p style="color:#888;font-style:italic;margin:0">Sense dades de tràfic disponibles.</p>'
+        )
+
+    max_count = max(h["count"] for h in top) or 1
+    bar_height = 22
+    gap = 8
+    label_width = 260
+    bar_area = 300
+    chart_width = label_width + bar_area + 60
+    chart_height = len(top) * (bar_height + gap) + 10
+
+    rows = []
+    for i, h in enumerate(top):
+        y = i * (bar_height + gap)
+        bar_w = max(2, int(h["count"] / max_count * bar_area))
+        path = h["path"] if len(h["path"]) <= 38 else h["path"][:35] + "…"
+        rows.append(
+            f'<g transform="translate(0,{y})">'
+            f'<text x="{label_width - 8}" y="{bar_height - 6}" '
+            f'text-anchor="end" font-size="12" fill="#1a1a1a" font-family="Arial,sans-serif">{path}</text>'
+            f'<rect x="{label_width}" y="2" width="{bar_w}" height="{bar_height - 4}" '
+            f'fill="#cc2200" rx="2"/>'
+            f'<text x="{label_width + bar_w + 6}" y="{bar_height - 6}" '
+            f'font-size="11" fill="#555" font-family="Arial,sans-serif">{h["count"]}</text>'
+            f'</g>'
+        )
+
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{chart_width}" height="{chart_height}" '
+        f'style="max-width:100%;display:block">'
+        + "".join(rows)
+        + "</svg>"
+    )
+
+
+def generate_insights_report_html(
+    findings: list[Finding],
+    iso_week: str,
+    analytics: dict | None,
+    site: str,
+) -> str:
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    font = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+
+    # ── Counts per detector type ──────────────────────────────────────────────
+    counts = {"dead_url": 0, "keyword_opportunity": 0, "section_drop": 0, "low_conversion": 0}
+    for f in findings:
+        if f.detector in counts:
+            counts[f.detector] += 1
+
+    pill_style = (
+        "display:inline-block;padding:4px 10px;border-radius:12px;font-size:12px;"
+        "font-weight:600;margin:3px 4px 3px 0;white-space:nowrap;"
+    )
+    pill_map = {
+        "dead_url":           ("#fdecea", "#cc2200", "URL mortes"),
+        "keyword_opportunity": ("#fff3e0", "#e07b00", "Keywords"),
+        "section_drop":       ("#e8f4fd", "#1565c0", "Caigudes"),
+        "low_conversion":     ("#f3e5f5", "#7b1fa2", "Conversió"),
+    }
+    pills_html = ""
+    for key, (bg, fg, label) in pill_map.items():
+        n = counts[key]
+        pills_html += (
+            f'<span style="{pill_style}background:{bg};color:{fg}">'
+            f'{label}: {n}</span>'
+        )
+
+    # ── SVG chart ─────────────────────────────────────────────────────────────
+    hits = (analytics or {}).get("hits", [])
+    svg_chart = _build_svg_chart(hits)
+
+    # ── Findings cards ────────────────────────────────────────────────────────
+    if not findings:
+        findings_html = (
+            '<p style="background:#e8f5e9;border-left:4px solid #4caf50;padding:16px 20px;'
+            'border-radius:4px;color:#2e7d32;font-size:15px;margin:0">'
+            '✅ Cap finding accionable aquesta setmana.</p>'
+        )
+    else:
+        card_style = (
+            "background:#ffffff;border:1px solid #e0e0e0;border-radius:6px;"
+            "padding:20px 24px;margin-bottom:16px;"
+        )
+        cards = []
+        for f in findings:
+            det_label = _detector_label(f.detector)
+            imp_color = _impact_color(f.impact)
+            body_html = _md_to_html(f.body).replace("\n\n", "<br><br>").replace("\n", " ")
+            cards.append(
+                f'<div style="{card_style}">'
+                f'<p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a">{f.title}</p>'
+                f'<div style="margin-bottom:12px">'
+                f'<span style="{pill_style}background:#f5f5f5;color:#555;border:1px solid #ddd">'
+                f'{det_label}</span>'
+                f'<span style="{pill_style}background:{imp_color}22;color:{imp_color}">'
+                f'Impacte {f.impact}</span>'
+                f'<span style="{pill_style}background:#f5f5f5;color:#555;border:1px solid #ddd">'
+                f'Esforç {f.effort}</span>'
+                f'</div>'
+                f'<p style="margin:0;font-size:14px;color:#444;line-height:1.6">{body_html}</p>'
+                f'</div>'
+            )
+        findings_html = "\n".join(cards)
+
+    # ── Full HTML ─────────────────────────────────────────────────────────────
+    section_style = "background:#ffffff;padding:24px 32px;border-bottom:1px solid #e0e0e0;"
+    h2_style = "margin:0 0 16px 0;font-size:14px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.08em"
+
+    html = f"""<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Informe setmanal {site} — {iso_week}</title>
+</head>
+<body style="margin:0;padding:0;background:#f5f5f5;font-family:{font}">
+<table width="100%" cellpadding="0" cellspacing="0" style="background:#f5f5f5;padding:32px 0">
+<tr><td align="center">
+<table width="680" cellpadding="0" cellspacing="0" style="max-width:680px;width:100%;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08)">
+
+  <!-- CAPÇALERA -->
+  <tr><td style="background:#1a1a1a;padding:28px 32px">
+    <p style="margin:0 0 4px 0;font-size:22px;font-weight:700;color:#ffffff">📊 Informe setmanal</p>
+    <p style="margin:0;font-size:14px;color:#aaaaaa">{site} &nbsp;·&nbsp; Setmana {iso_week}</p>
+  </td></tr>
+
+  <!-- RESUM EXECUTIU -->
+  <tr><td style="{section_style}">
+    <p style="{h2_style}">Resum executiu</p>
+    <p style="margin:0 0 12px 0;font-size:15px;color:#1a1a1a">
+      <strong>{len(findings)} finding{"s" if len(findings) != 1 else ""}</strong> detectat{"s" if len(findings) != 1 else ""} aquesta setmana.
+    </p>
+    <div>{pills_html}</div>
+  </td></tr>
+
+  <!-- GRÀFIC TOP PÀGINES -->
+  <tr><td style="{section_style}">
+    <p style="{h2_style}">Top pàgines per tràfic</p>
+    {svg_chart}
+  </td></tr>
+
+  <!-- FINDINGS -->
+  <tr><td style="background:#ffffff;padding:24px 32px">
+    <p style="{h2_style}">Findings accionables</p>
+    {findings_html}
+  </td></tr>
+
+  <!-- PEU -->
+  <tr><td style="background:#f5f5f5;padding:20px 32px;border-top:1px solid #e0e0e0">
+    <p style="margin:0;font-size:12px;color:#888;text-align:center">
+      Generat per Marketing Agent &nbsp;·&nbsp; linuxbcn.com &nbsp;·&nbsp; {now}
+    </p>
+  </td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>"""
+
+    return html
+
+
 def run(config: dict, secrets: dict, analytics_path: str, snapshots_dir: str, iso_week: str) -> list[Finding]:
     analytics = load_analytics(analytics_path)
     prev_week = (datetime.now(timezone.utc) - timedelta(weeks=1)).strftime("%Y-%W")

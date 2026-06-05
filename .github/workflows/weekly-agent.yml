@@ -38,10 +38,11 @@ jobs:
           server_port: 465
           username: linuxbcn@gmail.com
           password: ${{ secrets.GMAIL_APP_PASSWORD }}
-          subject: "📊 Informe setmanal pocallum.cat — ${{ github.run_id }}"
+          subject: "📊 Informe setmanal pocallum.cat — setmana ${{ env.ISO_WEEK }}"
           to: linuxbcn@gmail.com
           from: "Marketing Agent <linuxbcn@gmail.com>"
-          body: file://admin/insights/${{ env.ISO_WEEK }}.md
+          body: file://admin/insights/${{ env.ISO_WEEK }}.html
+          content_type: text/html
         continue-on-error: true
 
       - name: Commit insights + snapshot

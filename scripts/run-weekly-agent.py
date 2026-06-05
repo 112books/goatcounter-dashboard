@@ -11,7 +11,7 @@ import requests as http
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from agents.intelligence import run as run_agent, generate_insights_report
+from agents.intelligence import run as run_agent, generate_insights_report, generate_insights_report_html
 from tasks.github_issues import create_issue, ensure_labels_exist
 
 
@@ -31,10 +31,21 @@ def main():
     insights_dir  = "admin/insights"
     Path(insights_dir).mkdir(parents=True, exist_ok=True)
 
-    findings = run_agent(config, secrets, "admin/analytics.json", snapshots_dir, iso_week)
+    analytics_path = "admin/analytics.json"
+    findings = run_agent(config, secrets, analytics_path, snapshots_dir, iso_week)
     report   = generate_insights_report(findings, iso_week)
 
     Path(f"{insights_dir}/{iso_week}.md").write_text(report)
+
+    try:
+        import json as _json
+        with open(analytics_path) as _f:
+            analytics = _json.load(_f)
+    except Exception:
+        analytics = None
+
+    report_html = generate_insights_report_html(findings, iso_week, analytics, config.get("site", ""))
+    Path(f"{insights_dir}/{iso_week}.html").write_text(report_html)
 
     if findings:
         all_labels = list({label for f in findings for label in f.labels})
