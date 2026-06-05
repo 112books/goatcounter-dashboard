@@ -20,15 +20,29 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements-agent.txt
 
+      - name: Set ISO week
+        run: echo "ISO_WEEK=$(date -u +%Y-%W)" >> $GITHUB_ENV
+
       - name: Run intelligence agent
         env:
           GOATCOUNTER_TOKEN:           ${{ secrets.GOATCOUNTER_TOKEN }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GH_TOKEN:                    ${{ secrets.GH_AGENT_TOKEN }}
-          TELEGRAM_BOT_TOKEN:          ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID:            ${{ secrets.TELEGRAM_CHAT_ID }}
           AGENT_CONFIG:                config/pocallum.cat.yaml
         run: python scripts/run-weekly-agent.py
+
+      - name: Send email report
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: linuxbcn@gmail.com
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: "📊 Informe setmanal pocallum.cat — ${{ github.run_id }}"
+          to: linuxbcn@gmail.com
+          from: "Marketing Agent <linuxbcn@gmail.com>"
+          body: file://admin/insights/${{ env.ISO_WEEK }}.md
+        continue-on-error: true
 
       - name: Commit insights + snapshot
         run: |
