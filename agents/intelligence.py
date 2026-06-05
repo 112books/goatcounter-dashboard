@@ -255,71 +255,88 @@ def generate_insights_report_html(
 ) -> str:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     font = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+    red  = "#cc2200"
 
-    # ── Counts per detector type ──────────────────────────────────────────────
+    # ── Counts per detector ───────────────────────────────────────────────────
     counts = {"dead_url": 0, "keyword_opportunity": 0, "section_drop": 0, "low_conversion": 0}
     for f in findings:
         if f.detector in counts:
             counts[f.detector] += 1
 
-    pill_style = (
-        "display:inline-block;padding:4px 10px;border-radius:12px;font-size:12px;"
-        "font-weight:600;margin:3px 4px 3px 0;white-space:nowrap;"
+    # Resum executiu: taula neta de 4 comptadors, sense colors vistosos
+    counter_td = (
+        "padding:12px 16px;border-right:1px solid #e8e8e8;text-align:center;width:25%;"
     )
-    pill_map = {
-        "dead_url":           ("#fdecea", "#cc2200", "URL mortes"),
-        "keyword_opportunity": ("#fff3e0", "#e07b00", "Keywords"),
-        "section_drop":       ("#e8f4fd", "#1565c0", "Caigudes"),
-        "low_conversion":     ("#f3e5f5", "#7b1fa2", "Conversió"),
-    }
-    pills_html = ""
-    for key, (bg, fg, label) in pill_map.items():
-        n = counts[key]
-        pills_html += (
-            f'<span style="{pill_style}background:{bg};color:{fg}">'
-            f'{label}: {n}</span>'
-        )
+    counter_rows = "".join(
+        f'<td style="{counter_td}{"border-right:none;" if i == 3 else ""}">'
+        f'<p style="margin:0;font-size:22px;font-weight:700;color:{red if n > 0 else "#1a1a1a"}">{n}</p>'
+        f'<p style="margin:4px 0 0 0;font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.06em">{lbl}</p>'
+        f'</td>'
+        for i, (n, lbl) in enumerate([
+            (counts["dead_url"],           "URLs mortes"),
+            (counts["keyword_opportunity"],"Keywords"),
+            (counts["section_drop"],       "Caigudes"),
+            (counts["low_conversion"],     "Conversió"),
+        ])
+    )
 
     # ── SVG chart ─────────────────────────────────────────────────────────────
     hits = (analytics or {}).get("hits", [])
     svg_chart = _build_svg_chart(hits)
 
-    # ── Findings cards ────────────────────────────────────────────────────────
+    # ── Icona check (SVG, sense emoji) ────────────────────────────────────────
+    ico_check = (
+        '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" '
+        'style="vertical-align:-2px;margin-right:7px" fill="none" '
+        'stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">'
+        '<circle cx="7.5" cy="7.5" r="6.5"/>'
+        '<polyline points="4.5,8 6.5,10 10.5,5.5"/>'
+        '</svg>'
+    )
+
+    # ── Findings ──────────────────────────────────────────────────────────────
     if not findings:
         findings_html = (
-            '<p style="background:#e8f5e9;border-left:4px solid #4caf50;padding:16px 20px;'
-            'border-radius:4px;color:#2e7d32;font-size:15px;margin:0">'
-            '✅ Cap finding accionable aquesta setmana.</p>'
+            f'<p style="border-left:3px solid {red};padding:14px 20px;'
+            f'color:#1a1a1a;font-size:14px;margin:0;line-height:1.5">'
+            f'{ico_check}Cap finding accionable aquesta setmana.</p>'
         )
     else:
-        card_style = (
-            "background:#ffffff;border:1px solid #e0e0e0;border-radius:6px;"
-            "padding:20px 24px;margin-bottom:16px;"
-        )
         cards = []
         for f in findings:
             det_label = _detector_label(f.detector)
-            imp_color = _impact_color(f.impact)
             body_html = _md_to_html(f.body).replace("\n\n", "<br><br>").replace("\n", " ")
+            meta = (
+                f'<span style="font-size:11px;color:#888;text-transform:uppercase;'
+                f'letter-spacing:.06em;margin-right:16px">{det_label}</span>'
+                f'<span style="font-size:11px;color:#888;text-transform:uppercase;'
+                f'letter-spacing:.06em;margin-right:16px">Esforç {f.effort}</span>'
+                f'<span style="font-size:11px;color:#888;text-transform:uppercase;'
+                f'letter-spacing:.06em">Impacte {f.impact}</span>'
+            )
             cards.append(
-                f'<div style="{card_style}">'
-                f'<p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a">{f.title}</p>'
-                f'<div style="margin-bottom:12px">'
-                f'<span style="{pill_style}background:#f5f5f5;color:#555;border:1px solid #ddd">'
-                f'{det_label}</span>'
-                f'<span style="{pill_style}background:{imp_color}22;color:{imp_color}">'
-                f'Impacte {f.impact}</span>'
-                f'<span style="{pill_style}background:#f5f5f5;color:#555;border:1px solid #ddd">'
-                f'Esforç {f.effort}</span>'
-                f'</div>'
-                f'<p style="margin:0;font-size:14px;color:#444;line-height:1.6">{body_html}</p>'
+                f'<div style="border-left:3px solid {red};padding:16px 20px;margin-bottom:20px">'
+                f'<p style="margin:0 0 6px 0;font-size:15px;font-weight:700;color:#1a1a1a">{f.title}</p>'
+                f'<p style="margin:0 0 10px 0">{meta}</p>'
+                f'<p style="margin:0;font-size:14px;color:#444;line-height:1.65">{body_html}</p>'
                 f'</div>'
             )
         findings_html = "\n".join(cards)
 
     # ── Full HTML ─────────────────────────────────────────────────────────────
-    section_style = "background:#ffffff;padding:24px 32px;border-bottom:1px solid #e0e0e0;"
-    h2_style = "margin:0 0 16px 0;font-size:14px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.08em"
+    sep   = "border-bottom:1px solid #e8e8e8;"
+    pad   = "padding:28px 32px;"
+    label = f"font-size:11px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.08em;margin:0 0 20px 0;"
+
+    # Icona barres per capçalera (color accent, fons blanc)
+    ico_bars = (
+        '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" '
+        f'fill="{red}" style="display:inline-block;vertical-align:-4px;margin-right:10px">'
+        '<rect x="1" y="11" width="4" height="8" rx="1"/>'
+        '<rect x="8" y="6" width="4" height="13" rx="1"/>'
+        '<rect x="15" y="2" width="4" height="17" rx="1"/>'
+        '</svg>'
+    )
 
     html = f"""<!DOCTYPE html>
 <html lang="ca">
@@ -328,41 +345,42 @@ def generate_insights_report_html(
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Informe setmanal {site} — {iso_week}</title>
 </head>
-<body style="margin:0;padding:0;background:#f5f5f5;font-family:{font}">
-<table width="100%" cellpadding="0" cellspacing="0" style="background:#f5f5f5;padding:32px 0">
+<body style="margin:0;padding:0;background:#f0f0f0;font-family:{font}">
+<table width="100%" cellpadding="0" cellspacing="0" style="background:#f0f0f0;padding:32px 0">
 <tr><td align="center">
-<table width="680" cellpadding="0" cellspacing="0" style="max-width:680px;width:100%;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08)">
+<table width="640" cellpadding="0" cellspacing="0" style="max-width:640px;width:100%;background:#ffffff;border-top:4px solid {red}">
 
   <!-- CAPÇALERA -->
-  <tr><td style="background:#1a1a1a;padding:28px 32px">
-    <p style="margin:0 0 4px 0;font-size:22px;font-weight:700;color:#ffffff">📊 Informe setmanal</p>
-    <p style="margin:0;font-size:14px;color:#aaaaaa">{site} &nbsp;·&nbsp; Setmana {iso_week}</p>
+  <tr><td style="{pad}{sep}">
+    <p style="margin:0 0 4px 0;font-size:20px;font-weight:700;color:#1a1a1a;line-height:1.2">
+      {ico_bars}Informe setmanal
+    </p>
+    <p style="margin:8px 0 0 30px;font-size:13px;color:#888">{site} &nbsp;·&nbsp; Setmana {iso_week}</p>
   </td></tr>
 
   <!-- RESUM EXECUTIU -->
-  <tr><td style="{section_style}">
-    <p style="{h2_style}">Resum executiu</p>
-    <p style="margin:0 0 12px 0;font-size:15px;color:#1a1a1a">
-      <strong>{len(findings)} finding{"s" if len(findings) != 1 else ""}</strong> detectat{"s" if len(findings) != 1 else ""} aquesta setmana.
-    </p>
-    <div>{pills_html}</div>
+  <tr><td style="{pad}{sep}">
+    <p style="{label}">Resum executiu</p>
+    <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e8e8e8">
+      <tr>{counter_rows}</tr>
+    </table>
   </td></tr>
 
   <!-- GRÀFIC TOP PÀGINES -->
-  <tr><td style="{section_style}">
-    <p style="{h2_style}">Top pàgines per tràfic</p>
+  <tr><td style="{pad}{sep}">
+    <p style="{label}">Top pàgines per tràfic</p>
     {svg_chart}
   </td></tr>
 
   <!-- FINDINGS -->
-  <tr><td style="background:#ffffff;padding:24px 32px">
-    <p style="{h2_style}">Findings accionables</p>
+  <tr><td style="{pad}">
+    <p style="{label}">Findings accionables</p>
     {findings_html}
   </td></tr>
 
   <!-- PEU -->
-  <tr><td style="background:#f5f5f5;padding:20px 32px;border-top:1px solid #e0e0e0">
-    <p style="margin:0;font-size:12px;color:#888;text-align:center">
+  <tr><td style="padding:16px 32px;border-top:1px solid #e8e8e8;background:#fafafa">
+    <p style="margin:0;font-size:11px;color:#aaa;text-align:center">
       Generat per Marketing Agent &nbsp;·&nbsp; linuxbcn.com &nbsp;·&nbsp; {now}
     </p>
   </td></tr>

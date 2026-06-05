@@ -38,7 +38,7 @@ jobs:
           server_port: 465
           username: linuxbcn@gmail.com
           password: ${{ secrets.GMAIL_APP_PASSWORD }}
-          subject: "📊 Informe setmanal pocallum.cat — setmana ${{ env.ISO_WEEK }}"
+          subject: "Informe setmanal pocallum.cat — setmana ${{ env.ISO_WEEK }}"
           to: linuxbcn@gmail.com
           from: "Marketing Agent <linuxbcn@gmail.com>"
           body: file://admin/insights/${{ env.ISO_WEEK }}.html
