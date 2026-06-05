@@ -16,7 +16,7 @@ jobs:
       - name: Fetch analytics data
         env:
           GC_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
-          GC_ACCOUNT: "{{GC_ACCOUNT}}"
+          GC_ACCOUNT: "pocallum"
         run: |
           END=$(date +%Y-%m-%d)
           START=$(date -d '365 days ago' +%Y-%m-%d)
