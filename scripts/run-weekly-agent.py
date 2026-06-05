@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Entrypoint del workflow. Llegeix config + secrets, corre l'agent, crea Issues, notifica Telegram."""
+"""Entrypoint del workflow. Llegeix config + secrets, corre l'agent, crea Issues, envia email."""
 import json
 import os
+import smtplib
 import sys
 from datetime import datetime, timezone
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 from pathlib import Path
 
 import yaml
@@ -69,6 +72,31 @@ def main():
         print(f"Issue creat: {url}")
 
     print(f"Done. {len(findings)} findings, {len(issue_urls)} issues.")
+
+    _send_email(config, iso_week, report_html)
+
+
+def _send_email(config, iso_week, html):
+    username = os.environ.get("GMAIL_USERNAME", "linuxbcn@gmail.com")
+    password = os.environ.get("GMAIL_APP_PASSWORD", "")
+    if not password:
+        print("Email: GMAIL_APP_PASSWORD no configurat, saltant")
+        return
+
+    site = config.get("site", "")
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = f"Informe setmanal {site} — setmana {iso_week}"
+    msg["From"]    = f"Marketing Agent <{username}>"
+    msg["To"]      = username
+    msg.attach(MIMEText(html, "html", "utf-8"))
+
+    try:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+            server.login(username, password)
+            server.send_message(msg)
+        print("Email enviat ✓")
+    except Exception as e:
+        print(f"Email error: {e}")
 
 
 if __name__ == "__main__":

@@ -27,21 +27,9 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GH_TOKEN:                    ${{ secrets.GH_AGENT_TOKEN }}
+          GMAIL_APP_PASSWORD:          ${{ secrets.GMAIL_APP_PASSWORD }}
           AGENT_CONFIG:                config/pocallum.cat.yaml
         run: python scripts/run-weekly-agent.py
-
-      - name: Send email report
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: linuxbcn@gmail.com
-          password: ${{ secrets.GMAIL_APP_PASSWORD }}
-          subject: "Informe setmanal pocallum.cat — setmana ${{ env.ISO_WEEK }}"
-          to: linuxbcn@gmail.com
-          from: "Marketing Agent <linuxbcn@gmail.com>"
-          html_body: file://admin/insights/${{ env.ISO_WEEK }}.html
-        continue-on-error: true
 
       - name: Commit insights + snapshot
         run: |
