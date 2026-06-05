@@ -21,8 +21,8 @@ def main():
         config = yaml.safe_load(f)
 
     secrets = {
-        "goatcounter_token":           os.environ["GOATCOUNTER_TOKEN"],
-        "google_service_account_json": os.environ["GOOGLE_SERVICE_ACCOUNT_JSON"],
+        "goatcounter_token":           os.environ.get("GOATCOUNTER_TOKEN", ""),
+        "google_service_account_json": os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON", ""),
         "gh_token":                    os.environ["GH_TOKEN"],
     }
 
@@ -31,7 +31,16 @@ def main():
     insights_dir  = "admin/insights"
     Path(insights_dir).mkdir(parents=True, exist_ok=True)
 
-    analytics_path = "admin/analytics.json"
+    analytics_url = config.get("analytics_url")
+    if analytics_url:
+        resp = http.get(analytics_url, timeout=15)
+        resp.raise_for_status()
+        analytics_path = "/tmp/analytics.json"
+        Path(analytics_path).write_text(resp.text)
+        print(f"Analytics descarregats: {analytics_url}")
+    else:
+        analytics_path = "admin/analytics.json"
+
     findings = run_agent(config, secrets, analytics_path, snapshots_dir, iso_week)
     report   = generate_insights_report(findings, iso_week)
 

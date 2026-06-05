@@ -2,3 +2,4 @@ site: pocallum.cat
 goatcounter_site: pocallum
 gsc_property: https://pocallum.cat/
 github_repo: 112books/pocallum.cat
+analytics_url: https://raw.githubusercontent.com/112books/pocallum.cat/main/static/admin/analytics.json
