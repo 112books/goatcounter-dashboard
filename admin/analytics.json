@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T12:56:44.612056Z",
+  "generated": "2026-06-05T13:06:44.016654Z",
   "period": {
     "start": "2025-06-05",
     "end": "2026-06-05"
@@ -10,9 +10,209 @@
   "hits": [],
   "by_lang": {},
   "by_section": {},
-  "browsers": [],
-  "systems": [],
-  "sizes": [],
-  "locations": [],
-  "refs": []
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 237
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 215
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 12
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 10
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 289
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 66
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 51
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 38
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 27
+    },
+    {
+      "name": "Chrome OS",
+      "id": "Chrome OS",
+      "count": 3
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 170
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 138
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 96
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 70
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 410
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 35
+    },
+    {
+      "name": "Indonesia",
+      "id": "ID",
+      "count": 4
+    },
+    {
+      "name": "Germany",
+      "id": "DE",
+      "count": 3
+    },
+    {
+      "name": "Sweden",
+      "id": "SE",
+      "count": 3
+    },
+    {
+      "name": "Singapore",
+      "id": "SG",
+      "count": 3
+    },
+    {
+      "name": "Argentina",
+      "id": "AR",
+      "count": 2
+    },
+    {
+      "name": "France",
+      "id": "FR",
+      "count": 2
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 2
+    },
+    {
+      "name": "Poland",
+      "id": "PL",
+      "count": 2
+    },
+    {
+      "name": "Switzerland",
+      "id": "CH",
+      "count": 1
+    },
+    {
+      "name": "Chile",
+      "id": "CL",
+      "count": 1
+    },
+    {
+      "name": "Czechia",
+      "id": "CZ",
+      "count": 1
+    },
+    {
+      "name": "Italy",
+      "id": "IT",
+      "count": 1
+    },
+    {
+      "name": "Mexico",
+      "id": "MX",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 101
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 45
+    },
+    {
+      "name": "blog.pocallum.cat",
+      "id": "blog.pocallum.cat",
+      "count": 5
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 4
+    },
+    {
+      "name": "bing.com",
+      "id": "bing.com",
+      "count": 3
+    },
+    {
+      "name": "www.bing.com",
+      "id": "www.bing.com",
+      "count": 2
+    },
+    {
+      "name": "about.pocallum.cat",
+      "id": "about.pocallum.cat",
+      "count": 2
+    },
+    {
+      "name": "112books.github.io",
+      "id": "112books.github.io",
+      "count": 2
+    },
+    {
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
+      "count": 1
+    },
+    {
+      "name": "instagram.com",
+      "id": "instagram.com",
+      "count": 1
+    }
+  ]
 }
