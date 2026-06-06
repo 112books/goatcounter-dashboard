@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-05T16:25:32.328662Z",
+  "generated": "2026-06-06T15:06:26.601910Z",
   "period": {
-    "start": "2025-06-05",
-    "end": "2026-06-05"
+    "start": "2025-06-06",
+    "end": "2026-06-06"
   },
-  "total": 433,
+  "total": 451,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "date": "2026-05-10",
-      "count": 54
+      "count": 51
     },
     {
       "date": "2026-05-11",
@@ -117,33 +117,33 @@
     },
     {
       "date": "2026-06-05",
-      "count": 2
+      "count": 23
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 112
+      "count": 117
     },
     {
       "path": "/galeria",
-      "count": 36
+      "count": 38
     },
     {
       "path": "/serveis",
-      "count": 26
+      "count": 29
     },
     {
       "path": "/festivals",
-      "count": 23
+      "count": 24
     },
     {
       "path": "/contacte",
-      "count": 19
+      "count": 22
     },
     {
       "path": "/noticies",
-      "count": 17
+      "count": 18
     },
     {
       "path": "/blog",
@@ -230,6 +230,14 @@
       "count": 3
     },
     {
+      "path": "/serveis/books-artistics",
+      "count": 2
+    },
+    {
+      "path": "/serveis/books-per-actors",
+      "count": 2
+    },
+    {
       "path": "/festivals/mostra-de-circ",
       "count": 2
     },
@@ -247,6 +255,10 @@
     },
     {
       "path": "/en/photography-services/photography-training",
+      "count": 2
+    },
+    {
+      "path": "/festivals/vijazz",
       "count": 2
     },
     {
@@ -298,42 +310,30 @@
       "count": 2
     },
     {
+      "path": "/festivals/any-nou-xines",
+      "count": 1
+    },
+    {
       "path": "/de-la-casualitat-a-la-creativitat-una-sessio-fotografica-amb-vestit-oriental",
       "count": 1
     },
     {
       "path": "/retrats-per-comencar-lany-amb-bona-cara-i-millor-portfolio",
       "count": 1
-    },
-    {
-      "path": "/sessio-amb-eli",
-      "count": 1
-    },
-    {
-      "path": "/en/qui-som",
-      "count": 1
-    },
-    {
-      "path": "/noticies/2026-03-movent-imatges-fixes",
-      "count": 1
-    },
-    {
-      "path": "/obra/bernat-font-the-shout",
-      "count": 1
     }
   ],
   "by_lang": {
-    "ca": 35,
-    "es": 26,
+    "ca": 34,
+    "es": 24,
     "en": 21
   },
   "by_section": {
-    "inici": 123,
-    "galeria": 39,
-    "serveis": 28,
-    "festivals": 70,
-    "contacte": 28,
-    "noticies": 30,
+    "inici": 128,
+    "galeria": 41,
+    "serveis": 35,
+    "festivals": 73,
+    "contacte": 31,
+    "noticies": 31,
     "blog": 18,
     "qui-som": 14,
     "serveis-fotografics-2": 11,
@@ -358,7 +358,7 @@
     "worldpinholeday-diana-f": 1,
     "taller-de-tecniques-antigues-al-laboratori": 1,
     "equip": 1,
-    "tags": 5,
+    "tags": 4,
     "probando-la-nueva-daguerreotype-achromat-2964-art-lens-de-lomography": 1,
     "legal": 1,
     "wp-admin": 1,
@@ -369,9 +369,7 @@
     "vijazz-2025-el-jazz-que-me-ha-hecho-volver-a-casa": 1,
     "revelat-de-pellicula-de-color-amb-proces-de-blanc-i-negre": 1,
     "node": 1,
-    "comprehensive-guide-to-photography-exhibitions-and-spaces-in-barcelona": 1,
-    "2016": 1,
-    "contacto": 1
+    "comprehensive-guide-to-photography-exhibitions-and-spaces-in-barcelona": 1
   },
   "noticies_top": [
     {
@@ -381,10 +379,6 @@
     {
       "path": "/ca/noticies/2026-03-no-fem-fotos-concerts",
       "count": 2
-    },
-    {
-      "path": "/noticies/2026-03-movent-imatges-fixes",
-      "count": 1
     }
   ],
   "festivals_top": [
@@ -415,6 +409,14 @@
     {
       "path": "/festivals/mostra-de-circ",
       "count": 2
+    },
+    {
+      "path": "/festivals/vijazz",
+      "count": 2
+    },
+    {
+      "path": "/festivals/any-nou-xines",
+      "count": 1
     }
   ],
   "wizard_funnel": {
@@ -428,12 +430,12 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 237
+      "count": 246
     },
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 217
+      "count": 222
     },
     {
       "name": "Desconegut",
@@ -450,12 +452,12 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 291
+      "count": 301
     },
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 66
+      "count": 70
     },
     {
       "name": "Windows",
@@ -482,17 +484,17 @@
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 170
+      "count": 175
     },
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 140
+      "count": 145
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 96
+      "count": 100
     },
     {
       "name": "tablet",
@@ -504,7 +506,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 412
+      "count": 426
     },
     {
       "name": "United States",
@@ -581,7 +583,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 101
+      "count": 106
     },
     {
       "name": "Google",
