@@ -80,7 +80,9 @@ def test_detect_keyword_opportunities_filters_correctly():
     with patch("agents.intelligence._gsc_search_analytics", return_value=_GSC_ROWS):
         findings = detect_keyword_opportunities(
             gsc_property="https://pocallum.cat/",
-            creds_json='{"type":"service_account"}',
+            client_id="fake_id",
+            client_secret="fake_secret",
+            refresh_token="fake_token",
             start="2026-05-01",
             end="2026-06-01",
         )
@@ -93,7 +95,7 @@ def test_detect_keyword_opportunities_filters_correctly():
 
 def test_detect_keyword_opportunities_returns_empty_on_no_rows():
     with patch("agents.intelligence._gsc_search_analytics", return_value=[]):
-        findings = detect_keyword_opportunities("https://pocallum.cat/", "{}", "2026-05-01", "2026-06-01")
+        findings = detect_keyword_opportunities("https://pocallum.cat/", "fake_id", "fake_secret", "fake_token", "2026-05-01", "2026-06-01")
     assert findings == []
 
 def test_detect_section_drops_flags_30pct_drop():
@@ -160,7 +162,9 @@ def test_run_agent_calls_all_detectors(tmp_path):
     }
     secrets = {
         "goatcounter_token": "gc_token",
-        "google_service_account_json": "{}",
+        "gsc_client_id":     "fake_id",
+        "gsc_client_secret": "fake_secret",
+        "gsc_refresh_token": "fake_token",
         "gh_token": "gh_token",
     }
     analytics_path = tmp_path / "analytics.json"

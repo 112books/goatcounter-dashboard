@@ -25,10 +25,12 @@ jobs:
 
       - name: Run intelligence agent
         env:
-          GOATCOUNTER_TOKEN:           ${{ secrets.GOATCOUNTER_TOKEN }}
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          GH_TOKEN:                    ${{ secrets.GH_AGENT_TOKEN }}
-          GMAIL_APP_PASSWORD:          ${{ secrets.GMAIL_APP_PASSWORD }}
+          GOATCOUNTER_TOKEN:  ${{ secrets.GOATCOUNTER_TOKEN }}
+          GSC_CLIENT_ID:      ${{ secrets.GSC_CLIENT_ID }}
+          GSC_CLIENT_SECRET:  ${{ secrets.GSC_CLIENT_SECRET }}
+          GSC_REFRESH_TOKEN:  ${{ secrets.GSC_REFRESH_TOKEN }}
+          GH_TOKEN:           ${{ secrets.GH_AGENT_TOKEN }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           AGENT_CONFIG:                config/pocallum.cat.yaml
         run: python scripts/run-weekly-agent.py
 

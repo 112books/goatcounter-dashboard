@@ -3,7 +3,7 @@ import requests
 from dataclasses import dataclass
 from pathlib import Path
 import json as _json
-from google.oauth2 import service_account
+from google.oauth2.credentials import Credentials
 import googleapiclient.discovery
 from datetime import datetime, timedelta, timezone
 
@@ -66,10 +66,13 @@ def detect_dead_urls(analytics: dict, site_base_url: str) -> list[Finding]:
     return findings
 
 
-def _gsc_search_analytics(gsc_property: str, creds_json: str, start: str, end: str) -> list[dict]:
-    creds = service_account.Credentials.from_service_account_info(
-        _json.loads(creds_json),
-        scopes=["https://www.googleapis.com/auth/webmasters.readonly"],
+def _gsc_search_analytics(gsc_property: str, client_id: str, client_secret: str, refresh_token: str, start: str, end: str) -> list[dict]:
+    creds = Credentials(
+        token=None,
+        refresh_token=refresh_token,
+        client_id=client_id,
+        client_secret=client_secret,
+        token_uri="https://oauth2.googleapis.com/token",
     )
     service = googleapiclient.discovery.build("searchconsole", "v1", credentials=creds, cache_discovery=False)
     resp = service.searchanalytics().query(
@@ -79,8 +82,8 @@ def _gsc_search_analytics(gsc_property: str, creds_json: str, start: str, end: s
     return resp.get("rows", [])
 
 
-def detect_keyword_opportunities(gsc_property: str, creds_json: str, start: str, end: str) -> list[Finding]:
-    rows = _gsc_search_analytics(gsc_property, creds_json, start, end)
+def detect_keyword_opportunities(gsc_property: str, client_id: str, client_secret: str, refresh_token: str, start: str, end: str) -> list[Finding]:
+    rows = _gsc_search_analytics(gsc_property, client_id, client_secret, refresh_token, start, end)
     findings = []
     for row in rows:
         query = row["keys"][0]
@@ -405,7 +408,11 @@ def run(config: dict, secrets: dict, analytics_path: str, snapshots_dir: str, is
     findings += detect_dead_urls(analytics, f"https://{config['site']}")
     try:
         findings += detect_keyword_opportunities(
-            config["gsc_property"], secrets["google_service_account_json"], start, end,
+            config["gsc_property"],
+            secrets["gsc_client_id"],
+            secrets["gsc_client_secret"],
+            secrets["gsc_refresh_token"],
+            start, end,
         )
     except Exception as exc:
         print(f"GSC detector failed, skipping: {exc}")

@@ -24,9 +24,11 @@ def main():
         config = yaml.safe_load(f)
 
     secrets = {
-        "goatcounter_token":           os.environ.get("GOATCOUNTER_TOKEN", ""),
-        "google_service_account_json": os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON", ""),
-        "gh_token":                    os.environ["GH_TOKEN"],
+        "goatcounter_token": os.environ.get("GOATCOUNTER_TOKEN", ""),
+        "gsc_client_id":     os.environ.get("GSC_CLIENT_ID", ""),
+        "gsc_client_secret": os.environ.get("GSC_CLIENT_SECRET", ""),
+        "gsc_refresh_token": os.environ.get("GSC_REFRESH_TOKEN", ""),
+        "gh_token":          os.environ["GH_TOKEN"],
     }
 
     iso_week = datetime.now(timezone.utc).strftime("%Y-%W")
