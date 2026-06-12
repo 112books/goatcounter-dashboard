@@ -52,17 +52,6 @@ jobs:
             "$(date -d '365 days ago' +%Y-%m-%d)" \
             "$(date +%Y-%m-%d)"
 
-      - name: Debug llumatics token
-        env:
-          GC_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN_LLUMATICS }}
-        run: |
-          echo "Token set: $([[ -n "${GC_TOKEN}" ]] && echo YES || echo NO)"
-          echo "Token length: ${#GC_TOKEN}"
-          HTTP=$(curl -s -o /dev/null -w "%{http_code}" \
-            -H "Authorization: Bearer ${GC_TOKEN}" \
-            "https://llumatics.goatcounter.com/api/v0/stats/total?start=2026-06-01&end=2026-06-12")
-          echo "HTTP status: ${HTTP}"
-
       - name: Fetch llumatics analytics
         env:
           GC_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN_LLUMATICS }}
