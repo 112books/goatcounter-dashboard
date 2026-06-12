@@ -1,0 +1,654 @@
+{
+  "generated": "2026-06-12T07:13:48.875308Z",
+  "period": {
+    "start": "2025-06-12",
+    "end": "2026-06-12"
+  },
+  "total": 507,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-05-09",
+      "count": 21
+    },
+    {
+      "date": "2026-05-10",
+      "count": 42
+    },
+    {
+      "date": "2026-05-11",
+      "count": 18
+    },
+    {
+      "date": "2026-05-12",
+      "count": 7
+    },
+    {
+      "date": "2026-05-13",
+      "count": 11
+    },
+    {
+      "date": "2026-05-14",
+      "count": 4
+    },
+    {
+      "date": "2026-05-15",
+      "count": 37
+    },
+    {
+      "date": "2026-05-16",
+      "count": 15
+    },
+    {
+      "date": "2026-05-17",
+      "count": 4
+    },
+    {
+      "date": "2026-05-18",
+      "count": 1
+    },
+    {
+      "date": "2026-05-19",
+      "count": 3
+    },
+    {
+      "date": "2026-05-20",
+      "count": 11
+    },
+    {
+      "date": "2026-05-21",
+      "count": 23
+    },
+    {
+      "date": "2026-05-22",
+      "count": 26
+    },
+    {
+      "date": "2026-05-23",
+      "count": 8
+    },
+    {
+      "date": "2026-05-24",
+      "count": 9
+    },
+    {
+      "date": "2026-05-25",
+      "count": 13
+    },
+    {
+      "date": "2026-05-26",
+      "count": 3
+    },
+    {
+      "date": "2026-05-27",
+      "count": 11
+    },
+    {
+      "date": "2026-05-28",
+      "count": 6
+    },
+    {
+      "date": "2026-05-29",
+      "count": 13
+    },
+    {
+      "date": "2026-05-30",
+      "count": 5
+    },
+    {
+      "date": "2026-05-31",
+      "count": 16
+    },
+    {
+      "date": "2026-06-01",
+      "count": 15
+    },
+    {
+      "date": "2026-06-02",
+      "count": 24
+    },
+    {
+      "date": "2026-06-03",
+      "count": 51
+    },
+    {
+      "date": "2026-06-04",
+      "count": 18
+    },
+    {
+      "date": "2026-06-05",
+      "count": 23
+    },
+    {
+      "date": "2026-06-06",
+      "count": 2
+    },
+    {
+      "date": "2026-06-07",
+      "count": 10
+    },
+    {
+      "date": "2026-06-08",
+      "count": 8
+    },
+    {
+      "date": "2026-06-09",
+      "count": 12
+    },
+    {
+      "date": "2026-06-10",
+      "count": 29
+    },
+    {
+      "date": "2026-06-11",
+      "count": 8
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 136
+    },
+    {
+      "path": "/galeria",
+      "count": 42
+    },
+    {
+      "path": "/serveis",
+      "count": 37
+    },
+    {
+      "path": "/festivals",
+      "count": 28
+    },
+    {
+      "path": "/contacte",
+      "count": 23
+    },
+    {
+      "path": "/noticies",
+      "count": 20
+    },
+    {
+      "path": "/blog",
+      "count": 16
+    },
+    {
+      "path": "/qui-som",
+      "count": 13
+    },
+    {
+      "path": "/ca",
+      "count": 9
+    },
+    {
+      "path": "/festivals/calella-harmonica-festival",
+      "count": 8
+    },
+    {
+      "path": "/serveis-fotografics-2/books-per-actors-i-actrius",
+      "count": 8
+    },
+    {
+      "path": "/cerca",
+      "count": 8
+    },
+    {
+      "path": "/festivals/nou-barris-meets-new-orleans",
+      "count": 7
+    },
+    {
+      "path": "/obra",
+      "count": 6
+    },
+    {
+      "path": "/es/servicios-fotograficos/books-para-actores-y-actrices",
+      "count": 5
+    },
+    {
+      "path": "/festivals/carnestoltes-nou-barris",
+      "count": 5
+    },
+    {
+      "path": "/serveis/books-artistics",
+      "count": 4
+    },
+    {
+      "path": "/serveis/books-per-actors",
+      "count": 4
+    },
+    {
+      "path": "/contacte/politica-de-ptivacitat-avis-legal",
+      "count": 4
+    },
+    {
+      "path": "/festivals/im-jazz",
+      "count": 4
+    },
+    {
+      "path": "/en/content/photography-studio",
+      "count": 4
+    },
+    {
+      "path": "/sessio-amb-la-ballarina-nahomi-itzel",
+      "count": 4
+    },
+    {
+      "path": "/es/caffenol-una-tecnica-de-revelado-alternativa",
+      "count": 4
+    },
+    {
+      "path": "/festivals/flamenco-de-barrio",
+      "count": 4
+    },
+    {
+      "path": "/noticies/2026-06-la-juganera",
+      "count": 3
+    },
+    {
+      "path": "/festivals/vijazz",
+      "count": 3
+    },
+    {
+      "path": "/festivals/festival-blues-barcelona",
+      "count": 3
+    },
+    {
+      "path": "/on-veure-exposicions-de-fotografia-a-barcelona",
+      "count": 3
+    },
+    {
+      "path": "/ca/contacte",
+      "count": 3
+    },
+    {
+      "path": "/ca/galeria",
+      "count": 3
+    },
+    {
+      "path": "/legal/privacitat",
+      "count": 2
+    },
+    {
+      "path": "/en/serveis",
+      "count": 2
+    },
+    {
+      "path": "/festivals/mostra-de-circ",
+      "count": 2
+    },
+    {
+      "path": "/en",
+      "count": 2
+    },
+    {
+      "path": "/en/contacte",
+      "count": 2
+    },
+    {
+      "path": "/es/moviendo-las-imagenes-fijas",
+      "count": 2
+    },
+    {
+      "path": "/en/photography-services/photography-training",
+      "count": 2
+    },
+    {
+      "path": "/es/dr-roland-f-beers-paper-devoloper-revelador-para-papel-fotografico-de-altas-prestaciones",
+      "count": 2
+    },
+    {
+      "path": "/es/practicas-de-revelado-de-placas-de-8x10",
+      "count": 2
+    },
+    {
+      "path": "/festivals/picnic-de-blues",
+      "count": 2
+    },
+    {
+      "path": "/ca/qui-som",
+      "count": 2
+    },
+    {
+      "path": "/serveis-fotografics-2/fotografia-desdeveniments",
+      "count": 2
+    },
+    {
+      "path": "/es/revelado-de-pelicula-color-con-proceso-de-blanco-y-negro",
+      "count": 2
+    },
+    {
+      "path": "/es/probando-la-pelicula-adox-hr-50",
+      "count": 2
+    },
+    {
+      "path": "/es/guia-completa-de-exposiciones-y-espacios-fotograficos-en-barcelona",
+      "count": 2
+    },
+    {
+      "path": "/ca/noticies/2026-03-no-fem-fotos-concerts",
+      "count": 2
+    },
+    {
+      "path": "/ca/cerca",
+      "count": 2
+    },
+    {
+      "path": "/ca/blog",
+      "count": 2
+    },
+    {
+      "path": "/ca/festivals",
+      "count": 2
+    },
+    {
+      "path": "/en/blog",
+      "count": 2
+    }
+  ],
+  "by_lang": {
+    "ca": 31,
+    "es": 23,
+    "en": 23
+  },
+  "by_section": {
+    "inici": 147,
+    "galeria": 47,
+    "serveis": 56,
+    "festivals": 80,
+    "contacte": 32,
+    "noticies": 28,
+    "blog": 20,
+    "qui-som": 16,
+    "serveis-fotografics-2": 10,
+    "cerca": 10,
+    "obra": 7,
+    "servicios-fotograficos": 5,
+    "content": 4,
+    "sessio-amb-la-ballarina-nahomi-itzel": 4,
+    "caffenol-una-tecnica-de-revelado-alternativa": 4,
+    "on-veure-exposicions-de-fotografia-a-barcelona": 3,
+    "legal": 3,
+    "moviendo-las-imagenes-fijas": 2,
+    "photography-services": 3,
+    "dr-roland-f-beers-paper-devoloper-revelador-para-papel-fotografico-de-altas-prestaciones": 2,
+    "practicas-de-revelado-de-placas-de-8x10": 2,
+    "revelado-de-pelicula-color-con-proceso-de-blanco-y-negro": 2,
+    "probando-la-pelicula-adox-hr-50": 2,
+    "guia-completa-de-exposiciones-y-espacios-fotograficos-en-barcelona": 2,
+    "tag": 2,
+    "de-la-casualitat-a-la-creativitat-una-sessio-fotografica-amb-vestit-oriental": 1,
+    "retrats-per-comencar-lany-amb-bona-cara-i-millor-portfolio": 1,
+    "sessio-amb-eli": 1,
+    "hhh": 1,
+    "worldpinholeday-diana-f": 1,
+    "taller-de-tecniques-antigues-al-laboratori": 1,
+    "equip": 1,
+    "tags": 2,
+    "probando-la-nueva-daguerreotype-achromat-2964-art-lens-de-lomography": 1,
+    "wp-admin": 1,
+    "lomography-grans-fotografies-amb-cameres-senzilles": 1,
+    "sesion-con-la-bailarina-nahomi-itzel": 1,
+    "photographic-services": 1
+  },
+  "noticies_top": [
+    {
+      "path": "/noticies/2026-06-la-juganera",
+      "count": 3
+    },
+    {
+      "path": "/ca/noticies/2026-03-no-fem-fotos-concerts",
+      "count": 2
+    }
+  ],
+  "festivals_top": [
+    {
+      "path": "/festivals/calella-harmonica-festival",
+      "count": 8
+    },
+    {
+      "path": "/festivals/nou-barris-meets-new-orleans",
+      "count": 7
+    },
+    {
+      "path": "/festivals/carnestoltes-nou-barris",
+      "count": 5
+    },
+    {
+      "path": "/festivals/im-jazz",
+      "count": 4
+    },
+    {
+      "path": "/festivals/flamenco-de-barrio",
+      "count": 4
+    },
+    {
+      "path": "/festivals/vijazz",
+      "count": 3
+    },
+    {
+      "path": "/festivals/festival-blues-barcelona",
+      "count": 3
+    },
+    {
+      "path": "/festivals/mostra-de-circ",
+      "count": 2
+    },
+    {
+      "path": "/festivals/picnic-de-blues",
+      "count": 2
+    }
+  ],
+  "wizard_funnel": {
+    "wizard-s1": 7,
+    "wizard-s2": 14,
+    "wizard-s3": 5,
+    "wizard-s4": 4,
+    "wizard-sent": 3
+  },
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 279
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 259
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 13
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 10
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 350
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 76
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 57
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 43
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 31
+    },
+    {
+      "name": "Chrome OS",
+      "id": "Chrome OS",
+      "count": 4
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 198
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 183
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 110
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 70
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 486
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 40
+    },
+    {
+      "name": "Indonesia",
+      "id": "ID",
+      "count": 4
+    },
+    {
+      "name": "Germany",
+      "id": "DE",
+      "count": 3
+    },
+    {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 3
+    },
+    {
+      "name": "Sweden",
+      "id": "SE",
+      "count": 3
+    },
+    {
+      "name": "Singapore",
+      "id": "SG",
+      "count": 3
+    },
+    {
+      "name": "Argentina",
+      "id": "AR",
+      "count": 2
+    },
+    {
+      "name": "France",
+      "id": "FR",
+      "count": 2
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 2
+    },
+    {
+      "name": "Poland",
+      "id": "PL",
+      "count": 2
+    },
+    {
+      "name": "Zimbabwe",
+      "id": "ZW",
+      "count": 2
+    },
+    {
+      "name": "Bangladesh",
+      "id": "BD",
+      "count": 1
+    },
+    {
+      "name": "Switzerland",
+      "id": "CH",
+      "count": 1
+    },
+    {
+      "name": "Chile",
+      "id": "CL",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 119
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 48
+    },
+    {
+      "name": "blog.pocallum.cat",
+      "id": "blog.pocallum.cat",
+      "count": 5
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 4
+    },
+    {
+      "name": "bing.com",
+      "id": "bing.com",
+      "count": 3
+    },
+    {
+      "name": "www.bing.com",
+      "id": "www.bing.com",
+      "count": 2
+    },
+    {
+      "name": "about.pocallum.cat",
+      "id": "about.pocallum.cat",
+      "count": 2
+    },
+    {
+      "name": "112books.github.io",
+      "id": "112books.github.io",
+      "count": 2
+    },
+    {
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
+      "count": 1
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 1
+    }
+  ]
+}
