@@ -1,0 +1,183 @@
+{
+  "generated": "2026-06-12T10:21:25.820094Z",
+  "period": {
+    "start": "2025-06-12",
+    "end": "2026-06-12"
+  },
+  "total": 0,
+  "total_unique": 0,
+  "hits_by_day": [],
+  "hits": [],
+  "by_lang": {},
+  "by_section": {},
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 283
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 203
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 18
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 9
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 345
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 85
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 48
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 20
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 15
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 236
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 157
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 99
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 21
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 453
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 18
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 10
+    },
+    {
+      "name": "Germany",
+      "id": "DE",
+      "count": 4
+    },
+    {
+      "name": "Mexico",
+      "id": "MX",
+      "count": 3
+    },
+    {
+      "name": "Australia",
+      "id": "AU",
+      "count": 2
+    },
+    {
+      "name": "Canada",
+      "id": "CA",
+      "count": 2
+    },
+    {
+      "name": "France",
+      "id": "FR",
+      "count": 2
+    },
+    {
+      "name": "Italy",
+      "id": "IT",
+      "count": 2
+    },
+    {
+      "name": "Japan",
+      "id": "JP",
+      "count": 2
+    },
+    {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 2
+    },
+    {
+      "name": "Poland",
+      "id": "PL",
+      "count": 2
+    },
+    {
+      "name": "Portugal",
+      "id": "PT",
+      "count": 2
+    },
+    {
+      "name": "Russia",
+      "id": "RU",
+      "count": 2
+    },
+    {
+      "name": "Armenia",
+      "id": "AM",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 83
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 57
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 5
+    },
+    {
+      "name": "112books.github.io/llumatics-web/en/contacte",
+      "id": "112books.github.io/llumatics-web/en/contacte",
+      "count": 3
+    }
+  ]
+}
