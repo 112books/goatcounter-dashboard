@@ -36,13 +36,17 @@ def main():
     insights_dir  = "admin/insights"
     Path(insights_dir).mkdir(parents=True, exist_ok=True)
 
-    analytics_url = config.get("analytics_url")
+    analytics_url        = config.get("analytics_url")
+    analytics_local_path = config.get("analytics_local_path")
     if analytics_url:
         resp = http.get(analytics_url, timeout=15)
         resp.raise_for_status()
         analytics_path = "/tmp/analytics.json"
         Path(analytics_path).write_text(resp.text)
         print(f"Analytics descarregats: {analytics_url}")
+    elif analytics_local_path:
+        analytics_path = analytics_local_path
+        print(f"Analytics locals: {analytics_local_path}")
     else:
         analytics_path = "admin/analytics.json"
 

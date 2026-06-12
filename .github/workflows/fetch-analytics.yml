@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch analytics data
+      - name: Fetch pocallum analytics
         env:
           GC_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
           GC_ACCOUNT: "pocallum"
@@ -44,7 +44,7 @@ jobs:
 
           python3 scripts/build-analytics-json.py "${START}" "${END}"
 
-      - name: Process analytics
+      - name: Process pocallum analytics
         run: |
           python3 scripts/process-analytics.py \
             /tmp/raw_all.json \
@@ -52,11 +52,50 @@ jobs:
             "$(date -d '365 days ago' +%Y-%m-%d)" \
             "$(date +%Y-%m-%d)"
 
+      - name: Fetch llumatics analytics
+        env:
+          GC_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN_LLUMATICS }}
+          GC_ACCOUNT: "llumatics"
+        run: |
+          END=$(date +%Y-%m-%d)
+          START=$(date -d '365 days ago' +%Y-%m-%d)
+          BASE="https://${GC_ACCOUNT}.goatcounter.com/api/v0"
+          AUTH="Authorization: Bearer ${GC_TOKEN}"
+
+          fetch_json() {
+            local url="$1"
+            local result
+            result=$(curl -s --max-time 15 --retry 2 -H "${AUTH}" "${url}" 2>/dev/null) || true
+            if echo "${result}" | python3 -c "import sys,json; json.load(sys.stdin)" 2>/dev/null; then
+              echo "${result}"
+            else
+              echo "null"
+            fi
+          }
+
+          fetch_json "${BASE}/stats/hits?start=${START}&end=${END}&limit=100"     > /tmp/hits.json
+          fetch_json "${BASE}/stats/total?start=${START}&end=${END}"              > /tmp/total.json
+          fetch_json "${BASE}/stats/browsers?start=${START}&end=${END}&limit=10"  > /tmp/browsers.json
+          fetch_json "${BASE}/stats/systems?start=${START}&end=${END}&limit=10"   > /tmp/systems.json
+          fetch_json "${BASE}/stats/sizes?start=${START}&end=${END}&limit=10"     > /tmp/sizes.json
+          fetch_json "${BASE}/stats/locations?start=${START}&end=${END}&limit=15" > /tmp/locations.json
+          fetch_json "${BASE}/stats/toprefs?start=${START}&end=${END}&limit=10"   > /tmp/refs.json
+
+          python3 scripts/build-analytics-json.py "${START}" "${END}"
+
+      - name: Process llumatics analytics
+        run: |
+          python3 scripts/process-analytics.py \
+            /tmp/raw_all.json \
+            admin/analytics-llumatics.com.json \
+            "$(date -d '365 days ago' +%Y-%m-%d)" \
+            "$(date +%Y-%m-%d)"
+
       - name: Commit analytics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add admin/analytics.json
+          git add admin/analytics.json admin/analytics-llumatics.com.json
           git diff --staged --quiet || git commit -m "chore: update analytics [skip ci]"
           git pull --rebase
           git push
