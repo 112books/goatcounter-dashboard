@@ -31,10 +31,12 @@ def main():
         "gh_token":          os.environ["GH_TOKEN"],
     }
 
-    iso_week = datetime.now(timezone.utc).strftime("%Y-%W")
-    snapshots_dir = "admin/snapshots"
-    insights_dir  = "admin/insights"
+    iso_week  = datetime.now(timezone.utc).strftime("%Y-%W")
+    site_slug = config.get("site", "site").replace(".", "-")
+    snapshots_dir = f"admin/snapshots/{site_slug}"
+    insights_dir  = f"admin/insights/{site_slug}"
     Path(insights_dir).mkdir(parents=True, exist_ok=True)
+    Path(snapshots_dir).mkdir(parents=True, exist_ok=True)
 
     analytics_url        = config.get("analytics_url")
     analytics_local_path = config.get("analytics_local_path")
