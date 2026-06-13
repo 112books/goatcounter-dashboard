@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-12T23:12:37.283174Z",
+  "generated": "2026-06-13T02:52:34.606125Z",
   "period": {
-    "start": "2025-06-12",
-    "end": "2026-06-12"
+    "start": "2025-06-13",
+    "end": "2026-06-13"
   },
-  "total": 504,
+  "total": 506,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -158,12 +158,16 @@
     {
       "date": "2026-06-11",
       "count": 7
+    },
+    {
+      "date": "2026-06-12",
+      "count": 2
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 98
+      "count": 100
     },
     {
       "path": "/tallers",
@@ -287,7 +291,7 @@
     "en": 53
   },
   "by_section": {
-    "inici": 124,
+    "inici": 126,
     "tallers": 200,
     "agenda": 34,
     "contacte": 29,
