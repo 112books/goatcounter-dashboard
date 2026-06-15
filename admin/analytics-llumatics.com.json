@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-14T23:03:40.175117Z",
+  "generated": "2026-06-15T03:39:27.410839Z",
   "period": {
-    "start": "2025-06-14",
-    "end": "2026-06-14"
+    "start": "2025-06-15",
+    "end": "2026-06-15"
   },
-  "total": 506,
+  "total": 507,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -166,12 +166,16 @@
     {
       "date": "2026-06-13",
       "count": 1
+    },
+    {
+      "date": "2026-06-14",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 100
+      "count": 101
     },
     {
       "path": "/tallers",
@@ -295,7 +299,7 @@
     "en": 54
   },
   "by_section": {
-    "inici": 126,
+    "inici": 127,
     "tallers": 201,
     "agenda": 34,
     "contacte": 29,
@@ -461,7 +465,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 83
+      "count": 84
     },
     {
       "name": "Google",
