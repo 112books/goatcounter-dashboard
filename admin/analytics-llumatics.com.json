@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-15T22:14:19.464175Z",
+  "generated": "2026-06-16T00:26:34.787399Z",
   "period": {
-    "start": "2025-06-15",
-    "end": "2026-06-15"
+    "start": "2025-06-16",
+    "end": "2026-06-16"
   },
-  "total": 507,
+  "total": 516,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -170,16 +170,24 @@
     {
       "date": "2026-06-14",
       "count": 1
+    },
+    {
+      "date": "2026-06-15",
+      "count": 8
+    },
+    {
+      "date": "2026-06-16",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 101
+      "count": 104
     },
     {
       "path": "/tallers",
-      "count": 59
+      "count": 61
     },
     {
       "path": "/agenda",
@@ -214,11 +222,11 @@
       "count": 10
     },
     {
-      "path": "/tallers/fonaments-iniciacio-puntual",
-      "count": 8
+      "path": "/en",
+      "count": 9
     },
     {
-      "path": "/en",
+      "path": "/tallers/fonaments-iniciacio-puntual",
       "count": 8
     },
     {
@@ -228,6 +236,10 @@
     {
       "path": "/en/espais",
       "count": 7
+    },
+    {
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 6
     },
     {
       "path": "/es/agenda",
@@ -242,7 +254,7 @@
       "count": 6
     },
     {
-      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "path": "/tallers/fotogrames-cianotipia",
       "count": 5
     },
     {
@@ -278,10 +290,6 @@
       "count": 4
     },
     {
-      "path": "/tallers/fotogrames-cianotipia",
-      "count": 4
-    },
-    {
       "path": "/tallers/fotografia-estenopeica",
       "count": 4
     },
@@ -295,18 +303,18 @@
     }
   ],
   "by_lang": {
-    "es": 98,
-    "en": 54
+    "es": 99,
+    "en": 55
   },
   "by_section": {
-    "inici": 127,
-    "tallers": 201,
+    "inici": 131,
+    "tallers": 205,
     "agenda": 34,
     "contacte": 29,
     "regala": 22,
     "espais": 27,
     "llumatics-web": 14,
-    "blog": 41,
+    "blog": 42,
     "gracies": 4,
     "sobre": 5,
     "confirmat": 1,
@@ -327,7 +335,7 @@
     {
       "name": "Firefox",
       "id": "Firefox",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Desconegut",
@@ -359,7 +367,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 15
+      "count": 16
     }
   ],
   "sizes": [
@@ -376,7 +384,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 105
+      "count": 106
     },
     {
       "name": "tablet",
@@ -408,7 +416,7 @@
     {
       "name": "Mexico",
       "id": "MX",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Netherlands",
@@ -465,12 +473,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 84
+      "count": 85
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 58
+      "count": 62
     },
     {
       "name": "ig",
