@@ -33,22 +33,25 @@ def main():
 
     iso_week  = datetime.now(timezone.utc).strftime("%Y-%W")
     site_slug = config.get("site", "site").replace(".", "-")
-    snapshots_dir = f"admin/snapshots/{site_slug}"
-    insights_dir  = f"admin/insights/{site_slug}"
+    snapshots_dir = config.get("snapshots_dir", f"admin/snapshots/{site_slug}")
+    insights_dir  = config.get("insights_dir",  f"admin/insights/{site_slug}")
     Path(insights_dir).mkdir(parents=True, exist_ok=True)
     Path(snapshots_dir).mkdir(parents=True, exist_ok=True)
 
-    analytics_url        = config.get("analytics_url")
-    analytics_local_path = config.get("analytics_local_path")
+    analytics_url = config.get("analytics_url")
     if analytics_url:
         resp = http.get(analytics_url, timeout=15)
         resp.raise_for_status()
         analytics_path = "/tmp/analytics.json"
         Path(analytics_path).write_text(resp.text)
         print(f"Analytics descarregats: {analytics_url}")
-    elif analytics_local_path:
-        analytics_path = analytics_local_path
-        print(f"Analytics locals: {analytics_local_path}")
+    elif config.get("goatcounter_fetch"):
+        from scripts.fetch_goatcounter_analytics import fetch_analytics
+        print(f"Fetching GoatCounter analytics per {config['goatcounter_site']}...")
+        data = fetch_analytics(config["goatcounter_site"], secrets["goatcounter_token"])
+        analytics_path = "/tmp/analytics.json"
+        Path(analytics_path).write_text(json.dumps(data, ensure_ascii=False))
+        print(f"Analytics obtinguts: {data['total']} visites ({data['period']['start']} → {data['period']['end']})")
     else:
         analytics_path = "admin/analytics.json"
 
