@@ -1,156 +1,12 @@
 {
-  "generated": "2026-06-15T09:57:25.978717Z",
+  "generated": "2026-06-17T06:36:45.841227Z",
   "period": {
-    "start": "2025-06-15",
-    "end": "2026-06-15"
+    "start": "2026-06-10",
+    "end": "2026-06-16"
   },
-  "total": 507,
+  "total": 26,
   "total_unique": 0,
   "hits_by_day": [
-    {
-      "date": "2026-05-02",
-      "count": 16
-    },
-    {
-      "date": "2026-05-03",
-      "count": 19
-    },
-    {
-      "date": "2026-05-04",
-      "count": 31
-    },
-    {
-      "date": "2026-05-05",
-      "count": 13
-    },
-    {
-      "date": "2026-05-06",
-      "count": 6
-    },
-    {
-      "date": "2026-05-07",
-      "count": 6
-    },
-    {
-      "date": "2026-05-08",
-      "count": 8
-    },
-    {
-      "date": "2026-05-09",
-      "count": 16
-    },
-    {
-      "date": "2026-05-10",
-      "count": 6
-    },
-    {
-      "date": "2026-05-11",
-      "count": 27
-    },
-    {
-      "date": "2026-05-12",
-      "count": 1
-    },
-    {
-      "date": "2026-05-13",
-      "count": 1
-    },
-    {
-      "date": "2026-05-15",
-      "count": 3
-    },
-    {
-      "date": "2026-05-17",
-      "count": 1
-    },
-    {
-      "date": "2026-05-18",
-      "count": 2
-    },
-    {
-      "date": "2026-05-19",
-      "count": 13
-    },
-    {
-      "date": "2026-05-20",
-      "count": 8
-    },
-    {
-      "date": "2026-05-21",
-      "count": 22
-    },
-    {
-      "date": "2026-05-22",
-      "count": 35
-    },
-    {
-      "date": "2026-05-23",
-      "count": 50
-    },
-    {
-      "date": "2026-05-24",
-      "count": 12
-    },
-    {
-      "date": "2026-05-25",
-      "count": 41
-    },
-    {
-      "date": "2026-05-26",
-      "count": 19
-    },
-    {
-      "date": "2026-05-27",
-      "count": 16
-    },
-    {
-      "date": "2026-05-28",
-      "count": 9
-    },
-    {
-      "date": "2026-05-29",
-      "count": 37
-    },
-    {
-      "date": "2026-05-30",
-      "count": 12
-    },
-    {
-      "date": "2026-05-31",
-      "count": 7
-    },
-    {
-      "date": "2026-06-01",
-      "count": 11
-    },
-    {
-      "date": "2026-06-02",
-      "count": 9
-    },
-    {
-      "date": "2026-06-03",
-      "count": 7
-    },
-    {
-      "date": "2026-06-04",
-      "count": 6
-    },
-    {
-      "date": "2026-06-05",
-      "count": 8
-    },
-    {
-      "date": "2026-06-07",
-      "count": 4
-    },
-    {
-      "date": "2026-06-08",
-      "count": 4
-    },
-    {
-      "date": "2026-06-09",
-      "count": 4
-    },
     {
       "date": "2026-06-10",
       "count": 6
@@ -170,275 +26,143 @@
     {
       "date": "2026-06-14",
       "count": 1
+    },
+    {
+      "date": "2026-06-15",
+      "count": 8
+    },
+    {
+      "date": "2026-06-16",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 101
+      "count": 11
     },
     {
       "path": "/tallers",
-      "count": 59
-    },
-    {
-      "path": "/agenda",
-      "count": 20
-    },
-    {
-      "path": "/contacte",
-      "count": 18
-    },
-    {
-      "path": "/regala",
-      "count": 15
-    },
-    {
-      "path": "/es/tallers",
-      "count": 15
-    },
-    {
-      "path": "/es",
-      "count": 15
-    },
-    {
-      "path": "/espais",
-      "count": 14
-    },
-    {
-      "path": "/tallers/iniciacio-revelat",
-      "count": 12
-    },
-    {
-      "path": "/llumatics-web",
-      "count": 10
-    },
-    {
-      "path": "/tallers/fonaments-iniciacio-puntual",
-      "count": 8
-    },
-    {
-      "path": "/en",
-      "count": 8
-    },
-    {
-      "path": "/tallers/digitalitzacio-escaner",
-      "count": 7
-    },
-    {
-      "path": "/en/espais",
-      "count": 7
-    },
-    {
-      "path": "/es/agenda",
-      "count": 6
-    },
-    {
-      "path": "/es/espais",
-      "count": 6
-    },
-    {
-      "path": "/tallers/retrat-6x6",
-      "count": 6
-    },
-    {
-      "path": "/es/blog/caffenol-revelar-amb-cafe",
-      "count": 5
-    },
-    {
-      "path": "/tallers/introduccio-al-positivat",
-      "count": 5
-    },
-    {
-      "path": "/blog/positivador-app",
-      "count": 5
-    },
-    {
-      "path": "/en/contacte",
-      "count": 5
-    },
-    {
-      "path": "/es/contacte",
-      "count": 5
-    },
-    {
-      "path": "/tallers/guinneol",
-      "count": 4
-    },
-    {
-      "path": "/tallers/revelats-experimentals",
-      "count": 4
-    },
-    {
-      "path": "/es/regala",
-      "count": 4
-    },
-    {
-      "path": "/tallers/cianotipia",
       "count": 4
     },
     {
       "path": "/tallers/fotogrames-cianotipia",
-      "count": 4
+      "count": 2
     },
     {
-      "path": "/tallers/fotografia-estenopeica",
-      "count": 4
+      "path": "/en/tallers/introduccio-gran-format",
+      "count": 1
     },
     {
-      "path": "/es/blog",
-      "count": 4
+      "path": "/tallers/retrat-analogic",
+      "count": 1
     },
     {
-      "path": "/es/tallers/digitalitzacio-escaner",
-      "count": 4
+      "path": "/tallers/cianotipia",
+      "count": 1
+    },
+    {
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 1
+    },
+    {
+      "path": "/tallers/iniciacio-revelat",
+      "count": 1
+    },
+    {
+      "path": "/tallers/digitalitzacio-escaner",
+      "count": 1
+    },
+    {
+      "path": "/regala",
+      "count": 1
+    },
+    {
+      "path": "/tallers/revelat-bn",
+      "count": 1
+    },
+    {
+      "path": "/en",
+      "count": 1
     }
   ],
-  "by_lang": {
-    "es": 98,
-    "en": 54
-  },
   "by_section": {
-    "inici": 127,
-    "tallers": 201,
-    "agenda": 34,
-    "contacte": 29,
-    "regala": 22,
-    "espais": 27,
-    "llumatics-web": 14,
-    "blog": 41,
-    "gracies": 4,
-    "sobre": 5,
-    "confirmat": 1,
-    "tags": 1,
-    "levels": 1
+    "inici": 12,
+    "tallers": 12,
+    "blog": 1,
+    "regala": 1
   },
   "browsers": [
     {
-      "name": "Safari",
-      "id": "Safari",
-      "count": 287
-    },
-    {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 204
+      "count": 21
     },
     {
-      "name": "Firefox",
-      "id": "Firefox",
-      "count": 19
+      "name": "Safari",
+      "id": "Safari",
+      "count": 9
     },
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 9
+      "count": 2
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 2
     }
   ],
   "systems": [
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 347
-    },
-    {
-      "name": "iOS",
-      "id": "iOS",
-      "count": 87
+      "count": 16
     },
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 49
+      "count": 7
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 6
     },
     {
       "name": "Linux",
       "id": "Linux",
-      "count": 21
+      "count": 3
     },
     {
       "name": "Android",
       "id": "Android",
-      "count": 15
+      "count": 2
     }
   ],
   "sizes": [
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 239
-    },
-    {
-      "name": "desktophd",
-      "id": "desktophd",
-      "count": 158
+      "count": 24
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 101
+      "count": 8
     },
     {
-      "name": "tablet",
-      "id": "tablet",
-      "count": 21
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 2
     }
   ],
   "locations": [
     {
       "name": "Spain",
       "id": "ES",
-      "count": 457
-    },
-    {
-      "name": "United States",
-      "id": "US",
-      "count": 19
-    },
-    {
-      "name": "United Kingdom",
-      "id": "GB",
-      "count": 10
-    },
-    {
-      "name": "Germany",
-      "id": "DE",
-      "count": 4
-    },
-    {
-      "name": "Mexico",
-      "id": "MX",
-      "count": 3
-    },
-    {
-      "name": "Russia",
-      "id": "RU",
-      "count": 3
-    },
-    {
-      "name": "Australia",
-      "id": "AU",
-      "count": 2
-    },
-    {
-      "name": "Canada",
-      "id": "CA",
-      "count": 2
-    },
-    {
-      "name": "France",
-      "id": "FR",
-      "count": 2
-    },
-    {
-      "name": "Italy",
-      "id": "IT",
-      "count": 2
-    },
-    {
-      "name": "Japan",
-      "id": "JP",
-      "count": 2
+      "count": 28
     },
     {
       "name": "Netherlands",
@@ -446,18 +170,23 @@
       "count": 2
     },
     {
-      "name": "Poland",
-      "id": "PL",
-      "count": 2
+      "name": "Czechia",
+      "id": "CZ",
+      "count": 1
     },
     {
-      "name": "Portugal",
-      "id": "PT",
-      "count": 2
+      "name": "Mexico",
+      "id": "MX",
+      "count": 1
     },
     {
-      "name": "Armenia",
-      "id": "AM",
+      "name": "Russia",
+      "id": "RU",
+      "count": 1
+    },
+    {
+      "name": "United States",
+      "id": "US",
       "count": 1
     }
   ],
@@ -465,22 +194,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 84
+      "count": 7
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 58
-    },
-    {
-      "name": "ig",
-      "id": "ig",
       "count": 5
-    },
-    {
-      "name": "112books.github.io/llumatics-web/en/contacte",
-      "id": "112books.github.io/llumatics-web/en/contacte",
-      "count": 3
     }
   ]
 }
