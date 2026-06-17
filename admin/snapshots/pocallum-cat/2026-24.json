@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-15T12:58:18.467243Z",
+  "generated": "2026-06-17T06:01:00.685287Z",
   "period": {
-    "start": "2025-06-15",
-    "end": "2026-06-15"
+    "start": "2025-06-17",
+    "end": "2026-06-17"
   },
-  "total": 524,
+  "total": 548,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "date": "2026-05-10",
-      "count": 42
+      "count": 43
     },
     {
       "date": "2026-05-11",
@@ -33,11 +33,11 @@
     },
     {
       "date": "2026-05-15",
-      "count": 32
+      "count": 31
     },
     {
       "date": "2026-05-16",
-      "count": 15
+      "count": 14
     },
     {
       "date": "2026-05-17",
@@ -57,7 +57,7 @@
     },
     {
       "date": "2026-05-21",
-      "count": 23
+      "count": 21
     },
     {
       "date": "2026-05-22",
@@ -73,7 +73,7 @@
     },
     {
       "date": "2026-05-25",
-      "count": 13
+      "count": 10
     },
     {
       "date": "2026-05-26",
@@ -154,24 +154,32 @@
     {
       "date": "2026-06-14",
       "count": 11
+    },
+    {
+      "date": "2026-06-15",
+      "count": 21
+    },
+    {
+      "date": "2026-06-16",
+      "count": 9
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 144
+      "count": 150
     },
     {
       "path": "/galeria",
-      "count": 44
+      "count": 50
     },
     {
       "path": "/serveis",
-      "count": 37
+      "count": 39
     },
     {
       "path": "/festivals",
-      "count": 29
+      "count": 30
     },
     {
       "path": "/contacte",
@@ -179,11 +187,11 @@
     },
     {
       "path": "/noticies",
-      "count": 20
+      "count": 22
     },
     {
       "path": "/blog",
-      "count": 19
+      "count": 20
     },
     {
       "path": "/qui-som",
@@ -206,12 +214,16 @@
       "count": 8
     },
     {
+      "path": "/obra",
+      "count": 7
+    },
+    {
       "path": "/festivals/nou-barris-meets-new-orleans",
       "count": 7
     },
     {
-      "path": "/obra",
-      "count": 6
+      "path": "/serveis/books-per-actors",
+      "count": 5
     },
     {
       "path": "/es/servicios-fotograficos/books-para-actores-y-actrices",
@@ -227,10 +239,6 @@
     },
     {
       "path": "/serveis/books-artistics",
-      "count": 4
-    },
-    {
-      "path": "/serveis/books-per-actors",
       "count": 4
     },
     {
@@ -262,6 +270,10 @@
       "count": 3
     },
     {
+      "path": "/en",
+      "count": 3
+    },
+    {
       "path": "/festivals/vijazz",
       "count": 3
     },
@@ -286,15 +298,19 @@
       "count": 3
     },
     {
+      "path": "/noticies/guia-exposicions-espais-fotografics-barcelona",
+      "count": 2
+    },
+    {
+      "path": "/serveis/concerts",
+      "count": 2
+    },
+    {
       "path": "/en/serveis",
       "count": 2
     },
     {
       "path": "/festivals/mostra-de-circ",
-      "count": 2
-    },
-    {
-      "path": "/en",
       "count": 2
     },
     {
@@ -338,43 +354,35 @@
       "count": 2
     },
     {
+      "path": "/en/comprehensive-guide-to-photography-exhibitions-and-spaces-in-barcelona",
+      "count": 2
+    },
+    {
       "path": "/ca/noticies/2026-03-no-fem-fotos-concerts",
       "count": 2
     },
     {
       "path": "/ca/cerca",
       "count": 2
-    },
-    {
-      "path": "/ca/blog",
-      "count": 2
-    },
-    {
-      "path": "/ca/festivals",
-      "count": 2
-    },
-    {
-      "path": "/en/blog",
-      "count": 2
     }
   ],
   "by_lang": {
-    "ca": 28,
-    "es": 23,
-    "en": 28
+    "ca": 26,
+    "es": 24,
+    "en": 34
   },
   "by_section": {
-    "inici": 155,
-    "galeria": 49,
-    "serveis": 55,
-    "festivals": 81,
+    "inici": 162,
+    "galeria": 55,
+    "serveis": 59,
+    "festivals": 78,
     "contacte": 32,
-    "noticies": 26,
-    "blog": 23,
+    "noticies": 31,
+    "blog": 24,
     "qui-som": 16,
     "serveis-fotografics-2": 10,
     "cerca": 10,
-    "obra": 7,
+    "obra": 9,
     "servicios-fotograficos": 5,
     "legal": 5,
     "content": 4,
@@ -388,6 +396,10 @@
     "practicas-de-revelado-de-placas-de-8x10": 2,
     "revelado-de-pelicula-color-con-proceso-de-blanco-y-negro": 2,
     "probando-la-pelicula-adox-hr-50": 2,
+    "comprehensive-guide-to-photography-exhibitions-and-spaces-in-barcelona": 2,
+    "a-different-perspective-analog-photography-with-personality-and-mystery": 1,
+    "from-chance-to-creativity-a-photo-shoot-with-an-oriental-dress": 1,
+    "guia-completa-de-exposiciones-y-espacios-fotograficos-en-barcelona%60": 1,
     "testing-vintage-cameras": 1,
     "flamenco-i-baixa-velocitat-3": 1,
     "forced-tests-sample-photographs": 1,
@@ -401,15 +413,17 @@
     "worldpinholeday-diana-f": 1,
     "taller-de-tecniques-antigues-al-laboratori": 1,
     "equip": 1,
-    "tags": 2,
-    "probando-la-nueva-daguerreotype-achromat-2964-art-lens-de-lomography": 1,
-    "wp-admin": 1,
-    "lomography-grans-fotografies-amb-cameres-senzilles": 1
+    "tags": 1,
+    "probando-la-nueva-daguerreotype-achromat-2964-art-lens-de-lomography": 1
   },
   "noticies_top": [
     {
       "path": "/noticies/2026-06-la-juganera",
       "count": 3
+    },
+    {
+      "path": "/noticies/guia-exposicions-espais-fotografics-barcelona",
+      "count": 2
     },
     {
       "path": "/ca/noticies/2026-03-no-fem-fotos-concerts",
@@ -465,49 +479,49 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 290
+      "count": 300
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 272
+      "count": 281
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 16
     },
     {
       "name": "Desconegut",
       "id": "Desconegut",
       "count": 15
-    },
-    {
-      "name": "Firefox",
-      "id": "Firefox",
-      "count": 10
     }
   ],
   "systems": [
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 358
+      "count": 372
     },
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 84
+      "count": 85
     },
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 63
+      "count": 66
     },
     {
       "name": "Android",
       "id": "Android",
-      "count": 44
+      "count": 45
     },
     {
       "name": "Linux",
       "id": "Linux",
-      "count": 34
+      "count": 40
     },
     {
       "name": "Chrome OS",
@@ -519,17 +533,17 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 209
+      "count": 224
     },
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 187
+      "count": 196
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 119
+      "count": 120
     },
     {
       "name": "tablet",
@@ -541,7 +555,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 506
+      "count": 528
     },
     {
       "name": "United States",
@@ -554,18 +568,23 @@
       "count": 4
     },
     {
+      "name": "Sweden",
+      "id": "SE",
+      "count": 4
+    },
+    {
       "name": "Germany",
       "id": "DE",
       "count": 3
     },
     {
-      "name": "Netherlands",
-      "id": "NL",
+      "name": "Malaysia",
+      "id": "MY",
       "count": 3
     },
     {
-      "name": "Sweden",
-      "id": "SE",
+      "name": "Netherlands",
+      "id": "NL",
       "count": 3
     },
     {
@@ -586,11 +605,6 @@
     {
       "name": "United Kingdom",
       "id": "GB",
-      "count": 2
-    },
-    {
-      "name": "Malaysia",
-      "id": "MY",
       "count": 2
     },
     {
@@ -618,12 +632,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 128
+      "count": 134
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 49
+      "count": 51
     },
     {
       "name": "blog.pocallum.cat",
@@ -656,13 +670,13 @@
       "count": 2
     },
     {
-      "name": "duckduckgo.com",
-      "id": "duckduckgo.com",
-      "count": 1
+      "name": "pocallum-cat.translate.goog",
+      "id": "pocallum-cat.translate.goog",
+      "count": 2
     },
     {
-      "name": "ig",
-      "id": "ig",
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
       "count": 1
     }
   ]
