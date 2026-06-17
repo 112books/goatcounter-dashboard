@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-16T23:20:04.852857Z",
+  "generated": "2026-06-17T03:33:06.222243Z",
   "period": {
-    "start": "2025-06-16",
-    "end": "2026-06-16"
+    "start": "2025-06-17",
+    "end": "2026-06-17"
   },
-  "total": 516,
+  "total": 523,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "date": "2026-05-06",
-      "count": 6
+      "count": 5
     },
     {
       "date": "2026-05-07",
@@ -177,13 +177,17 @@
     },
     {
       "date": "2026-06-16",
-      "count": 1
+      "count": 6
+    },
+    {
+      "date": "2026-06-17",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 104
+      "count": 106
     },
     {
       "path": "/tallers",
@@ -195,18 +199,18 @@
     },
     {
       "path": "/contacte",
-      "count": 18
+      "count": 19
     },
     {
       "path": "/regala",
-      "count": 15
-    },
-    {
-      "path": "/es/tallers",
-      "count": 15
+      "count": 16
     },
     {
       "path": "/es",
+      "count": 16
+    },
+    {
+      "path": "/es/tallers",
       "count": 15
     },
     {
@@ -223,7 +227,7 @@
     },
     {
       "path": "/en",
-      "count": 9
+      "count": 10
     },
     {
       "path": "/tallers/fonaments-iniciacio-puntual",
@@ -255,6 +259,10 @@
     },
     {
       "path": "/tallers/fotogrames-cianotipia",
+      "count": 5
+    },
+    {
+      "path": "/es/blog",
       "count": 5
     },
     {
@@ -294,32 +302,27 @@
       "count": 4
     },
     {
-      "path": "/es/blog",
-      "count": 4
-    },
-    {
       "path": "/es/tallers/digitalitzacio-escaner",
       "count": 4
     }
   ],
   "by_lang": {
-    "es": 99,
-    "en": 55
+    "es": 100,
+    "en": 57
   },
   "by_section": {
-    "inici": 131,
-    "tallers": 205,
+    "inici": 135,
+    "tallers": 206,
     "agenda": 34,
-    "contacte": 29,
-    "regala": 22,
+    "contacte": 30,
+    "regala": 23,
     "espais": 27,
     "llumatics-web": 14,
-    "blog": 42,
+    "blog": 43,
     "gracies": 4,
     "sobre": 5,
     "confirmat": 1,
-    "tags": 1,
-    "levels": 1
+    "tags": 1
   },
   "browsers": [
     {
@@ -473,12 +476,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 85
+      "count": 87
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 62
+      "count": 63
     },
     {
       "name": "ig",
