@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T06:42:39.445305Z",
+  "generated": "2026-06-24T10:18:22.106688Z",
   "period": {
     "start": "2025-06-24",
     "end": "2026-06-24"
@@ -341,17 +341,17 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 297
+      "count": 300
     },
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 222
+      "count": 224
     },
     {
       "name": "Firefox",
       "id": "Firefox",
-      "count": 21
+      "count": 23
     },
     {
       "name": "Desconegut",
@@ -368,12 +368,12 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 96
+      "count": 99
     },
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 56
+      "count": 60
     },
     {
       "name": "Linux",
@@ -390,7 +390,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 254
+      "count": 257
     },
     {
       "name": "desktophd",
@@ -405,7 +405,7 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 25
+      "count": 29
     }
   ],
   "locations": [
@@ -417,7 +417,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 24
+      "count": 29
     },
     {
       "name": "United Kingdom",
@@ -432,6 +432,11 @@
     {
       "name": "Mexico",
       "id": "MX",
+      "count": 4
+    },
+    {
+      "name": "Poland",
+      "id": "PL",
       "count": 4
     },
     {
@@ -472,11 +477,6 @@
     {
       "name": "Japan",
       "id": "JP",
-      "count": 2
-    },
-    {
-      "name": "Poland",
-      "id": "PL",
       "count": 2
     },
     {
