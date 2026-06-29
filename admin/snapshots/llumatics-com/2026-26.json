@@ -1,0 +1,132 @@
+{
+  "generated": "2026-06-29T11:53:45.851620Z",
+  "period": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "total": 0,
+  "total_unique": 0,
+  "hits_by_day": [],
+  "hits": [],
+  "by_section": {},
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 10
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 5
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 3
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 2
+    }
+  ],
+  "systems": [
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 10
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 5
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 3
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 1
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 1
+    }
+  ],
+  "sizes": [
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 9
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 8
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 3
+    }
+  ],
+  "locations": [
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 9
+    },
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 6
+    },
+    {
+      "name": "Poland",
+      "id": "PL",
+      "count": 2
+    },
+    {
+      "name": "India",
+      "id": "IN",
+      "count": 1
+    },
+    {
+      "name": "Cambodia",
+      "id": "KH",
+      "count": 1
+    },
+    {
+      "name": "Singapore",
+      "id": "SG",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 13
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 2
+    },
+    {
+      "name": "bing.com",
+      "id": "bing.com",
+      "count": 1
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 1
+    }
+  ]
+}
