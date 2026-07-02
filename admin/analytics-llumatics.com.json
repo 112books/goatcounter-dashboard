@@ -1,15 +1,15 @@
 {
-  "generated": "2026-07-01T23:08:38.637513Z",
+  "generated": "2026-07-02T02:46:07.601308Z",
   "period": {
-    "start": "2025-07-01",
-    "end": "2026-07-01"
+    "start": "2025-07-02",
+    "end": "2026-07-02"
   },
-  "total": 563,
+  "total": 581,
   "total_unique": 0,
   "hits_by_day": [
     {
       "date": "2026-05-02",
-      "count": 16
+      "count": 17
     },
     {
       "date": "2026-05-03",
@@ -69,19 +69,19 @@
     },
     {
       "date": "2026-05-19",
-      "count": 13
+      "count": 11
     },
     {
       "date": "2026-05-20",
-      "count": 8
+      "count": 5
     },
     {
       "date": "2026-05-21",
-      "count": 22
+      "count": 20
     },
     {
       "date": "2026-05-22",
-      "count": 35
+      "count": 34
     },
     {
       "date": "2026-05-23",
@@ -218,20 +218,28 @@
     {
       "date": "2026-06-30",
       "count": 3
+    },
+    {
+      "date": "2026-07-01",
+      "count": 20
+    },
+    {
+      "date": "2026-07-02",
+      "count": 5
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 128
+      "count": 129
     },
     {
       "path": "/tallers",
-      "count": 62
+      "count": 64
     },
     {
       "path": "/agenda",
-      "count": 20
+      "count": 21
     },
     {
       "path": "/contacte",
@@ -266,6 +274,14 @@
       "count": 10
     },
     {
+      "path": "/es/blog",
+      "count": 10
+    },
+    {
+      "path": "/blog",
+      "count": 10
+    },
+    {
       "path": "/tallers/fonaments-iniciacio-puntual",
       "count": 8
     },
@@ -283,10 +299,6 @@
     },
     {
       "path": "/es/agenda",
-      "count": 6
-    },
-    {
-      "path": "/es/blog",
       "count": 6
     },
     {
@@ -336,30 +348,26 @@
     {
       "path": "/tallers/guinneol",
       "count": 4
-    },
-    {
-      "path": "/tallers/revelats-experimentals",
-      "count": 4
     }
   ],
   "by_lang": {
-    "es": 101,
-    "en": 65
+    "es": 107,
+    "en": 64
   },
   "by_section": {
-    "inici": 159,
-    "tallers": 220,
-    "agenda": 34,
+    "inici": 160,
+    "tallers": 226,
+    "agenda": 32,
     "contacte": 29,
     "regala": 23,
     "espais": 28,
     "llumatics-web": 13,
-    "blog": 44,
+    "blog": 57,
     "sobre": 6,
     "gracies": 4,
+    "privacitat": 1,
     "avis-legal": 1,
-    "confirmat": 1,
-    "tags": 1
+    "confirmat": 1
   },
   "browsers": [
     {
@@ -370,7 +378,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 258
+      "count": 265
     },
     {
       "name": "Firefox",
@@ -397,7 +405,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 85
+      "count": 92
     },
     {
       "name": "Linux",
@@ -414,7 +422,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 289
+      "count": 296
     },
     {
       "name": "desktophd",
@@ -456,6 +464,16 @@
     {
       "name": "Colombia",
       "id": "CO",
+      "count": 5
+    },
+    {
+      "name": "Vietnam",
+      "id": "VN",
+      "count": 5
+    },
+    {
+      "name": "Ecuador",
+      "id": "EC",
       "count": 4
     },
     {
@@ -474,8 +492,8 @@
       "count": 4
     },
     {
-      "name": "Ecuador",
-      "id": "EC",
+      "name": "Malaysia",
+      "id": "MY",
       "count": 3
     },
     {
@@ -494,18 +512,8 @@
       "count": 3
     },
     {
-      "name": "Vietnam",
-      "id": "VN",
-      "count": 3
-    },
-    {
       "name": "Australia",
       "id": "AU",
-      "count": 2
-    },
-    {
-      "name": "Canada",
-      "id": "CA",
       "count": 2
     }
   ],
@@ -513,7 +521,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 107
+      "count": 132
     },
     {
       "name": "Google",
