@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-02T22:12:09.349462Z",
+  "generated": "2026-07-03T00:00:56.449022Z",
   "period": {
-    "start": "2025-07-02",
-    "end": "2026-07-02"
+    "start": "2025-07-03",
+    "end": "2026-07-03"
   },
-  "total": 581,
+  "total": 593,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -225,21 +225,21 @@
     },
     {
       "date": "2026-07-02",
-      "count": 5
+      "count": 17
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 129
+      "count": 130
     },
     {
       "path": "/tallers",
-      "count": 64
+      "count": 65
     },
     {
       "path": "/agenda",
-      "count": 21
+      "count": 22
     },
     {
       "path": "/contacte",
@@ -255,7 +255,7 @@
     },
     {
       "path": "/es/tallers",
-      "count": 15
+      "count": 16
     },
     {
       "path": "/espais",
@@ -266,19 +266,19 @@
       "count": 12
     },
     {
+      "path": "/blog",
+      "count": 12
+    },
+    {
+      "path": "/es/blog",
+      "count": 11
+    },
+    {
       "path": "/en",
       "count": 11
     },
     {
       "path": "/llumatics-web",
-      "count": 10
-    },
-    {
-      "path": "/es/blog",
-      "count": 10
-    },
-    {
-      "path": "/blog",
       "count": 10
     },
     {
@@ -290,15 +290,15 @@
       "count": 8
     },
     {
+      "path": "/es/agenda",
+      "count": 7
+    },
+    {
       "path": "/tallers/digitalitzacio-escaner",
       "count": 7
     },
     {
       "path": "/es/blog/caffenol-revelar-amb-cafe",
-      "count": 6
-    },
-    {
-      "path": "/es/agenda",
       "count": 6
     },
     {
@@ -326,6 +326,10 @@
       "count": 5
     },
     {
+      "path": "/es/tallers/cianotipia",
+      "count": 5
+    },
+    {
       "path": "/tallers/introduccio-al-positivat",
       "count": 5
     },
@@ -344,25 +348,21 @@
     {
       "path": "/en/tallers",
       "count": 4
-    },
-    {
-      "path": "/tallers/guinneol",
-      "count": 4
     }
   ],
   "by_lang": {
-    "es": 107,
+    "es": 114,
     "en": 64
   },
   "by_section": {
-    "inici": 160,
-    "tallers": 226,
-    "agenda": 32,
+    "inici": 161,
+    "tallers": 232,
+    "agenda": 34,
     "contacte": 29,
     "regala": 23,
     "espais": 28,
+    "blog": 60,
     "llumatics-web": 13,
-    "blog": 57,
     "sobre": 6,
     "gracies": 4,
     "privacitat": 1,
@@ -521,7 +521,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 132
+      "count": 139
     },
     {
       "name": "Google",
