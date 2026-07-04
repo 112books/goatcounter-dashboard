@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-03T22:07:49.922390Z",
+  "generated": "2026-07-04T00:00:16.837062Z",
   "period": {
-    "start": "2025-07-03",
-    "end": "2026-07-03"
+    "start": "2025-07-04",
+    "end": "2026-07-04"
   },
-  "total": 593,
+  "total": 594,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -226,6 +226,10 @@
     {
       "date": "2026-07-02",
       "count": 17
+    },
+    {
+      "date": "2026-07-03",
+      "count": 1
     }
   ],
   "hits": [
@@ -262,11 +266,11 @@
       "count": 14
     },
     {
-      "path": "/tallers/iniciacio-revelat",
-      "count": 12
+      "path": "/blog",
+      "count": 13
     },
     {
-      "path": "/blog",
+      "path": "/tallers/iniciacio-revelat",
       "count": 12
     },
     {
@@ -361,7 +365,7 @@
     "contacte": 29,
     "regala": 23,
     "espais": 28,
-    "blog": 60,
+    "blog": 61,
     "llumatics-web": 13,
     "sobre": 6,
     "gracies": 4,
@@ -521,7 +525,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 139
+      "count": 140
     },
     {
       "name": "Google",
