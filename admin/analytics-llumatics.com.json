@@ -1,15 +1,382 @@
 {
-  "generated": "2026-07-05T19:20:43.536519Z",
+  "generated": "2026-07-05T20:52:59.404567Z",
   "period": {
     "start": "2025-07-05",
     "end": "2026-07-05"
   },
-  "total": 0,
+  "total": 601,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-05-02",
+      "count": 17
+    },
+    {
+      "date": "2026-05-03",
+      "count": 19
+    },
+    {
+      "date": "2026-05-04",
+      "count": 31
+    },
+    {
+      "date": "2026-05-05",
+      "count": 13
+    },
+    {
+      "date": "2026-05-06",
+      "count": 5
+    },
+    {
+      "date": "2026-05-07",
+      "count": 6
+    },
+    {
+      "date": "2026-05-08",
+      "count": 7
+    },
+    {
+      "date": "2026-05-09",
+      "count": 15
+    },
+    {
+      "date": "2026-05-10",
+      "count": 6
+    },
+    {
+      "date": "2026-05-11",
+      "count": 26
+    },
+    {
+      "date": "2026-05-12",
+      "count": 1
+    },
+    {
+      "date": "2026-05-13",
+      "count": 1
+    },
+    {
+      "date": "2026-05-15",
+      "count": 2
+    },
+    {
+      "date": "2026-05-17",
+      "count": 1
+    },
+    {
+      "date": "2026-05-18",
+      "count": 2
+    },
+    {
+      "date": "2026-05-19",
+      "count": 11
+    },
+    {
+      "date": "2026-05-20",
+      "count": 5
+    },
+    {
+      "date": "2026-05-21",
+      "count": 20
+    },
+    {
+      "date": "2026-05-22",
+      "count": 34
+    },
+    {
+      "date": "2026-05-23",
+      "count": 50
+    },
+    {
+      "date": "2026-05-24",
+      "count": 12
+    },
+    {
+      "date": "2026-05-25",
+      "count": 41
+    },
+    {
+      "date": "2026-05-26",
+      "count": 19
+    },
+    {
+      "date": "2026-05-27",
+      "count": 16
+    },
+    {
+      "date": "2026-05-28",
+      "count": 9
+    },
+    {
+      "date": "2026-05-29",
+      "count": 37
+    },
+    {
+      "date": "2026-05-30",
+      "count": 12
+    },
+    {
+      "date": "2026-05-31",
+      "count": 7
+    },
+    {
+      "date": "2026-06-01",
+      "count": 11
+    },
+    {
+      "date": "2026-06-02",
+      "count": 9
+    },
+    {
+      "date": "2026-06-03",
+      "count": 7
+    },
+    {
+      "date": "2026-06-04",
+      "count": 6
+    },
+    {
+      "date": "2026-06-05",
+      "count": 8
+    },
+    {
+      "date": "2026-06-07",
+      "count": 4
+    },
+    {
+      "date": "2026-06-08",
+      "count": 4
+    },
+    {
+      "date": "2026-06-09",
+      "count": 4
+    },
+    {
+      "date": "2026-06-10",
+      "count": 6
+    },
+    {
+      "date": "2026-06-11",
+      "count": 7
+    },
+    {
+      "date": "2026-06-12",
+      "count": 2
+    },
+    {
+      "date": "2026-06-13",
+      "count": 1
+    },
+    {
+      "date": "2026-06-14",
+      "count": 1
+    },
+    {
+      "date": "2026-06-15",
+      "count": 8
+    },
+    {
+      "date": "2026-06-16",
+      "count": 6
+    },
+    {
+      "date": "2026-06-17",
+      "count": 5
+    },
+    {
+      "date": "2026-06-18",
+      "count": 3
+    },
+    {
+      "date": "2026-06-19",
+      "count": 2
+    },
+    {
+      "date": "2026-06-21",
+      "count": 6
+    },
+    {
+      "date": "2026-06-24",
+      "count": 11
+    },
+    {
+      "date": "2026-06-25",
+      "count": 3
+    },
+    {
+      "date": "2026-06-26",
+      "count": 4
+    },
+    {
+      "date": "2026-06-28",
+      "count": 2
+    },
+    {
+      "date": "2026-06-29",
+      "count": 8
+    },
+    {
+      "date": "2026-06-30",
+      "count": 3
+    },
+    {
+      "date": "2026-07-01",
+      "count": 20
+    },
+    {
+      "date": "2026-07-02",
+      "count": 17
+    },
+    {
+      "date": "2026-07-03",
+      "count": 1
+    },
+    {
+      "date": "2026-07-04",
+      "count": 7
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 131
+    },
+    {
+      "path": "/tallers",
+      "count": 66
+    },
+    {
+      "path": "/agenda",
+      "count": 22
+    },
+    {
+      "path": "/contacte",
+      "count": 19
+    },
+    {
+      "path": "/es",
+      "count": 18
+    },
+    {
+      "path": "/es/tallers",
+      "count": 17
+    },
+    {
+      "path": "/regala",
+      "count": 16
+    },
+    {
+      "path": "/espais",
+      "count": 14
+    },
+    {
+      "path": "/blog",
+      "count": 13
+    },
+    {
+      "path": "/tallers/iniciacio-revelat",
+      "count": 12
+    },
+    {
+      "path": "/es/blog",
+      "count": 11
+    },
+    {
+      "path": "/en",
+      "count": 11
+    },
+    {
+      "path": "/llumatics-web",
+      "count": 10
+    },
+    {
+      "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 8
+    },
+    {
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 8
+    },
+    {
+      "path": "/en/espais",
+      "count": 8
+    },
+    {
+      "path": "/es/agenda",
+      "count": 7
+    },
+    {
+      "path": "/tallers/digitalitzacio-escaner",
+      "count": 7
+    },
+    {
+      "path": "/es/espais",
+      "count": 6
+    },
+    {
+      "path": "/tallers/revelat-bn",
+      "count": 6
+    },
+    {
+      "path": "/tallers/retrat-6x6",
+      "count": 6
+    },
+    {
+      "path": "/tallers/fotogrames-cianotipia",
+      "count": 5
+    },
+    {
+      "path": "/tallers/revelat-color-bn",
+      "count": 5
+    },
+    {
+      "path": "/tallers/fotografia-estenopeica",
+      "count": 5
+    },
+    {
+      "path": "/es/tallers/cianotipia",
+      "count": 5
+    },
+    {
+      "path": "/tallers/introduccio-al-positivat",
+      "count": 5
+    },
+    {
+      "path": "/blog/positivador-app",
+      "count": 5
+    },
+    {
+      "path": "/en/contacte",
+      "count": 5
+    },
+    {
+      "path": "/es/contacte",
+      "count": 5
+    },
+    {
+      "path": "/en/tallers",
+      "count": 4
+    }
+  ],
+  "by_lang": {
+    "es": 118,
+    "en": 64
+  },
+  "by_section": {
+    "inici": 163,
+    "tallers": 235,
+    "agenda": 34,
+    "contacte": 29,
+    "regala": 23,
+    "espais": 28,
+    "blog": 63,
+    "llumatics-web": 13,
+    "sobre": 6,
+    "gracies": 4,
+    "privacitat": 1,
+    "avis-legal": 1,
+    "confirmat": 1
+  },
   "browsers": [
     {
       "name": "Safari",
