@@ -1,0 +1,317 @@
+{
+  "generated": "2026-07-06T11:23:16.989857Z",
+  "period": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "total": 56,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-06-29",
+      "count": 8
+    },
+    {
+      "date": "2026-06-30",
+      "count": 3
+    },
+    {
+      "date": "2026-07-01",
+      "count": 20
+    },
+    {
+      "date": "2026-07-02",
+      "count": 17
+    },
+    {
+      "date": "2026-07-03",
+      "count": 1
+    },
+    {
+      "date": "2026-07-04",
+      "count": 7
+    }
+  ],
+  "hits": [
+    {
+      "path": "/blog",
+      "count": 9
+    },
+    {
+      "path": "/",
+      "count": 6
+    },
+    {
+      "path": "/es/blog",
+      "count": 5
+    },
+    {
+      "path": "/tallers",
+      "count": 4
+    },
+    {
+      "path": "/es/tallers/revelat-bn",
+      "count": 3
+    },
+    {
+      "path": "/es/tallers/fotogrames-cianotipia",
+      "count": 2
+    },
+    {
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/cianotipia",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers",
+      "count": 2
+    },
+    {
+      "path": "/agenda",
+      "count": 2
+    },
+    {
+      "path": "/blog/resultats-taller-gran-format-2018",
+      "count": 1
+    },
+    {
+      "path": "/es/blog/taller-retrat-febrer-2019",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/revelats-experimentals",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 1
+    },
+    {
+      "path": "/blog/dia-mundial-fotografia-estenopeica-2025",
+      "count": 1
+    },
+    {
+      "path": "/privacitat",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/digitalitzacio-escaner",
+      "count": 1
+    },
+    {
+      "path": "/tallers/retrat-analogic",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers",
+      "count": 1
+    },
+    {
+      "path": "/tallers/fotografia-de-carrer",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/edicio-imatges-fotoquimiques",
+      "count": 1
+    },
+    {
+      "path": "/sobre",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/gran-format-4x5",
+      "count": 1
+    },
+    {
+      "path": "/tallers/revelat-color-bn",
+      "count": 1
+    },
+    {
+      "path": "/es/agenda",
+      "count": 1
+    },
+    {
+      "path": "/en/espais",
+      "count": 1
+    },
+    {
+      "path": "/tallers/revelat-bn",
+      "count": 1
+    },
+    {
+      "path": "/tallers/retrat-amb-holga",
+      "count": 1
+    },
+    {
+      "path": "/es",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "blog": 19,
+    "inici": 7,
+    "tallers": 24,
+    "agenda": 3,
+    "privacitat": 1,
+    "sobre": 1,
+    "espais": 1
+  },
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 51
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 3
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 3
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 1
+    }
+  ],
+  "systems": [
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 40
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 8
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 5
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 3
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 2
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 49
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 8
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 1
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 24
+    },
+    {
+      "name": "Colombia",
+      "id": "CO",
+      "count": 8
+    },
+    {
+      "name": "Vietnam",
+      "id": "VN",
+      "count": 5
+    },
+    {
+      "name": "Ecuador",
+      "id": "EC",
+      "count": 4
+    },
+    {
+      "name": "Venezuela",
+      "id": "VE",
+      "count": 4
+    },
+    {
+      "name": "Malaysia",
+      "id": "MY",
+      "count": 3
+    },
+    {
+      "name": "Brazil",
+      "id": "BR",
+      "count": 2
+    },
+    {
+      "name": "Indonesia",
+      "id": "ID",
+      "count": 2
+    },
+    {
+      "name": "Bangladesh",
+      "id": "BD",
+      "count": 1
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 1
+    },
+    {
+      "name": "Hong Kong",
+      "id": "HK",
+      "count": 1
+    },
+    {
+      "name": "Nepal",
+      "id": "NP",
+      "count": 1
+    },
+    {
+      "name": "Peru",
+      "id": "PE",
+      "count": 1
+    },
+    {
+      "name": "Pakistan",
+      "id": "PK",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 35
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 7
+    },
+    {
+      "name": "linuxbcn.org",
+      "id": "linuxbcn.org",
+      "count": 1
+    }
+  ]
+}
