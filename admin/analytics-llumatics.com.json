@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-05T22:59:41.318196Z",
+  "generated": "2026-07-06T00:13:30.178590Z",
   "period": {
-    "start": "2025-07-05",
-    "end": "2026-07-05"
+    "start": "2025-07-06",
+    "end": "2026-07-06"
   },
-  "total": 601,
+  "total": 603,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -234,12 +234,16 @@
     {
       "date": "2026-07-04",
       "count": 7
+    },
+    {
+      "date": "2026-07-05",
+      "count": 2
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 131
+      "count": 132
     },
     {
       "path": "/tallers",
@@ -359,12 +363,12 @@
     }
   ],
   "by_lang": {
-    "es": 118,
+    "es": 119,
     "en": 64
   },
   "by_section": {
-    "inici": 163,
-    "tallers": 235,
+    "inici": 164,
+    "tallers": 236,
     "agenda": 34,
     "contacte": 29,
     "regala": 23,
@@ -529,12 +533,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 141
+      "count": 142
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 72
+      "count": 73
     },
     {
       "name": "ig",
