@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-06T23:02:28.563239Z",
+  "generated": "2026-07-07T02:36:20.854538Z",
   "period": {
-    "start": "2025-07-06",
-    "end": "2026-07-06"
+    "start": "2025-07-07",
+    "end": "2026-07-07"
   },
-  "total": 603,
+  "total": 621,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -238,23 +238,31 @@
     {
       "date": "2026-07-05",
       "count": 2
+    },
+    {
+      "date": "2026-07-06",
+      "count": 18
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 132
+      "count": 134
     },
     {
       "path": "/tallers",
-      "count": 66
+      "count": 67
     },
     {
       "path": "/agenda",
-      "count": 22
+      "count": 23
     },
     {
       "path": "/contacte",
+      "count": 20
+    },
+    {
+      "path": "/es/tallers",
       "count": 19
     },
     {
@@ -262,24 +270,24 @@
       "count": 18
     },
     {
-      "path": "/es/tallers",
-      "count": 17
-    },
-    {
       "path": "/regala",
       "count": 16
     },
     {
       "path": "/espais",
-      "count": 14
+      "count": 15
     },
     {
       "path": "/blog",
-      "count": 13
+      "count": 14
     },
     {
       "path": "/tallers/iniciacio-revelat",
-      "count": 12
+      "count": 13
+    },
+    {
+      "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 11
     },
     {
       "path": "/es/blog",
@@ -292,10 +300,6 @@
     {
       "path": "/llumatics-web",
       "count": 10
-    },
-    {
-      "path": "/tallers/fonaments-iniciacio-puntual",
-      "count": 8
     },
     {
       "path": "/es/blog/caffenol-revelar-amb-cafe",
@@ -326,6 +330,14 @@
       "count": 6
     },
     {
+      "path": "/es/contacte",
+      "count": 6
+    },
+    {
+      "path": "/es/regala",
+      "count": 5
+    },
+    {
       "path": "/tallers/fotogrames-cianotipia",
       "count": 5
     },
@@ -352,28 +364,20 @@
     {
       "path": "/en/contacte",
       "count": 5
-    },
-    {
-      "path": "/es/contacte",
-      "count": 5
-    },
-    {
-      "path": "/en/tallers",
-      "count": 4
     }
   ],
   "by_lang": {
-    "es": 119,
+    "es": 126,
     "en": 64
   },
   "by_section": {
-    "inici": 164,
-    "tallers": 236,
-    "agenda": 34,
-    "contacte": 29,
-    "regala": 23,
-    "espais": 28,
-    "blog": 63,
+    "inici": 166,
+    "tallers": 246,
+    "agenda": 35,
+    "contacte": 31,
+    "regala": 24,
+    "espais": 29,
+    "blog": 64,
     "llumatics-web": 13,
     "sobre": 6,
     "gracies": 4,
@@ -533,12 +537,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 142
+      "count": 147
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 73
+      "count": 75
     },
     {
       "name": "ig",
