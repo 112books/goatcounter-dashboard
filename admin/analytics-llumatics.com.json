@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-07T23:54:04.982264Z",
+  "generated": "2026-07-08T02:09:51.976881Z",
   "period": {
-    "start": "2025-07-07",
-    "end": "2026-07-07"
+    "start": "2025-07-08",
+    "end": "2026-07-08"
   },
-  "total": 621,
+  "total": 659,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -73,7 +73,7 @@
     },
     {
       "date": "2026-05-20",
-      "count": 5
+      "count": 6
     },
     {
       "date": "2026-05-21",
@@ -85,7 +85,7 @@
     },
     {
       "date": "2026-05-23",
-      "count": 50
+      "count": 48
     },
     {
       "date": "2026-05-24",
@@ -93,7 +93,7 @@
     },
     {
       "date": "2026-05-25",
-      "count": 41
+      "count": 32
     },
     {
       "date": "2026-05-26",
@@ -105,11 +105,11 @@
     },
     {
       "date": "2026-05-28",
-      "count": 9
+      "count": 6
     },
     {
       "date": "2026-05-29",
-      "count": 37
+      "count": 34
     },
     {
       "date": "2026-05-30",
@@ -121,7 +121,7 @@
     },
     {
       "date": "2026-06-01",
-      "count": 11
+      "count": 10
     },
     {
       "date": "2026-06-02",
@@ -242,60 +242,64 @@
     {
       "date": "2026-07-06",
       "count": 18
+    },
+    {
+      "date": "2026-07-07",
+      "count": 55
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 134
+      "count": 138
     },
     {
       "path": "/tallers",
-      "count": 67
+      "count": 70
     },
     {
       "path": "/agenda",
       "count": 23
     },
     {
+      "path": "/es/tallers",
+      "count": 22
+    },
+    {
       "path": "/contacte",
       "count": 20
     },
     {
-      "path": "/es/tallers",
+      "path": "/es",
       "count": 19
     },
     {
-      "path": "/es",
+      "path": "/espais",
       "count": 18
     },
     {
       "path": "/regala",
-      "count": 16
-    },
-    {
-      "path": "/espais",
-      "count": 15
+      "count": 17
     },
     {
       "path": "/blog",
-      "count": 14
-    },
-    {
-      "path": "/tallers/iniciacio-revelat",
-      "count": 13
-    },
-    {
-      "path": "/tallers/fonaments-iniciacio-puntual",
-      "count": 11
+      "count": 16
     },
     {
       "path": "/es/blog",
-      "count": 11
+      "count": 15
+    },
+    {
+      "path": "/tallers/iniciacio-revelat",
+      "count": 14
+    },
+    {
+      "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 13
     },
     {
       "path": "/en",
-      "count": 11
+      "count": 12
     },
     {
       "path": "/llumatics-web",
@@ -334,6 +338,14 @@
       "count": 6
     },
     {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 5
+    },
+    {
+      "path": "/en/tallers",
+      "count": 5
+    },
+    {
       "path": "/es/regala",
       "count": 5
     },
@@ -346,44 +358,35 @@
       "count": 5
     },
     {
+      "path": "/gracies",
+      "count": 5
+    },
+    {
       "path": "/tallers/fotografia-estenopeica",
       "count": 5
     },
     {
       "path": "/es/tallers/cianotipia",
       "count": 5
-    },
-    {
-      "path": "/tallers/introduccio-al-positivat",
-      "count": 5
-    },
-    {
-      "path": "/blog/positivador-app",
-      "count": 5
-    },
-    {
-      "path": "/en/contacte",
-      "count": 5
     }
   ],
   "by_lang": {
-    "es": 126,
-    "en": 64
+    "es": 140,
+    "en": 61
   },
   "by_section": {
-    "inici": 166,
-    "tallers": 246,
+    "inici": 172,
+    "tallers": 255,
     "agenda": 35,
     "contacte": 31,
-    "regala": 24,
-    "espais": 29,
-    "blog": 64,
-    "llumatics-web": 13,
+    "espais": 32,
+    "regala": 25,
+    "blog": 85,
+    "llumatics-web": 10,
+    "gracies": 6,
     "sobre": 6,
-    "gracies": 4,
     "privacitat": 1,
-    "avis-legal": 1,
-    "confirmat": 1
+    "avis-legal": 1
   },
   "browsers": [
     {
@@ -537,12 +540,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 147
+      "count": 167
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 75
+      "count": 77
     },
     {
       "name": "ig",
