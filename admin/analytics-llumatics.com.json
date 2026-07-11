@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-10T23:59:33.741860Z",
+  "generated": "2026-07-11T03:20:53.315749Z",
   "period": {
-    "start": "2025-07-10",
-    "end": "2026-07-10"
+    "start": "2025-07-11",
+    "end": "2026-07-11"
   },
-  "total": 708,
+  "total": 721,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "date": "2026-05-08",
-      "count": 7
+      "count": 8
     },
     {
       "date": "2026-05-09",
@@ -93,7 +93,7 @@
     },
     {
       "date": "2026-05-25",
-      "count": 32
+      "count": 34
     },
     {
       "date": "2026-05-26",
@@ -241,37 +241,41 @@
     },
     {
       "date": "2026-07-07",
-      "count": 52
+      "count": 49
     },
     {
       "date": "2026-07-08",
-      "count": 26
+      "count": 21
     },
     {
       "date": "2026-07-09",
-      "count": 30
+      "count": 28
     },
     {
       "date": "2026-07-10",
-      "count": 6
+      "count": 25
+    },
+    {
+      "date": "2026-07-11",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 144
+      "count": 146
     },
     {
       "path": "/tallers",
       "count": 74
     },
     {
-      "path": "/agenda",
-      "count": 24
+      "path": "/es/tallers",
+      "count": 25
     },
     {
-      "path": "/es/tallers",
-      "count": 23
+      "path": "/agenda",
+      "count": 24
     },
     {
       "path": "/contacte",
@@ -311,10 +315,14 @@
     },
     {
       "path": "/llumatics-web",
-      "count": 10
+      "count": 11
     },
     {
       "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 8
+    },
+    {
+      "path": "/es/agenda",
       "count": 8
     },
     {
@@ -334,10 +342,6 @@
       "count": 7
     },
     {
-      "path": "/es/agenda",
-      "count": 7
-    },
-    {
       "path": "/es/espais",
       "count": 7
     },
@@ -347,6 +351,10 @@
     },
     {
       "path": "/en/tallers",
+      "count": 6
+    },
+    {
+      "path": "/es/tallers/iniciacio-revelat",
       "count": 6
     },
     {
@@ -372,28 +380,23 @@
     {
       "path": "/tallers/cianotipia",
       "count": 5
-    },
-    {
-      "path": "/tallers/revelat-color-bn",
-      "count": 5
     }
   ],
   "by_lang": {
-    "es": 158,
+    "es": 164,
     "en": 62
   },
   "by_section": {
-    "inici": 180,
-    "tallers": 278,
+    "inici": 181,
+    "tallers": 287,
     "agenda": 37,
     "contacte": 31,
-    "blog": 94,
+    "blog": 91,
     "regala": 26,
     "espais": 33,
-    "llumatics-web": 15,
+    "llumatics-web": 22,
     "gracies": 7,
-    "sobre": 6,
-    "cookies": 1
+    "sobre": 6
   },
   "browsers": [
     {
@@ -547,12 +550,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 197
+      "count": 231
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 81
+      "count": 82
     },
     {
       "name": "ig",
