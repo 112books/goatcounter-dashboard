@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-11T23:49:34.651012Z",
+  "generated": "2026-07-12T02:11:12.182249Z",
   "period": {
-    "start": "2025-07-11",
-    "end": "2026-07-11"
+    "start": "2025-07-12",
+    "end": "2026-07-12"
   },
-  "total": 721,
+  "total": 727,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "date": "2026-05-04",
-      "count": 31
+      "count": 32
     },
     {
       "date": "2026-05-05",
@@ -253,11 +253,15 @@
     },
     {
       "date": "2026-07-10",
-      "count": 25
+      "count": 13
     },
     {
       "date": "2026-07-11",
-      "count": 1
+      "count": 13
+    },
+    {
+      "date": "2026-07-12",
+      "count": 5
     }
   ],
   "hits": [
@@ -279,7 +283,11 @@
     },
     {
       "path": "/contacte",
-      "count": 20
+      "count": 21
+    },
+    {
+      "path": "/blog",
+      "count": 19
     },
     {
       "path": "/es",
@@ -295,10 +303,6 @@
     },
     {
       "path": "/espais",
-      "count": 18
-    },
-    {
-      "path": "/blog",
       "count": 18
     },
     {
@@ -383,26 +387,27 @@
     }
   ],
   "by_lang": {
-    "es": 164,
-    "en": 62
+    "es": 160,
+    "en": 67
   },
   "by_section": {
-    "inici": 181,
-    "tallers": 287,
+    "inici": 182,
+    "tallers": 284,
     "agenda": 37,
-    "contacte": 31,
-    "blog": 91,
-    "regala": 26,
+    "contacte": 32,
+    "blog": 93,
+    "regala": 28,
     "espais": 33,
-    "llumatics-web": 22,
+    "llumatics-web": 23,
     "gracies": 7,
-    "sobre": 6
+    "sobre": 7,
+    "avis-legal": 1
   },
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 426
+      "count": 427
     },
     {
       "name": "Safari",
@@ -424,7 +429,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 474
+      "count": 475
     },
     {
       "name": "Windows",
@@ -451,7 +456,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 472
+      "count": 473
     },
     {
       "name": "desktophd",
@@ -478,7 +483,7 @@
     {
       "name": "Singapore",
       "id": "SG",
-      "count": 96
+      "count": 97
     },
     {
       "name": "United States",
@@ -550,7 +555,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 231
+      "count": 251
     },
     {
       "name": "Google",
