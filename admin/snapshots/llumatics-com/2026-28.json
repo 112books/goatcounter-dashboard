@@ -1,0 +1,297 @@
+{
+  "generated": "2026-07-13T10:17:06.877005Z",
+  "period": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "total": 132,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-07-06",
+      "count": 16
+    },
+    {
+      "date": "2026-07-07",
+      "count": 44
+    },
+    {
+      "date": "2026-07-08",
+      "count": 13
+    },
+    {
+      "date": "2026-07-09",
+      "count": 26
+    },
+    {
+      "date": "2026-07-10",
+      "count": 14
+    },
+    {
+      "date": "2026-07-11",
+      "count": 14
+    },
+    {
+      "date": "2026-07-12",
+      "count": 5
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 14
+    },
+    {
+      "path": "/es/tallers",
+      "count": 8
+    },
+    {
+      "path": "/tallers",
+      "count": 8
+    },
+    {
+      "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 7
+    },
+    {
+      "path": "/es/blog",
+      "count": 7
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 6
+    },
+    {
+      "path": "/blog",
+      "count": 6
+    },
+    {
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 4
+    },
+    {
+      "path": "/gracies",
+      "count": 4
+    },
+    {
+      "path": "/espais",
+      "count": 4
+    },
+    {
+      "path": "/es/blog/retrat-gran-format-lomography-2024",
+      "count": 3
+    },
+    {
+      "path": "/blog/del-carrer-al-llibre-nou-curs",
+      "count": 3
+    },
+    {
+      "path": "/blog/revelat-zenit-cameras-films-2025-02",
+      "count": 3
+    },
+    {
+      "path": "/tallers/del-carrer-al-llibre",
+      "count": 3
+    },
+    {
+      "path": "/llumatics-web/es/regala",
+      "count": 2
+    },
+    {
+      "path": "/llumatics-web/regala",
+      "count": 2
+    },
+    {
+      "path": "/es/blog/retrat-gran-format-marc-2026",
+      "count": 2
+    },
+    {
+      "path": "/blog/revelat-analogic-zenit-2025",
+      "count": 2
+    },
+    {
+      "path": "/es/blog/taller-forcats-festival-blues-2024",
+      "count": 2
+    },
+    {
+      "path": "/es/blog/sessio-maria-de-acha",
+      "count": 2
+    },
+    {
+      "path": "/blog/resultats-taller-iniciacio-2019-05",
+      "count": 2
+    },
+    {
+      "path": "/blog/fotollibre-del-concepte-a-la-materialitzacio",
+      "count": 2
+    },
+    {
+      "path": "/tallers/fotollibre",
+      "count": 2
+    },
+    {
+      "path": "/en/tallers",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/retrat-gran-format",
+      "count": 2
+    },
+    {
+      "path": "/tallers/iniciacio-revelat",
+      "count": 2
+    },
+    {
+      "path": "/regala",
+      "count": 2
+    },
+    {
+      "path": "/agenda",
+      "count": 2
+    },
+    {
+      "path": "/en",
+      "count": 2
+    },
+    {
+      "path": "/contacte",
+      "count": 2
+    }
+  ],
+  "by_section": {
+    "inici": 16,
+    "tallers": 44,
+    "blog": 34,
+    "gracies": 4,
+    "espais": 4,
+    "llumatics-web": 24,
+    "regala": 2,
+    "agenda": 2,
+    "contacte": 2
+  },
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 223
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 49
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 4
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 152
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 101
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 22
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 1
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 238
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 23
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 14
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 1
+    }
+  ],
+  "locations": [
+    {
+      "name": "Singapore",
+      "id": "SG",
+      "count": 171
+    },
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 92
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 8
+    },
+    {
+      "name": "Argentina",
+      "id": "AR",
+      "count": 2
+    },
+    {
+      "name": "France",
+      "id": "FR",
+      "count": 1
+    },
+    {
+      "name": "Indonesia",
+      "id": "ID",
+      "count": 1
+    },
+    {
+      "name": "Oman",
+      "id": "OM",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 109
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 9
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 1
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 1
+    },
+    {
+      "name": "59a7cdb3.sibforms.com",
+      "id": "59a7cdb3.sibforms.com",
+      "count": 1
+    }
+  ]
+}
