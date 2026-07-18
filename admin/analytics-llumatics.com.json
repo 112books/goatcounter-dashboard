@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-17T23:47:05.241268Z",
+  "generated": "2026-07-18T01:58:10.292801Z",
   "period": {
-    "start": "2025-07-17",
-    "end": "2026-07-17"
+    "start": "2025-07-18",
+    "end": "2026-07-18"
   },
-  "total": 812,
+  "total": 821,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -273,25 +273,29 @@
     },
     {
       "date": "2026-07-15",
-      "count": 13
+      "count": 12
     },
     {
       "date": "2026-07-16",
       "count": 3
+    },
+    {
+      "date": "2026-07-17",
+      "count": 10
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 150
+      "count": 151
     },
     {
       "path": "/tallers",
-      "count": 76
+      "count": 77
     },
     {
       "path": "/es/tallers",
-      "count": 25
+      "count": 26
     },
     {
       "path": "/llumatics-web/regala",
@@ -315,7 +319,7 @@
     },
     {
       "path": "/es",
-      "count": 20
+      "count": 21
     },
     {
       "path": "/blog",
@@ -350,6 +354,10 @@
       "count": 11
     },
     {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 10
+    },
+    {
       "path": "/es/blog/caffenol-revelar-amb-cafe",
       "count": 8
     },
@@ -364,10 +372,6 @@
     {
       "path": "/en/espais",
       "count": 8
-    },
-    {
-      "path": "/es/tallers/fonaments-iniciacio-puntual",
-      "count": 7
     },
     {
       "path": "/llumatics-web/agenda",
@@ -386,6 +390,10 @@
       "count": 7
     },
     {
+      "path": "/es/contacte",
+      "count": 7
+    },
+    {
       "path": "/en/tallers",
       "count": 6
     },
@@ -394,25 +402,21 @@
       "count": 6
     },
     {
-      "path": "/tallers/fotogrames-cianotipia",
-      "count": 6
-    },
-    {
-      "path": "/es/tallers/cianotipia",
+      "path": "/es/regala",
       "count": 6
     }
   ],
   "by_lang": {
-    "es": 187,
+    "es": 195,
     "en": 87
   },
   "by_section": {
-    "inici": 187,
-    "tallers": 285,
-    "llumatics-web": 53,
+    "inici": 189,
+    "tallers": 291,
+    "llumatics-web": 52,
     "agenda": 39,
-    "regala": 71,
-    "contacte": 35,
+    "regala": 72,
+    "contacte": 36,
     "blog": 96,
     "espais": 33,
     "gracies": 7,
@@ -570,7 +574,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 418
+      "count": 422
     },
     {
       "name": "Google",
