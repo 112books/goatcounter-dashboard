@@ -1,0 +1,268 @@
+{
+  "generated": "2026-07-20T09:51:38.772601Z",
+  "period": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "total": 106,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-07-13",
+      "count": 29
+    },
+    {
+      "date": "2026-07-14",
+      "count": 49
+    },
+    {
+      "date": "2026-07-15",
+      "count": 15
+    },
+    {
+      "date": "2026-07-16",
+      "count": 2
+    },
+    {
+      "date": "2026-07-17",
+      "count": 8
+    },
+    {
+      "date": "2026-07-18",
+      "count": 3
+    }
+  ],
+  "hits": [
+    {
+      "path": "/llumatics-web/en/regala",
+      "count": 21
+    },
+    {
+      "path": "/llumatics-web/regala",
+      "count": 20
+    },
+    {
+      "path": "/llumatics-web/es/regala",
+      "count": 7
+    },
+    {
+      "path": "/",
+      "count": 5
+    },
+    {
+      "path": "/tallers",
+      "count": 4
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 3
+    },
+    {
+      "path": "/llumatics-web/agenda",
+      "count": 2
+    },
+    {
+      "path": "/es",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual/privat",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/es/blog/sessio-maria-de-acha",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/en/blog/sessio-maria-de-acha",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/blog/guinneol-revelat-cervesa",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/blog/beers-paper-developer",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/en/tallers/copies-en-paper/privat",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/blog/sessio-maria-de-acha",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/en/tallers/guinneol/privat",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/es/tallers/guinneol",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/en/tallers/wineol/privat",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/blog/retrat-amb-la-rima",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/en/tallers/caffenol/privat",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/blog/halloween-bodypaint-2020",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/tallers/revelat-color-bn/privat",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/tallers/retrat-6x6/privat",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/es/blog/retrat-amb-la-rima",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/en/blog/caffenol-revelar-amb-cafe",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/en/tallers/cianotipia/privat",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/blog/trasllat-nau-bostik",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/en/tallers/hasselblad-500/privat",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/es/tallers/revelat-bn",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/en/blog/retrat-amb-la-rima",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "llumatics-web": 88,
+    "inici": 7,
+    "tallers": 10,
+    "regala": 1
+  },
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 101
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 19
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 57
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 48
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 9
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 3
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 3
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 98
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 12
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 9
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 1
+    }
+  ],
+  "locations": [
+    {
+      "name": "Singapore",
+      "id": "SG",
+      "count": 88
+    },
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 27
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 4
+    },
+    {
+      "name": "Bangladesh",
+      "id": "BD",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 95
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 3
+    },
+    {
+      "name": "pocallum.cat",
+      "id": "pocallum.cat",
+      "count": 1
+    },
+    {
+      "name": "www.llumatics.com",
+      "id": "www.llumatics.com",
+      "count": 1
+    }
+  ]
+}
