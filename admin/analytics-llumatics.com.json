@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-20T23:53:12.800998Z",
+  "generated": "2026-07-21T02:08:09.840296Z",
   "period": {
-    "start": "2025-07-20",
-    "end": "2026-07-20"
+    "start": "2025-07-21",
+    "end": "2026-07-21"
   },
-  "total": 834,
+  "total": 841,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "date": "2026-05-04",
-      "count": 32
+      "count": 33
     },
     {
       "date": "2026-05-05",
@@ -273,7 +273,7 @@
     },
     {
       "date": "2026-07-15",
-      "count": 12
+      "count": 11
     },
     {
       "date": "2026-07-16",
@@ -293,7 +293,7 @@
     },
     {
       "date": "2026-07-20",
-      "count": 1
+      "count": 8
     }
   ],
   "hits": [
@@ -307,7 +307,7 @@
     },
     {
       "path": "/es/tallers",
-      "count": 26
+      "count": 28
     },
     {
       "path": "/agenda",
@@ -334,16 +334,16 @@
       "count": 21
     },
     {
+      "path": "/es/blog",
+      "count": 19
+    },
+    {
       "path": "/espais",
       "count": 19
     },
     {
       "path": "/blog",
       "count": 19
-    },
-    {
-      "path": "/es/blog",
-      "count": 18
     },
     {
       "path": "/regala",
@@ -374,6 +374,10 @@
       "count": 10
     },
     {
+      "path": "/en/tallers",
+      "count": 8
+    },
+    {
       "path": "/es/blog/caffenol-revelar-amb-cafe",
       "count": 8
     },
@@ -387,10 +391,6 @@
     },
     {
       "path": "/llumatics-web/agenda",
-      "count": 7
-    },
-    {
-      "path": "/en/tallers",
       "count": 7
     },
     {
@@ -419,18 +419,18 @@
     }
   ],
   "by_lang": {
-    "es": 195,
-    "en": 92
+    "es": 199,
+    "en": 96
   },
   "by_section": {
     "inici": 191,
-    "tallers": 296,
+    "tallers": 302,
     "agenda": 40,
-    "llumatics-web": 52,
+    "llumatics-web": 51,
     "regala": 72,
-    "contacte": 36,
+    "contacte": 37,
+    "blog": 97,
     "espais": 37,
-    "blog": 96,
     "gracies": 7,
     "sobre": 7
   },
@@ -586,12 +586,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 423
+      "count": 425
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 88
+      "count": 90
     },
     {
       "name": "ig",
