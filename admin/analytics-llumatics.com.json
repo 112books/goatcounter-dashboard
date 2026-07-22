@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-21T23:52:14.280463Z",
+  "generated": "2026-07-22T02:06:26.063752Z",
   "period": {
-    "start": "2025-07-21",
-    "end": "2026-07-21"
+    "start": "2025-07-22",
+    "end": "2026-07-22"
   },
-  "total": 841,
+  "total": 856,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -273,7 +273,7 @@
     },
     {
       "date": "2026-07-15",
-      "count": 11
+      "count": 10
     },
     {
       "date": "2026-07-16",
@@ -294,16 +294,20 @@
     {
       "date": "2026-07-20",
       "count": 8
+    },
+    {
+      "date": "2026-07-21",
+      "count": 16
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 153
+      "count": 155
     },
     {
       "path": "/tallers",
-      "count": 79
+      "count": 80
     },
     {
       "path": "/es/tallers",
@@ -311,7 +315,7 @@
     },
     {
       "path": "/agenda",
-      "count": 25
+      "count": 26
     },
     {
       "path": "/llumatics-web/regala",
@@ -322,16 +326,20 @@
       "count": 23
     },
     {
+      "path": "/contacte",
+      "count": 23
+    },
+    {
       "path": "/llumatics-web/en/regala",
       "count": 22
     },
     {
-      "path": "/contacte",
+      "path": "/es",
       "count": 22
     },
     {
-      "path": "/es",
-      "count": 21
+      "path": "/blog",
+      "count": 20
     },
     {
       "path": "/es/blog",
@@ -339,10 +347,6 @@
     },
     {
       "path": "/espais",
-      "count": 19
-    },
-    {
-      "path": "/blog",
       "count": 19
     },
     {
@@ -358,6 +362,10 @@
       "count": 14
     },
     {
+      "path": "/en/espais",
+      "count": 14
+    },
+    {
       "path": "/en",
       "count": 13
     },
@@ -366,19 +374,15 @@
       "count": 11
     },
     {
-      "path": "/en/espais",
-      "count": 11
-    },
-    {
       "path": "/es/tallers/fonaments-iniciacio-puntual",
       "count": 10
     },
     {
-      "path": "/en/tallers",
-      "count": 8
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 9
     },
     {
-      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "path": "/en/tallers",
       "count": 8
     },
     {
@@ -410,27 +414,27 @@
       "count": 7
     },
     {
-      "path": "/es/tallers/iniciacio-revelat",
+      "path": "/tallers/retrat-analogic",
       "count": 6
     },
     {
-      "path": "/es/regala",
+      "path": "/es/tallers/iniciacio-revelat",
       "count": 6
     }
   ],
   "by_lang": {
-    "es": 199,
-    "en": 96
+    "es": 201,
+    "en": 99
   },
   "by_section": {
-    "inici": 191,
-    "tallers": 302,
-    "agenda": 40,
+    "inici": 194,
+    "tallers": 308,
+    "agenda": 41,
     "llumatics-web": 51,
     "regala": 72,
-    "contacte": 37,
-    "blog": 97,
-    "espais": 37,
+    "contacte": 38,
+    "blog": 98,
+    "espais": 40,
     "gracies": 7,
     "sobre": 7
   },
@@ -586,17 +590,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 425
+      "count": 427
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 90
+      "count": 94
     },
     {
       "name": "ig",
       "id": "ig",
-      "count": 6
+      "count": 8
     },
     {
       "name": "chatgpt.com",
