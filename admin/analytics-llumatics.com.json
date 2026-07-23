@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-22T23:57:51.177968Z",
+  "generated": "2026-07-23T02:51:40.138740Z",
   "period": {
-    "start": "2025-07-22",
-    "end": "2026-07-22"
+    "start": "2025-07-23",
+    "end": "2026-07-23"
   },
-  "total": 856,
+  "total": 865,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -277,7 +277,7 @@
     },
     {
       "date": "2026-07-16",
-      "count": 3
+      "count": 2
     },
     {
       "date": "2026-07-17",
@@ -298,16 +298,24 @@
     {
       "date": "2026-07-21",
       "count": 16
+    },
+    {
+      "date": "2026-07-22",
+      "count": 8
+    },
+    {
+      "date": "2026-07-23",
+      "count": 2
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 155
+      "count": 160
     },
     {
       "path": "/tallers",
-      "count": 80
+      "count": 81
     },
     {
       "path": "/es/tallers",
@@ -322,11 +330,11 @@
       "count": 24
     },
     {
-      "path": "/llumatics-web/es/regala",
-      "count": 23
+      "path": "/contacte",
+      "count": 24
     },
     {
-      "path": "/contacte",
+      "path": "/llumatics-web/es/regala",
       "count": 23
     },
     {
@@ -398,6 +406,10 @@
       "count": 7
     },
     {
+      "path": "/tallers/fotogrames-cianotipia",
+      "count": 7
+    },
+    {
       "path": "/gracies",
       "count": 7
     },
@@ -416,24 +428,20 @@
     {
       "path": "/tallers/retrat-analogic",
       "count": 6
-    },
-    {
-      "path": "/es/tallers/iniciacio-revelat",
-      "count": 6
     }
   ],
   "by_lang": {
     "es": 201,
-    "en": 99
+    "en": 100
   },
   "by_section": {
-    "inici": 194,
-    "tallers": 308,
+    "inici": 199,
+    "tallers": 312,
     "agenda": 41,
     "llumatics-web": 51,
+    "contacte": 39,
     "regala": 72,
-    "contacte": 38,
-    "blog": 98,
+    "blog": 97,
     "espais": 40,
     "gracies": 7,
     "sobre": 7
@@ -442,7 +450,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 615
+      "count": 616
     },
     {
       "name": "Safari",
@@ -479,7 +487,7 @@
     {
       "name": "Linux",
       "id": "Linux",
-      "count": 34
+      "count": 35
     },
     {
       "name": "Android",
@@ -491,7 +499,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 658
+      "count": 659
     },
     {
       "name": "desktophd",
@@ -523,7 +531,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 48
+      "count": 49
     },
     {
       "name": "United Kingdom",
@@ -590,17 +598,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 427
+      "count": 430
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 94
+      "count": 96
     },
     {
       "name": "ig",
       "id": "ig",
-      "count": 8
+      "count": 9
     },
     {
       "name": "chatgpt.com",
