@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-24T23:09:17.777952Z",
+  "generated": "2026-07-25T02:08:45.287971Z",
   "period": {
-    "start": "2025-07-24",
-    "end": "2026-07-24"
+    "start": "2025-07-25",
+    "end": "2026-07-25"
   },
-  "total": 867,
+  "total": 870,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -306,16 +306,20 @@
     {
       "date": "2026-07-23",
       "count": 4
+    },
+    {
+      "date": "2026-07-24",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 161
+      "count": 162
     },
     {
       "path": "/tallers",
-      "count": 81
+      "count": 82
     },
     {
       "path": "/es/tallers",
@@ -435,8 +439,8 @@
     "en": 101
   },
   "by_section": {
-    "inici": 200,
-    "tallers": 313,
+    "inici": 201,
+    "tallers": 315,
     "agenda": 41,
     "llumatics-web": 51,
     "contacte": 39,
@@ -598,12 +602,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 431
+      "count": 432
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 97
+      "count": 98
     },
     {
       "name": "ig",
