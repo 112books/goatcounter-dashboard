@@ -1,0 +1,249 @@
+{
+  "generated": "2026-07-27T10:34:09.717381Z",
+  "period": {
+    "start": "2026-07-20",
+    "end": "2026-07-26"
+  },
+  "total": 38,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-07-20",
+      "count": 7
+    },
+    {
+      "date": "2026-07-21",
+      "count": 16
+    },
+    {
+      "date": "2026-07-22",
+      "count": 8
+    },
+    {
+      "date": "2026-07-23",
+      "count": 4
+    },
+    {
+      "date": "2026-07-24",
+      "count": 3
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 9
+    },
+    {
+      "path": "/en/espais",
+      "count": 3
+    },
+    {
+      "path": "/tallers",
+      "count": 3
+    },
+    {
+      "path": "/en/tallers/guinneol",
+      "count": 2
+    },
+    {
+      "path": "/tallers/retrat-analogic",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers",
+      "count": 2
+    },
+    {
+      "path": "/contacte",
+      "count": 2
+    },
+    {
+      "path": "/tallers/retrat-gran-format",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/edicio-imatges-fotoquimiques",
+      "count": 1
+    },
+    {
+      "path": "/tallers/fotogrames-cianotipia",
+      "count": 1
+    },
+    {
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 1
+    },
+    {
+      "path": "/tallers/fotografia-estenopeica",
+      "count": 1
+    },
+    {
+      "path": "/es/blog",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/copies-beers-developer",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fotografia-estenopeica",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/introduccio-al-positivat",
+      "count": 1
+    },
+    {
+      "path": "/tallers/introduccio-gran-format",
+      "count": 1
+    },
+    {
+      "path": "/blog",
+      "count": 1
+    },
+    {
+      "path": "/agenda",
+      "count": 1
+    },
+    {
+      "path": "/es",
+      "count": 1
+    },
+    {
+      "path": "/en/contacte",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "inici": 10,
+    "espais": 3,
+    "tallers": 18,
+    "contacte": 3,
+    "blog": 3,
+    "agenda": 1
+  },
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 21
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 18
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 4
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 13
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 11
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 9
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 6
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 4
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 22
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 14
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 6
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 1
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 26
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 9
+    },
+    {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 4
+    },
+    {
+      "name": "Bolivia",
+      "id": "BO",
+      "count": 1
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 1
+    },
+    {
+      "name": "Poland",
+      "id": "PL",
+      "count": 1
+    },
+    {
+      "name": "Uruguay",
+      "id": "UY",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 10
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 9
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 3
+    }
+  ]
+}
