@@ -1,0 +1,937 @@
+{
+  "generated": "2026-07-27T09:32:09.404603Z",
+  "period": {
+    "start": "2025-07-27",
+    "end": "2026-07-27"
+  },
+  "total": 973,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-05-09",
+      "count": 16
+    },
+    {
+      "date": "2026-05-10",
+      "count": 40
+    },
+    {
+      "date": "2026-05-11",
+      "count": 17
+    },
+    {
+      "date": "2026-05-12",
+      "count": 5
+    },
+    {
+      "date": "2026-05-13",
+      "count": 9
+    },
+    {
+      "date": "2026-05-14",
+      "count": 4
+    },
+    {
+      "date": "2026-05-15",
+      "count": 28
+    },
+    {
+      "date": "2026-05-16",
+      "count": 13
+    },
+    {
+      "date": "2026-05-17",
+      "count": 2
+    },
+    {
+      "date": "2026-05-18",
+      "count": 1
+    },
+    {
+      "date": "2026-05-19",
+      "count": 1
+    },
+    {
+      "date": "2026-05-20",
+      "count": 11
+    },
+    {
+      "date": "2026-05-21",
+      "count": 19
+    },
+    {
+      "date": "2026-05-22",
+      "count": 23
+    },
+    {
+      "date": "2026-05-23",
+      "count": 8
+    },
+    {
+      "date": "2026-05-24",
+      "count": 8
+    },
+    {
+      "date": "2026-05-25",
+      "count": 10
+    },
+    {
+      "date": "2026-05-26",
+      "count": 3
+    },
+    {
+      "date": "2026-05-27",
+      "count": 10
+    },
+    {
+      "date": "2026-05-28",
+      "count": 6
+    },
+    {
+      "date": "2026-05-29",
+      "count": 11
+    },
+    {
+      "date": "2026-05-30",
+      "count": 3
+    },
+    {
+      "date": "2026-05-31",
+      "count": 15
+    },
+    {
+      "date": "2026-06-01",
+      "count": 13
+    },
+    {
+      "date": "2026-06-02",
+      "count": 21
+    },
+    {
+      "date": "2026-06-03",
+      "count": 45
+    },
+    {
+      "date": "2026-06-04",
+      "count": 16
+    },
+    {
+      "date": "2026-06-05",
+      "count": 22
+    },
+    {
+      "date": "2026-06-06",
+      "count": 2
+    },
+    {
+      "date": "2026-06-07",
+      "count": 9
+    },
+    {
+      "date": "2026-06-08",
+      "count": 7
+    },
+    {
+      "date": "2026-06-09",
+      "count": 10
+    },
+    {
+      "date": "2026-06-10",
+      "count": 21
+    },
+    {
+      "date": "2026-06-11",
+      "count": 7
+    },
+    {
+      "date": "2026-06-12",
+      "count": 7
+    },
+    {
+      "date": "2026-06-13",
+      "count": 4
+    },
+    {
+      "date": "2026-06-14",
+      "count": 8
+    },
+    {
+      "date": "2026-06-15",
+      "count": 20
+    },
+    {
+      "date": "2026-06-16",
+      "count": 7
+    },
+    {
+      "date": "2026-06-17",
+      "count": 4
+    },
+    {
+      "date": "2026-06-18",
+      "count": 5
+    },
+    {
+      "date": "2026-06-19",
+      "count": 5
+    },
+    {
+      "date": "2026-06-20",
+      "count": 5
+    },
+    {
+      "date": "2026-06-21",
+      "count": 4
+    },
+    {
+      "date": "2026-06-22",
+      "count": 13
+    },
+    {
+      "date": "2026-06-23",
+      "count": 12
+    },
+    {
+      "date": "2026-06-24",
+      "count": 18
+    },
+    {
+      "date": "2026-06-25",
+      "count": 7
+    },
+    {
+      "date": "2026-06-26",
+      "count": 4
+    },
+    {
+      "date": "2026-06-27",
+      "count": 7
+    },
+    {
+      "date": "2026-06-28",
+      "count": 15
+    },
+    {
+      "date": "2026-06-29",
+      "count": 21
+    },
+    {
+      "date": "2026-06-30",
+      "count": 8
+    },
+    {
+      "date": "2026-07-01",
+      "count": 3
+    },
+    {
+      "date": "2026-07-02",
+      "count": 25
+    },
+    {
+      "date": "2026-07-03",
+      "count": 19
+    },
+    {
+      "date": "2026-07-04",
+      "count": 16
+    },
+    {
+      "date": "2026-07-05",
+      "count": 22
+    },
+    {
+      "date": "2026-07-06",
+      "count": 35
+    },
+    {
+      "date": "2026-07-07",
+      "count": 15
+    },
+    {
+      "date": "2026-07-08",
+      "count": 42
+    },
+    {
+      "date": "2026-07-09",
+      "count": 24
+    },
+    {
+      "date": "2026-07-10",
+      "count": 12
+    },
+    {
+      "date": "2026-07-11",
+      "count": 6
+    },
+    {
+      "date": "2026-07-12",
+      "count": 24
+    },
+    {
+      "date": "2026-07-13",
+      "count": 21
+    },
+    {
+      "date": "2026-07-14",
+      "count": 24
+    },
+    {
+      "date": "2026-07-15",
+      "count": 9
+    },
+    {
+      "date": "2026-07-16",
+      "count": 6
+    },
+    {
+      "date": "2026-07-17",
+      "count": 6
+    },
+    {
+      "date": "2026-07-18",
+      "count": 11
+    },
+    {
+      "date": "2026-07-19",
+      "count": 4
+    },
+    {
+      "date": "2026-07-20",
+      "count": 12
+    },
+    {
+      "date": "2026-07-21",
+      "count": 4
+    },
+    {
+      "date": "2026-07-22",
+      "count": 1
+    },
+    {
+      "date": "2026-07-23",
+      "count": 7
+    },
+    {
+      "date": "2026-07-24",
+      "count": 10
+    },
+    {
+      "date": "2026-07-25",
+      "count": 4
+    },
+    {
+      "date": "2026-07-26",
+      "count": 1
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 269
+    },
+    {
+      "path": "/galeria",
+      "count": 86
+    },
+    {
+      "path": "/festivals",
+      "count": 53
+    },
+    {
+      "path": "/serveis",
+      "count": 49
+    },
+    {
+      "path": "/blog",
+      "count": 41
+    },
+    {
+      "path": "/noticies",
+      "count": 36
+    },
+    {
+      "path": "/contacte",
+      "count": 29
+    },
+    {
+      "path": "/noticies/2026-07-festival-blues-barcelona",
+      "count": 23
+    },
+    {
+      "path": "/qui-som",
+      "count": 21
+    },
+    {
+      "path": "/noticies/guia-exposicions-espais-fotografics-barcelona",
+      "count": 20
+    },
+    {
+      "path": "/obra",
+      "count": 14
+    },
+    {
+      "path": "/festivals/festival-blues-barcelona",
+      "count": 12
+    },
+    {
+      "path": "/cerca",
+      "count": 12
+    },
+    {
+      "path": "/serveis/books-per-actors",
+      "count": 11
+    },
+    {
+      "path": "/en/node/191/track?page=2%60",
+      "count": 9
+    },
+    {
+      "path": "/en/vijazz-2025-the-jazz-that-brought-me-back-home",
+      "count": 9
+    },
+    {
+      "path": "/en/noticies/photo-exhibitions-spaces-barcelona-guide",
+      "count": 9
+    },
+    {
+      "path": "/festivals/calella-harmonica-festival",
+      "count": 9
+    },
+    {
+      "path": "/ca",
+      "count": 9
+    },
+    {
+      "path": "/en/node/191/track?page=2%60%60",
+      "count": 8
+    },
+    {
+      "path": "/serveis-fotografics-2/books-per-actors-i-actrius",
+      "count": 8
+    },
+    {
+      "path": "/festivals/nou-barris-meets-new-orleans",
+      "count": 7
+    },
+    {
+      "path": "/festivals/im-jazz",
+      "count": 7
+    },
+    {
+      "path": "/serveis/books-artistics",
+      "count": 6
+    },
+    {
+      "path": "/festivals/carnestoltes-nou-barris",
+      "count": 6
+    },
+    {
+      "path": "/en/testing-adox-hr-50-film",
+      "count": 5
+    },
+    {
+      "path": "/en/testing-vintage-cameras",
+      "count": 5
+    },
+    {
+      "path": "/legal/privacitat",
+      "count": 5
+    },
+    {
+      "path": "/noticies/2026-06-la-juganera",
+      "count": 5
+    },
+    {
+      "path": "/festivals/vijazz",
+      "count": 5
+    },
+    {
+      "path": "/es/revelado-de-pelicula-color-con-proceso-de-blanco-y-negro",
+      "count": 5
+    },
+    {
+      "path": "/es/servicios-fotograficos/books-para-actores-y-actrices",
+      "count": 5
+    },
+    {
+      "path": "/festivals/flamenco-de-barrio",
+      "count": 5
+    },
+    {
+      "path": "/es/2025/08",
+      "count": 4
+    },
+    {
+      "path": "/novetat-books-per-actors-i-actrius",
+      "count": 4
+    },
+    {
+      "path": "/en/node/191/track?page=2",
+      "count": 4
+    },
+    {
+      "path": "/en/from-chance-to-creativity-a-photo-shoot-with-an-oriental-dress",
+      "count": 4
+    },
+    {
+      "path": "/contacte/politica-de-ptivacitat-avis-legal",
+      "count": 4
+    },
+    {
+      "path": "/en",
+      "count": 4
+    },
+    {
+      "path": "/en/content/photography-studio",
+      "count": 4
+    },
+    {
+      "path": "/sessio-amb-la-ballarina-nahomi-itzel",
+      "count": 4
+    },
+    {
+      "path": "/es/caffenol-una-tecnica-de-revelado-alternativa",
+      "count": 4
+    },
+    {
+      "path": "/festivals/ciutat-flamenco-barcelona",
+      "count": 4
+    },
+    {
+      "path": "/en/content/developing-color-film-black-and-white-process",
+      "count": 3
+    },
+    {
+      "path": "/en/contact",
+      "count": 3
+    },
+    {
+      "path": "/en/content/20%C3%A8-festival-de-blues-de-barcelona",
+      "count": 3
+    },
+    {
+      "path": "/es/estudio-fotografico-movil",
+      "count": 3
+    },
+    {
+      "path": "/en/node/8/track?page=8",
+      "count": 3
+    },
+    {
+      "path": "/en/los-mambo-jambo-studio",
+      "count": 3
+    },
+    {
+      "path": "/en/19th-barcelona-blues-festival-2021-tribute-amadeu-cases",
+      "count": 3
+    }
+  ],
+  "by_lang": {
+    "en": 129,
+    "ca": 27,
+    "es": 40
+  },
+  "by_section": {
+    "inici": 282,
+    "galeria": 89,
+    "festivals": 117,
+    "serveis": 69,
+    "blog": 41,
+    "noticies": 93,
+    "contacte": 36,
+    "qui-som": 21,
+    "obra": 14,
+    "cerca": 12,
+    "node": 39,
+    "vijazz-2025-the-jazz-that-brought-me-back-home": 9,
+    "serveis-fotografics-2": 8,
+    "testing-adox-hr-50-film": 5,
+    "testing-vintage-cameras": 5,
+    "legal": 7,
+    "revelado-de-pelicula-color-con-proceso-de-blanco-y-negro": 5,
+    "servicios-fotograficos": 8,
+    "2025": 6,
+    "novetat-books-per-actors-i-actrius": 4,
+    "from-chance-to-creativity-a-photo-shoot-with-an-oriental-dress": 4,
+    "content": 21,
+    "sessio-amb-la-ballarina-nahomi-itzel": 4,
+    "caffenol-una-tecnica-de-revelado-alternativa": 4,
+    "contact": 3,
+    "estudio-fotografico-movil": 3,
+    "los-mambo-jambo-studio": 3,
+    "19th-barcelona-blues-festival-2021-tribute-amadeu-cases": 3,
+    "category": 3,
+    "testing-film-kono-monolit-iso64": 3,
+    "incoherencias-una-pequena-historia-del-absurdo-3": 3,
+    "un-bolo-con-mambo-mucho-de-mambo": 3,
+    "photographic-services": 5,
+    "gypsy-wedding-bon-pastor-barcelona": 3,
+    "cambo-sc-first-test": 3,
+    "lomography-great-photos-simple-camera": 3,
+    "sessio-amb-eli": 3,
+    "on-veure-exposicions-de-fotografia-a-barcelona": 3,
+    "guia-completa-de-exposiciones-y-espacios-fotograficos-en-barcelona": 3,
+    "comprehensive-guide-to-photography-exhibitions-and-spaces-in-barcelona": 3,
+    "new-books-for-actors-and-actresses": 2,
+    "services-and-rates": 2,
+    "preses-falses-40-anys-de-blues-barcelona-2": 2,
+    "wp-content": 2,
+    "tag": 4,
+    "incoherencias-una-pequena-historia-del-absurdo-2": 2,
+    "mike-shannon-actor-photo-book-3": 2,
+    "pruebas-de-forzados-con-fotografias-de-ejemplo": 2,
+    "jazz-i-am-2026-quan-un-festival-petit-te-mes-a-dir-que-un-de-gran": 2
+  },
+  "noticies_top": [
+    {
+      "path": "/noticies/2026-07-festival-blues-barcelona",
+      "count": 23
+    },
+    {
+      "path": "/noticies/guia-exposicions-espais-fotografics-barcelona",
+      "count": 20
+    },
+    {
+      "path": "/en/noticies/photo-exhibitions-spaces-barcelona-guide",
+      "count": 9
+    },
+    {
+      "path": "/noticies/2026-06-la-juganera",
+      "count": 5
+    }
+  ],
+  "festivals_top": [
+    {
+      "path": "/festivals/festival-blues-barcelona",
+      "count": 12
+    },
+    {
+      "path": "/festivals/calella-harmonica-festival",
+      "count": 9
+    },
+    {
+      "path": "/festivals/nou-barris-meets-new-orleans",
+      "count": 7
+    },
+    {
+      "path": "/festivals/im-jazz",
+      "count": 7
+    },
+    {
+      "path": "/festivals/carnestoltes-nou-barris",
+      "count": 6
+    },
+    {
+      "path": "/festivals/vijazz",
+      "count": 5
+    },
+    {
+      "path": "/festivals/flamenco-de-barrio",
+      "count": 5
+    },
+    {
+      "path": "/festivals/ciutat-flamenco-barcelona",
+      "count": 4
+    }
+  ],
+  "blog_top": [
+    {
+      "path": "/2026/07/11/2026-07-11-prospe-beach-again",
+      "count": 71
+    },
+    {
+      "path": "/2026/07/06/2026-07-04-24e-festival-de-blues-de-barcelona",
+      "count": 9
+    },
+    {
+      "path": "/2026/07/06/2026-07-05-24e-festival-de-blues-de-barcelona-jam-session-de-clausura",
+      "count": 9
+    },
+    {
+      "path": "/2026/07/05/2026-07-03-05-24e-festival-de-blues-de-barcelona-organitzacio-colaboradors-amics-i-voluntaris",
+      "count": 7
+    },
+    {
+      "path": "/2026/07/06/2026-07-03a05-24-festival-de-blues-de-barcelona",
+      "count": 6
+    },
+    {
+      "path": "/?query-0-page=2",
+      "count": 6
+    },
+    {
+      "path": "/2012/01/28/prospe-beach-2010",
+      "count": 5
+    },
+    {
+      "path": "/2026/06/28/2026-06-27-44a-la-cultura-va-de-festa",
+      "count": 5
+    },
+    {
+      "path": "/2026/07/26/2026-07-25-una-jornada-amb-els-barcelona-gipsy-balkan-orchestra",
+      "count": 4
+    },
+    {
+      "path": "/2026/07/20/revivint-la-vella-woody-cam",
+      "count": 4
+    },
+    {
+      "path": "/politica-de-cookies",
+      "count": 4
+    },
+    {
+      "path": "/2012/12/07/lomo-9765-pentax-k1000-lomography-color-800-i",
+      "count": 4
+    },
+    {
+      "path": "/2024/02/22/sessio-amb-la-ballarina-nahomi-itzel",
+      "count": 3
+    },
+    {
+      "path": "/2026/06/06/2026-06-05-festes-de-prosperitat-me-pirra-la-birra-fest-mocebares-prospe-oases",
+      "count": 3
+    },
+    {
+      "path": "/2013/12/08/caffenol-35-pentaxk1000-kodak-tmax-100-can-peguera",
+      "count": 3
+    },
+    {
+      "path": "/cerca",
+      "count": 3
+    },
+    {
+      "path": "/2026/03/12/2026-03-11-jazz-im-al-molino",
+      "count": 2
+    },
+    {
+      "path": "/tag/les-puigdomenech",
+      "count": 2
+    },
+    {
+      "path": "/2013/07/05/barcelona-big-blues-band-al-vijazz-2013-a-vilafranca-del-penedes",
+      "count": 2
+    },
+    {
+      "path": "/2026/04/08/superheadz-digital-harinezumila-magia-low-fi",
+      "count": 2
+    }
+  ],
+  "wizard_funnel": {
+    "wizard-s1": 18,
+    "wizard-s2": 16,
+    "wizard-s3": 5,
+    "wizard-s4": 4,
+    "wizard-sent": 3
+  },
+  "avg_time_on_site_seconds": 14,
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 841
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 499
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 29
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 22
+    },
+    {
+      "name": "Edge",
+      "id": "Edge",
+      "count": 2
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 683
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 382
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 150
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 116
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 58
+    },
+    {
+      "name": "Chrome OS",
+      "id": "Chrome OS",
+      "count": 4
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 721
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 297
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 248
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 127
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 915
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 80
+    },
+    {
+      "name": "Indonesia",
+      "id": "ID",
+      "count": 36
+    },
+    {
+      "name": "Singapore",
+      "id": "SG",
+      "count": 36
+    },
+    {
+      "name": "Ecuador",
+      "id": "EC",
+      "count": 26
+    },
+    {
+      "name": "Venezuela",
+      "id": "VE",
+      "count": 26
+    },
+    {
+      "name": "Colombia",
+      "id": "CO",
+      "count": 25
+    },
+    {
+      "name": "Germany",
+      "id": "DE",
+      "count": 24
+    },
+    {
+      "name": "Sweden",
+      "id": "SE",
+      "count": 20
+    },
+    {
+      "name": "Vietnam",
+      "id": "VN",
+      "count": 19
+    },
+    {
+      "name": "Bangladesh",
+      "id": "BD",
+      "count": 18
+    },
+    {
+      "name": "Malaysia",
+      "id": "MY",
+      "count": 11
+    },
+    {
+      "name": "United Arab Emirates",
+      "id": "AE",
+      "count": 10
+    },
+    {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 10
+    },
+    {
+      "name": "Israel",
+      "id": "IL",
+      "count": 9
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 587
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 83
+    },
+    {
+      "name": "blog.pocallum.cat",
+      "id": "blog.pocallum.cat",
+      "count": 17
+    },
+    {
+      "name": "pocallum-cat.translate.goog",
+      "id": "pocallum-cat.translate.goog",
+      "count": 10
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 9
+    },
+    {
+      "name": "Blog",
+      "id": "Blog",
+      "count": 8
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 6
+    },
+    {
+      "name": "bing.com",
+      "id": "bing.com",
+      "count": 4
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 4
+    },
+    {
+      "name": "Yandex",
+      "id": "Yandex",
+      "count": 3
+    }
+  ]
+}
