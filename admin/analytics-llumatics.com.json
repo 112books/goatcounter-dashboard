@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-31T23:57:09.368067Z",
+  "generated": "2026-08-01T02:43:01.506567Z",
   "period": {
-    "start": "2025-07-31",
-    "end": "2026-07-31"
+    "start": "2025-08-01",
+    "end": "2026-08-01"
   },
-  "total": 888,
+  "total": 895,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -326,6 +326,14 @@
     {
       "date": "2026-07-30",
       "count": 6
+    },
+    {
+      "date": "2026-07-31",
+      "count": 6
+    },
+    {
+      "date": "2026-08-01",
+      "count": 1
     }
   ],
   "hits": [
@@ -339,7 +347,7 @@
     },
     {
       "path": "/es/tallers",
-      "count": 29
+      "count": 30
     },
     {
       "path": "/agenda",
@@ -382,15 +390,15 @@
       "count": 18
     },
     {
+      "path": "/en/espais",
+      "count": 17
+    },
+    {
       "path": "/tallers/fonaments-iniciacio-puntual",
       "count": 15
     },
     {
       "path": "/tallers/iniciacio-revelat",
-      "count": 15
-    },
-    {
-      "path": "/en/espais",
       "count": 15
     },
     {
@@ -407,7 +415,7 @@
     },
     {
       "path": "/en/tallers",
-      "count": 9
+      "count": 10
     },
     {
       "path": "/es/blog/caffenol-revelar-amb-cafe",
@@ -426,6 +434,14 @@
       "count": 7
     },
     {
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 7
+    },
+    {
+      "path": "/es/regala",
+      "count": 7
+    },
+    {
       "path": "/tallers/fotogrames-cianotipia",
       "count": 7
     },
@@ -440,29 +456,21 @@
     {
       "path": "/es/espais",
       "count": 7
-    },
-    {
-      "path": "/tallers/revelat-bn",
-      "count": 7
-    },
-    {
-      "path": "/es/contacte",
-      "count": 7
     }
   ],
   "by_lang": {
-    "es": 206,
-    "en": 105
+    "es": 209,
+    "en": 109
   },
   "by_section": {
     "inici": 204,
-    "tallers": 324,
+    "tallers": 327,
     "agenda": 42,
-    "contacte": 40,
+    "contacte": 41,
     "llumatics-web": 51,
-    "regala": 72,
+    "regala": 73,
     "blog": 98,
-    "espais": 41,
+    "espais": 43,
     "gracies": 7,
     "sobre": 8,
     "blocs": 1
@@ -471,7 +479,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 636
+      "count": 638
     },
     {
       "name": "Safari",
@@ -498,7 +506,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 266
+      "count": 268
     },
     {
       "name": "iOS",
@@ -520,7 +528,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 681
+      "count": 683
     },
     {
       "name": "desktophd",
@@ -552,7 +560,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 50
+      "count": 52
     },
     {
       "name": "United Kingdom",
@@ -619,12 +627,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 435
+      "count": 436
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 103
+      "count": 105
     },
     {
       "name": "ig",
