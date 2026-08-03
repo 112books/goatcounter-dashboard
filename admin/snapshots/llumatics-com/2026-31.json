@@ -1,0 +1,254 @@
+{
+  "generated": "2026-08-03T10:34:14.858467Z",
+  "period": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "total": 36,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-07-27",
+      "count": 3
+    },
+    {
+      "date": "2026-07-28",
+      "count": 5
+    },
+    {
+      "date": "2026-07-30",
+      "count": 6
+    },
+    {
+      "date": "2026-07-31",
+      "count": 6
+    },
+    {
+      "date": "2026-08-01",
+      "count": 10
+    },
+    {
+      "date": "2026-08-02",
+      "count": 6
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 5
+    },
+    {
+      "path": "/es/tallers",
+      "count": 4
+    },
+    {
+      "path": "/en/espais",
+      "count": 3
+    },
+    {
+      "path": "/es/tallers/fotogrames-cianotipia",
+      "count": 2
+    },
+    {
+      "path": "/en/tallers",
+      "count": 2
+    },
+    {
+      "path": "/blog",
+      "count": 2
+    },
+    {
+      "path": "/tallers",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/copies-en-paper/privat",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/copies-en-paper",
+      "count": 1
+    },
+    {
+      "path": "/blog/revelat-zenit-cameras-films-2025-02",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/caffenol",
+      "count": 1
+    },
+    {
+      "path": "/sobre",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 1
+    },
+    {
+      "path": "/es/regala",
+      "count": 1
+    },
+    {
+      "path": "/tallers/revelat-color-bn",
+      "count": 1
+    },
+    {
+      "path": "/es/sobre",
+      "count": 1
+    },
+    {
+      "path": "/tallers/iniciacio-revelat",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fotografia-estenopeica",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/cianotipia",
+      "count": 1
+    },
+    {
+      "path": "/agenda",
+      "count": 1
+    },
+    {
+      "path": "/en/contacte",
+      "count": 1
+    },
+    {
+      "path": "/es/contacte",
+      "count": 1
+    },
+    {
+      "path": "/contacte",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "inici": 5,
+    "tallers": 18,
+    "espais": 3,
+    "blog": 3,
+    "sobre": 2,
+    "regala": 1,
+    "agenda": 1,
+    "contacte": 3
+  },
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 25
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 17
+    }
+  ],
+  "systems": [
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 22
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 9
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 8
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 3
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 25
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 15
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 2
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 32
+    },
+    {
+      "name": "Finland",
+      "id": "FI",
+      "count": 3
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 2
+    },
+    {
+      "name": "France",
+      "id": "FR",
+      "count": 1
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 1
+    },
+    {
+      "name": "Portugal",
+      "id": "PT",
+      "count": 1
+    },
+    {
+      "name": "Vietnam",
+      "id": "VN",
+      "count": 1
+    },
+    {
+      "name": "Kosovo",
+      "id": "XK",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 8
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 7
+    },
+    {
+      "name": "www.bing.com",
+      "id": "www.bing.com",
+      "count": 1
+    },
+    {
+      "name": "www.ecosia.org",
+      "id": "www.ecosia.org",
+      "count": 1
+    }
+  ]
+}
