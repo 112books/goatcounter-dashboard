@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-02T23:54:00.892906Z",
+  "generated": "2026-08-03T02:14:14.571220Z",
   "period": {
-    "start": "2025-08-02",
-    "end": "2026-08-02"
+    "start": "2025-08-03",
+    "end": "2026-08-03"
   },
-  "total": 908,
+  "total": 914,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -337,17 +337,21 @@
     },
     {
       "date": "2026-08-02",
-      "count": 6
+      "count": 11
+    },
+    {
+      "date": "2026-08-03",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 168
+      "count": 169
     },
     {
       "path": "/tallers",
-      "count": 85
+      "count": 86
     },
     {
       "path": "/es/tallers",
@@ -355,7 +359,7 @@
     },
     {
       "path": "/agenda",
-      "count": 28
+      "count": 29
     },
     {
       "path": "/contacte",
@@ -382,11 +386,11 @@
       "count": 22
     },
     {
-      "path": "/es/blog",
-      "count": 19
+      "path": "/espais",
+      "count": 20
     },
     {
-      "path": "/espais",
+      "path": "/es/blog",
       "count": 19
     },
     {
@@ -398,11 +402,11 @@
       "count": 17
     },
     {
-      "path": "/tallers/fonaments-iniciacio-puntual",
-      "count": 15
+      "path": "/tallers/iniciacio-revelat",
+      "count": 16
     },
     {
-      "path": "/tallers/iniciacio-revelat",
+      "path": "/tallers/fonaments-iniciacio-puntual",
       "count": 15
     },
     {
@@ -458,7 +462,7 @@
       "count": 7
     },
     {
-      "path": "/es/tallers/cianotipia",
+      "path": "/tallers/fotografia-estenopeica",
       "count": 7
     }
   ],
@@ -467,14 +471,14 @@
     "en": 109
   },
   "by_section": {
-    "inici": 207,
-    "tallers": 332,
-    "agenda": 43,
+    "inici": 208,
+    "tallers": 335,
+    "agenda": 44,
     "contacte": 42,
     "llumatics-web": 51,
     "regala": 73,
     "blog": 100,
-    "espais": 43,
+    "espais": 44,
     "gracies": 7,
     "sobre": 10
   },
@@ -630,7 +634,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 441
+      "count": 443
     },
     {
       "name": "Google",
