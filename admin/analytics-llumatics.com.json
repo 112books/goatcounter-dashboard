@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-03T22:03:02.377709Z",
+  "generated": "2026-08-04T00:03:36.157385Z",
   "period": {
-    "start": "2025-08-03",
-    "end": "2026-08-03"
+    "start": "2025-08-04",
+    "end": "2026-08-04"
   },
-  "total": 914,
+  "total": 919,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -129,7 +129,7 @@
     },
     {
       "date": "2026-06-03",
-      "count": 6
+      "count": 7
     },
     {
       "date": "2026-06-04",
@@ -333,7 +333,7 @@
     },
     {
       "date": "2026-08-01",
-      "count": 9
+      "count": 8
     },
     {
       "date": "2026-08-02",
@@ -341,13 +341,13 @@
     },
     {
       "date": "2026-08-03",
-      "count": 1
+      "count": 6
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 169
+      "count": 170
     },
     {
       "path": "/tallers",
@@ -355,7 +355,7 @@
     },
     {
       "path": "/es/tallers",
-      "count": 32
+      "count": 33
     },
     {
       "path": "/agenda",
@@ -430,6 +430,10 @@
       "count": 9
     },
     {
+      "path": "/es/contacte",
+      "count": 9
+    },
+    {
       "path": "/es/agenda",
       "count": 8
     },
@@ -438,7 +442,7 @@
       "count": 8
     },
     {
-      "path": "/es/contacte",
+      "path": "/es/espais",
       "count": 8
     },
     {
@@ -460,26 +464,22 @@
     {
       "path": "/gracies",
       "count": 7
-    },
-    {
-      "path": "/tallers/fotografia-estenopeica",
-      "count": 7
     }
   ],
   "by_lang": {
-    "es": 213,
+    "es": 217,
     "en": 109
   },
   "by_section": {
-    "inici": 208,
+    "inici": 209,
     "tallers": 335,
     "agenda": 44,
-    "contacte": 42,
+    "contacte": 43,
     "llumatics-web": 51,
     "regala": 73,
     "blog": 100,
-    "espais": 44,
-    "gracies": 7,
+    "espais": 45,
+    "gracies": 9,
     "sobre": 10
   },
   "browsers": [
@@ -639,7 +639,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 106
+      "count": 107
     },
     {
       "name": "ig",
@@ -649,7 +649,7 @@
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 4
+      "count": 5
     },
     {
       "name": "112books.github.io/llumatics-web/en/contacte",
