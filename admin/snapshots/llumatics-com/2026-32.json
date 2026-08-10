@@ -1,0 +1,293 @@
+{
+  "generated": "2026-08-10T08:21:45.751991Z",
+  "period": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "total": 53,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-08-03",
+      "count": 6
+    },
+    {
+      "date": "2026-08-04",
+      "count": 15
+    },
+    {
+      "date": "2026-08-05",
+      "count": 15
+    },
+    {
+      "date": "2026-08-06",
+      "count": 7
+    },
+    {
+      "date": "2026-08-07",
+      "count": 2
+    },
+    {
+      "date": "2026-08-08",
+      "count": 8
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 7
+    },
+    {
+      "path": "/tallers",
+      "count": 4
+    },
+    {
+      "path": "/en/espais",
+      "count": 3
+    },
+    {
+      "path": "/es/tallers",
+      "count": 3
+    },
+    {
+      "path": "/es/tallers/revelat-i-positivat",
+      "count": 2
+    },
+    {
+      "path": "/es/gracies",
+      "count": 2
+    },
+    {
+      "path": "/en/tallers",
+      "count": 2
+    },
+    {
+      "path": "/en/agenda",
+      "count": 2
+    },
+    {
+      "path": "/es/agenda",
+      "count": 2
+    },
+    {
+      "path": "/es",
+      "count": 2
+    },
+    {
+      "path": "/en",
+      "count": 2
+    },
+    {
+      "path": "/en/contacte",
+      "count": 2
+    },
+    {
+      "path": "/en/tallers/copies-en-paper",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/caffenol",
+      "count": 1
+    },
+    {
+      "path": "/en/sobre",
+      "count": 1
+    },
+    {
+      "path": "/en/blog/positivador-app",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/copies-en-paper",
+      "count": 1
+    },
+    {
+      "path": "/tallers/fotollibre",
+      "count": 1
+    },
+    {
+      "path": "/avis-legal",
+      "count": 1
+    },
+    {
+      "path": "/en/blog/caffenol-revelar-amb-cafe",
+      "count": 1
+    },
+    {
+      "path": "/sobre",
+      "count": 1
+    },
+    {
+      "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 1
+    },
+    {
+      "path": "/tallers/cianotipia",
+      "count": 1
+    },
+    {
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/tutoria-fotografica",
+      "count": 1
+    },
+    {
+      "path": "/es/espais",
+      "count": 1
+    },
+    {
+      "path": "/espais",
+      "count": 1
+    },
+    {
+      "path": "/blog",
+      "count": 1
+    },
+    {
+      "path": "/tallers/revelat-bn",
+      "count": 1
+    },
+    {
+      "path": "/agenda",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "inici": 11,
+    "tallers": 19,
+    "espais": 5,
+    "gracies": 2,
+    "agenda": 5,
+    "contacte": 4,
+    "sobre": 2,
+    "blog": 4,
+    "avis-legal": 1
+  },
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 35
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 13
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 7
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 19
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 14
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 10
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 9
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 3
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 33
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 19
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 3
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 34
+    },
+    {
+      "name": "Singapore",
+      "id": "SG",
+      "count": 9
+    },
+    {
+      "name": "Finland",
+      "id": "FI",
+      "count": 8
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 1
+    },
+    {
+      "name": "Indonesia",
+      "id": "ID",
+      "count": 1
+    },
+    {
+      "name": "Mexico",
+      "id": "MX",
+      "count": 1
+    },
+    {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 12
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 11
+    },
+    {
+      "name": "www.qwant.com",
+      "id": "www.qwant.com",
+      "count": 1
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 1
+    },
+    {
+      "name": "naubostik.com",
+      "id": "naubostik.com",
+      "count": 1
+    }
+  ]
+}
