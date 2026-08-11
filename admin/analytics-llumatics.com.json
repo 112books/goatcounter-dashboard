@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-10T23:29:31.117204Z",
+  "generated": "2026-08-11T01:15:28.559942Z",
   "period": {
-    "start": "2025-08-10",
-    "end": "2026-08-10"
+    "start": "2025-08-11",
+    "end": "2026-08-11"
   },
-  "total": 960,
+  "total": 961,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -366,6 +366,10 @@
     {
       "date": "2026-08-09",
       "count": 2
+    },
+    {
+      "date": "2026-08-10",
+      "count": 1
     }
   ],
   "hits": [
@@ -410,12 +414,12 @@
       "count": 22
     },
     {
-      "path": "/espais",
+      "path": "/en/espais",
       "count": 21
     },
     {
-      "path": "/en/espais",
-      "count": 20
+      "path": "/espais",
+      "count": 21
     },
     {
       "path": "/es/blog",
@@ -492,7 +496,7 @@
   ],
   "by_lang": {
     "es": 229,
-    "en": 119
+    "en": 120
   },
   "by_section": {
     "inici": 219,
@@ -502,7 +506,7 @@
     "llumatics-web": 51,
     "regala": 73,
     "blog": 104,
-    "espais": 49,
+    "espais": 50,
     "sobre": 11,
     "gracies": 10,
     "avis-legal": 2
@@ -664,7 +668,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 118
+      "count": 119
     },
     {
       "name": "ig",
