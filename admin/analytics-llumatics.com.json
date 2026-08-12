@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T15:54:22.747559Z",
+  "generated": "2026-08-12T16:51:54.676213Z",
   "period": {
     "start": "2025-08-12",
     "end": "2026-08-12"
@@ -10,7 +10,28 @@
   "hits": [],
   "by_lang": {},
   "by_section": {},
-  "browsers": [],
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 680
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 447
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 41
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 13
+    }
+  ],
   "systems": [],
   "sizes": [],
   "locations": [],
