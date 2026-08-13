@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-12T23:35:04.420810Z",
+  "generated": "2026-08-13T01:25:27.966936Z",
   "period": {
-    "start": "2025-08-12",
-    "end": "2026-08-12"
+    "start": "2025-08-13",
+    "end": "2026-08-13"
   },
-  "total": 978,
+  "total": 981,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -377,7 +377,7 @@
     },
     {
       "date": "2026-08-12",
-      "count": 3
+      "count": 6
     }
   ],
   "hits": [
@@ -447,11 +447,11 @@
     },
     {
       "path": "/en",
-      "count": 15
+      "count": 16
     },
     {
       "path": "/en/tallers",
-      "count": 13
+      "count": 14
     },
     {
       "path": "/llumatics-web",
@@ -504,16 +504,16 @@
   ],
   "by_lang": {
     "es": 232,
-    "en": 123
+    "en": 126
   },
   "by_section": {
-    "inici": 222,
-    "tallers": 352,
+    "inici": 223,
+    "tallers": 353,
     "agenda": 50,
     "contacte": 51,
     "llumatics-web": 51,
     "regala": 74,
-    "blog": 105,
+    "blog": 106,
     "espais": 50,
     "sobre": 11,
     "gracies": 10,
@@ -676,7 +676,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 120
+      "count": 121
     },
     {
       "name": "ig",
