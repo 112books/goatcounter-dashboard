@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-13T23:35:06.253851Z",
+  "generated": "2026-08-14T01:24:37.503359Z",
   "period": {
-    "start": "2025-08-13",
-    "end": "2026-08-13"
+    "start": "2025-08-14",
+    "end": "2026-08-14"
   },
-  "total": 981,
+  "total": 983,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -378,12 +378,16 @@
     {
       "date": "2026-08-12",
       "count": 6
+    },
+    {
+      "date": "2026-08-13",
+      "count": 2
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 178
+      "count": 179
     },
     {
       "path": "/tallers",
@@ -399,7 +403,7 @@
     },
     {
       "path": "/contacte",
-      "count": 28
+      "count": 29
     },
     {
       "path": "/es",
@@ -507,10 +511,10 @@
     "en": 126
   },
   "by_section": {
-    "inici": 223,
+    "inici": 224,
     "tallers": 353,
     "agenda": 50,
-    "contacte": 51,
+    "contacte": 52,
     "llumatics-web": 51,
     "regala": 74,
     "blog": 106,
@@ -671,7 +675,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 456
+      "count": 457
     },
     {
       "name": "Google",
