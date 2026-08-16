@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-15T23:14:50.782657Z",
+  "generated": "2026-08-16T00:58:23.628346Z",
   "period": {
-    "start": "2025-08-15",
-    "end": "2026-08-15"
+    "start": "2025-08-16",
+    "end": "2026-08-16"
   },
-  "total": 989,
+  "total": 990,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -386,6 +386,10 @@
     {
       "date": "2026-08-14",
       "count": 6
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
     }
   ],
   "hits": [
@@ -516,7 +520,7 @@
   },
   "by_section": {
     "inici": 225,
-    "tallers": 360,
+    "tallers": 361,
     "agenda": 50,
     "contacte": 52,
     "llumatics-web": 49,
@@ -531,7 +535,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 683
+      "count": 684
     },
     {
       "name": "Safari",
@@ -553,7 +557,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 630
+      "count": 631
     },
     {
       "name": "Windows",
@@ -580,7 +584,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 724
+      "count": 725
     },
     {
       "name": "phone",
@@ -602,7 +606,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 743
+      "count": 744
     },
     {
       "name": "Singapore",
