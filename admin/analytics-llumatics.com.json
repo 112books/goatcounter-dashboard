@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T15:19:31.827955Z",
+  "generated": "2026-08-17T16:20:18.925346Z",
   "period": {
     "start": "2025-08-17",
     "end": "2026-08-17"
@@ -531,9 +531,77 @@
     "gracies": 10,
     "avis-legal": 2
   },
-  "browsers": [],
-  "systems": [],
-  "sizes": [],
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 693
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 452
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 41
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 13
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 632
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 284
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 191
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 53
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 39
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 726
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 237
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 201
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 35
+    }
+  ],
   "locations": [
     {
       "name": "Spain",
@@ -611,5 +679,31 @@
       "count": 4
     }
   ],
-  "refs": []
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 457
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 122
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 9
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 7
+    },
+    {
+      "name": "112books.github.io/llumatics-web/en/contacte",
+      "id": "112books.github.io/llumatics-web/en/contacte",
+      "count": 3
+    }
+  ]
 }
