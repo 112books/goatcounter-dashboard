@@ -1,0 +1,217 @@
+{
+  "generated": "2026-08-17T07:44:33.421682Z",
+  "period": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "total": 30,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-08-10",
+      "count": 1
+    },
+    {
+      "date": "2026-08-11",
+      "count": 14
+    },
+    {
+      "date": "2026-08-12",
+      "count": 6
+    },
+    {
+      "date": "2026-08-13",
+      "count": 2
+    },
+    {
+      "date": "2026-08-14",
+      "count": 6
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 4
+    },
+    {
+      "path": "/tallers",
+      "count": 3
+    },
+    {
+      "path": "/contacte",
+      "count": 3
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 2
+    },
+    {
+      "path": "/en/tallers",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers",
+      "count": 2
+    },
+    {
+      "path": "/en/contacte",
+      "count": 2
+    },
+    {
+      "path": "/blog/del-carrer-al-llibre-nou-curs",
+      "count": 1
+    },
+    {
+      "path": "/en/blog",
+      "count": 1
+    },
+    {
+      "path": "/tallers/tutoria-fotografica",
+      "count": 1
+    },
+    {
+      "path": "/tallers/introduccio-al-positivat",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/tutoria-fotografica",
+      "count": 1
+    },
+    {
+      "path": "/en/espais",
+      "count": 1
+    },
+    {
+      "path": "/regala",
+      "count": 1
+    },
+    {
+      "path": "/tallers/revelat-bn",
+      "count": 1
+    },
+    {
+      "path": "/agenda",
+      "count": 1
+    },
+    {
+      "path": "/es",
+      "count": 1
+    },
+    {
+      "path": "/en",
+      "count": 1
+    },
+    {
+      "path": "/es/contacte",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "inici": 6,
+    "tallers": 13,
+    "contacte": 6,
+    "blog": 2,
+    "espais": 1,
+    "regala": 1,
+    "agenda": 1
+  },
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 20
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 11
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 15
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 13
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 2
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 1
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 13
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 9
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 7
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 2
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 27
+    },
+    {
+      "name": "Chile",
+      "id": "CL",
+      "count": 2
+    },
+    {
+      "name": "Argentina",
+      "id": "AR",
+      "count": 1
+    },
+    {
+      "name": "Poland",
+      "id": "PL",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 4
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 2
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 2
+    }
+  ]
+}
