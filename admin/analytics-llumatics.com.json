@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-16T23:13:58.317614Z",
+  "generated": "2026-08-17T00:55:52.144709Z",
   "period": {
-    "start": "2025-08-16",
-    "end": "2026-08-16"
+    "start": "2025-08-17",
+    "end": "2026-08-17"
   },
-  "total": 990,
+  "total": 991,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -389,7 +389,7 @@
     },
     {
       "date": "2026-08-16",
-      "count": 1
+      "count": 2
     }
   ],
   "hits": [
@@ -498,6 +498,10 @@
       "count": 8
     },
     {
+      "path": "/tallers/introduccio-al-positivat",
+      "count": 8
+    },
+    {
       "path": "/es/espais",
       "count": 8
     },
@@ -508,10 +512,6 @@
     {
       "path": "/sobre",
       "count": 7
-    },
-    {
-      "path": "/es/tallers/iniciacio-revelat",
-      "count": 7
     }
   ],
   "by_lang": {
@@ -520,7 +520,7 @@
   },
   "by_section": {
     "inici": 225,
-    "tallers": 361,
+    "tallers": 362,
     "agenda": 50,
     "contacte": 52,
     "llumatics-web": 49,
