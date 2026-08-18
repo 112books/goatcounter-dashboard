@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-17T23:17:23.928656Z",
+  "generated": "2026-08-18T00:54:23.504270Z",
   "period": {
-    "start": "2025-08-17",
-    "end": "2026-08-17"
+    "start": "2025-08-18",
+    "end": "2026-08-18"
   },
-  "total": 991,
+  "total": 1006,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -37,7 +37,7 @@
     },
     {
       "date": "2026-05-09",
-      "count": 15
+      "count": 14
     },
     {
       "date": "2026-05-10",
@@ -141,7 +141,7 @@
     },
     {
       "date": "2026-06-07",
-      "count": 4
+      "count": 3
     },
     {
       "date": "2026-06-08",
@@ -345,7 +345,7 @@
     },
     {
       "date": "2026-08-04",
-      "count": 13
+      "count": 14
     },
     {
       "date": "2026-08-05",
@@ -390,6 +390,14 @@
     {
       "date": "2026-08-16",
       "count": 2
+    },
+    {
+      "date": "2026-08-17",
+      "count": 14
+    },
+    {
+      "date": "2026-08-18",
+      "count": 2
     }
   ],
   "hits": [
@@ -403,7 +411,7 @@
     },
     {
       "path": "/es/tallers",
-      "count": 38
+      "count": 39
     },
     {
       "path": "/agenda",
@@ -415,7 +423,7 @@
     },
     {
       "path": "/es",
-      "count": 25
+      "count": 27
     },
     {
       "path": "/llumatics-web/regala",
@@ -426,16 +434,16 @@
       "count": 23
     },
     {
+      "path": "/en/espais",
+      "count": 23
+    },
+    {
       "path": "/blog",
       "count": 23
     },
     {
       "path": "/llumatics-web/en/regala",
       "count": 22
-    },
-    {
-      "path": "/en/espais",
-      "count": 21
     },
     {
       "path": "/espais",
@@ -450,6 +458,10 @@
       "count": 19
     },
     {
+      "path": "/en/tallers",
+      "count": 18
+    },
+    {
       "path": "/tallers/fonaments-iniciacio-puntual",
       "count": 16
     },
@@ -462,19 +474,15 @@
       "count": 16
     },
     {
-      "path": "/en/tallers",
-      "count": 14
-    },
-    {
       "path": "/es/tallers/fonaments-iniciacio-puntual",
       "count": 12
     },
     {
-      "path": "/llumatics-web",
-      "count": 11
+      "path": "/en/contacte",
+      "count": 12
     },
     {
-      "path": "/en/contacte",
+      "path": "/llumatics-web",
       "count": 11
     },
     {
@@ -490,6 +498,10 @@
       "count": 10
     },
     {
+      "path": "/es/espais",
+      "count": 9
+    },
+    {
       "path": "/tallers/revelat-bn",
       "count": 9
     },
@@ -502,10 +514,6 @@
       "count": 8
     },
     {
-      "path": "/es/espais",
-      "count": 8
-    },
-    {
       "path": "/llumatics-web/agenda",
       "count": 7
     },
@@ -515,19 +523,19 @@
     }
   ],
   "by_lang": {
-    "es": 238,
-    "en": 126
+    "es": 243,
+    "en": 136
   },
   "by_section": {
-    "inici": 225,
-    "tallers": 362,
-    "agenda": 50,
-    "contacte": 52,
+    "inici": 227,
+    "tallers": 367,
+    "agenda": 51,
+    "contacte": 53,
     "llumatics-web": 49,
     "regala": 74,
+    "espais": 53,
     "blog": 106,
-    "espais": 50,
-    "sobre": 11,
+    "sobre": 14,
     "gracies": 10,
     "avis-legal": 2
   },
@@ -535,7 +543,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 699
+      "count": 700
     },
     {
       "name": "Safari",
@@ -572,7 +580,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 53
+      "count": 54
     },
     {
       "name": "Linux",
@@ -589,7 +597,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 241
+      "count": 242
     },
     {
       "name": "desktophd",
@@ -606,7 +614,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 753
+      "count": 754
     },
     {
       "name": "Singapore",
@@ -683,12 +691,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 457
+      "count": 460
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 122
+      "count": 125
     },
     {
       "name": "ig",
@@ -698,7 +706,7 @@
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 7
+      "count": 8
     },
     {
       "name": "112books.github.io/llumatics-web/en/contacte",
