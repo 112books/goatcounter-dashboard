@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-20T23:20:14.091376Z",
+  "generated": "2026-08-21T00:58:53.067302Z",
   "period": {
-    "start": "2025-08-20",
-    "end": "2026-08-20"
+    "start": "2025-08-21",
+    "end": "2026-08-21"
   },
-  "total": 1012,
+  "total": 1020,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -402,32 +402,36 @@
     {
       "date": "2026-08-19",
       "count": 7
+    },
+    {
+      "date": "2026-08-20",
+      "count": 8
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 181
+      "count": 182
     },
     {
       "path": "/tallers",
-      "count": 93
+      "count": 94
     },
     {
       "path": "/es/tallers",
-      "count": 40
+      "count": 41
     },
     {
       "path": "/agenda",
       "count": 31
     },
     {
-      "path": "/contacte",
+      "path": "/es",
       "count": 29
     },
     {
-      "path": "/es",
-      "count": 28
+      "path": "/contacte",
+      "count": 29
     },
     {
       "path": "/llumatics-web/regala",
@@ -479,7 +483,7 @@
     },
     {
       "path": "/es/tallers/fonaments-iniciacio-puntual",
-      "count": 12
+      "count": 13
     },
     {
       "path": "/en/contacte",
@@ -527,12 +531,12 @@
     }
   ],
   "by_lang": {
-    "es": 246,
+    "es": 252,
     "en": 138
   },
   "by_section": {
-    "inici": 229,
-    "tallers": 370,
+    "inici": 231,
+    "tallers": 375,
     "agenda": 51,
     "contacte": 51,
     "llumatics-web": 49,
@@ -540,7 +544,7 @@
     "espais": 54,
     "blog": 108,
     "sobre": 14,
-    "gracies": 10,
+    "gracies": 11,
     "avis-legal": 2
   },
   "browsers": [
@@ -700,7 +704,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 129
+      "count": 131
     },
     {
       "name": "ig",
