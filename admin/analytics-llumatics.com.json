@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-22T23:15:01.319267Z",
+  "generated": "2026-08-23T00:59:16.493742Z",
   "period": {
-    "start": "2025-08-22",
-    "end": "2026-08-22"
+    "start": "2025-08-23",
+    "end": "2026-08-23"
   },
-  "total": 1027,
+  "total": 1028,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -410,6 +410,10 @@
     {
       "date": "2026-08-21",
       "count": 7
+    },
+    {
+      "date": "2026-08-23",
+      "count": 1
     }
   ],
   "hits": [
@@ -423,7 +427,7 @@
     },
     {
       "path": "/es/tallers",
-      "count": 42
+      "count": 43
     },
     {
       "path": "/agenda",
@@ -535,12 +539,12 @@
     }
   ],
   "by_lang": {
-    "es": 255,
+    "es": 256,
     "en": 138
   },
   "by_section": {
     "inici": 232,
-    "tallers": 379,
+    "tallers": 380,
     "agenda": 52,
     "contacte": 51,
     "llumatics-web": 49,
@@ -560,7 +564,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 465
+      "count": 466
     },
     {
       "name": "Firefox",
@@ -587,7 +591,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 195
+      "count": 196
     },
     {
       "name": "Android",
@@ -609,7 +613,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 247
+      "count": 248
     },
     {
       "name": "desktophd",
@@ -626,7 +630,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 773
+      "count": 774
     },
     {
       "name": "Singapore",
@@ -708,7 +712,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 132
+      "count": 133
     },
     {
       "name": "ig",
