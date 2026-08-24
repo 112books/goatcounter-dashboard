@@ -1,0 +1,253 @@
+{
+  "generated": "2026-08-24T07:51:12.705385Z",
+  "period": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "total": 43,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-08-17",
+      "count": 17
+    },
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 7
+    },
+    {
+      "date": "2026-08-20",
+      "count": 8
+    },
+    {
+      "date": "2026-08-21",
+      "count": 7
+    },
+    {
+      "date": "2026-08-23",
+      "count": 1
+    }
+  ],
+  "hits": [
+    {
+      "path": "/es/tallers",
+      "count": 5
+    },
+    {
+      "path": "/en/tallers",
+      "count": 4
+    },
+    {
+      "path": "/es",
+      "count": 4
+    },
+    {
+      "path": "/",
+      "count": 3
+    },
+    {
+      "path": "/en/tallers/wineol",
+      "count": 2
+    },
+    {
+      "path": "/en/blog/caffenol-revelar-amb-cafe",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/edicio-imatges-fotoquimiques",
+      "count": 2
+    },
+    {
+      "path": "/es/espais",
+      "count": 2
+    },
+    {
+      "path": "/en/espais",
+      "count": 2
+    },
+    {
+      "path": "/tallers",
+      "count": 2
+    },
+    {
+      "path": "/en/gracies",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fotollibre",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/del-carrer-al-llibre",
+      "count": 1
+    },
+    {
+      "path": "/en/sobre",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 1
+    },
+    {
+      "path": "/es/gracies",
+      "count": 1
+    },
+    {
+      "path": "/tallers/reveladors-artesanals",
+      "count": 1
+    },
+    {
+      "path": "/en/agenda",
+      "count": 1
+    },
+    {
+      "path": "/es/regala",
+      "count": 1
+    },
+    {
+      "path": "/tallers/revelat-color-bn",
+      "count": 1
+    },
+    {
+      "path": "/es/agenda",
+      "count": 1
+    },
+    {
+      "path": "/es/sobre",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/digitalitzacio-escaner",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/tutoria-fotografica",
+      "count": 1
+    },
+    {
+      "path": "/en/contacte",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "tallers": 22,
+    "inici": 7,
+    "blog": 2,
+    "espais": 4,
+    "gracies": 2,
+    "sobre": 2,
+    "agenda": 2,
+    "regala": 1,
+    "contacte": 1
+  },
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 33
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 20
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 20
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 16
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 11
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 4
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 2
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 27
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 26
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 37
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 11
+    },
+    {
+      "name": "Argentina",
+      "id": "AR",
+      "count": 1
+    },
+    {
+      "name": "Hungary",
+      "id": "HU",
+      "count": 1
+    },
+    {
+      "name": "Indonesia",
+      "id": "ID",
+      "count": 1
+    },
+    {
+      "name": "Philippines",
+      "id": "PH",
+      "count": 1
+    },
+    {
+      "name": "Russia",
+      "id": "RU",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 11
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 5
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 2
+    }
+  ]
+}
