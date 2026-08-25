@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-24T23:17:39.371180Z",
+  "generated": "2026-08-25T00:57:03.465306Z",
   "period": {
-    "start": "2025-08-24",
-    "end": "2026-08-24"
+    "start": "2025-08-25",
+    "end": "2026-08-25"
   },
-  "total": 1037,
+  "total": 1042,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -414,16 +414,20 @@
     {
       "date": "2026-08-23",
       "count": 11
+    },
+    {
+      "date": "2026-08-24",
+      "count": 5
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 184
+      "count": 188
     },
     {
       "path": "/tallers",
-      "count": 95
+      "count": 96
     },
     {
       "path": "/es/tallers",
@@ -543,8 +547,8 @@
     "en": 137
   },
   "by_section": {
-    "inici": 237,
-    "tallers": 384,
+    "inici": 241,
+    "tallers": 385,
     "agenda": 52,
     "contacte": 51,
     "llumatics-web": 49,
@@ -707,7 +711,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 464
+      "count": 467
     },
     {
       "name": "Google",
@@ -715,13 +719,13 @@
       "count": 137
     },
     {
-      "name": "ig",
-      "id": "ig",
-      "count": 9
-    },
-    {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
+      "count": 10
+    },
+    {
+      "name": "ig",
+      "id": "ig",
       "count": 9
     },
     {
