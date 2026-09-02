@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-01T22:56:15.501634Z",
+  "generated": "2026-09-02T00:47:57.626439Z",
   "period": {
-    "start": "2025-09-01",
-    "end": "2026-09-01"
+    "start": "2025-09-02",
+    "end": "2026-09-02"
   },
-  "total": 1089,
+  "total": 1098,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -85,7 +85,7 @@
     },
     {
       "date": "2026-05-23",
-      "count": 48
+      "count": 47
     },
     {
       "date": "2026-05-24",
@@ -105,7 +105,7 @@
     },
     {
       "date": "2026-05-28",
-      "count": 6
+      "count": 7
     },
     {
       "date": "2026-05-29",
@@ -213,7 +213,7 @@
     },
     {
       "date": "2026-06-29",
-      "count": 7
+      "count": 6
     },
     {
       "date": "2026-06-30",
@@ -450,6 +450,10 @@
     {
       "date": "2026-08-31",
       "count": 2
+    },
+    {
+      "date": "2026-09-01",
+      "count": 10
     }
   ],
   "hits": [
@@ -463,11 +467,11 @@
     },
     {
       "path": "/es/tallers",
-      "count": 52
+      "count": 53
     },
     {
       "path": "/es",
-      "count": 34
+      "count": 35
     },
     {
       "path": "/agenda",
@@ -498,12 +502,12 @@
       "count": 22
     },
     {
-      "path": "/espais",
+      "path": "/en/tallers",
       "count": 22
     },
     {
-      "path": "/en/tallers",
-      "count": 21
+      "path": "/espais",
+      "count": 22
     },
     {
       "path": "/es/blog",
@@ -530,11 +534,11 @@
       "count": 14
     },
     {
-      "path": "/es/agenda",
-      "count": 12
+      "path": "/en/contacte",
+      "count": 13
     },
     {
-      "path": "/en/contacte",
+      "path": "/es/agenda",
       "count": 12
     },
     {
@@ -575,19 +579,19 @@
     }
   ],
   "by_lang": {
-    "es": 284,
-    "en": 147
+    "es": 288,
+    "en": 152
   },
   "by_section": {
-    "inici": 253,
-    "tallers": 411,
+    "inici": 254,
+    "tallers": 417,
     "agenda": 53,
-    "contacte": 51,
+    "contacte": 52,
     "espais": 58,
     "llumatics-web": 49,
     "blog": 109,
     "regala": 75,
-    "sobre": 17,
+    "sobre": 18,
     "gracies": 11,
     "avis-legal": 2
   },
@@ -748,7 +752,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 149
+      "count": 151
     },
     {
       "name": "chatgpt.com",
