@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-02T23:46:48.683963Z",
+  "generated": "2026-09-03T02:35:26.653340Z",
   "period": {
-    "start": "2025-09-02",
-    "end": "2026-09-02"
+    "start": "2025-09-03",
+    "end": "2026-09-03"
   },
-  "total": 1098,
+  "total": 1103,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -454,12 +454,16 @@
     {
       "date": "2026-09-01",
       "count": 10
+    },
+    {
+      "date": "2026-09-02",
+      "count": 5
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 196
+      "count": 197
     },
     {
       "path": "/tallers",
@@ -498,11 +502,11 @@
       "count": 23
     },
     {
-      "path": "/llumatics-web/en/regala",
-      "count": 22
+      "path": "/en/tallers",
+      "count": 23
     },
     {
-      "path": "/en/tallers",
+      "path": "/llumatics-web/en/regala",
       "count": 22
     },
     {
@@ -535,7 +539,7 @@
     },
     {
       "path": "/en/contacte",
-      "count": 13
+      "count": 14
     },
     {
       "path": "/es/agenda",
@@ -580,16 +584,16 @@
   ],
   "by_lang": {
     "es": 288,
-    "en": 152
+    "en": 155
   },
   "by_section": {
-    "inici": 254,
-    "tallers": 417,
+    "inici": 255,
+    "tallers": 419,
     "agenda": 53,
-    "contacte": 52,
+    "contacte": 53,
     "espais": 58,
     "llumatics-web": 49,
-    "blog": 109,
+    "blog": 110,
     "regala": 75,
     "sobre": 18,
     "gracies": 11,
@@ -747,12 +751,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 477
+      "count": 478
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 151
+      "count": 152
     },
     {
       "name": "chatgpt.com",
