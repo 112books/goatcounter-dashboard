@@ -1,15 +1,616 @@
 {
-  "generated": "2026-09-05T13:12:00.229629Z",
+  "generated": "2026-09-05T16:29:10.124162Z",
   "period": {
     "start": "2025-09-05",
     "end": "2026-09-05"
   },
-  "total": 0,
+  "total": 1122,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-05-02",
+      "count": 16
+    },
+    {
+      "date": "2026-05-03",
+      "count": 19
+    },
+    {
+      "date": "2026-05-04",
+      "count": 31
+    },
+    {
+      "date": "2026-05-05",
+      "count": 13
+    },
+    {
+      "date": "2026-05-06",
+      "count": 5
+    },
+    {
+      "date": "2026-05-07",
+      "count": 6
+    },
+    {
+      "date": "2026-05-08",
+      "count": 7
+    },
+    {
+      "date": "2026-05-09",
+      "count": 14
+    },
+    {
+      "date": "2026-05-10",
+      "count": 6
+    },
+    {
+      "date": "2026-05-11",
+      "count": 25
+    },
+    {
+      "date": "2026-05-12",
+      "count": 1
+    },
+    {
+      "date": "2026-05-13",
+      "count": 1
+    },
+    {
+      "date": "2026-05-15",
+      "count": 2
+    },
+    {
+      "date": "2026-05-17",
+      "count": 1
+    },
+    {
+      "date": "2026-05-18",
+      "count": 2
+    },
+    {
+      "date": "2026-05-19",
+      "count": 10
+    },
+    {
+      "date": "2026-05-20",
+      "count": 6
+    },
+    {
+      "date": "2026-05-21",
+      "count": 20
+    },
+    {
+      "date": "2026-05-22",
+      "count": 33
+    },
+    {
+      "date": "2026-05-23",
+      "count": 47
+    },
+    {
+      "date": "2026-05-24",
+      "count": 12
+    },
+    {
+      "date": "2026-05-25",
+      "count": 35
+    },
+    {
+      "date": "2026-05-26",
+      "count": 19
+    },
+    {
+      "date": "2026-05-27",
+      "count": 16
+    },
+    {
+      "date": "2026-05-28",
+      "count": 7
+    },
+    {
+      "date": "2026-05-29",
+      "count": 34
+    },
+    {
+      "date": "2026-05-30",
+      "count": 12
+    },
+    {
+      "date": "2026-05-31",
+      "count": 6
+    },
+    {
+      "date": "2026-06-01",
+      "count": 10
+    },
+    {
+      "date": "2026-06-02",
+      "count": 9
+    },
+    {
+      "date": "2026-06-03",
+      "count": 7
+    },
+    {
+      "date": "2026-06-04",
+      "count": 6
+    },
+    {
+      "date": "2026-06-05",
+      "count": 8
+    },
+    {
+      "date": "2026-06-07",
+      "count": 3
+    },
+    {
+      "date": "2026-06-08",
+      "count": 4
+    },
+    {
+      "date": "2026-06-09",
+      "count": 4
+    },
+    {
+      "date": "2026-06-10",
+      "count": 6
+    },
+    {
+      "date": "2026-06-11",
+      "count": 7
+    },
+    {
+      "date": "2026-06-12",
+      "count": 2
+    },
+    {
+      "date": "2026-06-13",
+      "count": 1
+    },
+    {
+      "date": "2026-06-14",
+      "count": 1
+    },
+    {
+      "date": "2026-06-15",
+      "count": 8
+    },
+    {
+      "date": "2026-06-16",
+      "count": 6
+    },
+    {
+      "date": "2026-06-17",
+      "count": 5
+    },
+    {
+      "date": "2026-06-18",
+      "count": 3
+    },
+    {
+      "date": "2026-06-19",
+      "count": 2
+    },
+    {
+      "date": "2026-06-21",
+      "count": 6
+    },
+    {
+      "date": "2026-06-24",
+      "count": 11
+    },
+    {
+      "date": "2026-06-25",
+      "count": 3
+    },
+    {
+      "date": "2026-06-26",
+      "count": 4
+    },
+    {
+      "date": "2026-06-28",
+      "count": 2
+    },
+    {
+      "date": "2026-06-29",
+      "count": 6
+    },
+    {
+      "date": "2026-06-30",
+      "count": 3
+    },
+    {
+      "date": "2026-07-01",
+      "count": 16
+    },
+    {
+      "date": "2026-07-02",
+      "count": 15
+    },
+    {
+      "date": "2026-07-03",
+      "count": 1
+    },
+    {
+      "date": "2026-07-04",
+      "count": 7
+    },
+    {
+      "date": "2026-07-05",
+      "count": 2
+    },
+    {
+      "date": "2026-07-06",
+      "count": 18
+    },
+    {
+      "date": "2026-07-07",
+      "count": 49
+    },
+    {
+      "date": "2026-07-08",
+      "count": 22
+    },
+    {
+      "date": "2026-07-09",
+      "count": 28
+    },
+    {
+      "date": "2026-07-10",
+      "count": 13
+    },
+    {
+      "date": "2026-07-11",
+      "count": 8
+    },
+    {
+      "date": "2026-07-12",
+      "count": 22
+    },
+    {
+      "date": "2026-07-13",
+      "count": 20
+    },
+    {
+      "date": "2026-07-14",
+      "count": 32
+    },
+    {
+      "date": "2026-07-15",
+      "count": 10
+    },
+    {
+      "date": "2026-07-16",
+      "count": 2
+    },
+    {
+      "date": "2026-07-17",
+      "count": 9
+    },
+    {
+      "date": "2026-07-18",
+      "count": 3
+    },
+    {
+      "date": "2026-07-19",
+      "count": 9
+    },
+    {
+      "date": "2026-07-20",
+      "count": 7
+    },
+    {
+      "date": "2026-07-21",
+      "count": 15
+    },
+    {
+      "date": "2026-07-22",
+      "count": 8
+    },
+    {
+      "date": "2026-07-23",
+      "count": 4
+    },
+    {
+      "date": "2026-07-24",
+      "count": 3
+    },
+    {
+      "date": "2026-07-26",
+      "count": 4
+    },
+    {
+      "date": "2026-07-27",
+      "count": 3
+    },
+    {
+      "date": "2026-07-28",
+      "count": 5
+    },
+    {
+      "date": "2026-07-30",
+      "count": 6
+    },
+    {
+      "date": "2026-07-31",
+      "count": 6
+    },
+    {
+      "date": "2026-08-01",
+      "count": 9
+    },
+    {
+      "date": "2026-08-02",
+      "count": 11
+    },
+    {
+      "date": "2026-08-03",
+      "count": 7
+    },
+    {
+      "date": "2026-08-04",
+      "count": 14
+    },
+    {
+      "date": "2026-08-05",
+      "count": 15
+    },
+    {
+      "date": "2026-08-06",
+      "count": 7
+    },
+    {
+      "date": "2026-08-07",
+      "count": 2
+    },
+    {
+      "date": "2026-08-08",
+      "count": 7
+    },
+    {
+      "date": "2026-08-09",
+      "count": 2
+    },
+    {
+      "date": "2026-08-10",
+      "count": 1
+    },
+    {
+      "date": "2026-08-11",
+      "count": 14
+    },
+    {
+      "date": "2026-08-12",
+      "count": 6
+    },
+    {
+      "date": "2026-08-13",
+      "count": 2
+    },
+    {
+      "date": "2026-08-14",
+      "count": 6
+    },
+    {
+      "date": "2026-08-16",
+      "count": 2
+    },
+    {
+      "date": "2026-08-17",
+      "count": 14
+    },
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 7
+    },
+    {
+      "date": "2026-08-20",
+      "count": 8
+    },
+    {
+      "date": "2026-08-21",
+      "count": 7
+    },
+    {
+      "date": "2026-08-23",
+      "count": 11
+    },
+    {
+      "date": "2026-08-24",
+      "count": 5
+    },
+    {
+      "date": "2026-08-25",
+      "count": 5
+    },
+    {
+      "date": "2026-08-26",
+      "count": 13
+    },
+    {
+      "date": "2026-08-27",
+      "count": 7
+    },
+    {
+      "date": "2026-08-28",
+      "count": 9
+    },
+    {
+      "date": "2026-08-29",
+      "count": 8
+    },
+    {
+      "date": "2026-08-30",
+      "count": 4
+    },
+    {
+      "date": "2026-08-31",
+      "count": 2
+    },
+    {
+      "date": "2026-09-01",
+      "count": 10
+    },
+    {
+      "date": "2026-09-02",
+      "count": 5
+    },
+    {
+      "date": "2026-09-03",
+      "count": 9
+    },
+    {
+      "date": "2026-09-04",
+      "count": 9
+    },
+    {
+      "date": "2026-09-05",
+      "count": 1
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 201
+    },
+    {
+      "path": "/tallers",
+      "count": 101
+    },
+    {
+      "path": "/es/tallers",
+      "count": 55
+    },
+    {
+      "path": "/es",
+      "count": 37
+    },
+    {
+      "path": "/agenda",
+      "count": 31
+    },
+    {
+      "path": "/contacte",
+      "count": 29
+    },
+    {
+      "path": "/en/espais",
+      "count": 26
+    },
+    {
+      "path": "/llumatics-web/regala",
+      "count": 24
+    },
+    {
+      "path": "/blog",
+      "count": 24
+    },
+    {
+      "path": "/llumatics-web/es/regala",
+      "count": 23
+    },
+    {
+      "path": "/en/tallers",
+      "count": 23
+    },
+    {
+      "path": "/espais",
+      "count": 23
+    },
+    {
+      "path": "/llumatics-web/en/regala",
+      "count": 22
+    },
+    {
+      "path": "/es/blog",
+      "count": 19
+    },
+    {
+      "path": "/regala",
+      "count": 19
+    },
+    {
+      "path": "/en",
+      "count": 19
+    },
+    {
+      "path": "/tallers/iniciacio-revelat",
+      "count": 17
+    },
+    {
+      "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 16
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 15
+    },
+    {
+      "path": "/en/contacte",
+      "count": 14
+    },
+    {
+      "path": "/es/agenda",
+      "count": 13
+    },
+    {
+      "path": "/llumatics-web",
+      "count": 11
+    },
+    {
+      "path": "/es/espais",
+      "count": 11
+    },
+    {
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 10
+    },
+    {
+      "path": "/tallers/tutoria-fotografica",
+      "count": 10
+    },
+    {
+      "path": "/es/contacte",
+      "count": 10
+    },
+    {
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 9
+    },
+    {
+      "path": "/tallers/revelat-bn",
+      "count": 9
+    },
+    {
+      "path": "/sobre",
+      "count": 8
+    },
+    {
+      "path": "/es/regala",
+      "count": 8
+    }
+  ],
+  "by_lang": {
+    "es": 297,
+    "en": 158
+  },
+  "by_section": {
+    "inici": 261,
+    "tallers": 427,
+    "agenda": 54,
+    "contacte": 53,
+    "espais": 60,
+    "llumatics-web": 49,
+    "blog": 112,
+    "regala": 75,
+    "sobre": 18,
+    "gracies": 11,
+    "avis-legal": 2
+  },
   "browsers": [
     {
       "name": "Chrome",
@@ -19,7 +620,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 502
+      "count": 504
     },
     {
       "name": "Firefox",
@@ -46,7 +647,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 230
+      "count": 232
     },
     {
       "name": "Android",
@@ -68,7 +669,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 296
+      "count": 298
     },
     {
       "name": "desktophd",
@@ -118,6 +719,11 @@
       "count": 9
     },
     {
+      "name": "Italy",
+      "id": "IT",
+      "count": 9
+    },
+    {
       "name": "Malaysia",
       "id": "MY",
       "count": 8
@@ -126,11 +732,6 @@
       "name": "Netherlands",
       "id": "NL",
       "count": 8
-    },
-    {
-      "name": "Italy",
-      "id": "IT",
-      "count": 7
     },
     {
       "name": "Mexico",
