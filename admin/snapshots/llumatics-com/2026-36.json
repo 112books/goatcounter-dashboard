@@ -1,0 +1,290 @@
+{
+  "generated": "2026-09-07T13:10:46.052991Z",
+  "period": {
+    "start": "2026-08-31",
+    "end": "2026-09-06"
+  },
+  "total": 42,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-08-31",
+      "count": 2
+    },
+    {
+      "date": "2026-09-01",
+      "count": 13
+    },
+    {
+      "date": "2026-09-02",
+      "count": 5
+    },
+    {
+      "date": "2026-09-03",
+      "count": 9
+    },
+    {
+      "date": "2026-09-04",
+      "count": 9
+    },
+    {
+      "date": "2026-09-05",
+      "count": 4
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 6
+    },
+    {
+      "path": "/es",
+      "count": 4
+    },
+    {
+      "path": "/en/tallers",
+      "count": 3
+    },
+    {
+      "path": "/es/tallers",
+      "count": 3
+    },
+    {
+      "path": "/en/tallers/copies-beers-developer",
+      "count": 2
+    },
+    {
+      "path": "/en/espais",
+      "count": 2
+    },
+    {
+      "path": "/tallers",
+      "count": 2
+    },
+    {
+      "path": "/en/contacte",
+      "count": 2
+    },
+    {
+      "path": "/en/tallers/fotogrames-cianotipia",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/tutoria-fotografica",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/wineol",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/revelat-i-positivat",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/guinneol",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/fotografia-estenopeica",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/revelats-experimentals",
+      "count": 1
+    },
+    {
+      "path": "/en/blog/caffenol-revelar-amb-cafe",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/edicio-imatges-fotoquimiques",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/cianotipia",
+      "count": 1
+    },
+    {
+      "path": "/es/agenda",
+      "count": 1
+    },
+    {
+      "path": "/es/sobre",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fotografia-estenopeica",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/reveladors-artesanals",
+      "count": 1
+    },
+    {
+      "path": "/blog/positivador-app",
+      "count": 1
+    },
+    {
+      "path": "/es/blog/positivador-app",
+      "count": 1
+    },
+    {
+      "path": "/espais",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "inici": 10,
+    "tallers": 22,
+    "espais": 3,
+    "contacte": 2,
+    "blog": 3,
+    "agenda": 1,
+    "sobre": 1
+  },
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 23
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 19
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 1
+    }
+  ],
+  "systems": [
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 17
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 13
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 11
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 1
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 1
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 18
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 18
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 6
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 1
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 26
+    },
+    {
+      "name": "Poland",
+      "id": "PL",
+      "count": 10
+    },
+    {
+      "name": "Italy",
+      "id": "IT",
+      "count": 2
+    },
+    {
+      "name": "Australia",
+      "id": "AU",
+      "count": 1
+    },
+    {
+      "name": "France",
+      "id": "FR",
+      "count": 1
+    },
+    {
+      "name": "Greece",
+      "id": "GR",
+      "count": 1
+    },
+    {
+      "name": "Mexico",
+      "id": "MX",
+      "count": 1
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 12
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 2
+    },
+    {
+      "name": "naubostik.com",
+      "id": "naubostik.com",
+      "count": 2
+    },
+    {
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
+      "count": 1
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 1
+    },
+    {
+      "name": "www.bing.com",
+      "id": "www.bing.com",
+      "count": 1
+    }
+  ]
+}
