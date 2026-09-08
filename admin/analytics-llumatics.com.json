@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-07T23:54:06.263736Z",
+  "generated": "2026-09-08T02:40:12.929370Z",
   "period": {
-    "start": "2025-09-07",
-    "end": "2026-09-07"
+    "start": "2025-09-08",
+    "end": "2026-09-08"
   },
-  "total": 1125,
+  "total": 1128,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -474,16 +474,20 @@
     {
       "date": "2026-09-06",
       "count": 1
+    },
+    {
+      "date": "2026-09-07",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 201
+      "count": 202
     },
     {
       "path": "/tallers",
-      "count": 101
+      "count": 102
     },
     {
       "path": "/es/tallers",
@@ -495,7 +499,7 @@
     },
     {
       "path": "/agenda",
-      "count": 31
+      "count": 32
     },
     {
       "path": "/contacte",
@@ -603,9 +607,9 @@
     "en": 162
   },
   "by_section": {
-    "inici": 262,
-    "tallers": 431,
-    "agenda": 54,
+    "inici": 263,
+    "tallers": 432,
+    "agenda": 55,
     "contacte": 53,
     "espais": 60,
     "llumatics-web": 49,
@@ -782,7 +786,7 @@
     {
       "name": "ig",
       "id": "ig",
-      "count": 11
+      "count": 12
     },
     {
       "name": "112books.github.io/llumatics-web/en/contacte",
