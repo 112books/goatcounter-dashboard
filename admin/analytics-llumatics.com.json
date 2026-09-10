@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-09T23:46:30.871388Z",
+  "generated": "2026-09-10T02:42:31.846682Z",
   "period": {
-    "start": "2025-09-09",
-    "end": "2026-09-09"
+    "start": "2025-09-10",
+    "end": "2026-09-10"
   },
-  "total": 1132,
+  "total": 1133,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -482,12 +482,16 @@
     {
       "date": "2026-09-08",
       "count": 4
+    },
+    {
+      "date": "2026-09-09",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 202
+      "count": 203
     },
     {
       "path": "/tallers",
@@ -611,7 +615,7 @@
     "en": 165
   },
   "by_section": {
-    "inici": 264,
+    "inici": 265,
     "tallers": 435,
     "agenda": 55,
     "contacte": 53,
@@ -795,11 +799,6 @@
     {
       "name": "duckduckgo.com",
       "id": "duckduckgo.com",
-      "count": 3
-    },
-    {
-      "name": "112books.github.io/llumatics-web/en/contacte",
-      "id": "112books.github.io/llumatics-web/en/contacte",
       "count": 3
     }
   ]
