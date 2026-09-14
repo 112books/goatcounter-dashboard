@@ -1,0 +1,217 @@
+{
+  "generated": "2026-09-14T13:31:26.896130Z",
+  "period": {
+    "start": "2026-09-07",
+    "end": "2026-09-13"
+  },
+  "total": 25,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-09-07",
+      "count": 3
+    },
+    {
+      "date": "2026-09-08",
+      "count": 4
+    },
+    {
+      "date": "2026-09-09",
+      "count": 1
+    },
+    {
+      "date": "2026-09-10",
+      "count": 8
+    },
+    {
+      "date": "2026-09-11",
+      "count": 7
+    },
+    {
+      "date": "2026-09-12",
+      "count": 2
+    }
+  ],
+  "hits": [
+    {
+      "path": "/en/tallers",
+      "count": 4
+    },
+    {
+      "path": "/",
+      "count": 4
+    },
+    {
+      "path": "/es/tallers",
+      "count": 3
+    },
+    {
+      "path": "/en/tallers/wineol",
+      "count": 1
+    },
+    {
+      "path": "/en/gracies",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/fonaments-iniciacio-puntual",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/revelat-bn",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/introduccio-gran-format",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/retrat-analogic",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/edicio-imatges-fotoquimiques",
+      "count": 1
+    },
+    {
+      "path": "/es/agenda",
+      "count": 1
+    },
+    {
+      "path": "/es/blog",
+      "count": 1
+    },
+    {
+      "path": "/tallers",
+      "count": 1
+    },
+    {
+      "path": "/agenda",
+      "count": 1
+    },
+    {
+      "path": "/es",
+      "count": 1
+    },
+    {
+      "path": "/en",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "tallers": 15,
+    "inici": 6,
+    "gracies": 1,
+    "agenda": 2,
+    "blog": 1
+  },
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 13
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 11
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 4
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 14
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 9
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 3
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 1
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 1
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 14
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 10
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 4
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 20
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 5
+    },
+    {
+      "name": "Germany",
+      "id": "DE",
+      "count": 2
+    },
+    {
+      "name": "Belgium",
+      "id": "BE",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 6
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 3
+    },
+    {
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
+      "count": 1
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 1
+    }
+  ]
+}
