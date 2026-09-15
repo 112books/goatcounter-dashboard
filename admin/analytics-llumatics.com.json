@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-14T21:19:14.972827Z",
+  "generated": "2026-09-15T00:10:16.725715Z",
   "period": {
-    "start": "2025-09-14",
-    "end": "2026-09-14"
+    "start": "2025-09-15",
+    "end": "2026-09-15"
   },
-  "total": 1150,
+  "total": 1179,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -502,28 +502,36 @@
     {
       "date": "2026-09-13",
       "count": 3
+    },
+    {
+      "date": "2026-09-14",
+      "count": 28
+    },
+    {
+      "date": "2026-09-15",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 205
+      "count": 208
     },
     {
       "path": "/tallers",
-      "count": 102
+      "count": 105
     },
     {
       "path": "/es/tallers",
-      "count": 58
+      "count": 61
     },
     {
       "path": "/es",
-      "count": 39
+      "count": 40
     },
     {
       "path": "/agenda",
-      "count": 32
+      "count": 33
     },
     {
       "path": "/en/tallers",
@@ -542,15 +550,15 @@
       "count": 24
     },
     {
+      "path": "/espais",
+      "count": 24
+    },
+    {
       "path": "/blog",
       "count": 24
     },
     {
       "path": "/llumatics-web/es/regala",
-      "count": 23
-    },
-    {
-      "path": "/espais",
       "count": 23
     },
     {
@@ -571,23 +579,31 @@
     },
     {
       "path": "/tallers/iniciacio-revelat",
-      "count": 17
+      "count": 18
     },
     {
       "path": "/es/tallers/fonaments-iniciacio-puntual",
-      "count": 16
+      "count": 17
     },
     {
       "path": "/tallers/fonaments-iniciacio-puntual",
-      "count": 16
+      "count": 17
     },
     {
       "path": "/es/agenda",
-      "count": 14
+      "count": 15
     },
     {
       "path": "/en/contacte",
       "count": 14
+    },
+    {
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 13
+    },
+    {
+      "path": "/es/espais",
+      "count": 12
     },
     {
       "path": "/llumatics-web",
@@ -598,7 +614,7 @@
       "count": 11
     },
     {
-      "path": "/es/espais",
+      "path": "/es/contacte",
       "count": 11
     },
     {
@@ -606,19 +622,11 @@
       "count": 10
     },
     {
-      "path": "/es/contacte",
+      "path": "/tallers/revelat-bn",
       "count": 10
     },
     {
-      "path": "/es/tallers/iniciacio-revelat",
-      "count": 9
-    },
-    {
       "path": "/es/sobre",
-      "count": 9
-    },
-    {
-      "path": "/tallers/revelat-bn",
       "count": 9
     },
     {
@@ -627,20 +635,20 @@
     }
   ],
   "by_lang": {
-    "es": 309,
+    "es": 325,
     "en": 176
   },
   "by_section": {
-    "inici": 268,
-    "tallers": 448,
-    "agenda": 56,
-    "contacte": 53,
-    "espais": 60,
+    "inici": 272,
+    "tallers": 467,
+    "agenda": 58,
+    "contacte": 54,
+    "espais": 62,
     "llumatics-web": 45,
     "blog": 111,
     "regala": 75,
     "sobre": 19,
-    "gracies": 13,
+    "gracies": 14,
     "avis-legal": 2
   },
   "browsers": [
@@ -652,7 +660,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 544
+      "count": 545
     },
     {
       "name": "Firefox",
@@ -679,7 +687,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 255
+      "count": 256
     },
     {
       "name": "Android",
@@ -701,7 +709,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 322
+      "count": 323
     },
     {
       "name": "desktophd",
@@ -718,7 +726,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 892
+      "count": 893
     },
     {
       "name": "Singapore",
@@ -795,22 +803,22 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 482
+      "count": 486
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 169
+      "count": 170
     },
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 13
+      "count": 14
     },
     {
       "name": "ig",
       "id": "ig",
-      "count": 12
+      "count": 13
     },
     {
       "name": "duckduckgo.com",
