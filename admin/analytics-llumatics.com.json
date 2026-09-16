@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-15T22:39:00.102776Z",
+  "generated": "2026-09-16T00:59:02.547897Z",
   "period": {
-    "start": "2025-09-15",
-    "end": "2026-09-15"
+    "start": "2025-09-16",
+    "end": "2026-09-16"
   },
-  "total": 1179,
+  "total": 1196,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -509,7 +509,7 @@
     },
     {
       "date": "2026-09-15",
-      "count": 1
+      "count": 18
     }
   ],
   "hits": [
@@ -523,11 +523,11 @@
     },
     {
       "path": "/es/tallers",
-      "count": 61
+      "count": 64
     },
     {
       "path": "/es",
-      "count": 40
+      "count": 41
     },
     {
       "path": "/agenda",
@@ -566,16 +566,16 @@
       "count": 22
     },
     {
+      "path": "/en",
+      "count": 21
+    },
+    {
       "path": "/es/blog",
       "count": 20
     },
     {
-      "path": "/en",
-      "count": 20
-    },
-    {
       "path": "/regala",
-      "count": 19
+      "count": 20
     },
     {
       "path": "/tallers/iniciacio-revelat",
@@ -594,15 +594,19 @@
       "count": 15
     },
     {
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 14
+    },
+    {
       "path": "/en/contacte",
       "count": 14
     },
     {
-      "path": "/es/tallers/iniciacio-revelat",
-      "count": 13
+      "path": "/es/espais",
+      "count": 12
     },
     {
-      "path": "/es/espais",
+      "path": "/es/contacte",
       "count": 12
     },
     {
@@ -614,8 +618,12 @@
       "count": 11
     },
     {
-      "path": "/es/contacte",
-      "count": 11
+      "path": "/es/tallers/revelat-bn",
+      "count": 10
+    },
+    {
+      "path": "/es/regala",
+      "count": 10
     },
     {
       "path": "/tallers/tutoria-fotografica",
@@ -624,29 +632,21 @@
     {
       "path": "/tallers/revelat-bn",
       "count": 10
-    },
-    {
-      "path": "/es/sobre",
-      "count": 9
-    },
-    {
-      "path": "/sobre",
-      "count": 8
     }
   ],
   "by_lang": {
-    "es": 325,
-    "en": 176
+    "es": 338,
+    "en": 178
   },
   "by_section": {
-    "inici": 272,
-    "tallers": 467,
+    "inici": 274,
+    "tallers": 476,
     "agenda": 58,
-    "contacte": 54,
+    "contacte": 55,
     "espais": 62,
     "llumatics-web": 45,
-    "blog": 111,
-    "regala": 75,
+    "blog": 113,
+    "regala": 78,
     "sobre": 19,
     "gracies": 14,
     "avis-legal": 2
@@ -803,12 +803,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 486
+      "count": 492
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 170
+      "count": 172
     },
     {
       "name": "chatgpt.com",
