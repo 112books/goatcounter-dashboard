@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-18T22:10:45.510311Z",
+  "generated": "2026-09-19T00:53:29.557454Z",
   "period": {
-    "start": "2025-09-18",
-    "end": "2026-09-18"
+    "start": "2025-09-19",
+    "end": "2026-09-19"
   },
-  "total": 1199,
+  "total": 1203,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -518,12 +518,16 @@
     {
       "date": "2026-09-17",
       "count": 1
+    },
+    {
+      "date": "2026-09-18",
+      "count": 4
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 208
+      "count": 210
     },
     {
       "path": "/tallers",
@@ -531,7 +535,7 @@
     },
     {
       "path": "/es/tallers",
-      "count": 65
+      "count": 67
     },
     {
       "path": "/es",
@@ -643,12 +647,12 @@
     }
   ],
   "by_lang": {
-    "es": 341,
+    "es": 343,
     "en": 178
   },
   "by_section": {
-    "inici": 275,
-    "tallers": 478,
+    "inici": 277,
+    "tallers": 480,
     "agenda": 58,
     "contacte": 55,
     "espais": 62,
@@ -811,12 +815,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 492
+      "count": 493
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 175
+      "count": 177
     },
     {
       "name": "chatgpt.com",
