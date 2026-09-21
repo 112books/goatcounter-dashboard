@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-20T22:53:31.880018Z",
+  "generated": "2026-09-21T00:46:23.755972Z",
   "period": {
-    "start": "2025-09-20",
-    "end": "2026-09-20"
+    "start": "2025-09-21",
+    "end": "2026-09-21"
   },
-  "total": 1205,
+  "total": 1225,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -37,7 +37,7 @@
     },
     {
       "date": "2026-05-09",
-      "count": 14
+      "count": 15
     },
     {
       "date": "2026-05-10",
@@ -105,7 +105,7 @@
     },
     {
       "date": "2026-05-28",
-      "count": 7
+      "count": 6
     },
     {
       "date": "2026-05-29",
@@ -141,7 +141,7 @@
     },
     {
       "date": "2026-06-07",
-      "count": 3
+      "count": 4
     },
     {
       "date": "2026-06-08",
@@ -453,7 +453,7 @@
     },
     {
       "date": "2026-09-01",
-      "count": 10
+      "count": 9
     },
     {
       "date": "2026-09-02",
@@ -526,24 +526,32 @@
     {
       "date": "2026-09-19",
       "count": 2
+    },
+    {
+      "date": "2026-09-20",
+      "count": 17
+    },
+    {
+      "date": "2026-09-21",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 210
+      "count": 212
     },
     {
       "path": "/tallers",
-      "count": 105
+      "count": 106
     },
     {
       "path": "/es/tallers",
-      "count": 68
+      "count": 72
     },
     {
       "path": "/es",
-      "count": 42
+      "count": 44
     },
     {
       "path": "/agenda",
@@ -583,10 +591,14 @@
     },
     {
       "path": "/en",
-      "count": 21
+      "count": 22
     },
     {
       "path": "/es/blog",
+      "count": 20
+    },
+    {
+      "path": "/tallers/iniciacio-revelat",
       "count": 20
     },
     {
@@ -594,24 +606,20 @@
       "count": 20
     },
     {
-      "path": "/tallers/iniciacio-revelat",
-      "count": 18
-    },
-    {
       "path": "/es/tallers/fonaments-iniciacio-puntual",
-      "count": 17
+      "count": 18
     },
     {
       "path": "/tallers/fonaments-iniciacio-puntual",
       "count": 17
     },
     {
-      "path": "/es/agenda",
+      "path": "/es/tallers/iniciacio-revelat",
       "count": 15
     },
     {
-      "path": "/es/tallers/iniciacio-revelat",
-      "count": 14
+      "path": "/es/agenda",
+      "count": 15
     },
     {
       "path": "/en/contacte",
@@ -619,10 +627,14 @@
     },
     {
       "path": "/es/blog/caffenol-revelar-amb-cafe",
-      "count": 12
+      "count": 13
     },
     {
       "path": "/es/espais",
+      "count": 13
+    },
+    {
+      "path": "/es/tallers/revelat-bn",
       "count": 12
     },
     {
@@ -634,8 +646,8 @@
       "count": 11
     },
     {
-      "path": "/es/tallers/revelat-bn",
-      "count": 10
+      "path": "/tallers/revelat-bn",
+      "count": 11
     },
     {
       "path": "/es/regala",
@@ -644,24 +656,20 @@
     {
       "path": "/tallers/tutoria-fotografica",
       "count": 10
-    },
-    {
-      "path": "/tallers/revelat-bn",
-      "count": 10
     }
   ],
   "by_lang": {
-    "es": 345,
-    "en": 178
+    "es": 360,
+    "en": 177
   },
   "by_section": {
-    "inici": 277,
-    "tallers": 481,
+    "inici": 282,
+    "tallers": 494,
     "agenda": 58,
     "contacte": 55,
-    "espais": 62,
+    "espais": 63,
     "llumatics-web": 45,
-    "blog": 114,
+    "blog": 115,
     "regala": 78,
     "sobre": 19,
     "gracies": 14,
@@ -824,7 +832,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 179
+      "count": 186
     },
     {
       "name": "chatgpt.com",
@@ -839,6 +847,11 @@
     {
       "name": "duckduckgo.com",
       "id": "duckduckgo.com",
+      "count": 3
+    },
+    {
+      "name": "pocallum.cat",
+      "id": "pocallum.cat",
       "count": 3
     }
   ]
