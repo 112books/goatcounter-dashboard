@@ -1,0 +1,271 @@
+{
+  "generated": "2026-09-21T13:30:35.742092Z",
+  "period": {
+    "start": "2026-09-14",
+    "end": "2026-09-20"
+  },
+  "total": 55,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-09-14",
+      "count": 28
+    },
+    {
+      "date": "2026-09-15",
+      "count": 18
+    },
+    {
+      "date": "2026-09-16",
+      "count": 2
+    },
+    {
+      "date": "2026-09-17",
+      "count": 1
+    },
+    {
+      "date": "2026-09-18",
+      "count": 4
+    },
+    {
+      "date": "2026-09-19",
+      "count": 2
+    }
+  ],
+  "hits": [
+    {
+      "path": "/es/tallers",
+      "count": 10
+    },
+    {
+      "path": "/es/tallers/revelat-bn",
+      "count": 6
+    },
+    {
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 5
+    },
+    {
+      "path": "/",
+      "count": 5
+    },
+    {
+      "path": "/tallers",
+      "count": 3
+    },
+    {
+      "path": "/es",
+      "count": 3
+    },
+    {
+      "path": "/es/regala",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/tutoria-fotografica",
+      "count": 2
+    },
+    {
+      "path": "/es/contacte",
+      "count": 2
+    },
+    {
+      "path": "/blog/del-carrer-al-llibre-nou-curs",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 1
+    },
+    {
+      "path": "/es/gracies",
+      "count": 1
+    },
+    {
+      "path": "/en/blog/caffenol-revelar-amb-cafe",
+      "count": 1
+    },
+    {
+      "path": "/tallers/fotografia-de-carrer",
+      "count": 1
+    },
+    {
+      "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 1
+    },
+    {
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 1
+    },
+    {
+      "path": "/es/agenda",
+      "count": 1
+    },
+    {
+      "path": "/tallers/iniciacio-revelat",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fotografia-estenopeica",
+      "count": 1
+    },
+    {
+      "path": "/es/espais",
+      "count": 1
+    },
+    {
+      "path": "/regala",
+      "count": 1
+    },
+    {
+      "path": "/espais",
+      "count": 1
+    },
+    {
+      "path": "/tallers/revelat-bn",
+      "count": 1
+    },
+    {
+      "path": "/tallers/hasselblad-500",
+      "count": 1
+    },
+    {
+      "path": "/agenda",
+      "count": 1
+    },
+    {
+      "path": "/en",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "tallers": 33,
+    "inici": 9,
+    "regala": 3,
+    "contacte": 2,
+    "blog": 3,
+    "gracies": 1,
+    "agenda": 2,
+    "espais": 2
+  },
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 54
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 16
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 5
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 35
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 27
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 9
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 3
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 1
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 36
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 18
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 13
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 8
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 70
+    },
+    {
+      "name": "Argentina",
+      "id": "AR",
+      "count": 2
+    },
+    {
+      "name": "Brazil",
+      "id": "BR",
+      "count": 1
+    },
+    {
+      "name": "Germany",
+      "id": "DE",
+      "count": 1
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 11
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 10
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 1
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 1
+    },
+    {
+      "name": "pocallum.cat",
+      "id": "pocallum.cat",
+      "count": 1
+    }
+  ]
+}
