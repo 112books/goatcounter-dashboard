@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-22T22:38:47.274643Z",
+  "generated": "2026-09-23T01:10:05.611668Z",
   "period": {
-    "start": "2025-09-22",
-    "end": "2026-09-22"
+    "start": "2025-09-23",
+    "end": "2026-09-23"
   },
-  "total": 1228,
+  "total": 1233,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -185,7 +185,7 @@
     },
     {
       "date": "2026-06-18",
-      "count": 3
+      "count": 2
     },
     {
       "date": "2026-06-19",
@@ -301,7 +301,7 @@
     },
     {
       "date": "2026-07-21",
-      "count": 15
+      "count": 16
     },
     {
       "date": "2026-07-22",
@@ -325,7 +325,7 @@
     },
     {
       "date": "2026-07-28",
-      "count": 5
+      "count": 4
     },
     {
       "date": "2026-07-30",
@@ -534,12 +534,16 @@
     {
       "date": "2026-09-21",
       "count": 6
+    },
+    {
+      "date": "2026-09-22",
+      "count": 6
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 213
+      "count": 216
     },
     {
       "path": "/tallers",
@@ -594,6 +598,10 @@
       "count": 22
     },
     {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 20
+    },
+    {
       "path": "/es/blog",
       "count": 20
     },
@@ -604,10 +612,6 @@
     {
       "path": "/regala",
       "count": 20
-    },
-    {
-      "path": "/es/tallers/fonaments-iniciacio-puntual",
-      "count": 18
     },
     {
       "path": "/tallers/fonaments-iniciacio-puntual",
@@ -659,12 +663,12 @@
     }
   ],
   "by_lang": {
-    "es": 360,
-    "en": 177
+    "es": 362,
+    "en": 175
   },
   "by_section": {
-    "inici": 283,
-    "tallers": 496,
+    "inici": 286,
+    "tallers": 498,
     "agenda": 58,
     "contacte": 55,
     "espais": 63,
@@ -827,12 +831,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 493
+      "count": 498
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 188
+      "count": 189
     },
     {
       "name": "chatgpt.com",
