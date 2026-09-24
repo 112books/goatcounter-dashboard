@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-23T21:58:06.121588Z",
+  "generated": "2026-09-24T00:17:02.825634Z",
   "period": {
-    "start": "2025-09-23",
-    "end": "2026-09-23"
+    "start": "2025-09-24",
+    "end": "2026-09-24"
   },
-  "total": 1233,
+  "total": 1234,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -538,6 +538,10 @@
     {
       "date": "2026-09-22",
       "count": 6
+    },
+    {
+      "date": "2026-09-23",
+      "count": 1
     }
   ],
   "hits": [
@@ -571,7 +575,7 @@
     },
     {
       "path": "/en/espais",
-      "count": 26
+      "count": 27
     },
     {
       "path": "/llumatics-web/regala",
@@ -664,14 +668,14 @@
   ],
   "by_lang": {
     "es": 362,
-    "en": 175
+    "en": 176
   },
   "by_section": {
     "inici": 286,
     "tallers": 498,
     "agenda": 58,
     "contacte": 55,
-    "espais": 63,
+    "espais": 64,
     "llumatics-web": 45,
     "blog": 115,
     "regala": 78,
@@ -836,7 +840,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 189
+      "count": 190
     },
     {
       "name": "chatgpt.com",
