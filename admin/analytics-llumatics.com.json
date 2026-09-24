@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T10:57:43.152108Z",
+  "generated": "2026-09-24T15:43:40.454880Z",
   "period": {
     "start": "2025-09-24",
     "end": "2026-09-24"
@@ -687,7 +687,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 816
+      "count": 817
     },
     {
       "name": "Safari",
@@ -714,7 +714,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 316
+      "count": 317
     },
     {
       "name": "iOS",
@@ -736,7 +736,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 832
+      "count": 833
     },
     {
       "name": "phone",
@@ -754,113 +754,6 @@
       "count": 48
     }
   ],
-  "locations": [
-    {
-      "name": "Spain",
-      "id": "ES",
-      "count": 944
-    },
-    {
-      "name": "Singapore",
-      "id": "SG",
-      "count": 270
-    },
-    {
-      "name": "United States",
-      "id": "US",
-      "count": 67
-    },
-    {
-      "name": "United Kingdom",
-      "id": "GB",
-      "count": 22
-    },
-    {
-      "name": "Poland",
-      "id": "PL",
-      "count": 16
-    },
-    {
-      "name": "Finland",
-      "id": "FI",
-      "count": 12
-    },
-    {
-      "name": "Colombia",
-      "id": "CO",
-      "count": 9
-    },
-    {
-      "name": "Germany",
-      "id": "DE",
-      "count": 9
-    },
-    {
-      "name": "Italy",
-      "id": "IT",
-      "count": 9
-    },
-    {
-      "name": "Malaysia",
-      "id": "MY",
-      "count": 8
-    },
-    {
-      "name": "Netherlands",
-      "id": "NL",
-      "count": 8
-    },
-    {
-      "name": "Mexico",
-      "id": "MX",
-      "count": 7
-    },
-    {
-      "name": "Argentina",
-      "id": "AR",
-      "count": 6
-    },
-    {
-      "name": "Vietnam",
-      "id": "VN",
-      "count": 6
-    },
-    {
-      "name": "France",
-      "id": "FR",
-      "count": 5
-    }
-  ],
-  "refs": [
-    {
-      "name": "Desconegut",
-      "id": "Desconegut",
-      "count": 498
-    },
-    {
-      "name": "Google",
-      "id": "Google",
-      "count": 190
-    },
-    {
-      "name": "chatgpt.com",
-      "id": "chatgpt.com",
-      "count": 14
-    },
-    {
-      "name": "ig",
-      "id": "ig",
-      "count": 13
-    },
-    {
-      "name": "duckduckgo.com",
-      "id": "duckduckgo.com",
-      "count": 3
-    },
-    {
-      "name": "pocallum.cat",
-      "id": "pocallum.cat",
-      "count": 3
-    }
-  ]
+  "locations": [],
+  "refs": []
 }
