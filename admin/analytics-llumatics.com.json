@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-24T22:56:25.514285Z",
+  "generated": "2026-09-25T01:08:13.810230Z",
   "period": {
-    "start": "2025-09-24",
-    "end": "2026-09-24"
+    "start": "2025-09-25",
+    "end": "2026-09-25"
   },
-  "total": 1234,
+  "total": 1243,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -542,12 +542,20 @@
     {
       "date": "2026-09-23",
       "count": 1
+    },
+    {
+      "date": "2026-09-24",
+      "count": 8
+    },
+    {
+      "date": "2026-09-25",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 216
+      "count": 221
     },
     {
       "path": "/tallers",
@@ -559,7 +567,7 @@
     },
     {
       "path": "/es",
-      "count": 44
+      "count": 45
     },
     {
       "path": "/agenda",
@@ -594,11 +602,11 @@
       "count": 23
     },
     {
-      "path": "/llumatics-web/en/regala",
-      "count": 22
+      "path": "/en",
+      "count": 23
     },
     {
-      "path": "/en",
+      "path": "/llumatics-web/en/regala",
       "count": 22
     },
     {
@@ -619,7 +627,7 @@
     },
     {
       "path": "/tallers/fonaments-iniciacio-puntual",
-      "count": 17
+      "count": 18
     },
     {
       "path": "/es/tallers/iniciacio-revelat",
@@ -662,24 +670,24 @@
       "count": 10
     },
     {
-      "path": "/tallers/tutoria-fotografica",
+      "path": "/es/sobre",
       "count": 10
     }
   ],
   "by_lang": {
-    "es": 362,
-    "en": 176
+    "es": 364,
+    "en": 177
   },
   "by_section": {
-    "inici": 286,
-    "tallers": 498,
+    "inici": 293,
+    "tallers": 499,
     "agenda": 58,
     "contacte": 55,
     "espais": 64,
     "llumatics-web": 45,
     "blog": 115,
     "regala": 78,
-    "sobre": 19,
+    "sobre": 20,
     "gracies": 14,
     "avis-legal": 2
   },
@@ -835,17 +843,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 498
+      "count": 503
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 190
+      "count": 192
     },
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 14
+      "count": 15
     },
     {
       "name": "ig",
