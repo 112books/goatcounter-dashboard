@@ -1,0 +1,247 @@
+{
+  "generated": "2026-09-28T14:46:54.845660Z",
+  "period": {
+    "start": "2026-09-21",
+    "end": "2026-09-27"
+  },
+  "total": 44,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-09-21",
+      "count": 3
+    },
+    {
+      "date": "2026-09-22",
+      "count": 6
+    },
+    {
+      "date": "2026-09-23",
+      "count": 1
+    },
+    {
+      "date": "2026-09-24",
+      "count": 8
+    },
+    {
+      "date": "2026-09-25",
+      "count": 9
+    },
+    {
+      "date": "2026-09-26",
+      "count": 17
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 12
+    },
+    {
+      "path": "/tallers",
+      "count": 4
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 3
+    },
+    {
+      "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 3
+    },
+    {
+      "path": "/es",
+      "count": 3
+    },
+    {
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 2
+    },
+    {
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 2
+    },
+    {
+      "path": "/es/sobre",
+      "count": 2
+    },
+    {
+      "path": "/tallers/revelat-bn",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/revelat-bn/privat",
+      "count": 1
+    },
+    {
+      "path": "/tallers/retrat-gran-format",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/revelat-bn",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/digitalitzacio-escaner",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/caffenol",
+      "count": 1
+    },
+    {
+      "path": "/gracies",
+      "count": 1
+    },
+    {
+      "path": "/es/agenda",
+      "count": 1
+    },
+    {
+      "path": "/en/espais",
+      "count": 1
+    },
+    {
+      "path": "/en",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "inici": 16,
+    "tallers": 21,
+    "blog": 2,
+    "sobre": 2,
+    "gracies": 1,
+    "agenda": 1,
+    "espais": 1
+  },
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 29
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 28
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 1
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 22
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 14
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 14
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 7
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 1
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 28
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 13
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 12
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 5
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 44
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 5
+    },
+    {
+      "name": "Argentina",
+      "id": "AR",
+      "count": 4
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 2
+    },
+    {
+      "name": "France",
+      "id": "FR",
+      "count": 1
+    },
+    {
+      "name": "Japan",
+      "id": "JP",
+      "count": 1
+    },
+    {
+      "name": "Pakistan",
+      "id": "PK",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 13
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 12
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 2
+    },
+    {
+      "name": "59a7cdb3.sibforms.com",
+      "id": "59a7cdb3.sibforms.com",
+      "count": 1
+    }
+  ]
+}
