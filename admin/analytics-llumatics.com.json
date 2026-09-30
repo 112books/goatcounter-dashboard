@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-29T21:12:33.484152Z",
+  "generated": "2026-09-30T00:57:56.342914Z",
   "period": {
-    "start": "2025-09-29",
-    "end": "2026-09-29"
+    "start": "2025-09-30",
+    "end": "2026-09-30"
   },
-  "total": 1284,
+  "total": 1287,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -562,6 +562,10 @@
     {
       "date": "2026-09-28",
       "count": 4
+    },
+    {
+      "date": "2026-09-29",
+      "count": 3
     }
   ],
   "hits": [
@@ -575,7 +579,7 @@
     },
     {
       "path": "/es/tallers",
-      "count": 76
+      "count": 77
     },
     {
       "path": "/es",
@@ -647,7 +651,7 @@
     },
     {
       "path": "/es/blog/caffenol-revelar-amb-cafe",
-      "count": 16
+      "count": 17
     },
     {
       "path": "/es/agenda",
@@ -687,17 +691,17 @@
     }
   ],
   "by_lang": {
-    "es": 382,
+    "es": 385,
     "en": 182
   },
   "by_section": {
     "inici": 304,
-    "tallers": 518,
+    "tallers": 520,
     "agenda": 59,
     "contacte": 57,
     "espais": 65,
     "llumatics-web": 45,
-    "blog": 119,
+    "blog": 120,
     "regala": 78,
     "sobre": 22,
     "gracies": 17
@@ -859,7 +863,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 201
+      "count": 204
     },
     {
       "name": "chatgpt.com",
