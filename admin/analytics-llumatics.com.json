@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-30T22:46:18.005086Z",
+  "generated": "2026-10-01T01:45:07.014696Z",
   "period": {
-    "start": "2025-09-30",
-    "end": "2026-09-30"
+    "start": "2025-10-01",
+    "end": "2026-10-01"
   },
-  "total": 1287,
+  "total": 1288,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -566,12 +566,16 @@
     {
       "date": "2026-09-29",
       "count": 3
+    },
+    {
+      "date": "2026-10-01",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 229
+      "count": 230
     },
     {
       "path": "/tallers",
@@ -695,7 +699,7 @@
     "en": 182
   },
   "by_section": {
-    "inici": 304,
+    "inici": 305,
     "tallers": 520,
     "agenda": 59,
     "contacte": 57,
@@ -710,7 +714,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 841
+      "count": 843
     },
     {
       "name": "Safari",
@@ -737,7 +741,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 321
+      "count": 322
     },
     {
       "name": "iOS",
@@ -747,7 +751,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 100
+      "count": 101
     },
     {
       "name": "Linux",
@@ -759,12 +763,12 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 840
+      "count": 841
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 378
+      "count": 379
     },
     {
       "name": "desktophd",
@@ -791,7 +795,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 72
+      "count": 73
     },
     {
       "name": "United Kingdom",
@@ -811,7 +815,7 @@
     {
       "name": "Argentina",
       "id": "AR",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Colombia",
@@ -858,7 +862,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 511
+      "count": 512
     },
     {
       "name": "Google",
