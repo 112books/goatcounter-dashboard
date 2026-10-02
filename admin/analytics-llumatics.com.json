@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-02T00:26:43.949580Z",
+  "generated": "2026-10-02T06:35:04.089684Z",
   "period": {
     "start": "2025-10-02",
     "end": "2026-10-02"
   },
-  "total": 1312,
+  "total": 1314,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -573,7 +573,7 @@
     },
     {
       "date": "2026-10-02",
-      "count": 6
+      "count": 8
     }
   ],
   "hits": [
@@ -587,7 +587,7 @@
     },
     {
       "path": "/es/tallers",
-      "count": 78
+      "count": 79
     },
     {
       "path": "/es",
@@ -699,12 +699,12 @@
     }
   ],
   "by_lang": {
-    "es": 392,
+    "es": 394,
     "en": 184
   },
   "by_section": {
     "inici": 309,
-    "tallers": 527,
+    "tallers": 529,
     "agenda": 60,
     "contacte": 58,
     "espais": 67,
@@ -719,12 +719,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 844
+      "count": 852
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 630
+      "count": 656
     },
     {
       "name": "Firefox",
@@ -741,7 +741,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 783
+      "count": 817
     },
     {
       "name": "Windows",
@@ -768,7 +768,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 866
+      "count": 892
     },
     {
       "name": "phone",
@@ -778,7 +778,7 @@
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 246
+      "count": 254
     },
     {
       "name": "tablet",
@@ -790,7 +790,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 1012
+      "count": 1046
     },
     {
       "name": "Singapore",
@@ -872,7 +872,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 205
+      "count": 206
     },
     {
       "name": "chatgpt.com",
