@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-03T23:28:07.649276Z",
+  "generated": "2026-10-04T03:52:59.438957Z",
   "period": {
-    "start": "2025-10-03",
-    "end": "2026-10-03"
+    "start": "2025-10-04",
+    "end": "2026-10-04"
   },
-  "total": 1364,
+  "total": 1368,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -245,15 +245,15 @@
     },
     {
       "date": "2026-07-07",
-      "count": 45
+      "count": 44
     },
     {
       "date": "2026-07-08",
-      "count": 21
+      "count": 20
     },
     {
       "date": "2026-07-09",
-      "count": 25
+      "count": 24
     },
     {
       "date": "2026-07-10",
@@ -265,7 +265,7 @@
     },
     {
       "date": "2026-07-12",
-      "count": 21
+      "count": 20
     },
     {
       "date": "2026-07-13",
@@ -365,7 +365,7 @@
     },
     {
       "date": "2026-08-08",
-      "count": 7
+      "count": 8
     },
     {
       "date": "2026-08-09",
@@ -437,7 +437,7 @@
     },
     {
       "date": "2026-08-28",
-      "count": 9
+      "count": 10
     },
     {
       "date": "2026-08-29",
@@ -577,17 +577,17 @@
     },
     {
       "date": "2026-10-03",
-      "count": 1
+      "count": 7
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 238
+      "count": 240
     },
     {
       "path": "/tallers",
-      "count": 117
+      "count": 118
     },
     {
       "path": "/es/tallers",
@@ -607,7 +607,7 @@
     },
     {
       "path": "/en/tallers",
-      "count": 30
+      "count": 31
     },
     {
       "path": "/en/espais",
@@ -703,16 +703,16 @@
     }
   ],
   "by_lang": {
-    "es": 405,
-    "en": 188
+    "es": 403,
+    "en": 193
   },
   "by_section": {
-    "inici": 319,
-    "tallers": 554,
-    "agenda": 66,
+    "inici": 321,
+    "tallers": 560,
+    "agenda": 64,
     "contacte": 60,
     "espais": 71,
-    "blog": 121,
+    "blog": 119,
     "llumatics-web": 45,
     "regala": 81,
     "sobre": 26,
@@ -871,17 +871,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 516
+      "count": 517
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 207
+      "count": 208
     },
     {
       "name": "ig",
       "id": "ig",
-      "count": 16
+      "count": 17
     },
     {
       "name": "chatgpt.com",
