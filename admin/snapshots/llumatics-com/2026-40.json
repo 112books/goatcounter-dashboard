@@ -1,0 +1,272 @@
+{
+  "generated": "2026-10-05T15:26:28.343907Z",
+  "period": {
+    "start": "2026-09-28",
+    "end": "2026-10-04"
+  },
+  "total": 101,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-09-28",
+      "count": 3
+    },
+    {
+      "date": "2026-09-29",
+      "count": 2
+    },
+    {
+      "date": "2026-10-01",
+      "count": 18
+    },
+    {
+      "date": "2026-10-02",
+      "count": 70
+    },
+    {
+      "date": "2026-10-03",
+      "count": 8
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 13
+    },
+    {
+      "path": "/tallers",
+      "count": 7
+    },
+    {
+      "path": "/tallers/iniciacio-revelat",
+      "count": 4
+    },
+    {
+      "path": "/es/tallers",
+      "count": 4
+    },
+    {
+      "path": "/es",
+      "count": 4
+    },
+    {
+      "path": "/tallers/quin-curs-em-conve",
+      "count": 3
+    },
+    {
+      "path": "/blog/tarda-holga-2026",
+      "count": 3
+    },
+    {
+      "path": "/tallers/tarda-holga-2026",
+      "count": 3
+    },
+    {
+      "path": "/es/agenda",
+      "count": 3
+    },
+    {
+      "path": "/espais",
+      "count": 3
+    },
+    {
+      "path": "/agenda",
+      "count": 3
+    },
+    {
+      "path": "/contacte",
+      "count": 3
+    },
+    {
+      "path": "/es/tallers/tarda-holga-2026",
+      "count": 2
+    },
+    {
+      "path": "/en/tallers",
+      "count": 2
+    },
+    {
+      "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 2
+    },
+    {
+      "path": "/tallers/cianotipia",
+      "count": 2
+    },
+    {
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 2
+    },
+    {
+      "path": "/es/sobre",
+      "count": 2
+    },
+    {
+      "path": "/tallers/tutoria-fotografica",
+      "count": 2
+    },
+    {
+      "path": "/es/espais",
+      "count": 2
+    },
+    {
+      "path": "/blog",
+      "count": 2
+    },
+    {
+      "path": "/en",
+      "count": 2
+    },
+    {
+      "path": "/en/tallers/which-course-suits-me",
+      "count": 1
+    },
+    {
+      "path": "/es/blog/tarda-holga-2026",
+      "count": 1
+    },
+    {
+      "path": "/en/blog/tarda-holga-2026",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/tarda-holga-2026",
+      "count": 1
+    },
+    {
+      "path": "/aprendre-a-revelar",
+      "count": 1
+    },
+    {
+      "path": "/agenda/page/2",
+      "count": 1
+    },
+    {
+      "path": "/blog/page/3",
+      "count": 1
+    },
+    {
+      "path": "/blog/page/2",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "inici": 19,
+    "tallers": 40,
+    "blog": 18,
+    "agenda": 7,
+    "espais": 5,
+    "contacte": 3,
+    "sobre": 3,
+    "aprendre-a-revelar": 1,
+    "privacitat": 2,
+    "avis-legal": 1,
+    "gracies": 1,
+    "regala": 1
+  },
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 82
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 43
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 88
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 16
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 11
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 10
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 77
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 27
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 21
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 108
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 11
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 3
+    },
+    {
+      "name": "Argentina",
+      "id": "AR",
+      "count": 1
+    },
+    {
+      "name": "Colombia",
+      "id": "CO",
+      "count": 1
+    },
+    {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 9
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 7
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 4
+    },
+    {
+      "name": "instagram.com",
+      "id": "instagram.com",
+      "count": 1
+    }
+  ]
+}
