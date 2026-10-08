@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-07T21:43:43.890127Z",
+  "generated": "2026-10-08T01:30:35.439092Z",
   "period": {
-    "start": "2025-10-07",
-    "end": "2026-10-07"
+    "start": "2025-10-08",
+    "end": "2026-10-08"
   },
-  "total": 1391,
+  "total": 1423,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -590,12 +590,16 @@
     {
       "date": "2026-10-06",
       "count": 11
+    },
+    {
+      "date": "2026-10-07",
+      "count": 32
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 245
+      "count": 252
     },
     {
       "path": "/tallers",
@@ -603,11 +607,11 @@
     },
     {
       "path": "/es/tallers",
-      "count": 82
+      "count": 83
     },
     {
       "path": "/es",
-      "count": 54
+      "count": 55
     },
     {
       "path": "/agenda",
@@ -615,18 +619,18 @@
     },
     {
       "path": "/contacte",
-      "count": 33
+      "count": 35
     },
     {
       "path": "/en/tallers",
       "count": 32
     },
     {
-      "path": "/en/espais",
-      "count": 28
+      "path": "/espais",
+      "count": 29
     },
     {
-      "path": "/espais",
+      "path": "/en/espais",
       "count": 28
     },
     {
@@ -662,6 +666,10 @@
       "count": 22
     },
     {
+      "path": "/tallers/tarda-holga-2026",
+      "count": 21
+    },
+    {
       "path": "/es/blog",
       "count": 21
     },
@@ -687,7 +695,7 @@
     },
     {
       "path": "/tallers/revelat-bn",
-      "count": 14
+      "count": 15
     },
     {
       "path": "/en/contacte",
@@ -708,39 +716,35 @@
     {
       "path": "/tallers/tutoria-fotografica",
       "count": 12
-    },
-    {
-      "path": "/llumatics-web",
-      "count": 11
     }
   ],
   "by_lang": {
-    "es": 410,
-    "en": 197
+    "es": 412,
+    "en": 199
   },
   "by_section": {
-    "inici": 328,
-    "tallers": 575,
+    "inici": 336,
+    "tallers": 593,
     "agenda": 65,
-    "contacte": 60,
-    "espais": 71,
-    "blog": 119,
+    "contacte": 62,
+    "espais": 72,
+    "blog": 121,
     "llumatics-web": 45,
     "regala": 81,
     "sobre": 26,
-    "gracies": 18,
+    "gracies": 19,
     "avis-legal": 3
   },
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 900
+      "count": 901
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 712
+      "count": 713
     },
     {
       "name": "Firefox",
@@ -767,7 +771,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 313
+      "count": 314
     },
     {
       "name": "Android",
@@ -777,19 +781,19 @@
     {
       "name": "Linux",
       "id": "Linux",
-      "count": 50
+      "count": 51
     }
   ],
   "sizes": [
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 921
+      "count": 922
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 431
+      "count": 432
     },
     {
       "name": "desktophd",
@@ -806,7 +810,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 1131
+      "count": 1132
     },
     {
       "name": "Singapore",
@@ -816,7 +820,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 75
+      "count": 76
     },
     {
       "name": "United Kingdom",
@@ -883,17 +887,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 521
+      "count": 524
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 214
+      "count": 217
     },
     {
       "name": "ig",
       "id": "ig",
-      "count": 17
+      "count": 19
     },
     {
       "name": "chatgpt.com",
@@ -901,14 +905,14 @@
       "count": 16
     },
     {
+      "name": "naubostik",
+      "id": "naubostik",
+      "count": 16
+    },
+    {
       "name": "naubostik.com",
       "id": "naubostik.com",
       "count": 4
-    },
-    {
-      "name": "duckduckgo.com",
-      "id": "duckduckgo.com",
-      "count": 3
     }
   ]
 }
