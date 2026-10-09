@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-08T21:44:46.188191Z",
+  "generated": "2026-10-09T01:40:03.201676Z",
   "period": {
-    "start": "2025-10-08",
-    "end": "2026-10-08"
+    "start": "2025-10-09",
+    "end": "2026-10-09"
   },
-  "total": 1423,
+  "total": 1453,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -245,7 +245,7 @@
     },
     {
       "date": "2026-07-07",
-      "count": 44
+      "count": 45
     },
     {
       "date": "2026-07-08",
@@ -265,7 +265,7 @@
     },
     {
       "date": "2026-07-12",
-      "count": 20
+      "count": 19
     },
     {
       "date": "2026-07-13",
@@ -273,7 +273,7 @@
     },
     {
       "date": "2026-07-14",
-      "count": 32
+      "count": 31
     },
     {
       "date": "2026-07-15",
@@ -493,7 +493,7 @@
     },
     {
       "date": "2026-09-11",
-      "count": 6
+      "count": 5
     },
     {
       "date": "2026-09-12",
@@ -594,16 +594,24 @@
     {
       "date": "2026-10-07",
       "count": 32
+    },
+    {
+      "date": "2026-10-08",
+      "count": 31
+    },
+    {
+      "date": "2026-10-09",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 252
+      "count": 257
     },
     {
       "path": "/tallers",
-      "count": 120
+      "count": 123
     },
     {
       "path": "/es/tallers",
@@ -611,19 +619,19 @@
     },
     {
       "path": "/es",
-      "count": 55
+      "count": 57
+    },
+    {
+      "path": "/contacte",
+      "count": 37
     },
     {
       "path": "/agenda",
       "count": 36
     },
     {
-      "path": "/contacte",
-      "count": 35
-    },
-    {
       "path": "/en/tallers",
-      "count": 32
+      "count": 33
     },
     {
       "path": "/espais",
@@ -639,6 +647,14 @@
     },
     {
       "path": "/en",
+      "count": 26
+    },
+    {
+      "path": "/tallers/tarda-holga-2026",
+      "count": 25
+    },
+    {
+      "path": "/tallers/iniciacio-revelat",
       "count": 25
     },
     {
@@ -646,11 +662,11 @@
       "count": 24
     },
     {
-      "path": "/tallers/iniciacio-revelat",
-      "count": 24
+      "path": "/llumatics-web/es/regala",
+      "count": 23
     },
     {
-      "path": "/llumatics-web/es/regala",
+      "path": "/tallers/fonaments-iniciacio-puntual",
       "count": 23
     },
     {
@@ -662,19 +678,11 @@
       "count": 22
     },
     {
-      "path": "/tallers/fonaments-iniciacio-puntual",
+      "path": "/regala",
       "count": 22
     },
     {
-      "path": "/tallers/tarda-holga-2026",
-      "count": 21
-    },
-    {
       "path": "/es/blog",
-      "count": 21
-    },
-    {
-      "path": "/regala",
       "count": 21
     },
     {
@@ -698,19 +706,19 @@
       "count": 15
     },
     {
+      "path": "/es/sobre",
+      "count": 14
+    },
+    {
       "path": "/en/contacte",
       "count": 14
     },
     {
-      "path": "/es/tallers/revelat-bn",
-      "count": 13
-    },
-    {
-      "path": "/es/sobre",
-      "count": 13
-    },
-    {
       "path": "/es/contacte",
+      "count": 14
+    },
+    {
+      "path": "/es/tallers/revelat-bn",
       "count": 13
     },
     {
@@ -719,19 +727,19 @@
     }
   ],
   "by_lang": {
-    "es": 412,
-    "en": 199
+    "es": 414,
+    "en": 203
   },
   "by_section": {
-    "inici": 336,
-    "tallers": 593,
+    "inici": 344,
+    "tallers": 604,
+    "contacte": 65,
     "agenda": 65,
-    "contacte": 62,
     "espais": 72,
-    "blog": 121,
+    "blog": 126,
     "llumatics-web": 45,
-    "regala": 81,
-    "sobre": 26,
+    "regala": 82,
+    "sobre": 28,
     "gracies": 19,
     "avis-legal": 3
   },
@@ -739,12 +747,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 913
+      "count": 915
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 730
+      "count": 731
     },
     {
       "name": "Firefox",
@@ -771,12 +779,12 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 321
+      "count": 322
     },
     {
       "name": "Android",
       "id": "Android",
-      "count": 131
+      "count": 133
     },
     {
       "name": "Linux",
@@ -793,7 +801,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 443
+      "count": 446
     },
     {
       "name": "desktophd",
@@ -810,7 +818,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 1155
+      "count": 1157
     },
     {
       "name": "Singapore",
@@ -887,26 +895,26 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 524
+      "count": 530
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 217
+      "count": 221
     },
     {
       "name": "ig",
       "id": "ig",
-      "count": 19
-    },
-    {
-      "name": "chatgpt.com",
-      "id": "chatgpt.com",
-      "count": 16
+      "count": 20
     },
     {
       "name": "naubostik",
       "id": "naubostik",
+      "count": 20
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
       "count": 16
     },
     {
