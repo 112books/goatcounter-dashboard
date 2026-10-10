@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-09T20:28:53.494575Z",
+  "generated": "2026-10-10T00:26:59.310772Z",
   "period": {
-    "start": "2025-10-09",
-    "end": "2026-10-09"
+    "start": "2025-10-10",
+    "end": "2026-10-10"
   },
-  "total": 1453,
+  "total": 1490,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -81,7 +81,7 @@
     },
     {
       "date": "2026-05-22",
-      "count": 33
+      "count": 34
     },
     {
       "date": "2026-05-23",
@@ -117,7 +117,7 @@
     },
     {
       "date": "2026-05-31",
-      "count": 6
+      "count": 7
     },
     {
       "date": "2026-06-01",
@@ -193,7 +193,7 @@
     },
     {
       "date": "2026-06-21",
-      "count": 5
+      "count": 6
     },
     {
       "date": "2026-06-24",
@@ -249,7 +249,7 @@
     },
     {
       "date": "2026-07-08",
-      "count": 20
+      "count": 21
     },
     {
       "date": "2026-07-09",
@@ -301,7 +301,7 @@
     },
     {
       "date": "2026-07-21",
-      "count": 16
+      "count": 15
     },
     {
       "date": "2026-07-22",
@@ -337,7 +337,7 @@
     },
     {
       "date": "2026-08-01",
-      "count": 9
+      "count": 8
     },
     {
       "date": "2026-08-02",
@@ -353,7 +353,7 @@
     },
     {
       "date": "2026-08-05",
-      "count": 15
+      "count": 14
     },
     {
       "date": "2026-08-06",
@@ -365,7 +365,7 @@
     },
     {
       "date": "2026-08-08",
-      "count": 8
+      "count": 7
     },
     {
       "date": "2026-08-09",
@@ -397,7 +397,7 @@
     },
     {
       "date": "2026-08-17",
-      "count": 15
+      "count": 14
     },
     {
       "date": "2026-08-18",
@@ -429,7 +429,7 @@
     },
     {
       "date": "2026-08-26",
-      "count": 14
+      "count": 13
     },
     {
       "date": "2026-08-27",
@@ -469,7 +469,7 @@
     },
     {
       "date": "2026-09-05",
-      "count": 4
+      "count": 3
     },
     {
       "date": "2026-09-06",
@@ -493,7 +493,7 @@
     },
     {
       "date": "2026-09-11",
-      "count": 5
+      "count": 4
     },
     {
       "date": "2026-09-12",
@@ -537,7 +537,7 @@
     },
     {
       "date": "2026-09-22",
-      "count": 6
+      "count": 5
     },
     {
       "date": "2026-09-23",
@@ -573,11 +573,11 @@
     },
     {
       "date": "2026-10-02",
-      "count": 65
+      "count": 66
     },
     {
       "date": "2026-10-03",
-      "count": 7
+      "count": 6
     },
     {
       "date": "2026-10-04",
@@ -593,7 +593,7 @@
     },
     {
       "date": "2026-10-07",
-      "count": 32
+      "count": 33
     },
     {
       "date": "2026-10-08",
@@ -601,17 +601,17 @@
     },
     {
       "date": "2026-10-09",
-      "count": 1
+      "count": 42
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 257
+      "count": 265
     },
     {
       "path": "/tallers",
-      "count": 123
+      "count": 128
     },
     {
       "path": "/es/tallers",
@@ -622,12 +622,12 @@
       "count": 57
     },
     {
-      "path": "/contacte",
-      "count": 37
+      "path": "/agenda",
+      "count": 39
     },
     {
-      "path": "/agenda",
-      "count": 36
+      "path": "/contacte",
+      "count": 39
     },
     {
       "path": "/en/tallers",
@@ -635,22 +635,26 @@
     },
     {
       "path": "/espais",
-      "count": 29
+      "count": 31
     },
     {
       "path": "/en/espais",
       "count": 28
     },
     {
+      "path": "/tallers/tarda-holga-2026",
+      "count": 27
+    },
+    {
       "path": "/blog",
-      "count": 26
+      "count": 27
     },
     {
       "path": "/en",
       "count": 26
     },
     {
-      "path": "/tallers/tarda-holga-2026",
+      "path": "/tallers/fonaments-iniciacio-puntual",
       "count": 25
     },
     {
@@ -666,7 +670,7 @@
       "count": 23
     },
     {
-      "path": "/tallers/fonaments-iniciacio-puntual",
+      "path": "/regala",
       "count": 23
     },
     {
@@ -678,20 +682,16 @@
       "count": 22
     },
     {
-      "path": "/regala",
-      "count": 22
-    },
-    {
       "path": "/es/blog",
       "count": 21
     },
     {
-      "path": "/es/agenda",
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
       "count": 19
     },
     {
-      "path": "/es/blog/caffenol-revelar-amb-cafe",
-      "count": 18
+      "path": "/es/agenda",
+      "count": 19
     },
     {
       "path": "/es/tallers/iniciacio-revelat",
@@ -722,25 +722,25 @@
       "count": 13
     },
     {
-      "path": "/tallers/tutoria-fotografica",
+      "path": "/sobre",
       "count": 12
     }
   ],
   "by_lang": {
     "es": 414,
-    "en": 203
+    "en": 198
   },
   "by_section": {
-    "inici": 344,
-    "tallers": 604,
-    "contacte": 65,
-    "agenda": 65,
-    "espais": 72,
-    "blog": 126,
+    "inici": 352,
+    "tallers": 620,
+    "agenda": 70,
+    "contacte": 67,
+    "espais": 74,
+    "blog": 129,
     "llumatics-web": 45,
-    "regala": 82,
-    "sobre": 28,
-    "gracies": 19,
+    "regala": 83,
+    "sobre": 30,
+    "gracies": 17,
     "avis-legal": 3
   },
   "browsers": [
@@ -752,7 +752,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 739
+      "count": 745
     },
     {
       "name": "Firefox",
@@ -769,7 +769,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 890
+      "count": 896
     },
     {
       "name": "Windows",
@@ -796,7 +796,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 956
+      "count": 962
     },
     {
       "name": "phone",
@@ -818,7 +818,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 1191
+      "count": 1197
     },
     {
       "name": "Singapore",
@@ -895,31 +895,31 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 530
+      "count": 536
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 221
-    },
-    {
-      "name": "ig",
-      "id": "ig",
-      "count": 20
+      "count": 224
     },
     {
       "name": "naubostik",
       "id": "naubostik",
-      "count": 20
+      "count": 25
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 21
     },
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 16
+      "count": 17
     },
     {
-      "name": "naubostik.com",
-      "id": "naubostik.com",
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
       "count": 4
     }
   ]
