@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-10T22:10:22.912129Z",
+  "generated": "2026-10-11T01:29:37.037691Z",
   "period": {
-    "start": "2025-10-10",
-    "end": "2026-10-10"
+    "start": "2025-10-11",
+    "end": "2026-10-11"
   },
-  "total": 1490,
+  "total": 1504,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -602,16 +602,24 @@
     {
       "date": "2026-10-09",
       "count": 42
+    },
+    {
+      "date": "2026-10-10",
+      "count": 7
+    },
+    {
+      "date": "2026-10-11",
+      "count": 7
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 265
+      "count": 268
     },
     {
       "path": "/tallers",
-      "count": 128
+      "count": 130
     },
     {
       "path": "/es/tallers",
@@ -623,7 +631,7 @@
     },
     {
       "path": "/agenda",
-      "count": 39
+      "count": 40
     },
     {
       "path": "/contacte",
@@ -635,18 +643,18 @@
     },
     {
       "path": "/espais",
-      "count": 31
+      "count": 33
     },
     {
       "path": "/en/espais",
       "count": 28
     },
     {
-      "path": "/tallers/tarda-holga-2026",
-      "count": 27
+      "path": "/blog",
+      "count": 28
     },
     {
-      "path": "/blog",
+      "path": "/tallers/tarda-holga-2026",
       "count": 27
     },
     {
@@ -682,12 +690,12 @@
       "count": 22
     },
     {
-      "path": "/es/blog",
-      "count": 21
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 22
     },
     {
-      "path": "/es/blog/caffenol-revelar-amb-cafe",
-      "count": 19
+      "path": "/es/blog",
+      "count": 21
     },
     {
       "path": "/es/agenda",
@@ -727,16 +735,16 @@
     }
   ],
   "by_lang": {
-    "es": 414,
+    "es": 417,
     "en": 198
   },
   "by_section": {
-    "inici": 352,
-    "tallers": 620,
-    "agenda": 70,
+    "inici": 355,
+    "tallers": 624,
+    "agenda": 71,
     "contacte": 67,
-    "espais": 74,
-    "blog": 129,
+    "espais": 76,
+    "blog": 133,
     "llumatics-web": 45,
     "regala": 83,
     "sobre": 30,
@@ -747,12 +755,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 951
+      "count": 954
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 745
+      "count": 749
     },
     {
       "name": "Firefox",
@@ -774,17 +782,17 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 355
+      "count": 356
     },
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 323
+      "count": 327
     },
     {
       "name": "Android",
       "id": "Android",
-      "count": 136
+      "count": 138
     },
     {
       "name": "Linux",
@@ -796,12 +804,12 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 969
+      "count": 970
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 450
+      "count": 456
     },
     {
       "name": "desktophd",
@@ -818,7 +826,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 1202
+      "count": 1207
     },
     {
       "name": "Singapore",
@@ -848,7 +856,7 @@
     {
       "name": "Argentina",
       "id": "AR",
-      "count": 13
+      "count": 15
     },
     {
       "name": "Italy",
@@ -895,12 +903,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 536
+      "count": 538
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 224
+      "count": 228
     },
     {
       "name": "naubostik",
@@ -910,7 +918,7 @@
     {
       "name": "ig",
       "id": "ig",
-      "count": 21
+      "count": 22
     },
     {
       "name": "chatgpt.com",
