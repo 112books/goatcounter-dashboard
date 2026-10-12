@@ -1,0 +1,182 @@
+{
+  "generated": "2026-10-12T16:21:40.439832Z",
+  "period": {
+    "start": "2026-10-05",
+    "end": "2026-10-11"
+  },
+  "total": 0,
+  "total_unique": 0,
+  "hits_by_day": [],
+  "hits": [],
+  "by_section": {},
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 96
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 88
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 2
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 56
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 53
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 38
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 35
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 4
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 86
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 66
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 31
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 3
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 155
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 12
+    },
+    {
+      "name": "Argentina",
+      "id": "AR",
+      "count": 6
+    },
+    {
+      "name": "Finland",
+      "id": "FI",
+      "count": 5
+    },
+    {
+      "name": "Italy",
+      "id": "IT",
+      "count": 2
+    },
+    {
+      "name": "Canada",
+      "id": "CA",
+      "count": 1
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 1
+    },
+    {
+      "name": "Sri Lanka",
+      "id": "LK",
+      "count": 1
+    },
+    {
+      "name": "Mexico",
+      "id": "MX",
+      "count": 1
+    },
+    {
+      "name": "Thailand",
+      "id": "TH",
+      "count": 1
+    },
+    {
+      "name": "Vietnam",
+      "id": "VN",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "naubostik",
+      "id": "naubostik",
+      "count": 25
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 20
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 18
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 5
+    },
+    {
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
+      "count": 1
+    },
+    {
+      "name": "www.bing.com",
+      "id": "www.bing.com",
+      "count": 1
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 1
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 1
+    },
+    {
+      "name": "naubostik.com",
+      "id": "naubostik.com",
+      "count": 1
+    }
+  ]
+}
