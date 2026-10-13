@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-12T20:46:57.766652Z",
+  "generated": "2026-10-13T02:22:24.508193Z",
   "period": {
-    "start": "2025-10-12",
-    "end": "2026-10-12"
+    "start": "2025-10-13",
+    "end": "2026-10-13"
   },
-  "total": 1537,
+  "total": 1569,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "date": "2026-05-04",
-      "count": 33
+      "count": 30
     },
     {
       "date": "2026-05-05",
@@ -33,7 +33,7 @@
     },
     {
       "date": "2026-05-08",
-      "count": 7
+      "count": 6
     },
     {
       "date": "2026-05-09",
@@ -81,7 +81,7 @@
     },
     {
       "date": "2026-05-22",
-      "count": 34
+      "count": 33
     },
     {
       "date": "2026-05-23",
@@ -221,7 +221,7 @@
     },
     {
       "date": "2026-07-01",
-      "count": 16
+      "count": 17
     },
     {
       "date": "2026-07-02",
@@ -261,7 +261,7 @@
     },
     {
       "date": "2026-07-11",
-      "count": 8
+      "count": 7
     },
     {
       "date": "2026-07-12",
@@ -301,7 +301,7 @@
     },
     {
       "date": "2026-07-21",
-      "count": 15
+      "count": 14
     },
     {
       "date": "2026-07-22",
@@ -397,7 +397,7 @@
     },
     {
       "date": "2026-08-17",
-      "count": 14
+      "count": 15
     },
     {
       "date": "2026-08-18",
@@ -425,7 +425,7 @@
     },
     {
       "date": "2026-08-25",
-      "count": 5
+      "count": 6
     },
     {
       "date": "2026-08-26",
@@ -609,33 +609,33 @@
     },
     {
       "date": "2026-10-11",
-      "count": 40
+      "count": 41
     },
     {
       "date": "2026-10-12",
-      "count": 2
+      "count": 37
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 273
+      "count": 275
     },
     {
       "path": "/tallers",
-      "count": 131
+      "count": 132
     },
     {
       "path": "/es/tallers",
-      "count": 90
+      "count": 92
     },
     {
       "path": "/es",
-      "count": 58
+      "count": 62
     },
     {
       "path": "/agenda",
-      "count": 40
+      "count": 41
     },
     {
       "path": "/contacte",
@@ -651,11 +651,11 @@
     },
     {
       "path": "/en/espais",
-      "count": 29
+      "count": 30
     },
     {
       "path": "/tallers/tarda-holga-2026",
-      "count": 28
+      "count": 29
     },
     {
       "path": "/blog",
@@ -663,10 +663,14 @@
     },
     {
       "path": "/en",
-      "count": 26
+      "count": 27
     },
     {
       "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 26
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
       "count": 25
     },
     {
@@ -678,11 +682,11 @@
       "count": 24
     },
     {
-      "path": "/llumatics-web/es/regala",
-      "count": 23
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 24
     },
     {
-      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "path": "/llumatics-web/es/regala",
       "count": 23
     },
     {
@@ -702,31 +706,27 @@
       "count": 21
     },
     {
-      "path": "/es/tallers/iniciacio-revelat",
-      "count": 20
-    },
-    {
       "path": "/es/agenda",
       "count": 19
+    },
+    {
+      "path": "/es/sobre",
+      "count": 16
+    },
+    {
+      "path": "/es/espais",
+      "count": 16
+    },
+    {
+      "path": "/en/contacte",
+      "count": 16
     },
     {
       "path": "/es/tallers/revelat-bn",
       "count": 15
     },
     {
-      "path": "/es/sobre",
-      "count": 15
-    },
-    {
-      "path": "/es/espais",
-      "count": 15
-    },
-    {
       "path": "/tallers/revelat-bn",
-      "count": 15
-    },
-    {
-      "path": "/en/contacte",
       "count": 15
     },
     {
@@ -739,19 +739,19 @@
     }
   ],
   "by_lang": {
-    "es": 445,
-    "en": 202
+    "es": 468,
+    "en": 205
   },
   "by_section": {
-    "inici": 361,
-    "tallers": 646,
-    "agenda": 70,
-    "contacte": 68,
-    "espais": 77,
-    "blog": 132,
+    "inici": 368,
+    "tallers": 668,
+    "agenda": 68,
+    "contacte": 69,
+    "espais": 79,
+    "blog": 133,
     "llumatics-web": 45,
     "regala": 83,
-    "sobre": 31,
+    "sobre": 32,
     "gracies": 17,
     "aprender-a-revelar": 4,
     "avis-legal": 3
@@ -908,17 +908,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 547
+      "count": 553
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 239
+      "count": 240
     },
     {
       "name": "naubostik",
       "id": "naubostik",
-      "count": 25
+      "count": 26
     },
     {
       "name": "ig",
