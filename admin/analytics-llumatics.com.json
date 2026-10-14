@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-13T22:12:12.497184Z",
+  "generated": "2026-10-14T01:32:40.527582Z",
   "period": {
-    "start": "2025-10-13",
-    "end": "2026-10-13"
+    "start": "2025-10-14",
+    "end": "2026-10-14"
   },
-  "total": 1569,
+  "total": 1582,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -37,7 +37,7 @@
     },
     {
       "date": "2026-05-09",
-      "count": 15
+      "count": 14
     },
     {
       "date": "2026-05-10",
@@ -73,7 +73,7 @@
     },
     {
       "date": "2026-05-20",
-      "count": 6
+      "count": 3
     },
     {
       "date": "2026-05-21",
@@ -93,7 +93,7 @@
     },
     {
       "date": "2026-05-25",
-      "count": 31
+      "count": 33
     },
     {
       "date": "2026-05-26",
@@ -141,7 +141,7 @@
     },
     {
       "date": "2026-06-07",
-      "count": 4
+      "count": 3
     },
     {
       "date": "2026-06-08",
@@ -221,7 +221,7 @@
     },
     {
       "date": "2026-07-01",
-      "count": 17
+      "count": 16
     },
     {
       "date": "2026-07-02",
@@ -245,7 +245,7 @@
     },
     {
       "date": "2026-07-07",
-      "count": 45
+      "count": 44
     },
     {
       "date": "2026-07-08",
@@ -253,7 +253,7 @@
     },
     {
       "date": "2026-07-09",
-      "count": 24
+      "count": 23
     },
     {
       "date": "2026-07-10",
@@ -529,7 +529,7 @@
     },
     {
       "date": "2026-09-20",
-      "count": 17
+      "count": 16
     },
     {
       "date": "2026-09-21",
@@ -609,29 +609,37 @@
     },
     {
       "date": "2026-10-11",
-      "count": 41
+      "count": 44
     },
     {
       "date": "2026-10-12",
-      "count": 37
+      "count": 38
+    },
+    {
+      "date": "2026-10-13",
+      "count": 13
+    },
+    {
+      "date": "2026-10-14",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 275
+      "count": 276
     },
     {
       "path": "/tallers",
-      "count": 132
+      "count": 134
     },
     {
       "path": "/es/tallers",
-      "count": 92
+      "count": 95
     },
     {
       "path": "/es",
-      "count": 62
+      "count": 64
     },
     {
       "path": "/agenda",
@@ -639,11 +647,11 @@
     },
     {
       "path": "/contacte",
-      "count": 39
+      "count": 40
     },
     {
       "path": "/en/tallers",
-      "count": 34
+      "count": 35
     },
     {
       "path": "/espais",
@@ -663,15 +671,15 @@
     },
     {
       "path": "/en",
-      "count": 27
+      "count": 28
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 26
     },
     {
       "path": "/tallers/fonaments-iniciacio-puntual",
       "count": 26
-    },
-    {
-      "path": "/es/tallers/fonaments-iniciacio-puntual",
-      "count": 25
     },
     {
       "path": "/tallers/iniciacio-revelat",
@@ -718,15 +726,15 @@
       "count": 16
     },
     {
+      "path": "/tallers/revelat-bn",
+      "count": 16
+    },
+    {
       "path": "/en/contacte",
       "count": 16
     },
     {
       "path": "/es/tallers/revelat-bn",
-      "count": 15
-    },
-    {
-      "path": "/tallers/revelat-bn",
       "count": 15
     },
     {
@@ -739,16 +747,16 @@
     }
   ],
   "by_lang": {
-    "es": 468,
-    "en": 205
+    "es": 471,
+    "en": 207
   },
   "by_section": {
-    "inici": 368,
-    "tallers": 668,
+    "inici": 372,
+    "tallers": 673,
     "agenda": 68,
-    "contacte": 69,
+    "contacte": 70,
     "espais": 79,
-    "blog": 133,
+    "blog": 136,
     "llumatics-web": 45,
     "regala": 83,
     "sobre": 32,
@@ -760,12 +768,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 994
+      "count": 995
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 806
+      "count": 809
     },
     {
       "name": "Firefox",
@@ -787,7 +795,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 379
+      "count": 382
     },
     {
       "name": "Windows",
@@ -797,7 +805,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 152
+      "count": 153
     },
     {
       "name": "Linux",
@@ -814,7 +822,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 522
+      "count": 526
     },
     {
       "name": "desktophd",
@@ -831,7 +839,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 1294
+      "count": 1297
     },
     {
       "name": "Singapore",
@@ -851,7 +859,7 @@
     {
       "name": "Argentina",
       "id": "AR",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Finland",
@@ -908,17 +916,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 553
+      "count": 554
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 240
+      "count": 244
     },
     {
       "name": "naubostik",
       "id": "naubostik",
-      "count": 26
+      "count": 27
     },
     {
       "name": "ig",
