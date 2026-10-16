@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-15T22:51:19.703260Z",
+  "generated": "2026-10-16T00:57:28.098030Z",
   "period": {
-    "start": "2025-10-15",
-    "end": "2026-10-15"
+    "start": "2025-10-16",
+    "end": "2026-10-16"
   },
-  "total": 1589,
+  "total": 1602,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -622,12 +622,20 @@
     {
       "date": "2026-10-14",
       "count": 10
+    },
+    {
+      "date": "2026-10-15",
+      "count": 10
+    },
+    {
+      "date": "2026-10-16",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 276
+      "count": 278
     },
     {
       "path": "/tallers",
@@ -635,7 +643,7 @@
     },
     {
       "path": "/es/tallers",
-      "count": 96
+      "count": 97
     },
     {
       "path": "/es",
@@ -643,7 +651,7 @@
     },
     {
       "path": "/agenda",
-      "count": 41
+      "count": 42
     },
     {
       "path": "/contacte",
@@ -651,7 +659,7 @@
     },
     {
       "path": "/en/tallers",
-      "count": 35
+      "count": 37
     },
     {
       "path": "/espais",
@@ -666,11 +674,11 @@
       "count": 30
     },
     {
-      "path": "/blog",
-      "count": 28
+      "path": "/en",
+      "count": 29
     },
     {
-      "path": "/en",
+      "path": "/blog",
       "count": 28
     },
     {
@@ -718,6 +726,10 @@
       "count": 19
     },
     {
+      "path": "/en/contacte",
+      "count": 18
+    },
+    {
       "path": "/es/sobre",
       "count": 17
     },
@@ -727,10 +739,6 @@
     },
     {
       "path": "/tallers/revelat-bn",
-      "count": 16
-    },
-    {
-      "path": "/en/contacte",
       "count": 16
     },
     {
@@ -747,14 +755,14 @@
     }
   ],
   "by_lang": {
-    "es": 476,
-    "en": 207
+    "es": 477,
+    "en": 214
   },
   "by_section": {
-    "inici": 372,
-    "tallers": 676,
-    "agenda": 68,
-    "contacte": 70,
+    "inici": 375,
+    "tallers": 682,
+    "agenda": 70,
+    "contacte": 72,
     "espais": 79,
     "blog": 139,
     "llumatics-web": 45,
@@ -768,12 +776,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 1003
+      "count": 1004
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 820
+      "count": 821
     },
     {
       "name": "Firefox",
@@ -795,12 +803,12 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 392
+      "count": 393
     },
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 373
+      "count": 374
     },
     {
       "name": "Android",
@@ -817,12 +825,12 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 999
+      "count": 1000
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 540
+      "count": 541
     },
     {
       "name": "desktophd",
@@ -849,7 +857,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 88
+      "count": 89
     },
     {
       "name": "United Kingdom",
@@ -874,7 +882,7 @@
     {
       "name": "Italy",
       "id": "IT",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Colombia",
@@ -916,12 +924,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 554
+      "count": 556
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 248
+      "count": 250
     },
     {
       "name": "naubostik",
@@ -931,7 +939,7 @@
     {
       "name": "ig",
       "id": "ig",
-      "count": 22
+      "count": 23
     },
     {
       "name": "chatgpt.com",
