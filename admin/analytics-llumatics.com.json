@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-16T00:57:28.098030Z",
+  "generated": "2026-10-16T05:31:33.160041Z",
   "period": {
     "start": "2025-10-16",
     "end": "2026-10-16"
   },
-  "total": 1602,
+  "total": 1603,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -77,7 +77,7 @@
     },
     {
       "date": "2026-05-21",
-      "count": 20
+      "count": 19
     },
     {
       "date": "2026-05-22",
@@ -109,7 +109,7 @@
     },
     {
       "date": "2026-05-29",
-      "count": 34
+      "count": 35
     },
     {
       "date": "2026-05-30",
@@ -425,7 +425,7 @@
     },
     {
       "date": "2026-08-25",
-      "count": 6
+      "count": 5
     },
     {
       "date": "2026-08-26",
@@ -581,7 +581,7 @@
     },
     {
       "date": "2026-10-04",
-      "count": 5
+      "count": 6
     },
     {
       "date": "2026-10-05",
@@ -613,7 +613,7 @@
     },
     {
       "date": "2026-10-12",
-      "count": 38
+      "count": 37
     },
     {
       "date": "2026-10-13",
@@ -629,13 +629,13 @@
     },
     {
       "date": "2026-10-16",
-      "count": 3
+      "count": 5
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 278
+      "count": 279
     },
     {
       "path": "/tallers",
@@ -755,11 +755,11 @@
     }
   ],
   "by_lang": {
-    "es": 477,
-    "en": 214
+    "es": 474,
+    "en": 217
   },
   "by_section": {
-    "inici": 375,
+    "inici": 376,
     "tallers": 682,
     "agenda": 70,
     "contacte": 72,
@@ -776,7 +776,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 1004
+      "count": 1006
     },
     {
       "name": "Safari",
@@ -808,7 +808,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 374
+      "count": 376
     },
     {
       "name": "Android",
@@ -825,7 +825,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 1000
+      "count": 1002
     },
     {
       "name": "phone",
@@ -857,7 +857,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 89
+      "count": 91
     },
     {
       "name": "United Kingdom",
@@ -924,7 +924,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 556
+      "count": 558
     },
     {
       "name": "Google",
