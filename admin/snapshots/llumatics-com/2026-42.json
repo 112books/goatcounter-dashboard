@@ -1,0 +1,318 @@
+{
+  "generated": "2026-10-19T14:12:25.587473Z",
+  "period": {
+    "start": "2026-10-12",
+    "end": "2026-10-18"
+  },
+  "total": 106,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-10-12",
+      "count": 44
+    },
+    {
+      "date": "2026-10-13",
+      "count": 12
+    },
+    {
+      "date": "2026-10-14",
+      "count": 11
+    },
+    {
+      "date": "2026-10-15",
+      "count": 12
+    },
+    {
+      "date": "2026-10-16",
+      "count": 19
+    },
+    {
+      "date": "2026-10-17",
+      "count": 8
+    }
+  ],
+  "hits": [
+    {
+      "path": "/es/tallers",
+      "count": 12
+    },
+    {
+      "path": "/es",
+      "count": 10
+    },
+    {
+      "path": "/",
+      "count": 8
+    },
+    {
+      "path": "/tallers",
+      "count": 6
+    },
+    {
+      "path": "/en/contacte",
+      "count": 5
+    },
+    {
+      "path": "/tallers/fotografia-desperits",
+      "count": 4
+    },
+    {
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 4
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 3
+    },
+    {
+      "path": "/en/tallers",
+      "count": 3
+    },
+    {
+      "path": "/es/sobre",
+      "count": 3
+    },
+    {
+      "path": "/en",
+      "count": 3
+    },
+    {
+      "path": "/es/tallers/retrat-amb-holga",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/fotografia-desperits",
+      "count": 2
+    },
+    {
+      "path": "/tallers/quin-curs-em-conve",
+      "count": 2
+    },
+    {
+      "path": "/tallers/tarda-holga-2026",
+      "count": 2
+    },
+    {
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 2
+    },
+    {
+      "path": "/agenda",
+      "count": 2
+    },
+    {
+      "path": "/blog/tarda-holga-nau-bostik",
+      "count": 1
+    },
+    {
+      "path": "/tallers/introduccio-al-positivat/privat",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/guinneol",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/que-curso-me-conviene",
+      "count": 1
+    },
+    {
+      "path": "/blog/fotografia-desperits-castanyada",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/which-course-suits-me",
+      "count": 1
+    },
+    {
+      "path": "/aprendre-a-revelar",
+      "count": 1
+    },
+    {
+      "path": "/blog/tarda-holga-2026",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/fotografia-de-carrer",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/del-carrer-al-llibre",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fotollibre",
+      "count": 1
+    },
+    {
+      "path": "/es/blog/retrat-gran-format-marc-2026",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/revelats-experimentals",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "tallers": 60,
+    "inici": 21,
+    "contacte": 5,
+    "sobre": 4,
+    "blog": 7,
+    "agenda": 4,
+    "aprendre-a-revelar": 1,
+    "espais": 3,
+    "regala": 1
+  },
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 59
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 49
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 3
+    }
+  ],
+  "systems": [
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 53
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 20
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 19
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 15
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 4
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 72
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 28
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 10
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 1
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 93
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 6
+    },
+    {
+      "name": "Iceland",
+      "id": "IS",
+      "count": 4
+    },
+    {
+      "name": "Italy",
+      "id": "IT",
+      "count": 3
+    },
+    {
+      "name": "Argentina",
+      "id": "AR",
+      "count": 2
+    },
+    {
+      "name": "Honduras",
+      "id": "HN",
+      "count": 1
+    },
+    {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 1
+    },
+    {
+      "name": "Sweden",
+      "id": "SE",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 18
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 15
+    },
+    {
+      "name": "naubostik",
+      "id": "naubostik",
+      "count": 3
+    },
+    {
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
+      "count": 1
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 1
+    },
+    {
+      "name": "search.brave.com",
+      "id": "search.brave.com",
+      "count": 1
+    },
+    {
+      "name": "www.bing.com",
+      "id": "www.bing.com",
+      "count": 1
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 1
+    }
+  ]
+}
