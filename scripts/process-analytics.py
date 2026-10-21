@@ -66,6 +66,19 @@ def main():
     hits_data = safe_get(raw, "hits_data") or {}
     hits_list = safe_get(hits_data, "hits") or []
 
+    # Guard: si /stats/hits ha fallat (resposta null o buida) no sobreescriguis
+    # un analytics.json que ja tenia pàgines; evita perdre el detall per un error
+    # transitori de l'API.
+    if not hits_list and os.path.exists(output_file):
+        try:
+            with open(output_file) as f:
+                previous = json.load(f)
+            if previous.get("hits"):
+                print("WARN: /stats/hits buit; es conserva l'analytics.json existent")
+                return
+        except (json.JSONDecodeError, OSError):
+            pass
+
     by_lang     = {}
     by_section  = {}
     total       = 0

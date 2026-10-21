@@ -60,6 +60,23 @@ def test_daily_breakdown_per_section(tmp_path):
     }
 
 
+def test_preserves_existing_analytics_when_hits_empty(tmp_path):
+    out = tmp_path / "analytics.json"
+    previous = {"hits": [{"path": "/", "count": 5}], "by_section": {"inici": 5}}
+    out.write_text(json.dumps(previous))
+    raw = tmp_path / "raw.json"
+    raw.write_text(json.dumps({"hits_data": None, "total_data": {}}))
+
+    subprocess.run(
+        [sys.executable, str(SCRIPT), str(raw), str(out), "2026-09-01", "2026-09-30"],
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+
+    assert json.loads(out.read_text()) == previous
+
+
 def test_daily_breakdown_adds_up_to_totals(tmp_path):
     data = _run(tmp_path)
     assert data["total"] == 17
