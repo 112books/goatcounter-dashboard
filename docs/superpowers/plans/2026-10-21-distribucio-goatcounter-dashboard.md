@@ -42,7 +42,7 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 
 | Projecte | Repo | Dashboard | Dades | Generació | Notes |
 |---|---|---|---|---|---|
-| pocallum.cat | `112books/pocallum.cat` | `/stats/` | `static/stats/analytics.json` | Python + GHA | Moltes seccions pròpies (blog, festivals, serveis, conversió, wizard, missatges) |
+| pocallum.cat | `112books/pocallum.cat` | `/stats/` | `static/stats/analytics.json` | Python + GHA | 200 · feature i dades diàries · seccions pròpies intactes | Alta |
 | llumatics.com | `112books/llumatics-web` | `/admin/` | `static/admin/analytics-cache.json` | **PHP** `fetch-analytics.php` | Tallers, campanyes, tendències, dies de la setmana |
 | linuxbcn.com | `112books/linuxbcn` | `/admin/` (401) | `static/admin/analytics-cache.json` | **PHP** + `admin.js` | JS externalitzat; projectes, tendències, dies |
 | machiroku.com | `112books/machiroku-web` | `/admin/` | `static/admin/analytics.json` + `docs/admin/analytics.json` | Python + GHA (copia a `docs/`) | Versió antiga de la plantilla (`var`, `renderBars` diferent) |
@@ -59,7 +59,7 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 
 | Web | `generated` en línia | `pages_daily` |
 |---|---|---|
-| pocallum.cat | 2026-10-21 | ❌ |
+| pocallum.cat | 2026-10-21 20:04 | ✅ |
 | blog.pocallum.cat | 2026-10-21 11:32 | ✅ |
 | about.pocallum.cat | 2026-10-21 11:27 | ✅ |
 | ressona.eu | 2026-10-21 04:05 | ✅ (canari) |
@@ -266,7 +266,7 @@ Per a cada web, vegeu el checklist de §5.
 
 ### Fase 3 — Personalitzats
 
-- [ ] `pocallum.cat` — decidir hooks vs. pedaç a mida; conservar totes les seccions pròpies.
+- [x] `pocallum.cat` — ✅ FET. Selector + formatges amb tema fosc, `pages_daily`/`sections_daily` i guard. Conservades totes les seccions pròpies. També espera `DOMContentLoaded` (Chart.js) i manté el `rawUrl`. Verificat: 6 períodes (0/58/320/858/1745/1745), 3 formatges.
 - [ ] `llumatics.com` — afegir `pages_daily`/`sections_daily` a `fetch-analytics.php` i el selector/formatges a l'HTML.
 - [ ] `linuxbcn.com` — ídem a `fetch-analytics.php` + `admin.js`; recordar l'accés 401.
 - [ ] `machiroku.com` — versió antiga; pedaç a mida o migració completa.
@@ -367,3 +367,4 @@ El nom varia per repo. Cal mirar el workflow de cadascun abans de tocar-lo. No c
 | 2026-10-21 | guiesbarcelona | Onada estàndard (paral·lel) | ✅ Desplegat i verificat | Pages URL (no domini propi); `pages_daily` 100, `sections_daily` 5. |
 | 2026-10-21 | blog.pocallum.cat | Ja venia de l'agent paral·lel a `develop` | ✅ Desplegat i verificat | `pages_daily` 824, `sections_daily` 165; deploy a Dinahosting OK. |
 | 2026-10-21 | 9bi | 365 dies, `pages_daily`/`sections_daily`, guard i fix d'inicialització de Chart.js | ✅ Desplegat i verificat | 6 períodes; 3 formatges; 50 pàgines i 25 seccions; límit top-50 de pàgines. |
+| 2026-10-21 | pocallum.cat | Selector + formatges, camps diaris i fix d inicialització | ✅ Desplegat i verificat | 6 períodes (0/58/320/858/1745/1745); 88 pàgines i 34 seccions; 3 formatges; seccions pròpies intactes. |
