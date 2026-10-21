@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T01:11:33.839983Z",
+  "generated": "2026-10-21T06:54:29.676727Z",
   "period": {
     "start": "2025-10-21",
     "end": "2026-10-21"
@@ -10,6 +10,8 @@
   "hits": [],
   "by_lang": {},
   "by_section": {},
+  "pages_daily": {},
+  "sections_daily": {},
   "browsers": [],
   "systems": [],
   "sizes": [],
