@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-20T22:01:15.196264Z",
+  "generated": "2026-10-21T01:11:41.398842Z",
   "period": {
-    "start": "2025-10-20",
-    "end": "2026-10-20"
+    "start": "2025-10-21",
+    "end": "2026-10-21"
   },
-  "total": 1637,
+  "total": 1652,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -642,16 +642,24 @@
     {
       "date": "2026-10-19",
       "count": 13
+    },
+    {
+      "date": "2026-10-20",
+      "count": 12
+    },
+    {
+      "date": "2026-10-21",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 282
+      "count": 284
     },
     {
       "path": "/tallers",
-      "count": 138
+      "count": 140
     },
     {
       "path": "/es/tallers",
@@ -671,23 +679,23 @@
     },
     {
       "path": "/en/tallers",
-      "count": 38
+      "count": 39
     },
     {
       "path": "/espais",
       "count": 34
     },
     {
-      "path": "/tallers/tarda-holga-2026",
-      "count": 30
-    },
-    {
       "path": "/en/espais",
-      "count": 30
+      "count": 32
     },
     {
       "path": "/en",
-      "count": 29
+      "count": 31
+    },
+    {
+      "path": "/tallers/tarda-holga-2026",
+      "count": 30
     },
     {
       "path": "/blog",
@@ -710,11 +718,11 @@
       "count": 26
     },
     {
-      "path": "/llumatics-web/regala",
-      "count": 24
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 25
     },
     {
-      "path": "/es/tallers/iniciacio-revelat",
+      "path": "/llumatics-web/regala",
       "count": 24
     },
     {
@@ -731,7 +739,7 @@
     },
     {
       "path": "/es/agenda",
-      "count": 21
+      "count": 22
     },
     {
       "path": "/es/blog",
@@ -767,15 +775,15 @@
     }
   ],
   "by_lang": {
-    "es": 499,
-    "en": 221
+    "es": 502,
+    "en": 228
   },
   "by_section": {
-    "inici": 384,
-    "tallers": 697,
-    "agenda": 72,
+    "inici": 388,
+    "tallers": 704,
+    "agenda": 74,
     "contacte": 74,
-    "espais": 81,
+    "espais": 83,
     "blog": 141,
     "llumatics-web": 45,
     "regala": 84,
@@ -788,7 +796,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 1036
+      "count": 1039
     },
     {
       "name": "Safari",
@@ -825,7 +833,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 167
+      "count": 170
     },
     {
       "name": "Linux",
@@ -842,7 +850,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 569
+      "count": 572
     },
     {
       "name": "desktophd",
@@ -859,7 +867,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 1352
+      "count": 1355
     },
     {
       "name": "Singapore",
@@ -936,17 +944,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 565
+      "count": 566
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 260
+      "count": 262
     },
     {
       "name": "naubostik",
       "id": "naubostik",
-      "count": 28
+      "count": 29
     },
     {
       "name": "ig",
@@ -956,7 +964,7 @@
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 17
+      "count": 18
     },
     {
       "name": "duckduckgo.com",
