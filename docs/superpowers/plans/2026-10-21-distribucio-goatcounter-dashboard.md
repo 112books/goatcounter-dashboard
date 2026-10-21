@@ -66,15 +66,15 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 | llumatics.com | 2026-10-13 | ❌ |
 | 112revelats | 2026-10-03 | ❌ |
 | machiroku.com | 2026-09-19 | ❌ |
-| terraifoc.cat | 2026-09-09 | ❌ |
+| terraifoc.cat | 2026-10-21 10:00 | ✅ (canari 2) |
 | awpcp.org | 2026-09-09 | ❌ |
 | cuinetes | 2026-09-09 | ❌ |
 
-> `terraifoc`, `awpcp` i `112revelats` tenen el JSON **fresc al repo** però el web serveix dades velles: el deploy no s'executa (vegeu §2.1).
+> `awpcp` i `112revelats` tenen el JSON **fresc al repo** però el web serveix dades velles: el deploy no s'executa (vegeu §2.1).
 >
 > No verificat: `guiesbarcelona`, `9bi` i els 3 del Grup C (aquests fan servir un altre esquema de dades i el seu JSON no té `hits_by_day`).
 >
-> `ressona.eu` és el canari: ja té el codi nou i `pages_daily`/`sections_daily` en producció.
+> `ressona.eu` i `terraifoc.cat` són els canaris: ja tenen el codi nou i `pages_daily`/`sections_daily` en producció.
 
 ---
 
@@ -84,13 +84,16 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 
 El workflow de fetch fa commit amb `chore: update analytics [skip ci]`. GitHub interpreta `[skip ci]` i **salta tots els workflows d'aquell push**, inclòs el de deploy (`on: push: branches: [main]`). Resultat: el JSON del repo s'actualitza, però el web no es reconstrueix.
 
-Afectats (repo fresc, web vell): `terraifoc.cat`, `awpcp.org`, `112revelats`. A `terraifoc` s'ha confirmat que el commit porta `[skip ci]`; cal revisar els altres dos.
+Afectats (repo fresc, web vell): `awpcp.org` i `112revelats`. A `terraifoc` s'ha confirmat que el commit portava `[skip ci]`; cal revisar els altres dos.
 
-Opcions de correcció:
+**Matís important descobert amb terraifoc:** treure `[skip ci]` **no és suficient**. Si el push el fa el `GITHUB_TOKEN` del workflow, GitHub **no encadena** el workflow de deploy (per evitar bucles). Cal una d'aquestes:
 
-1. **Recomanada:** generar l'analytics **durant el build** (l'acció de fetch s'executa abans de `hugo`) i no committejar-lo. Elimina el problema i els commits horaris.
-2. Treure `[skip ci]` del commit i afegir un filtre de paths al deploy perquè només es desplegui quan calgui.
-3. Mantenir el commit i disparar el deploy amb `workflow_run` o `gh workflow run deploy.yml` després del fetch.
+1. **Recomanada a mitjà termini:** generar l'analytics **durant el build** (l'acció de fetch s'executa abans de `hugo`) i no committejar-lo. Elimina el problema i els commits horaris.
+2. Afegir `workflow_run` al deploy: s'executa quan acaba el fetch i construeix el darrer `main` (ja amb l'analytics nou). **Aplicat a terraifoc.**
+3. Publicar l'`analytics.json` directament a `gh-pages` des del fetch (branca Pages). **Aplicat a ressona.**
+4. Fer el push amb un PAT en lloc de `GITHUB_TOKEN`.
+
+> Compte: escriure el literal `[skip ci]` al **cos** del commit també fa que GitHub es salti els workflows. Ens va passar amb terraifoc; cal evitar aquesta cadena als missatges.
 
 ### 2.2 Backends duplicats
 
@@ -239,7 +242,7 @@ Per què: és la combinació de plantilla propera (similitud HTML 0,631; proc 0,
 
 Ordre suggerit (de més fàcil a més complex):
 
-1. `terraifoc.cat` — **primer corregir el deploy** (§2.1) o usar-lo per validar la generació al build.
+1. `terraifoc.cat` — ✅ FET (canari 2). Pedaç complet, fetch a fitxer, guard i deploy amb `workflow_run`. Verificat a producció: 6 períodes (0/16/41/102/120/120), 6 pàgines i 4 seccions amb detall diari, 3 formatges, sense errors.
 2. `guiesbarcelona` — confirmar URL i workflow.
 3. `9bi` — confirmar URL; decidir si es crea workflow o es manté manual.
 4. `awpcp.org`
@@ -349,3 +352,4 @@ El nom varia per repo. Cal mirar el workflow de cadascun abans de tocar-lo. No c
 | Data | Web | Què s'ha fet | Resultat | Notes |
 |---|---|---|---|---|
 | 2026-10-21 | ressona.eu | Canari: pedaç HTML + processador + `gcProcess`, commit `776832e`; guard `9aefafc` | ✅ Desplegat i verificat | 6 períodes OK; 100 pàgines i 13 seccions amb detall diari; 3 formatges; sense errors de consola. Cal re-executar el fetch després del deploy. `/stats/hits` falla de tant en tant (guard). `gcToken` exposat. |
+| 2026-10-21 | terraifoc.cat | Canari 2: pedaç HTML + processador, fetch a fitxer, guard i deploy amb `workflow_run` | ✅ Desplegat i verificat | 6 períodes (0/16/41/102/120/120); 6 pàgines i 4 seccions; 3 formatges; sense errors. Cal re-executar el fetch quan `/stats/hits` falla. El deploy per `GITHUB_TOKEN` no s'encadena; `workflow_run` ho resol. |
