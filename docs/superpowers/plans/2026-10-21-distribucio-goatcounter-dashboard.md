@@ -62,7 +62,7 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 | pocallum.cat | 2026-10-21 | ❌ |
 | blog.pocallum.cat | 2026-10-20 | ❌ |
 | about.pocallum.cat | 2026-10-21 | ❌ |
-| ressona.eu | 2026-10-21 | ❌ |
+| ressona.eu | 2026-10-21 04:05 | ✅ (canari) |
 | llumatics.com | 2026-10-13 | ❌ |
 | 112revelats | 2026-10-03 | ❌ |
 | machiroku.com | 2026-09-19 | ❌ |
@@ -73,6 +73,8 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 > `terraifoc`, `awpcp` i `112revelats` tenen el JSON **fresc al repo** però el web serveix dades velles: el deploy no s'executa (vegeu §2.1).
 >
 > No verificat: `guiesbarcelona`, `9bi` i els 3 del Grup C (aquests fan servir un altre esquema de dades i el seu JSON no té `hits_by_day`).
+>
+> `ressona.eu` és el canari: ja té el codi nou i `pages_daily`/`sections_daily` en producció.
 
 ---
 
@@ -204,19 +206,25 @@ No migrar al mòdul sense decidir això: `pocallum`, `llumatics`, `linuxbcn` i `
 
 > Ordre pensat per validar primer amb poc risc i deixar els casos difícils per al final.
 
-### Fase 0 — Canari: `ressona.eu`
+### Fase 0 — Canari: `ressona.eu` ✅ FET
 
 Per què: és la combinació de plantilla propera (similitud HTML 0,631; proc 0,893), deploy sa (dades fresques) i tràfic baix (1.513 visites/any).
 
-- [ ] Crear branca `feat/filtre-periode-i-formatges`.
-- [ ] Aplicar el pedaç de `admin/index.html` (selector, filtres, formatges) conservant el bloc `CFG` del web.
-- [ ] Aplicar el pedaç de `scripts/process-analytics.py` (`pages_daily`, `sections_daily`).
-- [ ] Proves locals: `node --check`, `pytest`, render amb dades sintètiques.
-- [ ] Obrir PR i revisar el diff (sobretot el `CFG`).
-- [ ] Merge + verificar deploy.
-- [ ] Executar el workflow de fetch (o esperar) i comprovar `pages_daily` al JSON.
-- [ ] Provar a producció: filtres, formatges, consola neta, mòbil.
-- [ ] Anotar resultats i temps al final d'aquest document.
+- [x] Clonar i revisar el repo; confirmar els anchors i el `CFG` de ressona.
+- [x] Aplicar el pedaç de `static/admin/index.html` (selector, filtres, formatges) conservant el bloc `CFG`.
+- [x] Aplicar el pedaç de `scripts/process-analytics.py` (`pages_daily`, `sections_daily`) i de `gcProcess` (sincronització client-side).
+- [x] Proves locals: `node --check`, `py_compile`, backend amb dades reals de l'API i render amb Chrome headless.
+- [x] Commit i push directe a `main` (`776832e`); el deploy de GitHub Pages s'ha executat correctament.
+- [x] Executar el workflow de fetch amb `workflow_dispatch` i comprovar `pages_daily`/`sections_daily` al JSON en línia.
+- [x] Verificar a producció: 6 períodes (dia/setmana/mes/trimestre/any/tot), seccions i pàgines, 3 formatges, sense errors de consola.
+- [x] Afegir guard perquè una resposta buida de `/stats/hits` no sobreescrigui les dades (`9aefafc`).
+- [x] Anotar resultats al registre (§8).
+
+**Lliçons del canari (aplicar a la resta):**
+
+1. **El deploy pot trepitjar el fetch.** El workflow de deploy fa `git push --force` a `gh-pages` i, si coincideix amb un fetch, pot tornar a posar l'`analytics.json` vell. Després d'un push de codi, cal esperar que acabi el deploy i **tornar a executar el fetch** (`workflow_dispatch`) perquè les dades noves quedin a `gh-pages`.
+2. **`/stats/hits` falla intermitentment.** El 21/10 a les 00:17 la resposta va ser `null` i va deixar les pàgines i seccions buides. El guard de `process-analytics.py` conserva l'últim `analytics.json` vàlid; cal portar-lo a tots els webs.
+3. **El token de GoatCounter de ressona és al HTML.** `CFG.gcToken` i el botó «Sincronitza» fan les consultes des del navegador; com que el web és públic, el token també. Cal rotar-lo i treure'l (o protegir-lo) abans de donar la feina per tancada.
 
 ### Fase 1 — Extreure el mòdul v1
 
@@ -340,4 +348,4 @@ El nom varia per repo. Cal mirar el workflow de cadascun abans de tocar-lo. No c
 
 | Data | Web | Què s'ha fet | Resultat | Notes |
 |---|---|---|---|---|
-| — | — | — | — | — |
+| 2026-10-21 | ressona.eu | Canari: pedaç HTML + processador + `gcProcess`, commit `776832e`; guard `9aefafc` | ✅ Desplegat i verificat | 6 períodes OK; 100 pàgines i 13 seccions amb detall diari; 3 formatges; sense errors de consola. Cal re-executar el fetch després del deploy. `/stats/hits` falla de tant en tant (guard). `gcToken` exposat. |
