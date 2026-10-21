@@ -9,12 +9,12 @@ Actualització automàtica cada hora via **GitHub Actions**. Cap base de dades, 
 ## Característiques
 
 - **Gràfic temporal** interactiu (7d / 30d / 3m / 1a · dia / setmana / mes)
-- **Seccions i pàgines** més visitades
+- **Seccions i pàgines** més visitades, amb filtre de període (dia / setmana / mes / trimestre / any / total)
 - **Idiomes** dels visitants (barra visual)
 - **Referrers** — d'on vénen les visites
 - **Localització** per país
 - **Dispositius** — mòbil / tauleta / escriptori
-- **Navegadors i sistemes operatius**
+- **Navegadors, sistemes operatius i dispositius** amb gràfics circulars (amb top 5 + «Altres»)
 - **Insights automàtics** en llenguatge natural
 - **Accés protegit** amb contrasenya (SHA-256, sense servidor)
 - **Disseny net** — IBM Plex Mono, tema clar, responsive
@@ -135,6 +135,8 @@ echo -n "nova_contrasenya" | sha256sum
   "hits":         [{ "path": "/ca/inici/", "count": 300 }],
   "by_lang":      { "ca": 800, "en": 300, "es": 134 },
   "by_section":   { "inici": 400, "contacte": 200 },
+  "pages_daily":    { "/ca/inici/": { "2026-05-06": 12, "2026-05-07": 20 } },
+  "sections_daily": { "inici":     { "2026-05-06": 12, "2026-05-07": 20 } },
   "browsers":     [{ "name": "Chrome", "id": "Chrome", "count": 700 }],
   "systems":      [{ "name": "Android", "id": "Android", "count": 500 }],
   "sizes":        [{ "name": "phone", "id": "phone", "count": 600 }],

@@ -59,6 +59,8 @@ def fetch_analytics(gc_site: str, gc_token: str, days: int = 7) -> dict:
     total = 0
     hits_by_day: dict[str, int] = {}
     hits_pages: dict[str, int] = {}
+    pages_daily: dict[str, dict[str, int]] = {}
+    sections_daily: dict[str, dict[str, int]] = {}
 
     for path_item in hits_raw:
         path = path_item.get("path", "")
@@ -75,9 +77,21 @@ def fetch_analytics(gc_site: str, gc_token: str, days: int = 7) -> dict:
             by_section[section] = by_section.get(section, 0) + count
             if date:
                 hits_by_day[date] = hits_by_day.get(date, 0) + count
+                pages_daily.setdefault(path, {})
+                pages_daily[path][date] = pages_daily[path].get(date, 0) + count
+                sections_daily.setdefault(section, {})
+                sections_daily[section][date] = sections_daily[section].get(date, 0) + count
 
         if path_total > 0:
             hits_pages[path] = hits_pages.get(path, 0) + path_total
+
+    def _sort_daily(daily_map: dict[str, dict[str, int]]) -> dict[str, dict[str, int]]:
+        return {
+            key: dict(sorted(series.items()))
+            for key, series in sorted(
+                daily_map.items(), key=lambda kv: sum(kv[1].values()), reverse=True
+            )
+        }
 
     hits_by_day_list = [{"date": k, "count": v} for k, v in sorted(hits_by_day.items())]
     hits_top = sorted(
@@ -103,6 +117,8 @@ def fetch_analytics(gc_site: str, gc_token: str, days: int = 7) -> dict:
         "hits_by_day": hits_by_day_list,
         "hits": hits_top,
         "by_section": by_section,
+        "pages_daily": _sort_daily(pages_daily),
+        "sections_daily": _sort_daily(sections_daily),
         "browsers": safe_fetch_stats("/stats/browsers"),
         "systems": safe_fetch_stats("/stats/systems"),
         "sizes": safe_fetch_stats("/stats/sizes"),
