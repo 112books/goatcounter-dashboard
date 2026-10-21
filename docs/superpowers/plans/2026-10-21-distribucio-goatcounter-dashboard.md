@@ -28,15 +28,15 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 
 | Projecte | Repo | Dashboard | Dades | Generació | Estat en línia | Dificultat |
 |---|---|---|---|---|---|---|
-| ressona.eu | `112books/ressona.eu` | `/admin/` | `static/admin/analytics.json` | Python + GHA | 200 · dades fresques | Baixa-mitjana |
-| terraifoc.cat | `112books/terraifoc.cat` | `/admin/` | `static/admin/analytics.json` | Python + GHA | 200 · dades velles (deploy) | Baixa |
-| awpcp.org | `112books/awpcp.org` | `/admin/` | `static/admin/analytics.json` | Python + GHA | 200 · dades velles (deploy) | Baixa |
-| 112revelats | `112books/112revelats` | `https://112revelats.112books.eu/admin/` | `static/admin/analytics.json` | Python + GHA | 200 · dades velles (deploy) | Baixa |
-| cuinetes | `112books/cuinetes` | `https://cuinetes.linuxbcn.com/admin/` | `static/admin/analytics.json` | Python + GHA | 200 · dades velles · **sense bloc de seccions** | Baixa |
-| about-pocallum | `112books/about-pocallum` | `https://about.pocallum.cat/admin/` | `admin/analytics.json` | Python + GHA | 200 · fresc · **lloc estàtic, no Hugo** | Baixa |
-| blog.pocallum.cat | `112books/blog.pocallum.cat` | `https://blog.pocallum.cat/stats/` | `static/stats/analytics.json` | Python + GHA | 200 · fresc | Mitjana |
-| guiesbarcelona | `112books/guiesbarcelona-elglobusvermell` | `static/admin/stats/` (URL per confirmar) | `static/admin/stats/analytics.json` | `build-stats.py` + GHA | no verificat (404 a la URL provada) | Mitjana |
-| 9bi | `112books/9bi` | `static/stats/` (URL per confirmar) | `static/stats/analytics.json` | `fetch_9bi_analytics.py` · **sense workflow** | no verificat | Mitjana |
+| ressona.eu | `112books/ressona.eu` | `/admin/` | `static/admin/analytics.json` | Python + GHA | 200 · feature i dades diàries | Baixa-mitjana |
+| terraifoc.cat | `112books/terraifoc.cat` | `/admin/` | `static/admin/analytics.json` | Python + GHA | 200 · feature i dades diàries | Baixa |
+| awpcp.org | `112books/awpcp.org` | `/admin/` | `static/admin/analytics.json` | Python + GHA | 200 · feature i dades diàries | Baixa |
+| 112revelats | `112books/112revelats` | `https://112revelats.112books.eu/admin/` | `static/admin/analytics.json` | Python + GHA | 200 · feature i dades diàries | Baixa |
+| cuinetes | `112books/cuinetes` | `https://cuinetes.linuxbcn.com/admin/` | `static/admin/analytics.json` | Python + GHA | 200 · feature i dades diàries · **bloc afegit** | Baixa |
+| about-pocallum | `112books/about-pocallum` | `https://about.pocallum.cat/admin/` | `admin/analytics.json` | Python + GHA | 200 · fresc (0 visites) · feature · **lloc estàtic, no Hugo** | Baixa |
+| blog.pocallum.cat | `112books/blog.pocallum.cat` | `https://blog.pocallum.cat/stats/` | `static/stats/analytics.json` | Python + GHA | 200 · feature i dades diàries | Mitjana |
+| guiesbarcelona | `112books/guiesbarcelona-elglobusvermell` | `https://112books.github.io/guiesbarcelona-elglobusvermell/admin/stats/` | `static/admin/stats/analytics.json` | `build-stats.py` + GHA | 200 · feature i dades diàries | Mitjana |
+| 9bi | `112books/9bi` | `https://9barrisimatge.org/stats/` | `static/stats/analytics.json` | `fetch_9bi_analytics.py` + deploy | 200 · feature i dades diàries | Mitjana |
 
 ### Grup B — personalitzats (cal merge a mida)
 
@@ -60,21 +60,23 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 | Web | `generated` en línia | `pages_daily` |
 |---|---|---|
 | pocallum.cat | 2026-10-21 | ❌ |
-| blog.pocallum.cat | 2026-10-20 | ❌ |
-| about.pocallum.cat | 2026-10-21 | ❌ |
+| blog.pocallum.cat | 2026-10-21 11:32 | ✅ |
+| about.pocallum.cat | 2026-10-21 11:27 | ✅ |
 | ressona.eu | 2026-10-21 04:05 | ✅ (canari) |
 | llumatics.com | 2026-10-13 | ❌ |
-| 112revelats | 2026-10-03 | ❌ |
+| 112revelats | 2026-10-21 11:28 | ✅ |
 | machiroku.com | 2026-09-19 | ❌ |
 | terraifoc.cat | 2026-10-21 10:00 | ✅ (canari 2) |
-| awpcp.org | 2026-09-09 | ❌ |
-| cuinetes | 2026-09-09 | ❌ |
+| awpcp.org | 2026-10-21 11:28 | ✅ |
+| cuinetes | 2026-10-21 11:27 | ✅ |
+| guiesbarcelona (Pages) | 2026-10-21 11:30 | ✅ |
+| 9bi | 2026-10-21 14:27 | ✅ |
 
-> `awpcp` i `112revelats` tenen el JSON **fresc al repo** però el web serveix dades velles: el deploy no s'executa (vegeu §2.1).
+> Tots els webs del Grup A tenen ja el filtre i els formatges en producció. Queden els personalitzats (`pocallum`, `llumatics`, `linuxbcn`, `machiroku`) i els 3 dashboards Hugo.
 >
-> No verificat: `guiesbarcelona`, `9bi` i els 3 del Grup C (aquests fan servir un altre esquema de dades i el seu JSON no té `hits_by_day`).
+> `guiesbarcelona` es publica al GitHub Pages (`112books.github.io/guiesbarcelona-elglobusvermell/`), no al domini propi; `9bi` viu a `9barrisimatge.org/stats/`.
 >
-> `ressona.eu` i `terraifoc.cat` són els canaris: ja tenen el codi nou i `pages_daily`/`sections_daily` en producció.
+> `9bi` només desa el top-50 de pàgines a `pages_daily` (límit de `/stats/hits`); els totals filtrats de pàgines/seccions poden quedar per sota del total oficial.
 
 ---
 
@@ -114,6 +116,12 @@ Afectats (repo fresc, web vell): `awpcp.org` i `112revelats`. A `terraifoc` s'ha
 
 - El login és **client-side** (SHA-256); el hash és públic i les dades `analytics.json` també. No és autenticació real. `linuxbcn` ja està protegit amb 401.
 - El remote local d'aquest repo té un PAT incrustat a la URL. Convé rotar-lo i fer servir SSH o un credential helper.
+
+### 2.5 Fals positiu d'antivirus
+
+El 21/10 l'antivirus va marcar `content/links/index.ca.md` d'awpcp en un clon temporal amb la signatura `MD_HttpRequest-inf[Susp]`. És un **fals positiu**: el fitxer és la «Guia de recursos» del web, amb 73 enllaços; el hash coincidia amb el blob del repo i el commit de l'agent no el tocava. El fitxer original és intacte.
+
+Per evitar-ho: fer **sparse checkout** (`static/admin` o `static/stats`, `scripts`, `.github/workflows`) i no clonar `content/`. Així l'antivirus no escaneja els índexs de links.
 
 ---
 
@@ -243,14 +251,16 @@ Per què: és la combinació de plantilla propera (similitud HTML 0,631; proc 0,
 Ordre suggerit (de més fàcil a més complex):
 
 1. `terraifoc.cat` — ✅ FET (canari 2). Pedaç complet, fetch a fitxer, guard i deploy amb `workflow_run`. Verificat a producció: 6 períodes (0/16/41/102/120/120), 6 pàgines i 4 seccions amb detall diari, 3 formatges, sense errors.
-2. `guiesbarcelona` — confirmar URL i workflow.
-3. `9bi` — confirmar URL; decidir si es crea workflow o es manté manual.
-4. `awpcp.org`
-5. `112revelats`
-6. `cuinetes` — afegir el bloc de seccions (ara no en té).
-7. `about-pocallum` — no Hugo: muntar el widget JS o mantenir còpia estàtica.
-8. `blog.pocallum.cat`
-9. `ressona.eu` — migrar el canari al mòdul (o deixar-lo com a referència).
+2. `guiesbarcelona` — ✅ FET. URL real: `https://112books.github.io/guiesbarcelona-elglobusvermell/admin/stats/` (el domini propi no apunta al Pages). `pages_daily` 100 i `sections_daily` 5.
+3. `9bi` — ✅ FET. `fetch_9bi_analytics.py` amb 365 dies, `pages_daily`/`sections_daily` i guard; el deploy regenera al build. Fix addicional: esperar `DOMContentLoaded` perquè Chart.js (local, diferit) ja estigui carregat. Verificat: 6 períodes, 3 formatges, 50 pàgines i 25 seccions. Límit conegut: top-50 de pàgines.
+4. `awpcp.org` — ✅ FET. Deploy amb `workflow_run`; 39 pàgines i 13 seccions.
+5. `112revelats` — ✅ FET. Deploy amb `workflow_run`; 35 pàgines i 9 seccions.
+6. `cuinetes` — ✅ FET. Bloc de seccions afegit i `workflow_run`; 28 pàgines i 6 seccions.
+7. `about-pocallum` — ✅ FET. Analytics actual a 0 visites; estructura i formatges verificats.
+8. `blog.pocallum.cat` — ✅ FET (branca `develop`, que és la que es desplega). `pages_daily` 824 i `sections_daily` 165.
+9. `ressona.eu` — ✅ FET (canari original).
+
+**Fase 2 completada el 2026-10-21.**
 
 Per a cada web, vegeu el checklist de §5.
 
@@ -353,3 +363,7 @@ El nom varia per repo. Cal mirar el workflow de cadascun abans de tocar-lo. No c
 |---|---|---|---|---|
 | 2026-10-21 | ressona.eu | Canari: pedaç HTML + processador + `gcProcess`, commit `776832e`; guard `9aefafc` | ✅ Desplegat i verificat | 6 períodes OK; 100 pàgines i 13 seccions amb detall diari; 3 formatges; sense errors de consola. Cal re-executar el fetch després del deploy. `/stats/hits` falla de tant en tant (guard). `gcToken` exposat. |
 | 2026-10-21 | terraifoc.cat | Canari 2: pedaç HTML + processador, fetch a fitxer, guard i deploy amb `workflow_run` | ✅ Desplegat i verificat | 6 períodes (0/16/41/102/120/120); 6 pàgines i 4 seccions; 3 formatges; sense errors. Cal re-executar el fetch quan `/stats/hits` falla. El deploy per `GITHUB_TOKEN` no s'encadena; `workflow_run` ho resol. |
+| 2026-10-21 | awpcp, 112revelats, cuinetes, about-pocallum | Onada estàndard en paral·lel | ✅ Desplegat i verificat | `pages_daily` 39/35/28/0; `sections_daily` 13/9/6/0; 3 formatges; deploys `workflow_run` OK. |
+| 2026-10-21 | guiesbarcelona | Onada estàndard (paral·lel) | ✅ Desplegat i verificat | Pages URL (no domini propi); `pages_daily` 100, `sections_daily` 5. |
+| 2026-10-21 | blog.pocallum.cat | Ja venia de l'agent paral·lel a `develop` | ✅ Desplegat i verificat | `pages_daily` 824, `sections_daily` 165; deploy a Dinahosting OK. |
+| 2026-10-21 | 9bi | 365 dies, `pages_daily`/`sections_daily`, guard i fix d'inicialització de Chart.js | ✅ Desplegat i verificat | 6 períodes; 3 formatges; 50 pàgines i 25 seccions; límit top-50 de pàgines. |
