@@ -43,7 +43,7 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 | Projecte | Repo | Dashboard | Dades | Generació | Notes |
 |---|---|---|---|---|---|
 | pocallum.cat | `112books/pocallum.cat` | `/stats/` | `static/stats/analytics.json` | Python + GHA | 200 · feature i dades diàries · seccions pròpies intactes | Alta |
-| llumatics.com | `112books/llumatics-web` | `/admin/` | `static/admin/analytics-cache.json` | **PHP** `fetch-analytics.php` | Tallers, campanyes, tendències, dies de la setmana |
+| llumatics.com | `112books/llumatics-web` | `/admin/` | `static/admin/analytics-cache.json` | **PHP** `fetch-analytics.php` | 200 · feature i dades diàries · seccions pròpies intactes | Mitjana |
 | linuxbcn.com | `112books/linuxbcn` | `/admin/` (401) | `static/admin/analytics-cache.json` | **PHP** + `admin.js` | JS externalitzat; projectes, tendències, dies |
 | machiroku.com | `112books/machiroku-web` | `/admin/` | `static/admin/analytics.json` + `docs/admin/analytics.json` | Python + GHA (copia a `docs/`) | Versió antiga de la plantilla (`var`, `renderBars` diferent) |
 
@@ -63,7 +63,7 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 | blog.pocallum.cat | 2026-10-21 11:32 | ✅ |
 | about.pocallum.cat | 2026-10-21 11:27 | ✅ |
 | ressona.eu | 2026-10-21 04:05 | ✅ (canari) |
-| llumatics.com | 2026-10-13 | ❌ |
+| llumatics.com | 2026-10-23 08:46 | ✅ |
 | 112revelats | 2026-10-21 11:28 | ✅ |
 | machiroku.com | 2026-09-19 | ❌ |
 | terraifoc.cat | 2026-10-21 10:00 | ✅ (canari 2) |
@@ -72,7 +72,7 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 | guiesbarcelona (Pages) | 2026-10-21 11:30 | ✅ |
 | 9bi | 2026-10-21 14:27 | ✅ |
 
-> Tots els webs del Grup A tenen ja el filtre i els formatges en producció. Queden els personalitzats (`pocallum`, `llumatics`, `linuxbcn`, `machiroku`) i els 3 dashboards Hugo.
+> Tots els webs del Grup A i dos personalitzats (`pocallum`, `llumatics`) ja tenen el filtre i els formatges en producció. Queden `linuxbcn`, `machiroku` i els 3 dashboards Hugo.
 >
 > `guiesbarcelona` es publica al GitHub Pages (`112books.github.io/guiesbarcelona-elglobusvermell/`), no al domini propi; `9bi` viu a `9barrisimatge.org/stats/`.
 >
@@ -115,6 +115,7 @@ Afectats (repo fresc, web vell): `awpcp.org` i `112revelats`. A `terraifoc` s'ha
 ### 2.4 Seguretat
 
 - El login és **client-side** (SHA-256); el hash és públic i les dades `analytics.json` també. No és autenticació real. `linuxbcn` ja està protegit amb 401.
+- El token de GoatCounter i la contrasenya del panell de llumatics són al PHP/HTML públics (`fetch-analytics.php`, `index.html`). Cal rotar-los i treure ls del repo.
 - El remote local d'aquest repo té un PAT incrustat a la URL. Convé rotar-lo i fer servir SSH o un credential helper.
 
 ### 2.5 Fals positiu d'antivirus
@@ -267,7 +268,7 @@ Per a cada web, vegeu el checklist de §5.
 ### Fase 3 — Personalitzats
 
 - [x] `pocallum.cat` — ✅ FET. Selector + formatges amb tema fosc, `pages_daily`/`sections_daily` i guard. Conservades totes les seccions pròpies. També espera `DOMContentLoaded` (Chart.js) i manté el `rawUrl`. Verificat: 6 períodes (0/58/320/858/1745/1745), 3 formatges.
-- [ ] `llumatics.com` — afegir `pages_daily`/`sections_daily` a `fetch-analytics.php` i el selector/formatges a l'HTML.
+- [x] `llumatics.com` — ✅ FET. `pages_daily`/`sections_daily` al PHP (el guard anti-zero ja hi era), selector i 3 formatges, panell desplegat amb el nou `deploy-admin.yml` i cache regenerada. Verificat: 6 períodes (0/59/466/845/1673/1673), 3 formatges, seccions pròpies (tallers, campanyes, tendència, dies) intactes.
 - [ ] `linuxbcn.com` — ídem a `fetch-analytics.php` + `admin.js`; recordar l'accés 401.
 - [ ] `machiroku.com` — versió antiga; pedaç a mida o migració completa.
 
@@ -368,3 +369,4 @@ El nom varia per repo. Cal mirar el workflow de cadascun abans de tocar-lo. No c
 | 2026-10-21 | blog.pocallum.cat | Ja venia de l'agent paral·lel a `develop` | ✅ Desplegat i verificat | `pages_daily` 824, `sections_daily` 165; deploy a Dinahosting OK. |
 | 2026-10-21 | 9bi | 365 dies, `pages_daily`/`sections_daily`, guard i fix d'inicialització de Chart.js | ✅ Desplegat i verificat | 6 períodes; 3 formatges; 50 pàgines i 25 seccions; límit top-50 de pàgines. |
 | 2026-10-21 | pocallum.cat | Selector + formatges, camps diaris i fix d inicialització | ✅ Desplegat i verificat | 6 períodes (0/58/320/858/1745/1745); 88 pàgines i 34 seccions; 3 formatges; seccions pròpies intactes. |
+| 2026-10-23 | llumatics.com | PHP + selector + formatges; panell desplegat amb deploy-admin.yml | ✅ Desplegat i verificat | 6 períodes (0/59/466/845/1673/1673); 100 pàgines i 12 seccions; 3 formatges; cache regenerada. |
