@@ -45,7 +45,7 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 | pocallum.cat | `112books/pocallum.cat` | `/stats/` | `static/stats/analytics.json` | Python + GHA | 200 · feature i dades diàries · seccions pròpies intactes | Alta |
 | llumatics.com | `112books/llumatics-web` | `/admin/` | `static/admin/analytics-cache.json` | **PHP** `fetch-analytics.php` | 200 · feature i dades diàries · seccions pròpies intactes | Mitjana |
 | linuxbcn.com | `112books/linuxbcn` | `/admin/` (401) | `static/admin/analytics-cache.json` | **PHP** + `admin.js` | 200 (Basic Auth) · feature i dades diàries · accessibilitat/CSP intactes | Alta |
-| machiroku.com | `112books/machiroku-web` | `/admin/` | `static/admin/analytics.json` + `docs/admin/analytics.json` | Python + GHA (copia a `docs/`) | Versió antiga de la plantilla (`var`, `renderBars` diferent) |
+| machiroku.com | `112books/machiroku-web` | `/admin/` | `static/admin/analytics.json` + `docs/admin/analytics.json` | Python + GHA (copia a `docs/`) | 200 · feature i dades diàries · workflow reparat | Alta |
 
 ### Grup C — dashboards Hugo propis (mateix pipeline, un altre frontend)
 
@@ -65,7 +65,7 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 | ressona.eu | 2026-10-21 04:05 | ✅ (canari) |
 | llumatics.com | 2026-10-23 08:46 | ✅ |
 | 112revelats | 2026-10-21 11:28 | ✅ |
-| machiroku.com | 2026-09-19 | ❌ |
+| machiroku.com | 2026-10-24 01:18 | ✅ |
 | terraifoc.cat | 2026-10-21 10:00 | ✅ (canari 2) |
 | awpcp.org | 2026-10-21 11:28 | ✅ |
 | cuinetes | 2026-10-21 11:27 | ✅ |
@@ -73,7 +73,7 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 | 9bi | 2026-10-21 14:27 | ✅ |
 | linuxbcn.com | 2026-10-23 11:50 | ✅ |
 
-> Tots els webs del Grup A i dos personalitzats (`pocallum`, `llumatics`) ja tenen el filtre i els formatges en producció. Queden `machiroku` i els 3 dashboards Hugo.
+> Tots els webs del Grup A i dos personalitzats (`pocallum`, `llumatics`) ja tenen el filtre i els formatges en producció. Queden només els 3 dashboards Hugo.
 >
 > `guiesbarcelona` es publica al GitHub Pages (`112books.github.io/guiesbarcelona-elglobusvermell/`), no al domini propi; `9bi` viu a `9barrisimatge.org/stats/`.
 >
@@ -271,7 +271,7 @@ Per a cada web, vegeu el checklist de §5.
 - [x] `pocallum.cat` — ✅ FET. Selector + formatges amb tema fosc, `pages_daily`/`sections_daily` i guard. Conservades totes les seccions pròpies. També espera `DOMContentLoaded` (Chart.js) i manté el `rawUrl`. Verificat: 6 períodes (0/58/320/858/1745/1745), 3 formatges.
 - [x] `llumatics.com` — ✅ FET. `pages_daily`/`sections_daily` al PHP (el guard anti-zero ja hi era), selector i 3 formatges, panell desplegat amb el nou `deploy-admin.yml` i cache regenerada. Verificat: 6 períodes (0/59/466/845/1673/1673), 3 formatges, seccions pròpies (tallers, campanyes, tendència, dies) intactes.
 - [x] `linuxbcn.com` — ✅ FET. Selector i 3 formatges a `admin.js` + `admin.css`, `pages_daily`/`sections_daily` al PHP i guard. Mantinguts accessibilitat, CSP i Basic Auth. Desplegat amb scp selectiu + backup; cache regenerada amb PHP 8.5 CLI i hashes verificats. 6 períodes (3/20/170/435/1276/1276), 3 formatges.
-- [ ] `machiroku.com` — versió antiga; pedaç a mida o migració completa.
+- [x] `machiroku.com` — ✅ FET. Selector, llista de pàgines i 3 formatges a la versió antiga; workflow reparat (YAML invàlid, fetch a fitxer, reintents i fallback limit=50) i guard. 6 períodes (0/115/675/2251/6176/6176), 49 pàgines i 17 seccions.
 
 ### Fase 4 — Dashboards Hugo propis (opcional)
 
@@ -372,3 +372,4 @@ El nom varia per repo. Cal mirar el workflow de cadascun abans de tocar-lo. No c
 | 2026-10-21 | pocallum.cat | Selector + formatges, camps diaris i fix d inicialització | ✅ Desplegat i verificat | 6 períodes (0/58/320/858/1745/1745); 88 pàgines i 34 seccions; 3 formatges; seccions pròpies intactes. |
 | 2026-10-23 | llumatics.com | PHP + selector + formatges; panell desplegat amb deploy-admin.yml | ✅ Desplegat i verificat | 6 períodes (0/59/466/845/1673/1673); 100 pàgines i 12 seccions; 3 formatges; cache regenerada. |
 | 2026-10-23 | linuxbcn.com | Selector + formatges, camps diaris i cache regenerada | ✅ Desplegat i verificat | 6 períodes (3/20/170/435/1276/1276); 50 pàgines i 12 seccions; 3 formatges; 401 intacte. |
+| 2026-10-24 | machiroku.com | Selector + pàgines + formatges; workflow reparat | ✅ Desplegat i verificat | 6 períodes (0/115/675/2251/6176/6176); 49 pàgines i 17 seccions; 3 formatges; static/docs i live OK. |
