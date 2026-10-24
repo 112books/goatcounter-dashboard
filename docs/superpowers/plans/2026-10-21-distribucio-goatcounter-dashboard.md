@@ -51,7 +51,7 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 
 | Projecte | Repo | Dashboard | Dades | Notes |
 |---|---|---|---|---|
-| barcelonabigbluesband.com | `112books/barcelonabigbluesband.com` | `/ca/admin/insights/` | `static/data/analytics.json` | `layouts/admin` + `static/js/admin-dashboard.js`; filtre de 6 períodes i 3 formatges (24/10). Dades diàries a `hits[].stats`; **l'analytics en línia encara és una còpia d'Ivan** |
+| barcelonabigbluesband.com | `112books/barcelonabigbluesband.com` | `/ca/admin/insights/` | `static/data/analytics.json` | `layouts/admin` + `static/js/admin-dashboard.js`; filtre de 6 períodes i 3 formatges (24/10). Dades diàries a `hits[].stats`; analytics propi des del 24/10 (1 visita, sense la còpia d'Ivan) |
 | bratiamusic.com | `112books/bratiamusic` | `/ca/admin/insights/` | `static/data/analytics.json` | Frontend terminal propi; selector de 6 períodes amb dades diàries reals, llista de pàgines i 3 formatges (24/10) |
 | ivankovacevic.com | `112books/ivankovacevic.com` | `/ca/admin/insights/` | `static/data/analytics.json` | `layouts/admin` + `static/js/admin-dashboard.js`; filtre de 6 períodes, pàgines/seccions reals i 3 formatges (24/10) |
 
@@ -281,7 +281,7 @@ Per a cada web, vegeu el checklist de §5.
 
 > Els tres comparteixen la mateixa solució: no calen `pages_daily`/`sections_daily` al backend perquè el camp `stats[].daily` ja és dins de cada hit. El deploy és rsync SSH directe al servidor (`www`), amb còpia `.bak-<timestamp>` de cada fitxer substituït.
 >
-> **Pendent de dades:** `barcelonabigbluesband.com` encara serveix un `analytics.json` amb paths i títols d'Ivan Kovačević (còpia heretada, `generated` 2026-10-18). El run de l'acció del 24/10 mostra `GC_TOKEN:` **buit**: el secret `GOATCOUNTER_TOKEN` del repo no existeix o no té valor, i la guarda conserva el JSON anterior. Cal afegir-hi un token de GoatCounter per a `barcelonabigbluesband` i tornar a executar el workflow; el codi del dashboard ja és correcte.
+> **Dades de barcelonabigbluesband: resolt.** El secret `GOATCOUNTER_TOKEN` ja té valor i el workflow ha regenerat l'`analytics.json`: 1 visita a `/ca/biografia` (`Biografia · Barcelona Big Blues Band`, `generated` 2026-10-24T16:19Z). S'ha eliminat la còpia heretada d'Ivan. També s'ha millorat el workflow perquè mostri l'estat HTTP real de l'API quan falla (commit `607e825`).
 
 ---
 
