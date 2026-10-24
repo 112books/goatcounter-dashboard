@@ -281,7 +281,7 @@ Per a cada web, vegeu el checklist de §5.
 
 > Els tres comparteixen la mateixa solució: no calen `pages_daily`/`sections_daily` al backend perquè el camp `stats[].daily` ja és dins de cada hit. El deploy és rsync SSH directe al servidor (`www`), amb còpia `.bak-<timestamp>` de cada fitxer substituït.
 >
-> **Pendent de dades:** `barcelonabigbluesband.com` encara serveix un `analytics.json` amb paths i títols d'Ivan Kovačević (còpia heretada, `generated` 2026-10-18). Cal revisar el secret `GOATCOUNTER_TOKEN` / `GC_ACCOUNT` i regenerar-lo; el codi del dashboard ja és correcte.
+> **Pendent de dades:** `barcelonabigbluesband.com` encara serveix un `analytics.json` amb paths i títols d'Ivan Kovačević (còpia heretada, `generated` 2026-10-18). El run de l'acció del 24/10 mostra `GC_TOKEN:` **buit**: el secret `GOATCOUNTER_TOKEN` del repo no existeix o no té valor, i la guarda conserva el JSON anterior. Cal afegir-hi un token de GoatCounter per a `barcelonabigbluesband` i tornar a executar el workflow; el codi del dashboard ja és correcte.
 
 ---
 
