@@ -1,6 +1,6 @@
 # Distribució del dashboard GoatCounter a tots els projectes
 
-> **Estat:** pendent d'executar · **Data:** 2026-10-21 · **Àmbit:** 16 projectes consumidors
+> **Estat:** executat (16/16 dashboards) · **Data:** 2026-10-21 · **Actualitzat:** 2026-10-24 · **Àmbit:** 16 projectes consumidors
 >
 > Aquest document recull la investigació feta i el pla per portar el **filtre de període** (dia / setmana / mes / trimestre / any / tot) i els **gràfics circulars** (dispositius, navegadors, sistemes operatius) a tots els webs que fan servir aquest dashboard, i per deixar de mantenir 16 còpies del mateix codi.
 
@@ -51,9 +51,9 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 
 | Projecte | Repo | Dashboard | Dades | Notes |
 |---|---|---|---|---|
-| barcelonabigbluesband.com | `112books/barcelonabigbluesband.com` | `/admin/` | `static/data/analytics.json` | `layouts/admin` + `static/js/admin-dashboard.js`; ja porta `pieChart` propi; el seu `analytics.json` **no** té `hits_by_day` |
-| bratiamusic.com | `112books/bratiamusic` | `/admin/` | `static/data/analytics.json` | Idem |
-| ivankovacevic.com | `112books/ivankovacevic.com` | `/admin/` | `static/data/analytics.json` | Idem |
+| barcelonabigbluesband.com | `112books/barcelonabigbluesband.com` | `/ca/admin/insights/` | `static/data/analytics.json` | `layouts/admin` + `static/js/admin-dashboard.js`; filtre de 6 períodes i 3 formatges (24/10). Dades diàries a `hits[].stats`; **l'analytics en línia encara és una còpia d'Ivan** |
+| bratiamusic.com | `112books/bratiamusic` | `/ca/admin/insights/` | `static/data/analytics.json` | Frontend terminal propi; selector de 6 períodes amb dades diàries reals, llista de pàgines i 3 formatges (24/10) |
+| ivankovacevic.com | `112books/ivankovacevic.com` | `/ca/admin/insights/` | `static/data/analytics.json` | `layouts/admin` + `static/js/admin-dashboard.js`; filtre de 6 períodes, pàgines/seccions reals i 3 formatges (24/10) |
 
 ### Frescor de les dades en línia (21/10/2026)
 
@@ -73,7 +73,7 @@ S'han identificat 16 repos de `112books` que contenen el dashboard o el mateix p
 | 9bi | 2026-10-21 14:27 | ✅ |
 | linuxbcn.com | 2026-10-23 11:50 | ✅ |
 
-> Tots els webs del Grup A i dos personalitzats (`pocallum`, `llumatics`) ja tenen el filtre i els formatges en producció. Queden només els 3 dashboards Hugo.
+> Tots els 16 dashboards (Grup A, personalitzats i els 3 Hugo propis) ja tenen el filtre de períodes i els formatges en producció.
 >
 > `guiesbarcelona` es publica al GitHub Pages (`112books.github.io/guiesbarcelona-elglobusvermell/`), no al domini propi; `9bi` viu a `9barrisimatge.org/stats/`.
 >
@@ -273,11 +273,15 @@ Per a cada web, vegeu el checklist de §5.
 - [x] `linuxbcn.com` — ✅ FET. Selector i 3 formatges a `admin.js` + `admin.css`, `pages_daily`/`sections_daily` al PHP i guard. Mantinguts accessibilitat, CSP i Basic Auth. Desplegat amb scp selectiu + backup; cache regenerada amb PHP 8.5 CLI i hashes verificats. 6 períodes (3/20/170/435/1276/1276), 3 formatges.
 - [x] `machiroku.com` — ✅ FET. Selector, llista de pàgines i 3 formatges a la versió antiga; workflow reparat (YAML invàlid, fetch a fitxer, reintents i fallback limit=50) i guard. 6 períodes (0/115/675/2251/6176/6176), 49 pàgines i 17 seccions.
 
-### Fase 4 — Dashboards Hugo propis (opcional)
+### Fase 4 — Dashboards Hugo propis
 
-- [ ] `barcelonabigbluesband.com`, `bratiamusic.com`, `ivankovacevic.com`.
+- [x] `barcelonabigbluesband.com` — FET. Endpoint `/ca/admin/insights/`. Selector de 6 períodes (dia/setmana/mes/trimestre/any/tot) sobre les dades diàries que GoatCounter ja retorna dins de `hits[].stats`; llista de pàgines i seccions filtrada, i 3 formatges. Desplegat per rsync SSH amb backups. Verificat: 271 visites (7d = 271; totes dins la finestra), 36 files, 3 formatges.
+- [x] `bratiamusic.com` — FET. Endpoint `/ca/admin/insights/`. Substitueix l'escala proporcional per dades diàries reals a pàgines i seccions, afegeix llista de pàgines i 3 formatges, i manté el login visual. Verificat: 219 (30d) / 66 (7d), 49/39 files, 3 formatges.
+- [x] `ivankovacevic.com` — FET. Endpoint `/ca/admin/insights/`. Selector de 6 períodes, pàgines i seccions reals, i 3 formatges. Verificat: 398 (tot) / 127 (7d), 106/96 files, 3 formatges.
 
-Ja tenen layout Hugo i `pieChart` propi; el seu `process-analytics.py` ni tan sols genera `hits_by_day`. Cal decidir si s'unifiquen al mòdul o es mantenen.
+> Els tres comparteixen la mateixa solució: no calen `pages_daily`/`sections_daily` al backend perquè el camp `stats[].daily` ja és dins de cada hit. El deploy és rsync SSH directe al servidor (`www`), amb còpia `.bak-<timestamp>` de cada fitxer substituït.
+>
+> **Pendent de dades:** `barcelonabigbluesband.com` encara serveix un `analytics.json` amb paths i títols d'Ivan Kovačević (còpia heretada, `generated` 2026-10-18). Cal revisar el secret `GOATCOUNTER_TOKEN` / `GC_ACCOUNT` i regenerar-lo; el codi del dashboard ja és correcte.
 
 ---
 
