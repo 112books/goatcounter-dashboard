@@ -1,0 +1,489 @@
+{
+  "generated": "2026-10-26T13:45:51.531630Z",
+  "period": {
+    "start": "2026-10-19",
+    "end": "2026-10-25"
+  },
+  "total": 74,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-10-19",
+      "count": 12
+    },
+    {
+      "date": "2026-10-20",
+      "count": 15
+    },
+    {
+      "date": "2026-10-21",
+      "count": 11
+    },
+    {
+      "date": "2026-10-22",
+      "count": 11
+    },
+    {
+      "date": "2026-10-23",
+      "count": 23
+    },
+    {
+      "date": "2026-10-24",
+      "count": 2
+    }
+  ],
+  "hits": [
+    {
+      "path": "/es/tallers",
+      "count": 12
+    },
+    {
+      "path": "/",
+      "count": 12
+    },
+    {
+      "path": "/tallers",
+      "count": 7
+    },
+    {
+      "path": "/en/agenda",
+      "count": 3
+    },
+    {
+      "path": "/tallers/quin-curs-em-conve",
+      "count": 2
+    },
+    {
+      "path": "/en/tallers/iniciacio-revelat",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 2
+    },
+    {
+      "path": "/es/blog/caffenol-revelar-amb-cafe",
+      "count": 2
+    },
+    {
+      "path": "/es/agenda",
+      "count": 2
+    },
+    {
+      "path": "/es/sobre",
+      "count": 2
+    },
+    {
+      "path": "/en/espais",
+      "count": 2
+    },
+    {
+      "path": "/es",
+      "count": 2
+    },
+    {
+      "path": "/en",
+      "count": 2
+    },
+    {
+      "path": "/es/blog/guinneol-revelat-cervesa",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/que-curso-me-conviene",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fotografia-desperits",
+      "count": 1
+    },
+    {
+      "path": "/tallers/fotografia-desperits",
+      "count": 1
+    },
+    {
+      "path": "/en/blog/tarda-holga-2026",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/wineol",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/revelat-bn",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers",
+      "count": 1
+    },
+    {
+      "path": "/tallers/fotografia-de-carrer",
+      "count": 1
+    },
+    {
+      "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/revelat-color-bn",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fotografia-estenopeica",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/cianotipia",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/digitalitzacio-escaner",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/introduccio-al-positivat",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/introduccio-al-positivat",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "tallers": 42,
+    "inici": 16,
+    "agenda": 5,
+    "blog": 5,
+    "sobre": 2,
+    "espais": 3,
+    "regala": 1
+  },
+  "pages_daily": {
+    "/es/tallers": {
+      "2026-10-19": 2,
+      "2026-10-21": 2,
+      "2026-10-22": 2,
+      "2026-10-23": 6
+    },
+    "/": {
+      "2026-10-19": 1,
+      "2026-10-20": 2,
+      "2026-10-21": 1,
+      "2026-10-22": 3,
+      "2026-10-23": 4,
+      "2026-10-24": 1
+    },
+    "/tallers": {
+      "2026-10-19": 1,
+      "2026-10-20": 2,
+      "2026-10-21": 1,
+      "2026-10-23": 3
+    },
+    "/en/agenda": {
+      "2026-10-20": 1,
+      "2026-10-22": 2
+    },
+    "/tallers/quin-curs-em-conve": {
+      "2026-10-20": 1,
+      "2026-10-23": 1
+    },
+    "/en/tallers/iniciacio-revelat": {
+      "2026-10-21": 1,
+      "2026-10-22": 1
+    },
+    "/es/tallers/iniciacio-revelat": {
+      "2026-10-20": 1,
+      "2026-10-21": 1
+    },
+    "/es/blog/caffenol-revelar-amb-cafe": {
+      "2026-10-19": 2
+    },
+    "/es/agenda": {
+      "2026-10-19": 1,
+      "2026-10-20": 1
+    },
+    "/es/sobre": {
+      "2026-10-19": 1,
+      "2026-10-21": 1
+    },
+    "/en/espais": {
+      "2026-10-20": 2
+    },
+    "/es": {
+      "2026-10-19": 1,
+      "2026-10-23": 1
+    },
+    "/en": {
+      "2026-10-20": 2
+    },
+    "/es/blog/guinneol-revelat-cervesa": {
+      "2026-10-24": 1
+    },
+    "/es/tallers/que-curso-me-conviene": {
+      "2026-10-22": 1
+    },
+    "/es/tallers/fotografia-desperits": {
+      "2026-10-20": 1
+    },
+    "/tallers/fotografia-desperits": {
+      "2026-10-21": 1
+    },
+    "/en/blog/tarda-holga-2026": {
+      "2026-10-19": 1
+    },
+    "/en/tallers/wineol": {
+      "2026-10-23": 1
+    },
+    "/es/tallers/fonaments-iniciacio-puntual": {
+      "2026-10-22": 1
+    },
+    "/en/tallers/revelat-bn": {
+      "2026-10-20": 1
+    },
+    "/en/tallers": {
+      "2026-10-20": 1
+    },
+    "/tallers/fotografia-de-carrer": {
+      "2026-10-23": 1
+    },
+    "/tallers/fonaments-iniciacio-puntual": {
+      "2026-10-23": 1
+    },
+    "/es/tallers/revelat-color-bn": {
+      "2026-10-21": 1
+    },
+    "/es/tallers/fotografia-estenopeica": {
+      "2026-10-21": 1
+    },
+    "/es/tallers/cianotipia": {
+      "2026-10-21": 1
+    },
+    "/es/tallers/digitalitzacio-escaner": {
+      "2026-10-23": 1
+    },
+    "/en/tallers/introduccio-al-positivat": {
+      "2026-10-22": 1
+    },
+    "/es/tallers/introduccio-al-positivat": {
+      "2026-10-19": 1
+    },
+    "/es/espais": {
+      "2026-10-19": 1
+    },
+    "/regala": {
+      "2026-10-23": 1
+    },
+    "/blog": {
+      "2026-10-23": 1
+    },
+    "/tallers/hasselblad-500": {
+      "2026-10-23": 1
+    },
+    "/tallers/retrat-6x6": {
+      "2026-10-23": 1
+    }
+  },
+  "sections_daily": {
+    "tallers": {
+      "2026-10-19": 4,
+      "2026-10-20": 7,
+      "2026-10-21": 9,
+      "2026-10-22": 6,
+      "2026-10-23": 16
+    },
+    "inici": {
+      "2026-10-19": 2,
+      "2026-10-20": 4,
+      "2026-10-21": 1,
+      "2026-10-22": 3,
+      "2026-10-23": 5,
+      "2026-10-24": 1
+    },
+    "agenda": {
+      "2026-10-19": 1,
+      "2026-10-20": 2,
+      "2026-10-22": 2
+    },
+    "blog": {
+      "2026-10-19": 3,
+      "2026-10-23": 1,
+      "2026-10-24": 1
+    },
+    "espais": {
+      "2026-10-19": 1,
+      "2026-10-20": 2
+    },
+    "sobre": {
+      "2026-10-19": 1,
+      "2026-10-21": 1
+    },
+    "regala": {
+      "2026-10-23": 1
+    }
+  },
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 47
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 26
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 5
+    }
+  ],
+  "systems": [
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 25
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 22
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 15
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 15
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 1
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 47
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 24
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 4
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 3
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 65
+    },
+    {
+      "name": "France",
+      "id": "FR",
+      "count": 3
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 2
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 2
+    },
+    {
+      "name": "Brazil",
+      "id": "BR",
+      "count": 1
+    },
+    {
+      "name": "Canada",
+      "id": "CA",
+      "count": 1
+    },
+    {
+      "name": "Switzerland",
+      "id": "CH",
+      "count": 1
+    },
+    {
+      "name": "Finland",
+      "id": "FI",
+      "count": 1
+    },
+    {
+      "name": "Mexico",
+      "id": "MX",
+      "count": 1
+    },
+    {
+      "name": "New Zealand",
+      "id": "NZ",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 16
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 12
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 3
+    },
+    {
+      "name": "ig",
+      "id": "ig",
+      "count": 2
+    },
+    {
+      "name": "www.bing.com",
+      "id": "www.bing.com",
+      "count": 2
+    },
+    {
+      "name": "naubostik",
+      "id": "naubostik",
+      "count": 2
+    },
+    {
+      "name": "www.ecosia.org",
+      "id": "www.ecosia.org",
+      "count": 1
+    },
+    {
+      "name": "geu9-word-edit.officeapps.live.com",
+      "id": "geu9-word-edit.officeapps.live.com",
+      "count": 1
+    }
+  ]
+}
