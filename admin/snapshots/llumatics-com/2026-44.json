@@ -1,0 +1,484 @@
+{
+  "generated": "2026-11-02T16:42:38.167213Z",
+  "period": {
+    "start": "2026-10-26",
+    "end": "2026-11-01"
+  },
+  "total": 109,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-10-26",
+      "count": 21
+    },
+    {
+      "date": "2026-10-27",
+      "count": 18
+    },
+    {
+      "date": "2026-10-28",
+      "count": 21
+    },
+    {
+      "date": "2026-10-29",
+      "count": 10
+    },
+    {
+      "date": "2026-10-30",
+      "count": 16
+    },
+    {
+      "date": "2026-10-31",
+      "count": 23
+    }
+  ],
+  "hits": [
+    {
+      "path": "/tallers",
+      "count": 15
+    },
+    {
+      "path": "/es/tallers",
+      "count": 14
+    },
+    {
+      "path": "/es",
+      "count": 10
+    },
+    {
+      "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 7
+    },
+    {
+      "path": "/tallers/iniciacio-revelat",
+      "count": 6
+    },
+    {
+      "path": "/",
+      "count": 6
+    },
+    {
+      "path": "/es/tallers/que-curso-me-conviene",
+      "count": 4
+    },
+    {
+      "path": "/es/espais",
+      "count": 4
+    },
+    {
+      "path": "/en/tallers/caffenol",
+      "count": 3
+    },
+    {
+      "path": "/agenda",
+      "count": 3
+    },
+    {
+      "path": "/tallers/quin-curs-em-conve",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/revelat-i-positivat",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/revelat-bn",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/reveladors-artesanals",
+      "count": 2
+    },
+    {
+      "path": "/tallers/revelat-bn",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/hasselblad-500",
+      "count": 1
+    },
+    {
+      "path": "/tallers/fotografia-desperits",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/fotollibre",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/revelats-experimentals",
+      "count": 1
+    },
+    {
+      "path": "/tallers/revelat-i-positivat",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/iniciacio-revelat",
+      "count": 1
+    },
+    {
+      "path": "/tallers/retrat-analogic",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers",
+      "count": 1
+    },
+    {
+      "path": "/en/regala",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/edicio-imatges-fotoquimiques",
+      "count": 1
+    },
+    {
+      "path": "/tallers/copies-en-paper",
+      "count": 1
+    },
+    {
+      "path": "/es/regala",
+      "count": 1
+    },
+    {
+      "path": "/tallers/cianotipia",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/gran-format-4x5",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "tallers": 80,
+    "inici": 16,
+    "espais": 5,
+    "agenda": 4,
+    "regala": 2,
+    "sobre": 1,
+    "blog": 1
+  },
+  "pages_daily": {
+    "/tallers": {
+      "2026-10-26": 2,
+      "2026-10-28": 1,
+      "2026-10-29": 2,
+      "2026-10-30": 4,
+      "2026-10-31": 6
+    },
+    "/es/tallers": {
+      "2026-10-26": 3,
+      "2026-10-27": 3,
+      "2026-10-28": 4,
+      "2026-10-29": 1,
+      "2026-10-30": 3
+    },
+    "/es": {
+      "2026-10-26": 3,
+      "2026-10-27": 2,
+      "2026-10-28": 3,
+      "2026-10-30": 2
+    },
+    "/tallers/fonaments-iniciacio-puntual": {
+      "2026-10-28": 1,
+      "2026-10-29": 1,
+      "2026-10-30": 1,
+      "2026-10-31": 4
+    },
+    "/tallers/iniciacio-revelat": {
+      "2026-10-26": 3,
+      "2026-10-27": 1,
+      "2026-10-28": 1,
+      "2026-10-30": 1
+    },
+    "/": {
+      "2026-10-26": 3,
+      "2026-10-27": 1,
+      "2026-10-28": 1,
+      "2026-10-31": 1
+    },
+    "/es/tallers/que-curso-me-conviene": {
+      "2026-10-26": 1,
+      "2026-10-28": 2,
+      "2026-10-30": 1
+    },
+    "/es/espais": {
+      "2026-10-27": 3,
+      "2026-10-28": 1
+    },
+    "/en/tallers/caffenol": {
+      "2026-10-29": 1,
+      "2026-10-30": 1,
+      "2026-10-31": 1
+    },
+    "/agenda": {
+      "2026-10-26": 2,
+      "2026-10-31": 1
+    },
+    "/tallers/quin-curs-em-conve": {
+      "2026-10-28": 1,
+      "2026-10-31": 1
+    },
+    "/es/tallers/revelat-i-positivat": {
+      "2026-10-27": 1,
+      "2026-10-30": 1
+    },
+    "/es/tallers/revelat-bn": {
+      "2026-10-26": 1,
+      "2026-10-28": 1
+    },
+    "/es/tallers/iniciacio-revelat": {
+      "2026-10-27": 1,
+      "2026-10-28": 1
+    },
+    "/es/tallers/reveladors-artesanals": {
+      "2026-10-27": 2
+    },
+    "/tallers/revelat-bn": {
+      "2026-10-28": 1,
+      "2026-10-31": 1
+    },
+    "/es/tallers/hasselblad-500": {
+      "2026-10-29": 1
+    },
+    "/tallers/fotografia-desperits": {
+      "2026-10-26": 1
+    },
+    "/es/tallers/fotollibre": {
+      "2026-10-28": 1
+    },
+    "/es/tallers/revelats-experimentals": {
+      "2026-10-27": 1
+    },
+    "/tallers/revelat-i-positivat": {
+      "2026-10-31": 1
+    },
+    "/en/tallers/iniciacio-revelat": {
+      "2026-10-31": 1
+    },
+    "/tallers/retrat-analogic": {
+      "2026-10-30": 1
+    },
+    "/en/tallers": {
+      "2026-10-29": 1
+    },
+    "/en/regala": {
+      "2026-10-29": 1
+    },
+    "/en/tallers/edicio-imatges-fotoquimiques": {
+      "2026-10-29": 1
+    },
+    "/tallers/copies-en-paper": {
+      "2026-10-31": 1
+    },
+    "/es/regala": {
+      "2026-10-28": 1
+    },
+    "/tallers/cianotipia": {
+      "2026-10-31": 1
+    },
+    "/es/tallers/gran-format-4x5": {
+      "2026-10-29": 1
+    },
+    "/es/tallers/retrat-gran-format": {
+      "2026-10-27": 1
+    },
+    "/tallers/fotogrames-cianotipia": {
+      "2026-10-31": 1
+    },
+    "/tallers/fotografia-estenopeica": {
+      "2026-10-31": 1
+    },
+    "/es/agenda": {
+      "2026-10-27": 1
+    },
+    "/es/sobre": {
+      "2026-10-27": 1
+    },
+    "/es/tallers/fotografia-estenopeica": {
+      "2026-10-26": 1
+    },
+    "/es/tallers/digitalitzacio-escaner": {
+      "2026-10-26": 1
+    },
+    "/es/tallers/tutoria-fotografica": {
+      "2026-10-28": 1
+    },
+    "/espais": {
+      "2026-10-31": 1
+    },
+    "/blog": {
+      "2026-10-31": 1
+    },
+    "/tallers/retrat-amb-holga": {
+      "2026-10-30": 1
+    }
+  },
+  "sections_daily": {
+    "tallers": {
+      "2026-10-26": 13,
+      "2026-10-27": 10,
+      "2026-10-28": 15,
+      "2026-10-29": 9,
+      "2026-10-30": 14,
+      "2026-10-31": 19
+    },
+    "inici": {
+      "2026-10-26": 6,
+      "2026-10-27": 3,
+      "2026-10-28": 4,
+      "2026-10-30": 2,
+      "2026-10-31": 1
+    },
+    "espais": {
+      "2026-10-27": 3,
+      "2026-10-28": 1,
+      "2026-10-31": 1
+    },
+    "agenda": {
+      "2026-10-26": 2,
+      "2026-10-27": 1,
+      "2026-10-31": 1
+    },
+    "regala": {
+      "2026-10-28": 1,
+      "2026-10-29": 1
+    },
+    "sobre": {
+      "2026-10-27": 1
+    },
+    "blog": {
+      "2026-10-31": 1
+    }
+  },
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 72
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 48
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 5
+    }
+  ],
+  "systems": [
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 47
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 38
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 27
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 11
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 2
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 85
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 33
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 6
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 1
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 114
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 6
+    },
+    {
+      "name": "Germany",
+      "id": "DE",
+      "count": 3
+    },
+    {
+      "name": "Austria",
+      "id": "AT",
+      "count": 1
+    },
+    {
+      "name": "Sweden",
+      "id": "SE",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 20
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 9
+    },
+    {
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
+      "count": 3
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 3
+    },
+    {
+      "name": "naubostik",
+      "id": "naubostik",
+      "count": 3
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 1
+    }
+  ]
+}
