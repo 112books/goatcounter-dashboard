@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T15:20:32.458210Z",
+  "generated": "2026-11-07T23:20:21.605259Z",
   "period": {
     "start": "2025-11-07",
     "end": "2026-11-07"
@@ -3028,12 +3028,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 1241
+      "count": 1264
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 958
+      "count": 959
     },
     {
       "name": "Firefox",
@@ -3050,22 +3050,22 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 994
+      "count": 998
     },
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 500
+      "count": 501
     },
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 466
+      "count": 479
     },
     {
       "name": "Android",
       "id": "Android",
-      "count": 259
+      "count": 265
     },
     {
       "name": "Linux",
@@ -3082,24 +3082,24 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 749
+      "count": 756
     },
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 324
+      "count": 328
     },
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 98
+      "count": 111
     }
   ],
   "locations": [
     {
       "name": "Spain",
       "id": "ES",
-      "count": 1622
+      "count": 1632
     },
     {
       "name": "Singapore",
@@ -3109,7 +3109,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 105
+      "count": 108
     },
     {
       "name": "United Kingdom",
@@ -3124,7 +3124,7 @@
     {
       "name": "Germany",
       "id": "DE",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Finland",
@@ -3137,6 +3137,11 @@
       "count": 16
     },
     {
+      "name": "Brazil",
+      "id": "BR",
+      "count": 14
+    },
+    {
       "name": "Italy",
       "id": "IT",
       "count": 14
@@ -3147,8 +3152,8 @@
       "count": 12
     },
     {
-      "name": "Brazil",
-      "id": "BR",
+      "name": "Mexico",
+      "id": "MX",
       "count": 11
     },
     {
@@ -3162,14 +3167,9 @@
       "count": 10
     },
     {
-      "name": "Mexico",
-      "id": "MX",
-      "count": 10
-    },
-    {
       "name": "Vietnam",
       "id": "VN",
-      "count": 9
+      "count": 10
     }
   ],
   "refs": [
