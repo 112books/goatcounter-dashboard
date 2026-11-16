@@ -1,0 +1,603 @@
+{
+  "generated": "2026-11-16T16:38:53.731033Z",
+  "period": {
+    "start": "2026-11-09",
+    "end": "2026-11-15"
+  },
+  "total": 126,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-11-09",
+      "count": 38
+    },
+    {
+      "date": "2026-11-10",
+      "count": 30
+    },
+    {
+      "date": "2026-11-11",
+      "count": 11
+    },
+    {
+      "date": "2026-11-12",
+      "count": 9
+    },
+    {
+      "date": "2026-11-13",
+      "count": 20
+    },
+    {
+      "date": "2026-11-14",
+      "count": 17
+    },
+    {
+      "date": "2026-11-15",
+      "count": 1
+    }
+  ],
+  "hits": [
+    {
+      "path": "/es/tallers",
+      "count": 14
+    },
+    {
+      "path": "/es",
+      "count": 10
+    },
+    {
+      "path": "/",
+      "count": 7
+    },
+    {
+      "path": "/en/tallers",
+      "count": 6
+    },
+    {
+      "path": "/tallers",
+      "count": 6
+    },
+    {
+      "path": "/es/tallers/que-curso-me-conviene",
+      "count": 5
+    },
+    {
+      "path": "/es/contacte",
+      "count": 5
+    },
+    {
+      "path": "/en",
+      "count": 4
+    },
+    {
+      "path": "/en/tallers/postals-cianotipia-nadal",
+      "count": 3
+    },
+    {
+      "path": "/en/tallers/caffenol",
+      "count": 3
+    },
+    {
+      "path": "/en/tallers/iniciacio-revelat",
+      "count": 3
+    },
+    {
+      "path": "/es/tallers/iniciacio-revelat",
+      "count": 3
+    },
+    {
+      "path": "/es/agenda",
+      "count": 3
+    },
+    {
+      "path": "/es/sobre",
+      "count": 3
+    },
+    {
+      "path": "/es/tallers/cianotipia",
+      "count": 3
+    },
+    {
+      "path": "/en/espais",
+      "count": 3
+    },
+    {
+      "path": "/en/contacte",
+      "count": 3
+    },
+    {
+      "path": "/es/tallers/guinneol",
+      "count": 2
+    },
+    {
+      "path": "/es/aprender-a-revelar",
+      "count": 2
+    },
+    {
+      "path": "/en/tallers/copies-en-paper",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/caffenol",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/fonaments-iniciacio-puntual",
+      "count": 2
+    },
+    {
+      "path": "/en/agenda",
+      "count": 2
+    },
+    {
+      "path": "/es/tallers/digitalitzacio-escaner",
+      "count": 2
+    },
+    {
+      "path": "/es/espais",
+      "count": 2
+    },
+    {
+      "path": "/contacte",
+      "count": 2
+    },
+    {
+      "path": "/es/blog/beers-paper-developer",
+      "count": 1
+    },
+    {
+      "path": "/es/blog/page/3",
+      "count": 1
+    },
+    {
+      "path": "/es/blog/page/2",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/fotollibre",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "tallers": 70,
+    "inici": 21,
+    "contacte": 10,
+    "agenda": 5,
+    "sobre": 5,
+    "espais": 5,
+    "aprender-a-revelar": 2,
+    "blog": 5,
+    "learn-film-development": 1,
+    "privacitat": 1,
+    "regala": 1
+  },
+  "pages_daily": {
+    "/es/tallers": {
+      "2026-11-09": 5,
+      "2026-11-10": 2,
+      "2026-11-11": 2,
+      "2026-11-12": 1,
+      "2026-11-13": 2,
+      "2026-11-14": 2
+    },
+    "/es": {
+      "2026-11-09": 3,
+      "2026-11-10": 2,
+      "2026-11-11": 1,
+      "2026-11-12": 1,
+      "2026-11-13": 2,
+      "2026-11-15": 1
+    },
+    "/": {
+      "2026-11-09": 3,
+      "2026-11-10": 2,
+      "2026-11-11": 1,
+      "2026-11-14": 1
+    },
+    "/en/tallers": {
+      "2026-11-09": 1,
+      "2026-11-10": 3,
+      "2026-11-12": 1,
+      "2026-11-13": 1
+    },
+    "/tallers": {
+      "2026-11-09": 2,
+      "2026-11-10": 2,
+      "2026-11-14": 2
+    },
+    "/es/tallers/que-curso-me-conviene": {
+      "2026-11-09": 1,
+      "2026-11-10": 2,
+      "2026-11-11": 1,
+      "2026-11-13": 1
+    },
+    "/es/contacte": {
+      "2026-11-09": 1,
+      "2026-11-10": 2,
+      "2026-11-11": 1,
+      "2026-11-14": 1
+    },
+    "/en": {
+      "2026-11-10": 1,
+      "2026-11-12": 1,
+      "2026-11-13": 1,
+      "2026-11-14": 1
+    },
+    "/en/tallers/postals-cianotipia-nadal": {
+      "2026-11-10": 1,
+      "2026-11-12": 1,
+      "2026-11-13": 1
+    },
+    "/en/tallers/caffenol": {
+      "2026-11-09": 1,
+      "2026-11-10": 1,
+      "2026-11-13": 1
+    },
+    "/en/tallers/iniciacio-revelat": {
+      "2026-11-09": 2,
+      "2026-11-10": 1
+    },
+    "/es/tallers/iniciacio-revelat": {
+      "2026-11-10": 2,
+      "2026-11-13": 1
+    },
+    "/es/agenda": {
+      "2026-11-09": 2,
+      "2026-11-11": 1
+    },
+    "/es/sobre": {
+      "2026-11-09": 2,
+      "2026-11-11": 1
+    },
+    "/es/tallers/cianotipia": {
+      "2026-11-09": 1,
+      "2026-11-11": 1,
+      "2026-11-13": 1
+    },
+    "/en/espais": {
+      "2026-11-12": 1,
+      "2026-11-13": 1,
+      "2026-11-14": 1
+    },
+    "/en/contacte": {
+      "2026-11-10": 1,
+      "2026-11-12": 1,
+      "2026-11-14": 1
+    },
+    "/es/tallers/guinneol": {
+      "2026-11-09": 1,
+      "2026-11-10": 1
+    },
+    "/es/aprender-a-revelar": {
+      "2026-11-09": 2
+    },
+    "/en/tallers/copies-en-paper": {
+      "2026-11-12": 1,
+      "2026-11-13": 1
+    },
+    "/es/tallers/caffenol": {
+      "2026-11-09": 1,
+      "2026-11-13": 1
+    },
+    "/es/tallers/fonaments-iniciacio-puntual": {
+      "2026-11-10": 1,
+      "2026-11-13": 1
+    },
+    "/en/agenda": {
+      "2026-11-09": 1,
+      "2026-11-10": 1
+    },
+    "/es/tallers/digitalitzacio-escaner": {
+      "2026-11-09": 1,
+      "2026-11-13": 1
+    },
+    "/es/espais": {
+      "2026-11-11": 1,
+      "2026-11-14": 1
+    },
+    "/contacte": {
+      "2026-11-09": 1,
+      "2026-11-10": 1
+    },
+    "/es/blog/beers-paper-developer": {
+      "2026-11-14": 1
+    },
+    "/es/blog/page/3": {
+      "2026-11-14": 1
+    },
+    "/es/blog/page/2": {
+      "2026-11-14": 1
+    },
+    "/en/tallers/fotollibre": {
+      "2026-11-13": 1
+    },
+    "/es/tallers/postals-cianotipia-nadal": {
+      "2026-11-09": 1
+    },
+    "/blog/guinneol-revelat-cervesa": {
+      "2026-11-11": 1
+    },
+    "/tallers/postals-cianotipia-nadal": {
+      "2026-11-09": 1
+    },
+    "/en/learn-film-development": {
+      "2026-11-10": 1
+    },
+    "/en/tallers/which-course-suits-me": {
+      "2026-11-12": 1
+    },
+    "/tallers/quin-curs-em-conve": {
+      "2026-11-14": 1
+    },
+    "/en/privacitat": {
+      "2026-11-14": 1
+    },
+    "/en/tallers/fotogrames-cianotipia": {
+      "2026-11-10": 1
+    },
+    "/es/tallers/del-carrer-al-llibre": {
+      "2026-11-13": 1
+    },
+    "/en/sobre": {
+      "2026-11-14": 1
+    },
+    "/en/tallers/guinneol": {
+      "2026-11-13": 1
+    },
+    "/es/blog/sessio-maria-de-acha": {
+      "2026-11-14": 1
+    },
+    "/es/tallers/revelat-bn": {
+      "2026-11-09": 1
+    },
+    "/en/tallers/fotografia-estenopeica": {
+      "2026-11-10": 1
+    },
+    "/tallers/caffenol": {
+      "2026-11-09": 1
+    },
+    "/es/tallers/edicio-imatges-fotoquimiques": {
+      "2026-11-10": 1
+    },
+    "/sobre": {
+      "2026-11-09": 1
+    },
+    "/tallers/copies-en-paper": {
+      "2026-11-13": 1
+    },
+    "/en/tallers/cianotipia": {
+      "2026-11-09": 1
+    },
+    "/es/regala": {
+      "2026-11-09": 1
+    }
+  },
+  "sections_daily": {
+    "tallers": {
+      "2026-11-09": 21,
+      "2026-11-10": 19,
+      "2026-11-11": 4,
+      "2026-11-12": 5,
+      "2026-11-13": 16,
+      "2026-11-14": 5
+    },
+    "inici": {
+      "2026-11-09": 6,
+      "2026-11-10": 5,
+      "2026-11-11": 2,
+      "2026-11-12": 2,
+      "2026-11-13": 3,
+      "2026-11-14": 2,
+      "2026-11-15": 1
+    },
+    "contacte": {
+      "2026-11-09": 2,
+      "2026-11-10": 4,
+      "2026-11-11": 1,
+      "2026-11-12": 1,
+      "2026-11-14": 2
+    },
+    "agenda": {
+      "2026-11-09": 3,
+      "2026-11-10": 1,
+      "2026-11-11": 1
+    },
+    "sobre": {
+      "2026-11-09": 3,
+      "2026-11-11": 1,
+      "2026-11-14": 1
+    },
+    "espais": {
+      "2026-11-11": 1,
+      "2026-11-12": 1,
+      "2026-11-13": 1,
+      "2026-11-14": 2
+    },
+    "blog": {
+      "2026-11-11": 1,
+      "2026-11-14": 4
+    },
+    "aprender-a-revelar": {
+      "2026-11-09": 2
+    },
+    "learn-film-development": {
+      "2026-11-10": 1
+    },
+    "privacitat": {
+      "2026-11-14": 1
+    },
+    "regala": {
+      "2026-11-09": 1
+    }
+  },
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 84
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 45
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 18
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 55
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 36
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 29
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 24
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 3
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 76
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 60
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 8
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 3
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 124
+    },
+    {
+      "name": "Germany",
+      "id": "DE",
+      "count": 8
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 6
+    },
+    {
+      "name": "Belgium",
+      "id": "BE",
+      "count": 3
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 2
+    },
+    {
+      "name": "Bangladesh",
+      "id": "BD",
+      "count": 1
+    },
+    {
+      "name": "Colombia",
+      "id": "CO",
+      "count": 1
+    },
+    {
+      "name": "Mexico",
+      "id": "MX",
+      "count": 1
+    },
+    {
+      "name": "Seychelles",
+      "id": "SC",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 24
+    },
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 8
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 4
+    },
+    {
+      "name": "naubostik",
+      "id": "naubostik",
+      "count": 2
+    },
+    {
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
+      "count": 1
+    },
+    {
+      "name": "www.ecosia.org",
+      "id": "www.ecosia.org",
+      "count": 1
+    },
+    {
+      "name": "gemini.google.com",
+      "id": "gemini.google.com",
+      "count": 1
+    },
+    {
+      "name": "40anysblues.112books.eu",
+      "id": "40anysblues.112books.eu",
+      "count": 1
+    },
+    {
+      "name": "www.aocr.org",
+      "id": "www.aocr.org",
+      "count": 1
+    },
+    {
+      "name": "twitter.com/search?q=https%3A%2F%2Ft.co%2FtINKqyjPo1",
+      "id": "twitter.com/search?q=https%3A%2F%2Ft.co%2FtINKqyjPo1",
+      "count": 1
+    },
+    {
+      "name": "brain.ruul.ee",
+      "id": "brain.ruul.ee",
+      "count": 1
+    }
+  ]
+}
