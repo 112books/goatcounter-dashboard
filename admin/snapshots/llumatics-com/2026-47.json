@@ -1,0 +1,527 @@
+{
+  "generated": "2026-11-23T18:53:23.546971Z",
+  "period": {
+    "start": "2026-11-16",
+    "end": "2026-11-22"
+  },
+  "total": 71,
+  "total_unique": 0,
+  "hits_by_day": [
+    {
+      "date": "2026-11-16",
+      "count": 10
+    },
+    {
+      "date": "2026-11-17",
+      "count": 21
+    },
+    {
+      "date": "2026-11-18",
+      "count": 5
+    },
+    {
+      "date": "2026-11-19",
+      "count": 9
+    },
+    {
+      "date": "2026-11-20",
+      "count": 9
+    },
+    {
+      "date": "2026-11-21",
+      "count": 14
+    },
+    {
+      "date": "2026-11-22",
+      "count": 3
+    }
+  ],
+  "hits": [
+    {
+      "path": "/tallers",
+      "count": 9
+    },
+    {
+      "path": "/",
+      "count": 9
+    },
+    {
+      "path": "/tallers/wineol",
+      "count": 3
+    },
+    {
+      "path": "/en/blog",
+      "count": 3
+    },
+    {
+      "path": "/en/espais",
+      "count": 3
+    },
+    {
+      "path": "/agenda",
+      "count": 3
+    },
+    {
+      "path": "/contacte",
+      "count": 3
+    },
+    {
+      "path": "/tallers/postals-cianotipia-nadal",
+      "count": 2
+    },
+    {
+      "path": "/tallers/quin-curs-em-conve",
+      "count": 2
+    },
+    {
+      "path": "/tallers/fonaments-iniciacio-puntual",
+      "count": 2
+    },
+    {
+      "path": "/tallers/fotogrames-cianotipia",
+      "count": 2
+    },
+    {
+      "path": "/es/sobre",
+      "count": 2
+    },
+    {
+      "path": "/tags/concert",
+      "count": 1
+    },
+    {
+      "path": "/en/blog/postals-cianotipia-nadal",
+      "count": 1
+    },
+    {
+      "path": "/blog/postals-cianotipia-nadal",
+      "count": 1
+    },
+    {
+      "path": "/en/blog/tarda-holga-nau-bostik",
+      "count": 1
+    },
+    {
+      "path": "/en/blog/trasllat-nau-bostik",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/wineol",
+      "count": 1
+    },
+    {
+      "path": "/en/learn-film-development",
+      "count": 1
+    },
+    {
+      "path": "/aprendre-a-revelar",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/wineol",
+      "count": 1
+    },
+    {
+      "path": "/es/tallers/caffenol",
+      "count": 1
+    },
+    {
+      "path": "/tallers/retrat-gran-format",
+      "count": 1
+    },
+    {
+      "path": "/llumatics-web/en/tallers/fotografia-de-carrer",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/fonaments-iniciacio-puntual",
+      "count": 1
+    },
+    {
+      "path": "/es/blog/sessio-maria-de-acha",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/digitalitzacio-escaner",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/introduccio-gran-format",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/iniciacio-revelat",
+      "count": 1
+    },
+    {
+      "path": "/en/tallers/gran-format-4x5",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "tallers": 33,
+    "inici": 11,
+    "blog": 8,
+    "espais": 4,
+    "agenda": 5,
+    "contacte": 3,
+    "sobre": 2,
+    "tags": 1,
+    "learn-film-development": 1,
+    "aprendre-a-revelar": 1,
+    "llumatics-web": 1,
+    "regala": 1
+  },
+  "pages_daily": {
+    "/tallers": {
+      "2026-11-16": 2,
+      "2026-11-17": 1,
+      "2026-11-19": 1,
+      "2026-11-20": 1,
+      "2026-11-21": 3,
+      "2026-11-22": 1
+    },
+    "/": {
+      "2026-11-16": 3,
+      "2026-11-17": 1,
+      "2026-11-18": 1,
+      "2026-11-19": 3,
+      "2026-11-22": 1
+    },
+    "/tallers/wineol": {
+      "2026-11-20": 3
+    },
+    "/en/blog": {
+      "2026-11-17": 2,
+      "2026-11-19": 1
+    },
+    "/en/espais": {
+      "2026-11-17": 2,
+      "2026-11-21": 1
+    },
+    "/agenda": {
+      "2026-11-17": 1,
+      "2026-11-19": 1,
+      "2026-11-21": 1
+    },
+    "/contacte": {
+      "2026-11-17": 1,
+      "2026-11-20": 2
+    },
+    "/tallers/postals-cianotipia-nadal": {
+      "2026-11-17": 1,
+      "2026-11-18": 1
+    },
+    "/tallers/quin-curs-em-conve": {
+      "2026-11-16": 1,
+      "2026-11-21": 1
+    },
+    "/tallers/fonaments-iniciacio-puntual": {
+      "2026-11-19": 1,
+      "2026-11-22": 1
+    },
+    "/tallers/fotogrames-cianotipia": {
+      "2026-11-20": 1,
+      "2026-11-21": 1
+    },
+    "/es/sobre": {
+      "2026-11-16": 1,
+      "2026-11-17": 1
+    },
+    "/tags/concert": {
+      "2026-11-21": 1
+    },
+    "/en/blog/postals-cianotipia-nadal": {
+      "2026-11-17": 1
+    },
+    "/blog/postals-cianotipia-nadal": {
+      "2026-11-17": 1
+    },
+    "/en/blog/tarda-holga-nau-bostik": {
+      "2026-11-17": 1
+    },
+    "/en/blog/trasllat-nau-bostik": {
+      "2026-11-17": 1
+    },
+    "/es/tallers/wineol": {
+      "2026-11-18": 1
+    },
+    "/en/learn-film-development": {
+      "2026-11-17": 1
+    },
+    "/aprendre-a-revelar": {
+      "2026-11-19": 1
+    },
+    "/en/tallers/wineol": {
+      "2026-11-21": 1
+    },
+    "/es/tallers/caffenol": {
+      "2026-11-18": 1
+    },
+    "/tallers/retrat-gran-format": {
+      "2026-11-17": 1
+    },
+    "/llumatics-web/en/tallers/fotografia-de-carrer": {
+      "2026-11-19": 1
+    },
+    "/en/tallers/fonaments-iniciacio-puntual": {
+      "2026-11-20": 1
+    },
+    "/es/blog/sessio-maria-de-acha": {
+      "2026-11-18": 1
+    },
+    "/en/tallers/digitalitzacio-escaner": {
+      "2026-11-20": 1
+    },
+    "/en/tallers/introduccio-gran-format": {
+      "2026-11-17": 1
+    },
+    "/en/tallers/iniciacio-revelat": {
+      "2026-11-17": 1
+    },
+    "/en/tallers/gran-format-4x5": {
+      "2026-11-21": 1
+    },
+    "/en/regala": {
+      "2026-11-16": 1
+    },
+    "/en/agenda": {
+      "2026-11-17": 1
+    },
+    "/es/agenda": {
+      "2026-11-16": 1
+    },
+    "/tallers/iniciacio-revelat": {
+      "2026-11-21": 1
+    },
+    "/en/tallers/reveladors-artesanals": {
+      "2026-11-21": 1
+    },
+    "/espais": {
+      "2026-11-21": 1
+    },
+    "/tallers/revelat-bn": {
+      "2026-11-21": 1
+    },
+    "/es/tallers": {
+      "2026-11-17": 1
+    },
+    "/es": {
+      "2026-11-16": 1
+    },
+    "/en": {
+      "2026-11-17": 1
+    }
+  },
+  "sections_daily": {
+    "tallers": {
+      "2026-11-16": 3,
+      "2026-11-17": 6,
+      "2026-11-18": 3,
+      "2026-11-19": 2,
+      "2026-11-20": 7,
+      "2026-11-21": 10,
+      "2026-11-22": 2
+    },
+    "inici": {
+      "2026-11-16": 4,
+      "2026-11-17": 2,
+      "2026-11-18": 1,
+      "2026-11-19": 3,
+      "2026-11-22": 1
+    },
+    "blog": {
+      "2026-11-17": 6,
+      "2026-11-18": 1,
+      "2026-11-19": 1
+    },
+    "agenda": {
+      "2026-11-16": 1,
+      "2026-11-17": 2,
+      "2026-11-19": 1,
+      "2026-11-21": 1
+    },
+    "espais": {
+      "2026-11-17": 2,
+      "2026-11-21": 2
+    },
+    "contacte": {
+      "2026-11-17": 1,
+      "2026-11-20": 2
+    },
+    "sobre": {
+      "2026-11-16": 1,
+      "2026-11-17": 1
+    },
+    "tags": {
+      "2026-11-21": 1
+    },
+    "learn-film-development": {
+      "2026-11-17": 1
+    },
+    "aprendre-a-revelar": {
+      "2026-11-19": 1
+    },
+    "llumatics-web": {
+      "2026-11-19": 1
+    },
+    "regala": {
+      "2026-11-16": 1
+    }
+  },
+  "browsers": [
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 63
+    },
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 40
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 2
+    }
+  ],
+  "systems": [
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 50
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 22
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 22
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 10
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 1
+    }
+  ],
+  "sizes": [
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 58
+    },
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 32
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 11
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 4
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 88
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 5
+    },
+    {
+      "name": "Canada",
+      "id": "CA",
+      "count": 2
+    },
+    {
+      "name": "Colombia",
+      "id": "CO",
+      "count": 2
+    },
+    {
+      "name": "Cyprus",
+      "id": "CY",
+      "count": 2
+    },
+    {
+      "name": "Brazil",
+      "id": "BR",
+      "count": 1
+    },
+    {
+      "name": "Germany",
+      "id": "DE",
+      "count": 1
+    },
+    {
+      "name": "India",
+      "id": "IN",
+      "count": 1
+    },
+    {
+      "name": "Philippines",
+      "id": "PH",
+      "count": 1
+    },
+    {
+      "name": "Pakistan",
+      "id": "PK",
+      "count": 1
+    },
+    {
+      "name": "Singapore",
+      "id": "SG",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 19
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 12
+    },
+    {
+      "name": "duckduckgo.com",
+      "id": "duckduckgo.com",
+      "count": 2
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 2
+    },
+    {
+      "name": "naubostik",
+      "id": "naubostik",
+      "count": 2
+    },
+    {
+      "name": "www.bing.com",
+      "id": "www.bing.com",
+      "count": 1
+    }
+  ]
+}
